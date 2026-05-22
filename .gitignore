@@ -1,5 +1,6 @@
 settings/.env
 data/
+test/
 __pycache__/
 *.pyc
 .venv/
