@@ -1,0 +1,35 @@
+{
+  "event_id": "9653",
+  "provider": "Microsoft-Windows-Shell-Core",
+  "channel": "Microsoft-Windows-Shell-Core/Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\Logs_Win11\\Microsoft-Windows-Shell-Core%4Operational.evtx",
+  "event_record_id": 525,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-Shell-Core\" Guid=\"30336ED4-E327-447C-9DE0-51B652C86108\">\n    </Provider>\n    <EventID>9653</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>9652</Task>\n    <Opcode>2</Opcode>\n    <Keywords>0x2000000004010000</Keywords>\n    <TimeCreated SystemTime=\"2022-03-01T16:48:52.705985Z\">\n    </TimeCreated>\n    <EventRecordID>525</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"2616\" ThreadID=\"4336\">\n    </Execution>\n    <Channel>Microsoft-Windows-Shell-Core/Operational</Channel>\n    <Computer>DESKTOP-6D0DBMB</Computer>\n    <Security UserID=\"S-1-5-21-1671613982-9707084-2312793148-1001\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"psz\">PrelaunchAtLogon</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-Shell-Core\",\"Guid\":\"30336ED4-E327-447C-9DE0-51B652C86108\"}},\"EventID\":9653,\"Version\":0,\"Level\":4,\"Task\":9652,\"Opcode\":2,\"Keywords\":\"0x2000000004010000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2022-03-01T16:48:52.705985Z\"}},\"EventRecordID\":525,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":2616,\"ThreadID\":4336}},\"Channel\":\"Microsoft-Windows-Shell-Core/Operational\",\"Computer\":\"DESKTOP-6D0DBMB\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-21-1671613982-9707084-2312793148-1001\"}}},\"EventData\":{\"psz\":\"PrelaunchAtLogon\"}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-Shell-Core",
+    "event_id": "9653",
+    "timestamp": "2022-03-01T16:48:52.705985Z",
+    "event_record_id": "525",
+    "level": "4",
+    "task": "9652",
+    "opcode": "2",
+    "keywords": "0x2000000004010000",
+    "channel": "Microsoft-Windows-Shell-Core/Operational",
+    "computer": "DESKTOP-6D0DBMB",
+    "psz": "PrelaunchAtLogon"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-Shell-Core",
+    "channel": "Microsoft-Windows-Shell-Core/Operational",
+    "event_id": "9653",
+    "timestamp": "2022-03-01T16:48:52.705985Z",
+    "event_record_id": "525",
+    "level": "4",
+    "task": "9652",
+    "opcode": "2",
+    "keywords": "0x2000000004010000",
+    "computer": "DESKTOP-6D0DBMB",
+    "psz": "PrelaunchAtLogon"
+  }
+}

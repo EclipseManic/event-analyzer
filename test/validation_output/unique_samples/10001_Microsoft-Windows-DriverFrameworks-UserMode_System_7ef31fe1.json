@@ -1,0 +1,41 @@
+{
+  "event_id": "10001",
+  "provider": "Microsoft-Windows-DriverFrameworks-UserMode",
+  "channel": "System",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\Logs_Win11\\System.evtx",
+  "event_record_id": 230,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-DriverFrameworks-UserMode\" Guid=\"2E35AAEB-857F-4BEB-A418-2E6C0E54D988\">\n    </Provider>\n    <EventID>10001</EventID>\n    <Version>1</Version>\n    <Level>4</Level>\n    <Task>48</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x2000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2022-03-01T16:50:18.376752Z\">\n    </TimeCreated>\n    <EventRecordID>230</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"7376\" ThreadID=\"6552\">\n    </Execution>\n    <Channel>System</Channel>\n    <Computer>DESKTOP-6D0DBMB</Computer>\n    <Security UserID=\"S-1-5-18\">\n    </Security>\n  </System>\n  <UserData>\n    <UMDFServiceInstall xmlns=\"http://www.microsoft.com/DriverFrameworks/UserMode/Event\">\n      <ServiceName>WpdFs</ServiceName>\n      <CLSID>112DE495-AC4C-46F8-B663-6A4266C53313</CLSID>\n      <MinimumFxVersion>2.33.0</MinimumFxVersion>\n      <Upgrade>false</Upgrade>\n    </UMDFServiceInstall>\n  </UserData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-DriverFrameworks-UserMode\",\"Guid\":\"2E35AAEB-857F-4BEB-A418-2E6C0E54D988\"}},\"EventID\":10001,\"Version\":1,\"Level\":4,\"Task\":48,\"Opcode\":0,\"Keywords\":\"0x2000000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2022-03-01T16:50:18.376752Z\"}},\"EventRecordID\":230,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":7376,\"ThreadID\":6552}},\"Channel\":\"System\",\"Computer\":\"DESKTOP-6D0DBMB\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-18\"}}},\"UserData\":{\"UMDFServiceInstall\":{\"#attributes\":{\"xmlns\":\"http://www.microsoft.com/DriverFrameworks/UserMode/Event\"},\"ServiceName\":\"WpdFs\",\"CLSID\":\"112DE495-AC4C-46F8-B663-6A4266C53313\",\"MinimumFxVersion\":\"2.33.0\",\"Upgrade\":false}}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-DriverFrameworks-UserMode",
+    "event_id": "10001",
+    "timestamp": "2022-03-01T16:50:18.376752Z",
+    "event_record_id": "230",
+    "level": "4",
+    "task": "48",
+    "opcode": "0",
+    "keywords": "0x2000000000000000",
+    "channel": "System",
+    "computer": "DESKTOP-6D0DBMB",
+    "ServiceName": "WpdFs",
+    "CLSID": "112DE495-AC4C-46F8-B663-6A4266C53313",
+    "MinimumFxVersion": "2.33.0",
+    "Upgrade": "false"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-DriverFrameworks-UserMode",
+    "channel": "System",
+    "event_id": "10001",
+    "timestamp": "2022-03-01T16:50:18.376752Z",
+    "event_record_id": "230",
+    "level": "4",
+    "task": "48",
+    "opcode": "0",
+    "keywords": "0x2000000000000000",
+    "computer": "DESKTOP-6D0DBMB",
+    "ServiceName": "WpdFs",
+    "CLSID": "112DE495-AC4C-46F8-B663-6A4266C53313",
+    "MinimumFxVersion": "2.33.0",
+    "Upgrade": "False"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "event_id": "9007",
+  "provider": "Desktop Window Manager",
+  "channel": "Application",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\win7-x86\\Application.evtx",
+  "event_record_id": 127,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Desktop Window Manager\">\n    </Provider>\n    <EventID Qualifiers=\"16384\">9007</EventID>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Keywords>0x80000000000000</Keywords>\n    <TimeCreated SystemTime=\"2022-04-04T10:09:22.000000Z\">\n    </TimeCreated>\n    <EventRecordID>127</EventRecordID>\n    <Channel>Application</Channel>\n    <Computer>evtx-PC</Computer>\n    <Security>\n    </Security>\n  </System>\n  <EventData>\n    <Data>\n    </Data>\n    <Binary></Binary>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Desktop Window Manager\"}},\"EventID\":{\"#attributes\":{\"Qualifiers\":16384},\"#text\":9007},\"Level\":4,\"Task\":0,\"Keywords\":\"0x80000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2022-04-04T10:09:22.000000Z\"}},\"EventRecordID\":127,\"Channel\":\"Application\",\"Computer\":\"evtx-PC\",\"Security\":null},\"EventData\":{\"Data\":{\"#text\":\"\"},\"Binary\":null}}}",
+  "xml_fields": {
+    "provider": "Desktop Window Manager",
+    "event_id": "9007",
+    "timestamp": "2022-04-04T10:09:22.000000Z",
+    "event_record_id": "127",
+    "level": "4",
+    "task": "0",
+    "keywords": "0x80000000000000",
+    "channel": "Application",
+    "computer": "evtx-PC",
+    "_data_0": "\n    "
+  },
+  "json_fields": {
+    "provider": "Desktop Window Manager",
+    "channel": "Application",
+    "event_id": "9007",
+    "timestamp": "2022-04-04T10:09:22.000000Z",
+    "event_record_id": "127",
+    "level": "4",
+    "task": "0",
+    "keywords": "0x80000000000000",
+    "computer": "evtx-PC",
+    "Data": ""
+  }
+}

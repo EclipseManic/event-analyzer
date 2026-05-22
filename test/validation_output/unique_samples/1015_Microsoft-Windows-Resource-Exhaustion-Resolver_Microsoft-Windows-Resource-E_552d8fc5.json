@@ -1,0 +1,35 @@
+{
+  "event_id": "1015",
+  "provider": "Microsoft-Windows-Resource-Exhaustion-Resolver",
+  "channel": "Microsoft-Windows-Resource-Exhaustion-Resolver/Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\Logs_Client\\Microsoft-Windows-Resource-Exhaustion-Resolver%4Operational.evtx",
+  "event_record_id": 2,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-Resource-Exhaustion-Resolver\" Guid=\"91F5FB12-FDEA-4095-85D5-614B495CD9DE\">\n    </Provider>\n    <EventID>1015</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>3</Task>\n    <Opcode>21</Opcode>\n    <Keywords>0x8000000000002000</Keywords>\n    <TimeCreated SystemTime=\"2022-02-07T15:17:02.348051Z\">\n    </TimeCreated>\n    <EventRecordID>2</EventRecordID>\n    <Correlation ActivityID=\"5C915B73-CA9A-4EA3-970A-709F2F34361E\">\n    </Correlation>\n    <Execution ProcessID=\"6696\" ThreadID=\"5128\">\n    </Execution>\n    <Channel>Microsoft-Windows-Resource-Exhaustion-Resolver/Operational</Channel>\n    <Computer>DESKTOP-A8CALR3</Computer>\n    <Security UserID=\"S-1-5-21-1402826787-2759305201-2932496751-1001\">\n    </Security>\n  </System>\n  <UserData>\n    <EventInfo xmlns=\"http://www.microsoft.com/Windows/Resource/Exhaustion/Resolver/Event\">\n      <Event>4</Event>\n    </EventInfo>\n  </UserData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-Resource-Exhaustion-Resolver\",\"Guid\":\"91F5FB12-FDEA-4095-85D5-614B495CD9DE\"}},\"EventID\":1015,\"Version\":0,\"Level\":4,\"Task\":3,\"Opcode\":21,\"Keywords\":\"0x8000000000002000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2022-02-07T15:17:02.348051Z\"}},\"EventRecordID\":2,\"Correlation\":{\"#attributes\":{\"ActivityID\":\"5C915B73-CA9A-4EA3-970A-709F2F34361E\"}},\"Execution\":{\"#attributes\":{\"ProcessID\":6696,\"ThreadID\":5128}},\"Channel\":\"Microsoft-Windows-Resource-Exhaustion-Resolver/Operational\",\"Computer\":\"DESKTOP-A8CALR3\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-21-1402826787-2759305201-2932496751-1001\"}}},\"UserData\":{\"EventInfo\":{\"#attributes\":{\"xmlns\":\"http://www.microsoft.com/Windows/Resource/Exhaustion/Resolver/Event\"},\"Event\":4}}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-Resource-Exhaustion-Resolver",
+    "event_id": "1015",
+    "timestamp": "2022-02-07T15:17:02.348051Z",
+    "event_record_id": "2",
+    "level": "4",
+    "task": "3",
+    "opcode": "21",
+    "keywords": "0x8000000000002000",
+    "channel": "Microsoft-Windows-Resource-Exhaustion-Resolver/Operational",
+    "computer": "DESKTOP-A8CALR3",
+    "Event": "4"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-Resource-Exhaustion-Resolver",
+    "channel": "Microsoft-Windows-Resource-Exhaustion-Resolver/Operational",
+    "event_id": "1015",
+    "timestamp": "2022-02-07T15:17:02.348051Z",
+    "event_record_id": "2",
+    "level": "4",
+    "task": "3",
+    "opcode": "21",
+    "keywords": "0x8000000000002000",
+    "computer": "DESKTOP-A8CALR3",
+    "Event": "4"
+  }
+}

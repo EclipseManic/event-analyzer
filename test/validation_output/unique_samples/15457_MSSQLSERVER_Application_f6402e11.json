@@ -1,0 +1,39 @@
+{
+  "event_id": "15457",
+  "provider": "MSSQLSERVER",
+  "channel": "Application",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Malicious\\EVTX-ATTACK-SAMPLES\\Defense Evasion\\DE_xp_cmdshell_enabled_MSSQL_EID_15457.evtx",
+  "event_record_id": 1,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"MSSQLSERVER\">\n    </Provider>\n    <EventID Qualifiers=\"16384\">15457</EventID>\n    <Level>4</Level>\n    <Task>2</Task>\n    <Keywords>0x80000000000000</Keywords>\n    <TimeCreated SystemTime=\"2019-11-04T09:27:26.143064Z\">\n    </TimeCreated>\n    <EventRecordID>9691</EventRecordID>\n    <Channel>Application</Channel>\n    <Computer>MSEDGEWIN10</Computer>\n    <Security>\n    </Security>\n  </System>\n  <EventData>\n    <Data>show advanced options</Data>\n    <Data>0</Data>\n    <Data>1</Data>\n    <Binary>613C00000A0000000C0000004D0053004500440047004500570049004E00310030000000070000006D00610073007400650072000000</Binary>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"MSSQLSERVER\"}},\"EventID\":{\"#attributes\":{\"Qualifiers\":16384},\"#text\":15457},\"Level\":4,\"Task\":2,\"Keywords\":\"0x80000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2019-11-04T09:27:26.143064Z\"}},\"EventRecordID\":9691,\"Channel\":\"Application\",\"Computer\":\"MSEDGEWIN10\",\"Security\":null},\"EventData\":{\"Data\":{\"#text\":[\"show advanced options\",\"0\",\"1\"]},\"Binary\":\"613C00000A0000000C0000004D0053004500440047004500570049004E00310030000000070000006D00610073007400650072000000\"}}}",
+  "xml_fields": {
+    "provider": "MSSQLSERVER",
+    "event_id": "15457",
+    "timestamp": "2019-11-04T09:27:26.143064Z",
+    "event_record_id": "9691",
+    "level": "4",
+    "task": "2",
+    "keywords": "0x80000000000000",
+    "channel": "Application",
+    "computer": "MSEDGEWIN10",
+    "_data_0": "show advanced options",
+    "_data_1": "0",
+    "_data_2": "1",
+    "Binary": "613C00000A0000000C0000004D0053004500440047004500570049004E00310030000000070000006D00610073007400650072000000"
+  },
+  "json_fields": {
+    "provider": "MSSQLSERVER",
+    "channel": "Application",
+    "event_id": "15457",
+    "timestamp": "2019-11-04T09:27:26.143064Z",
+    "event_record_id": "9691",
+    "level": "4",
+    "task": "2",
+    "keywords": "0x80000000000000",
+    "computer": "MSEDGEWIN10",
+    "_data_0": "show advanced options",
+    "_data_1": "0",
+    "_data_2": "1",
+    "Binary": "613C00000A0000000C0000004D0053004500440047004500570049004E00310030000000070000006D00610073007400650072000000"
+  }
+}

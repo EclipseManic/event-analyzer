@@ -1,0 +1,41 @@
+{
+  "event_id": "4097",
+  "provider": "Avira Antivirus",
+  "channel": "Application",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\Logs_Win11_2023\\Application.evtx",
+  "event_record_id": 1917,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Avira Antivirus\">\n    </Provider>\n    <EventID Qualifiers=\"16384\">4097</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>1</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x80000000000000</Keywords>\n    <TimeCreated SystemTime=\"2023-11-06T00:13:46.810056Z\">\n    </TimeCreated>\n    <EventRecordID>1917</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"2836\" ThreadID=\"0\">\n    </Execution>\n    <Channel>Application</Channel>\n    <Computer>WinDev2310Eval</Computer>\n    <Security UserID=\"S-1-5-18\">\n    </Security>\n  </System>\n  <EventData>\n    <Data>\n    </Data>\n    <Data>\n    </Data>\n    <Data>0x0</Data>\n    <Data>\n    </Data>\n    <Binary></Binary>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Avira Antivirus\"}},\"EventID\":{\"#attributes\":{\"Qualifiers\":16384},\"#text\":4097},\"Version\":0,\"Level\":4,\"Task\":1,\"Opcode\":0,\"Keywords\":\"0x80000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2023-11-06T00:13:46.810056Z\"}},\"EventRecordID\":1917,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":2836,\"ThreadID\":0}},\"Channel\":\"Application\",\"Computer\":\"WinDev2310Eval\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-18\"}}},\"EventData\":{\"Data\":{\"#text\":[\"\",\"\",\"0x0\",\"\"]},\"Binary\":null}}}",
+  "xml_fields": {
+    "provider": "Avira Antivirus",
+    "event_id": "4097",
+    "timestamp": "2023-11-06T00:13:46.810056Z",
+    "event_record_id": "1917",
+    "level": "4",
+    "task": "1",
+    "opcode": "0",
+    "keywords": "0x80000000000000",
+    "channel": "Application",
+    "computer": "WinDev2310Eval",
+    "_data_0": "\n    ",
+    "_data_1": "\n    ",
+    "_data_2": "0x0",
+    "_data_3": "\n    "
+  },
+  "json_fields": {
+    "provider": "Avira Antivirus",
+    "channel": "Application",
+    "event_id": "4097",
+    "timestamp": "2023-11-06T00:13:46.810056Z",
+    "event_record_id": "1917",
+    "level": "4",
+    "task": "1",
+    "opcode": "0",
+    "keywords": "0x80000000000000",
+    "computer": "WinDev2310Eval",
+    "_data_0": "",
+    "_data_1": "",
+    "_data_2": "0x0",
+    "_data_3": ""
+  }
+}

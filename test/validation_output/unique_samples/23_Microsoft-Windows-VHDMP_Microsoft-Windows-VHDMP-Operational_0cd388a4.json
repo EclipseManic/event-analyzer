@@ -1,0 +1,37 @@
+{
+  "event_id": "23",
+  "provider": "Microsoft-Windows-VHDMP",
+  "channel": "Microsoft-Windows-VHDMP-Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\Logs_Client\\Microsoft-Windows-VHDMP-Operational.evtx",
+  "event_record_id": 4,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-VHDMP\" Guid=\"E2816346-87F4-4F85-95C3-0C79409AA89D\">\n    </Provider>\n    <EventID>23</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>1203</Task>\n    <Opcode>2</Opcode>\n    <Keywords>0x8000000000000001</Keywords>\n    <TimeCreated SystemTime=\"2022-02-08T12:08:21.848474Z\">\n    </TimeCreated>\n    <EventRecordID>4</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"6204\" ThreadID=\"5816\">\n    </Execution>\n    <Channel>Microsoft-Windows-VHDMP-Operational</Channel>\n    <Computer>DESKTOP-A8CALR3</Computer>\n    <Security UserID=\"S-1-5-21-1402826787-2759305201-2932496751-1001\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"VhdFileName\">\\\\?\\C:\\Users\\user\\Desktop\\SW_DVD5_Office_Professional_Plus_2019_32_BIT_X64_English_C2R_X21-84626.ISO</Data>\n    <Data Name=\"Status\">0</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-VHDMP\",\"Guid\":\"E2816346-87F4-4F85-95C3-0C79409AA89D\"}},\"EventID\":23,\"Version\":0,\"Level\":4,\"Task\":1203,\"Opcode\":2,\"Keywords\":\"0x8000000000000001\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2022-02-08T12:08:21.848474Z\"}},\"EventRecordID\":4,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":6204,\"ThreadID\":5816}},\"Channel\":\"Microsoft-Windows-VHDMP-Operational\",\"Computer\":\"DESKTOP-A8CALR3\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-21-1402826787-2759305201-2932496751-1001\"}}},\"EventData\":{\"VhdFileName\":\"\\\\\\\\?\\\\C:\\\\Users\\\\user\\\\Desktop\\\\SW_DVD5_Office_Professional_Plus_2019_32_BIT_X64_English_C2R_X21-84626.ISO\",\"Status\":0}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-VHDMP",
+    "event_id": "23",
+    "timestamp": "2022-02-08T12:08:21.848474Z",
+    "event_record_id": "4",
+    "level": "4",
+    "task": "1203",
+    "opcode": "2",
+    "keywords": "0x8000000000000001",
+    "channel": "Microsoft-Windows-VHDMP-Operational",
+    "computer": "DESKTOP-A8CALR3",
+    "VhdFileName": "\\\\?\\C:\\Users\\user\\Desktop\\SW_DVD5_Office_Professional_Plus_2019_32_BIT_X64_English_C2R_X21-84626.ISO",
+    "Status": "0"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-VHDMP",
+    "channel": "Microsoft-Windows-VHDMP-Operational",
+    "event_id": "23",
+    "timestamp": "2022-02-08T12:08:21.848474Z",
+    "event_record_id": "4",
+    "level": "4",
+    "task": "1203",
+    "opcode": "2",
+    "keywords": "0x8000000000000001",
+    "computer": "DESKTOP-A8CALR3",
+    "VhdFileName": "\\\\?\\C:\\Users\\user\\Desktop\\SW_DVD5_Office_Professional_Plus_2019_32_BIT_X64_English_C2R_X21-84626.ISO",
+    "Status": "0"
+  }
+}

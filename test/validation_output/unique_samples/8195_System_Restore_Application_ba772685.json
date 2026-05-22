@@ -1,0 +1,39 @@
+{
+  "event_id": "8195",
+  "provider": "System Restore",
+  "channel": "Application",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Logs\\Application.evtx",
+  "event_record_id": 63,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"System Restore\">\n    </Provider>\n    <EventID Qualifiers=\"0\">8195</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x80000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-11-04T12:39:07.470951Z\">\n    </TimeCreated>\n    <EventRecordID>63</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"0\" ThreadID=\"0\">\n    </Execution>\n    <Channel>Application</Channel>\n    <Computer>DESKTOP-P9H5FTA</Computer>\n    <Security>\n    </Security>\n  </System>\n  <EventData>\n    <Data>C:\\Windows\\winsxs\\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.19041.1940_none_7dd80d767cb5c7b0\\TiWorker.exe -Embedding</Data>\n    <Data>\n    </Data>\n    <Binary>000000008900000083000000000000004386252307000000000000000000000000000000</Binary>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"System Restore\"}},\"EventID\":{\"#attributes\":{\"Qualifiers\":0},\"#text\":8195},\"Version\":0,\"Level\":4,\"Task\":0,\"Opcode\":0,\"Keywords\":\"0x80000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2024-11-04T12:39:07.470951Z\"}},\"EventRecordID\":63,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":0,\"ThreadID\":0}},\"Channel\":\"Application\",\"Computer\":\"DESKTOP-P9H5FTA\",\"Security\":null},\"EventData\":{\"Data\":{\"#text\":[\"C:\\\\Windows\\\\winsxs\\\\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.19041.1940_none_7dd80d767cb5c7b0\\\\TiWorker.exe -Embedding\",\"\"]},\"Binary\":\"000000008900000083000000000000004386252307000000000000000000000000000000\"}}}",
+  "xml_fields": {
+    "provider": "System Restore",
+    "event_id": "8195",
+    "timestamp": "2024-11-04T12:39:07.470951Z",
+    "event_record_id": "63",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x80000000000000",
+    "channel": "Application",
+    "computer": "DESKTOP-P9H5FTA",
+    "_data_0": "C:\\Windows\\winsxs\\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.19041.1940_none_7dd80d767cb5c7b0\\TiWorker.exe -Embedding",
+    "_data_1": "\n    ",
+    "Binary": "000000008900000083000000000000004386252307000000000000000000000000000000"
+  },
+  "json_fields": {
+    "provider": "System Restore",
+    "channel": "Application",
+    "event_id": "8195",
+    "timestamp": "2024-11-04T12:39:07.470951Z",
+    "event_record_id": "63",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x80000000000000",
+    "computer": "DESKTOP-P9H5FTA",
+    "_data_0": "C:\\Windows\\winsxs\\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.19041.1940_none_7dd80d767cb5c7b0\\TiWorker.exe -Embedding",
+    "_data_1": "",
+    "Binary": "000000008900000083000000000000004386252307000000000000000000000000000000"
+  }
+}

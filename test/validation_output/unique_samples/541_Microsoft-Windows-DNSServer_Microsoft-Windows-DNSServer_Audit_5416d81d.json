@@ -1,0 +1,39 @@
+{
+  "event_id": "541",
+  "provider": "Microsoft-Windows-DNSServer",
+  "channel": "Microsoft-Windows-DNSServer/Audit",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Malicious\\EVTX-to-MITRE-Attack-master\\TA0005-Defense Evasion\\T1562.002-Disable Windows Event Logging\\ID541-DNS server auditing changed.evtx",
+  "event_record_id": 1,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-DNSServer\" Guid=\"EB79061A-A566-4698-9119-3ED2807060E7\">\n    </Provider>\n    <EventID>541</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>10</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000008000000</Keywords>\n    <TimeCreated SystemTime=\"2025-01-08T22:23:37.990851Z\">\n    </TimeCreated>\n    <EventRecordID>3220</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"6244\" ThreadID=\"2748\">\n    </Execution>\n    <Channel>Microsoft-Windows-DNSServer/Audit</Channel>\n    <Computer>CDCWRDC01.rootblue.lan</Computer>\n    <Security UserID=\"S-1-5-21-392370121-190461309-2151315433-1108\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"Setting\">EventLogLevel</Data>\n    <Data Name=\"Scope\">.</Data>\n    <Data Name=\"NewValue\">7</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-DNSServer\",\"Guid\":\"EB79061A-A566-4698-9119-3ED2807060E7\"}},\"EventID\":541,\"Version\":0,\"Level\":4,\"Task\":10,\"Opcode\":0,\"Keywords\":\"0x4000000008000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2025-01-08T22:23:37.990851Z\"}},\"EventRecordID\":3220,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":6244,\"ThreadID\":2748}},\"Channel\":\"Microsoft-Windows-DNSServer/Audit\",\"Computer\":\"CDCWRDC01.rootblue.lan\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-21-392370121-190461309-2151315433-1108\"}}},\"EventData\":{\"Setting\":\"EventLogLevel\",\"Scope\":\".\",\"NewValue\":\"7\"}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-DNSServer",
+    "event_id": "541",
+    "timestamp": "2025-01-08T22:23:37.990851Z",
+    "event_record_id": "3220",
+    "level": "4",
+    "task": "10",
+    "opcode": "0",
+    "keywords": "0x4000000008000000",
+    "channel": "Microsoft-Windows-DNSServer/Audit",
+    "computer": "CDCWRDC01.rootblue.lan",
+    "Setting": "EventLogLevel",
+    "Scope": ".",
+    "NewValue": "7"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-DNSServer",
+    "channel": "Microsoft-Windows-DNSServer/Audit",
+    "event_id": "541",
+    "timestamp": "2025-01-08T22:23:37.990851Z",
+    "event_record_id": "3220",
+    "level": "4",
+    "task": "10",
+    "opcode": "0",
+    "keywords": "0x4000000008000000",
+    "computer": "CDCWRDC01.rootblue.lan",
+    "Setting": "EventLogLevel",
+    "Scope": ".",
+    "NewValue": "7"
+  }
+}

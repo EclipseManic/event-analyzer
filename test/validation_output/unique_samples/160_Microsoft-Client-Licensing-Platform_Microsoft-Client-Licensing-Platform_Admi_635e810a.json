@@ -1,0 +1,39 @@
+{
+  "event_id": "160",
+  "provider": "Microsoft-Client-Licensing-Platform",
+  "channel": "Microsoft-Client-Licensing-Platform/Admin",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Logs\\Microsoft-Client-Licensing-Platform%4Admin.evtx",
+  "event_record_id": 61,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Client-Licensing-Platform\" Guid=\"B6CC0D55-9ECC-49A8-B929-2B9022426F2A\">\n    </Provider>\n    <EventID>160</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x2000000000000001</Keywords>\n    <TimeCreated SystemTime=\"2024-11-04T12:35:09.542491Z\">\n    </TimeCreated>\n    <EventRecordID>61</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"1848\" ThreadID=\"2112\">\n    </Execution>\n    <Channel>Microsoft-Client-Licensing-Platform/Admin</Channel>\n    <Computer>DESKTOP-P9H5FTA</Computer>\n    <Security UserID=\"S-1-5-18\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"PackageName\"></Data>\n    <Data Name=\"LicenseId\">61afd6a2-d7c3-8d25-36c2-0c2c47e3aca8</Data>\n    <Data Name=\"Type\">5</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Client-Licensing-Platform\",\"Guid\":\"B6CC0D55-9ECC-49A8-B929-2B9022426F2A\"}},\"EventID\":160,\"Version\":0,\"Level\":4,\"Task\":0,\"Opcode\":0,\"Keywords\":\"0x2000000000000001\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2024-11-04T12:35:09.542491Z\"}},\"EventRecordID\":61,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":1848,\"ThreadID\":2112}},\"Channel\":\"Microsoft-Client-Licensing-Platform/Admin\",\"Computer\":\"DESKTOP-P9H5FTA\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-18\"}}},\"EventData\":{\"PackageName\":\"\",\"LicenseId\":\"61afd6a2-d7c3-8d25-36c2-0c2c47e3aca8\",\"Type\":5}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Client-Licensing-Platform",
+    "event_id": "160",
+    "timestamp": "2024-11-04T12:35:09.542491Z",
+    "event_record_id": "61",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x2000000000000001",
+    "channel": "Microsoft-Client-Licensing-Platform/Admin",
+    "computer": "DESKTOP-P9H5FTA",
+    "PackageName": "",
+    "LicenseId": "61afd6a2-d7c3-8d25-36c2-0c2c47e3aca8",
+    "Type": "5"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Client-Licensing-Platform",
+    "channel": "Microsoft-Client-Licensing-Platform/Admin",
+    "event_id": "160",
+    "timestamp": "2024-11-04T12:35:09.542491Z",
+    "event_record_id": "61",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x2000000000000001",
+    "computer": "DESKTOP-P9H5FTA",
+    "PackageName": "",
+    "LicenseId": "61afd6a2-d7c3-8d25-36c2-0c2c47e3aca8",
+    "Type": "5"
+  }
+}

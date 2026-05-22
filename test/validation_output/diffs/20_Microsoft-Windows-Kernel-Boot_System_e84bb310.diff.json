@@ -1,0 +1,14 @@
+{
+  "missing_in_json": [],
+  "missing_in_xml": [],
+  "value_diffs": {
+    "LastBootGood": {
+      "xml": "true",
+      "json": "True"
+    },
+    "LastShutdownGood": {
+      "xml": "true",
+      "json": "True"
+    }
+  }
+}

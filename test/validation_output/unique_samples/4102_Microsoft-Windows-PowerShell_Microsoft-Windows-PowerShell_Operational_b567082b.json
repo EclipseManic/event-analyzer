@@ -1,0 +1,39 @@
+{
+  "event_id": "4102",
+  "provider": "Microsoft-Windows-PowerShell",
+  "channel": "Microsoft-Windows-PowerShell/Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\Logs_Win11_2023\\Microsoft-Windows-PowerShell%4Operational.evtx",
+  "event_record_id": 11,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-PowerShell\" Guid=\"A0C1853B-5C40-4B15-8766-3CF1C58F985A\">\n    </Provider>\n    <EventID>4102</EventID>\n    <Version>1</Version>\n    <Level>3</Level>\n    <Task>106</Task>\n    <Opcode>19</Opcode>\n    <Keywords>0x0</Keywords>\n    <TimeCreated SystemTime=\"2023-10-25T21:34:05.630892Z\">\n    </TimeCreated>\n    <EventRecordID>11</EventRecordID>\n    <Correlation ActivityID=\"DE03B784-07C3-0001-BC98-04DEC307DA01\">\n    </Correlation>\n    <Execution ProcessID=\"1796\" ThreadID=\"2088\">\n    </Execution>\n    <Channel>Microsoft-Windows-PowerShell/Operational</Channel>\n    <Computer>WinDevEval</Computer>\n    <Security UserID=\"S-1-5-21-2533829718-189860685-2477588761-500\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"ContextInfo\">        Severity = Warning\r\n        Host Name = ConsoleHost\r\n        Host Version = 5.1.22621.2428\r\n        Host ID = d4db7522-7ab1-46f8-add0-ee6f22c6c812\r\n        Host Application = C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -ExecutionPolicy Bypass a:\\FixPublicNetworkType.ps1\r\n        Engine Version = 5.1.22621.2428\r\n        Runspace ID = c5b2be04-de37-4a47-bfdd-d75d2d714efd\r\n        Pipeline ID = 1\r\n        Command Name = \r\n        Command Type = \r\n        Script Name = \r\n        Command Path = \r\n        Sequence Number = 16\r\n        User = WINDEVEVAL\\Administrator\r\n        Connected User = \r\n        Shell ID = Microsoft.PowerShell\r\n</Data>\n    <Data Name=\"UserData\"></Data>\n    <Data Name=\"Payload\">Error Message = Could not find the drive 'a:\\'. The drive might not be ready or might not be mapped.\r\n\r\nProvider name = Microsoft.PowerShell.Core\\FileSystem\r\n</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-PowerShell\",\"Guid\":\"A0C1853B-5C40-4B15-8766-3CF1C58F985A\"}},\"EventID\":4102,\"Version\":1,\"Level\":3,\"Task\":106,\"Opcode\":19,\"Keywords\":\"0x0\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2023-10-25T21:34:05.630892Z\"}},\"EventRecordID\":11,\"Correlation\":{\"#attributes\":{\"ActivityID\":\"DE03B784-07C3-0001-BC98-04DEC307DA01\"}},\"Execution\":{\"#attributes\":{\"ProcessID\":1796,\"ThreadID\":2088}},\"Channel\":\"Microsoft-Windows-PowerShell/Operational\",\"Computer\":\"WinDevEval\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-21-2533829718-189860685-2477588761-500\"}}},\"EventData\":{\"ContextInfo\":\"        Severity = Warning\\r\\n        Host Name = ConsoleHost\\r\\n        Host Version = 5.1.22621.2428\\r\\n        Host ID = d4db7522-7ab1-46f8-add0-ee6f22c6c812\\r\\n        Host Application = C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe -ExecutionPolicy Bypass a:\\\\FixPublicNetworkType.ps1\\r\\n        Engine Version = 5.1.22621.2428\\r\\n        Runspace ID = c5b2be04-de37-4a47-bfdd-d75d2d714efd\\r\\n        Pipeline ID = 1\\r\\n        Command Name = \\r\\n        Command Type = \\r\\n        Script Name = \\r\\n        Command Path = \\r\\n        Sequence Number = 16\\r\\n        User = WINDEVEVAL\\\\Administrator\\r\\n        Connected User = \\r\\n        Shell ID = Microsoft.PowerShell\\r\\n\",\"UserData\":\"\",\"Payload\":\"Error Message = Could not find the drive 'a:\\\\'. The drive might not be ready or might not be mapped.\\r\\n\\r\\nProvider name = Microsoft.PowerShell.Core\\\\FileSystem\\r\\n\"}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-PowerShell",
+    "event_id": "4102",
+    "timestamp": "2023-10-25T21:34:05.630892Z",
+    "event_record_id": "11",
+    "level": "3",
+    "task": "106",
+    "opcode": "19",
+    "keywords": "0x0",
+    "channel": "Microsoft-Windows-PowerShell/Operational",
+    "computer": "WinDevEval",
+    "ContextInfo": "        Severity = Warning\n        Host Name = ConsoleHost\n        Host Version = 5.1.22621.2428\n        Host ID = d4db7522-7ab1-46f8-add0-ee6f22c6c812\n        Host Application = C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -ExecutionPolicy Bypass a:\\FixPublicNetworkType.ps1\n        Engine Version = 5.1.22621.2428\n        Runspace ID = c5b2be04-de37-4a47-bfdd-d75d2d714efd\n        Pipeline ID = 1\n        Command Name = \n        Command Type = \n        Script Name = \n        Command Path = \n        Sequence Number = 16\n        User = WINDEVEVAL\\Administrator\n        Connected User = \n        Shell ID = Microsoft.PowerShell\n",
+    "UserData": "",
+    "Payload": "Error Message = Could not find the drive 'a:\\'. The drive might not be ready or might not be mapped.\n\nProvider name = Microsoft.PowerShell.Core\\FileSystem\n"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-PowerShell",
+    "channel": "Microsoft-Windows-PowerShell/Operational",
+    "event_id": "4102",
+    "timestamp": "2023-10-25T21:34:05.630892Z",
+    "event_record_id": "11",
+    "level": "3",
+    "task": "106",
+    "opcode": "19",
+    "keywords": "0x0",
+    "computer": "WinDevEval",
+    "ContextInfo": "        Severity = Warning\r\n        Host Name = ConsoleHost\r\n        Host Version = 5.1.22621.2428\r\n        Host ID = d4db7522-7ab1-46f8-add0-ee6f22c6c812\r\n        Host Application = C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -ExecutionPolicy Bypass a:\\FixPublicNetworkType.ps1\r\n        Engine Version = 5.1.22621.2428\r\n        Runspace ID = c5b2be04-de37-4a47-bfdd-d75d2d714efd\r\n        Pipeline ID = 1\r\n        Command Name = \r\n        Command Type = \r\n        Script Name = \r\n        Command Path = \r\n        Sequence Number = 16\r\n        User = WINDEVEVAL\\Administrator\r\n        Connected User = \r\n        Shell ID = Microsoft.PowerShell\r\n",
+    "UserData": "",
+    "Payload": "Error Message = Could not find the drive 'a:\\'. The drive might not be ready or might not be mapped.\r\n\r\nProvider name = Microsoft.PowerShell.Core\\FileSystem\r\n"
+  }
+}

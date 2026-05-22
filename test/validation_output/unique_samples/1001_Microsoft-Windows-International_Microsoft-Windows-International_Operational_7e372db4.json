@@ -1,0 +1,39 @@
+{
+  "event_id": "1001",
+  "provider": "Microsoft-Windows-International",
+  "channel": "Microsoft-Windows-International/Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\win7-x86\\Microsoft-Windows-International%4Operational.evtx",
+  "event_record_id": 1,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-International\" Guid=\"3AA52B8B-6357-4C18-A92E-B53FB177853B\">\n    </Provider>\n    <EventID>1001</EventID>\n    <Version>0</Version>\n    <Level>1</Level>\n    <Task>35</Task>\n    <Opcode>31</Opcode>\n    <Keywords>0x8000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2022-04-04T11:51:43.769818Z\">\n    </TimeCreated>\n    <EventRecordID>1</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"3676\" ThreadID=\"512\">\n    </Execution>\n    <Channel>Microsoft-Windows-International/Operational</Channel>\n    <Computer>evtx-PC</Computer>\n    <Security UserID=\"S-1-5-18\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"RegistryKey\">\\Registry\\Machine\\System\\CurrentControlSet\\Control\\Nls\\Locale</Data>\n    <Data Name=\"ErrorCode\">19</Data>\n    <Data Name=\"Message\">The media is write protected.\r\n</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-International\",\"Guid\":\"3AA52B8B-6357-4C18-A92E-B53FB177853B\"}},\"EventID\":1001,\"Version\":0,\"Level\":1,\"Task\":35,\"Opcode\":31,\"Keywords\":\"0x8000000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2022-04-04T11:51:43.769818Z\"}},\"EventRecordID\":1,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":3676,\"ThreadID\":512}},\"Channel\":\"Microsoft-Windows-International/Operational\",\"Computer\":\"evtx-PC\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-18\"}}},\"EventData\":{\"RegistryKey\":\"\\\\Registry\\\\Machine\\\\System\\\\CurrentControlSet\\\\Control\\\\Nls\\\\Locale\",\"ErrorCode\":19,\"Message\":\"The media is write protected.\\r\\n\"}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-International",
+    "event_id": "1001",
+    "timestamp": "2022-04-04T11:51:43.769818Z",
+    "event_record_id": "1",
+    "level": "1",
+    "task": "35",
+    "opcode": "31",
+    "keywords": "0x8000000000000000",
+    "channel": "Microsoft-Windows-International/Operational",
+    "computer": "evtx-PC",
+    "RegistryKey": "\\Registry\\Machine\\System\\CurrentControlSet\\Control\\Nls\\Locale",
+    "ErrorCode": "19",
+    "Message": "The media is write protected.\n"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-International",
+    "channel": "Microsoft-Windows-International/Operational",
+    "event_id": "1001",
+    "timestamp": "2022-04-04T11:51:43.769818Z",
+    "event_record_id": "1",
+    "level": "1",
+    "task": "35",
+    "opcode": "31",
+    "keywords": "0x8000000000000000",
+    "computer": "evtx-PC",
+    "RegistryKey": "\\Registry\\Machine\\System\\CurrentControlSet\\Control\\Nls\\Locale",
+    "ErrorCode": "19",
+    "Message": "The media is write protected.\r\n"
+  }
+}

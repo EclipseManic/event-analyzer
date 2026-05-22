@@ -1,0 +1,33 @@
+{
+  "event_id": "5520",
+  "provider": "Microsoft-Windows-HelloForBusiness",
+  "channel": "Microsoft-Windows-HelloForBusiness/Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Logs\\Microsoft-Windows-HelloForBusiness%4Operational.evtx",
+  "event_record_id": 8,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-HelloForBusiness\" Guid=\"906B8A99-63CE-58D7-86AB-10989BBD5567\">\n    </Provider>\n    <EventID>5520</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>15</Task>\n    <Opcode>12</Opcode>\n    <Keywords>0x8000000000000001</Keywords>\n    <TimeCreated SystemTime=\"2025-01-06T12:18:44.480772Z\">\n    </TimeCreated>\n    <EventRecordID>8</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"972\" ThreadID=\"3000\">\n    </Execution>\n    <Channel>Microsoft-Windows-HelloForBusiness/Operational</Channel>\n    <Computer>cyberjunkie-test</Computer>\n    <Security UserID=\"S-1-5-18\">\n    </Security>\n  </System>\n  <EventData>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-HelloForBusiness\",\"Guid\":\"906B8A99-63CE-58D7-86AB-10989BBD5567\"}},\"EventID\":5520,\"Version\":0,\"Level\":4,\"Task\":15,\"Opcode\":12,\"Keywords\":\"0x8000000000000001\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2025-01-06T12:18:44.480772Z\"}},\"EventRecordID\":8,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":972,\"ThreadID\":3000}},\"Channel\":\"Microsoft-Windows-HelloForBusiness/Operational\",\"Computer\":\"cyberjunkie-test\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-18\"}}},\"EventData\":null}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-HelloForBusiness",
+    "event_id": "5520",
+    "timestamp": "2025-01-06T12:18:44.480772Z",
+    "event_record_id": "8",
+    "level": "4",
+    "task": "15",
+    "opcode": "12",
+    "keywords": "0x8000000000000001",
+    "channel": "Microsoft-Windows-HelloForBusiness/Operational",
+    "computer": "cyberjunkie-test"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-HelloForBusiness",
+    "channel": "Microsoft-Windows-HelloForBusiness/Operational",
+    "event_id": "5520",
+    "timestamp": "2025-01-06T12:18:44.480772Z",
+    "event_record_id": "8",
+    "level": "4",
+    "task": "15",
+    "opcode": "12",
+    "keywords": "0x8000000000000001",
+    "computer": "cyberjunkie-test"
+  }
+}

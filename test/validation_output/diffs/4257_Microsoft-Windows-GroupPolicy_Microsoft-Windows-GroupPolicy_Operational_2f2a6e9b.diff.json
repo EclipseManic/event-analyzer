@@ -1,0 +1,18 @@
+{
+  "missing_in_json": [],
+  "missing_in_xml": [],
+  "value_diffs": {
+    "IsAsyncProcessing": {
+      "xml": "true",
+      "json": "True"
+    },
+    "IsBackgroundProcessing": {
+      "xml": "true",
+      "json": "True"
+    },
+    "IsMachine": {
+      "xml": "true",
+      "json": "True"
+    }
+  }
+}

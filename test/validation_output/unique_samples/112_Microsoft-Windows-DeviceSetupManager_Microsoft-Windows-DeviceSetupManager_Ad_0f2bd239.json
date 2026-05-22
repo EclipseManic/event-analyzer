@@ -1,0 +1,43 @@
+{
+  "event_id": "112",
+  "provider": "Microsoft-Windows-DeviceSetupManager",
+  "channel": "Microsoft-Windows-DeviceSetupManager/Admin",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Logs\\Microsoft-Windows-DeviceSetupManager%4Admin.evtx",
+  "event_record_id": 10,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-DeviceSetupManager\" Guid=\"FCBB06BB-6A2A-46E3-ABAA-246CB4E508B2\">\n    </Provider>\n    <EventID>112</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-11-04T12:42:10.038541Z\">\n    </TimeCreated>\n    <EventRecordID>10</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"352\" ThreadID=\"5484\">\n    </Execution>\n    <Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>\n    <Computer>DESKTOP-P9H5FTA</Computer>\n    <Security UserID=\"S-1-5-18\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"Prop_DeviceName\">Virtual Bluetooth Adapter</Data>\n    <Data Name=\"Prop_ContainerId\">2CBAD689-8DC0-543B-A46F-DAD20D391C7B</Data>\n    <Data Name=\"Prop_TaskCount\">4</Data>\n    <Data Name=\"Prop_PropertyCount\">42</Data>\n    <Data Name=\"Prop_WorkTime_MilliSeconds\">109672</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-DeviceSetupManager\",\"Guid\":\"FCBB06BB-6A2A-46E3-ABAA-246CB4E508B2\"}},\"EventID\":112,\"Version\":0,\"Level\":4,\"Task\":0,\"Opcode\":0,\"Keywords\":\"0x4000000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2024-11-04T12:42:10.038541Z\"}},\"EventRecordID\":10,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":352,\"ThreadID\":5484}},\"Channel\":\"Microsoft-Windows-DeviceSetupManager/Admin\",\"Computer\":\"DESKTOP-P9H5FTA\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-18\"}}},\"EventData\":{\"Prop_DeviceName\":\"Virtual Bluetooth Adapter\",\"Prop_ContainerId\":\"2CBAD689-8DC0-543B-A46F-DAD20D391C7B\",\"Prop_TaskCount\":4,\"Prop_PropertyCount\":42,\"Prop_WorkTime_MilliSeconds\":109672}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-DeviceSetupManager",
+    "event_id": "112",
+    "timestamp": "2024-11-04T12:42:10.038541Z",
+    "event_record_id": "10",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x4000000000000000",
+    "channel": "Microsoft-Windows-DeviceSetupManager/Admin",
+    "computer": "DESKTOP-P9H5FTA",
+    "Prop_DeviceName": "Virtual Bluetooth Adapter",
+    "Prop_ContainerId": "2CBAD689-8DC0-543B-A46F-DAD20D391C7B",
+    "Prop_TaskCount": "4",
+    "Prop_PropertyCount": "42",
+    "Prop_WorkTime_MilliSeconds": "109672"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-DeviceSetupManager",
+    "channel": "Microsoft-Windows-DeviceSetupManager/Admin",
+    "event_id": "112",
+    "timestamp": "2024-11-04T12:42:10.038541Z",
+    "event_record_id": "10",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x4000000000000000",
+    "computer": "DESKTOP-P9H5FTA",
+    "Prop_DeviceName": "Virtual Bluetooth Adapter",
+    "Prop_ContainerId": "2CBAD689-8DC0-543B-A46F-DAD20D391C7B",
+    "Prop_TaskCount": "4",
+    "Prop_PropertyCount": "42",
+    "Prop_WorkTime_MilliSeconds": "109672"
+  }
+}

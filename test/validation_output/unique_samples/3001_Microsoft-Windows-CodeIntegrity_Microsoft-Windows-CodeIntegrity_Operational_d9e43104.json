@@ -1,0 +1,37 @@
+{
+  "event_id": "3001",
+  "provider": "Microsoft-Windows-CodeIntegrity",
+  "channel": "Microsoft-Windows-CodeIntegrity/Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\win7-x86\\Microsoft-Windows-CodeIntegrity%4Operational.evtx",
+  "event_record_id": 3,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-CodeIntegrity\" Guid=\"4EE76BD8-3CF4-44A0-A0AC-3937643E37A3\">\n    </Provider>\n    <EventID>3001</EventID>\n    <Version>0</Version>\n    <Level>3</Level>\n    <Task>1</Task>\n    <Opcode>101</Opcode>\n    <Keywords>0x8000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2022-04-04T11:18:32.486749Z\">\n    </TimeCreated>\n    <EventRecordID>3</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"4\" ThreadID=\"56\">\n    </Execution>\n    <Channel>Microsoft-Windows-CodeIntegrity/Operational</Channel>\n    <Computer>evtx-PC</Computer>\n    <Security UserID=\"S-1-5-18\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"FileNameLength\">45</Data>\n    <Data Name=\"FileNameBuffer\">\\Device\\HarddiskVolume2\\Windows\\SysmonDrv.sys</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-CodeIntegrity\",\"Guid\":\"4EE76BD8-3CF4-44A0-A0AC-3937643E37A3\"}},\"EventID\":3001,\"Version\":0,\"Level\":3,\"Task\":1,\"Opcode\":101,\"Keywords\":\"0x8000000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2022-04-04T11:18:32.486749Z\"}},\"EventRecordID\":3,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":4,\"ThreadID\":56}},\"Channel\":\"Microsoft-Windows-CodeIntegrity/Operational\",\"Computer\":\"evtx-PC\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-18\"}}},\"EventData\":{\"FileNameLength\":45,\"FileNameBuffer\":\"\\\\Device\\\\HarddiskVolume2\\\\Windows\\\\SysmonDrv.sys\"}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-CodeIntegrity",
+    "event_id": "3001",
+    "timestamp": "2022-04-04T11:18:32.486749Z",
+    "event_record_id": "3",
+    "level": "3",
+    "task": "1",
+    "opcode": "101",
+    "keywords": "0x8000000000000000",
+    "channel": "Microsoft-Windows-CodeIntegrity/Operational",
+    "computer": "evtx-PC",
+    "FileNameLength": "45",
+    "FileNameBuffer": "\\Device\\HarddiskVolume2\\Windows\\SysmonDrv.sys"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-CodeIntegrity",
+    "channel": "Microsoft-Windows-CodeIntegrity/Operational",
+    "event_id": "3001",
+    "timestamp": "2022-04-04T11:18:32.486749Z",
+    "event_record_id": "3",
+    "level": "3",
+    "task": "1",
+    "opcode": "101",
+    "keywords": "0x8000000000000000",
+    "computer": "evtx-PC",
+    "FileNameLength": "45",
+    "FileNameBuffer": "\\Device\\HarddiskVolume2\\Windows\\SysmonDrv.sys"
+  }
+}

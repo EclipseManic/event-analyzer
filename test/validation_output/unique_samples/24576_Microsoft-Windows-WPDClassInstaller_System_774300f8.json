@@ -1,0 +1,35 @@
+{
+  "event_id": "24576",
+  "provider": "Microsoft-Windows-WPDClassInstaller",
+  "channel": "System",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\Logs_Win11\\System.evtx",
+  "event_record_id": 234,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-WPDClassInstaller\" Guid=\"{AD5162D8-DAF0-4A25-88A7-01CBEB33902E}\" EventSourceName=\"WPDClassInstaller\">\n    </Provider>\n    <EventID Qualifiers=\"16385\">24576</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>16</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x80000000000000</Keywords>\n    <TimeCreated SystemTime=\"2022-03-01T16:50:18.928541Z\">\n    </TimeCreated>\n    <EventRecordID>234</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"7376\" ThreadID=\"0\">\n    </Execution>\n    <Channel>System</Channel>\n    <Computer>DESKTOP-6D0DBMB</Computer>\n    <Security>\n    </Security>\n  </System>\n  <EventData>\n    <Data>WPD Device</Data>\n    <Binary></Binary>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-WPDClassInstaller\",\"Guid\":\"{AD5162D8-DAF0-4A25-88A7-01CBEB33902E}\",\"EventSourceName\":\"WPDClassInstaller\"}},\"EventID\":{\"#attributes\":{\"Qualifiers\":16385},\"#text\":24576},\"Version\":0,\"Level\":4,\"Task\":16,\"Opcode\":0,\"Keywords\":\"0x80000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2022-03-01T16:50:18.928541Z\"}},\"EventRecordID\":234,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":7376,\"ThreadID\":0}},\"Channel\":\"System\",\"Computer\":\"DESKTOP-6D0DBMB\",\"Security\":null},\"EventData\":{\"Data\":{\"#text\":\"WPD Device\"},\"Binary\":null}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-WPDClassInstaller",
+    "event_id": "24576",
+    "timestamp": "2022-03-01T16:50:18.928541Z",
+    "event_record_id": "234",
+    "level": "4",
+    "task": "16",
+    "opcode": "0",
+    "keywords": "0x80000000000000",
+    "channel": "System",
+    "computer": "DESKTOP-6D0DBMB",
+    "_data_0": "WPD Device"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-WPDClassInstaller",
+    "channel": "System",
+    "event_id": "24576",
+    "timestamp": "2022-03-01T16:50:18.928541Z",
+    "event_record_id": "234",
+    "level": "4",
+    "task": "16",
+    "opcode": "0",
+    "keywords": "0x80000000000000",
+    "computer": "DESKTOP-6D0DBMB",
+    "Data": "WPD Device"
+  }
+}

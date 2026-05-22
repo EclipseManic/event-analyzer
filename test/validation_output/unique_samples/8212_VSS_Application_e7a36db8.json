@@ -1,0 +1,39 @@
+{
+  "event_id": "8212",
+  "provider": "VSS",
+  "channel": "Application",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\win7-x86\\Application.evtx",
+  "event_record_id": 105,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"VSS\">\n    </Provider>\n    <EventID Qualifiers=\"0\">8212</EventID>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Keywords>0x80000000000000</Keywords>\n    <TimeCreated SystemTime=\"2022-04-04T19:07:40.000000Z\">\n    </TimeCreated>\n    <EventRecordID>105</EventRecordID>\n    <Channel>Application</Channel>\n    <Computer>37L4247D28-05</Computer>\n    <Security>\n    </Security>\n  </System>\n  <EventData>\n    <Data>Registry Writer</Data>\n    <Data>{afbab4a2-367d-4d15-a586-71dbb18f8485}</Data>\n    <Data>\n\nOperation:\n   Initializing Writer\n\nContext:\n   Writer Class Id: {afbab4a2-367d-4d15-a586-71dbb18f8485}\n   Writer Name: Registry Writer</Data>\n    <Binary>2D20436F64653A20575254575254494330303030303832332D2043616C6C3A20575254575254494330303030303737342D205049443A202030303030313739362D205449443A202030303030303333322D20434D443A2020433A5C57696E646F77735C73797374656D33325C76737376632E6578652020202D20557365723A204E616D653A204E5420415554484F524954595C53595354454D2C205349443A532D312D352D313820</Binary>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"VSS\"}},\"EventID\":{\"#attributes\":{\"Qualifiers\":0},\"#text\":8212},\"Level\":4,\"Task\":0,\"Keywords\":\"0x80000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2022-04-04T19:07:40.000000Z\"}},\"EventRecordID\":105,\"Channel\":\"Application\",\"Computer\":\"37L4247D28-05\",\"Security\":null},\"EventData\":{\"Data\":{\"#text\":[\"Registry Writer\",\"{afbab4a2-367d-4d15-a586-71dbb18f8485}\",\"\\n\\nOperation:\\n   Initializing Writer\\n\\nContext:\\n   Writer Class Id: {afbab4a2-367d-4d15-a586-71dbb18f8485}\\n   Writer Name: Registry Writer\"]},\"Binary\":\"2D20436F64653A20575254575254494330303030303832332D2043616C6C3A20575254575254494330303030303737342D205049443A202030303030313739362D205449443A202030303030303333322D20434D443A2020433A5C57696E646F77735C73797374656D33325C76737376632E6578652020202D20557365723A204E616D653A204E5420415554484F524954595C53595354454D2C205349443A532D312D352D313820\"}}}",
+  "xml_fields": {
+    "provider": "VSS",
+    "event_id": "8212",
+    "timestamp": "2022-04-04T19:07:40.000000Z",
+    "event_record_id": "105",
+    "level": "4",
+    "task": "0",
+    "keywords": "0x80000000000000",
+    "channel": "Application",
+    "computer": "37L4247D28-05",
+    "_data_0": "Registry Writer",
+    "_data_1": "{afbab4a2-367d-4d15-a586-71dbb18f8485}",
+    "_data_2": "\n\nOperation:\n   Initializing Writer\n\nContext:\n   Writer Class Id: {afbab4a2-367d-4d15-a586-71dbb18f8485}\n   Writer Name: Registry Writer",
+    "Binary": "2D20436F64653A20575254575254494330303030303832332D2043616C6C3A20575254575254494330303030303737342D205049443A202030303030313739362D205449443A202030303030303333322D20434D443A2020433A5C57696E646F77735C73797374656D33325C76737376632E6578652020202D20557365723A204E616D653A204E5420415554484F524954595C53595354454D2C205349443A532D312D352D313820"
+  },
+  "json_fields": {
+    "provider": "VSS",
+    "channel": "Application",
+    "event_id": "8212",
+    "timestamp": "2022-04-04T19:07:40.000000Z",
+    "event_record_id": "105",
+    "level": "4",
+    "task": "0",
+    "keywords": "0x80000000000000",
+    "computer": "37L4247D28-05",
+    "_data_0": "Registry Writer",
+    "_data_1": "{afbab4a2-367d-4d15-a586-71dbb18f8485}",
+    "_data_2": "\n\nOperation:\n   Initializing Writer\n\nContext:\n   Writer Class Id: {afbab4a2-367d-4d15-a586-71dbb18f8485}\n   Writer Name: Registry Writer",
+    "Binary": "2D20436F64653A20575254575254494330303030303832332D2043616C6C3A20575254575254494330303030303737342D205049443A202030303030313739362D205449443A202030303030303333322D20434D443A2020433A5C57696E646F77735C73797374656D33325C76737376632E6578652020202D20557365723A204E616D653A204E5420415554484F524954595C53595354454D2C205349443A532D312D352D313820"
+  }
+}

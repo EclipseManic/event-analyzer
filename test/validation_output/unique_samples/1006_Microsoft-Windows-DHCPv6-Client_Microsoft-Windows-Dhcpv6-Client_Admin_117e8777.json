@@ -1,0 +1,39 @@
+{
+  "event_id": "1006",
+  "provider": "Microsoft-Windows-DHCPv6-Client",
+  "channel": "Microsoft-Windows-Dhcpv6-Client/Admin",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\win7-x86\\Microsoft-Windows-Dhcpv6-Client%4Admin.evtx",
+  "event_record_id": 1,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-DHCPv6-Client\" Guid=\"6A1F2B00-6A90-4C38-95A5-5CAB3B056778\">\n    </Provider>\n    <EventID>1006</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>1</Task>\n    <Opcode>13</Opcode>\n    <Keywords>0x8000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2022-04-04T19:07:30.968750Z\">\n    </TimeCreated>\n    <EventRecordID>1</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"848\" ThreadID=\"864\">\n    </Execution>\n    <Channel>Microsoft-Windows-Dhcpv6-Client/Admin</Channel>\n    <Computer>37L4247D28-05</Computer>\n    <Security UserID=\"S-1-5-19\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"InterfaceId\">14</Data>\n    <Data Name=\"Flag1\">true</Data>\n    <Data Name=\"Flag2\">true</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-DHCPv6-Client\",\"Guid\":\"6A1F2B00-6A90-4C38-95A5-5CAB3B056778\"}},\"EventID\":1006,\"Version\":0,\"Level\":4,\"Task\":1,\"Opcode\":13,\"Keywords\":\"0x8000000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2022-04-04T19:07:30.968750Z\"}},\"EventRecordID\":1,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":848,\"ThreadID\":864}},\"Channel\":\"Microsoft-Windows-Dhcpv6-Client/Admin\",\"Computer\":\"37L4247D28-05\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-19\"}}},\"EventData\":{\"InterfaceId\":14,\"Flag1\":true,\"Flag2\":true}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-DHCPv6-Client",
+    "event_id": "1006",
+    "timestamp": "2022-04-04T19:07:30.968750Z",
+    "event_record_id": "1",
+    "level": "4",
+    "task": "1",
+    "opcode": "13",
+    "keywords": "0x8000000000000000",
+    "channel": "Microsoft-Windows-Dhcpv6-Client/Admin",
+    "computer": "37L4247D28-05",
+    "InterfaceId": "14",
+    "Flag1": "true",
+    "Flag2": "true"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-DHCPv6-Client",
+    "channel": "Microsoft-Windows-Dhcpv6-Client/Admin",
+    "event_id": "1006",
+    "timestamp": "2022-04-04T19:07:30.968750Z",
+    "event_record_id": "1",
+    "level": "4",
+    "task": "1",
+    "opcode": "13",
+    "keywords": "0x8000000000000000",
+    "computer": "37L4247D28-05",
+    "InterfaceId": "14",
+    "Flag1": "True",
+    "Flag2": "True"
+  }
+}

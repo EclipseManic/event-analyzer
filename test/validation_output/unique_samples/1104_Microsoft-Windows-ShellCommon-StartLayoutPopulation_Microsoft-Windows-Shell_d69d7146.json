@@ -1,0 +1,41 @@
+{
+  "event_id": "1104",
+  "provider": "Microsoft-Windows-ShellCommon-StartLayoutPopulation",
+  "channel": "Microsoft-Windows-ShellCommon-StartLayoutPopulation/Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Logs\\Microsoft-Windows-ShellCommon-StartLayoutPopulation%4Operational.evtx",
+  "event_record_id": 284,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-ShellCommon-StartLayoutPopulation\" Guid=\"97CA8142-10B1-4BAA-9FBB-70A7D11231C3\">\n    </Provider>\n    <EventID>1104</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>1001</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2025-01-24T10:52:17.486979Z\">\n    </TimeCreated>\n    <EventRecordID>284</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"7024\" ThreadID=\"7216\">\n    </Execution>\n    <Channel>Microsoft-Windows-ShellCommon-StartLayoutPopulation/Operational</Channel>\n    <Computer>CTO-FILESVR</Computer>\n    <Security UserID=\"S-1-5-21-3088055692-629932344-1786574096-1003\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"itemName\">P~Microsoft.MicrosoftEdge_8wekyb3d8bbwe!MicrosoftEdge:38975140460</Data>\n    <Data Name=\"itemId\">28822388-3F1E-4EC3-88B4-DCF40C61B7F3</Data>\n    <Data Name=\"containerId\">F648A70B-60FF-4C5A-A37B-597F23E842C6</Data>\n    <Data Name=\"collectionName\">Start.TileGrid</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-ShellCommon-StartLayoutPopulation\",\"Guid\":\"97CA8142-10B1-4BAA-9FBB-70A7D11231C3\"}},\"EventID\":1104,\"Version\":0,\"Level\":4,\"Task\":1001,\"Opcode\":0,\"Keywords\":\"0x4000000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2025-01-24T10:52:17.486979Z\"}},\"EventRecordID\":284,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":7024,\"ThreadID\":7216}},\"Channel\":\"Microsoft-Windows-ShellCommon-StartLayoutPopulation/Operational\",\"Computer\":\"CTO-FILESVR\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-21-3088055692-629932344-1786574096-1003\"}}},\"EventData\":{\"itemName\":\"P~Microsoft.MicrosoftEdge_8wekyb3d8bbwe!MicrosoftEdge:38975140460\",\"itemId\":\"28822388-3F1E-4EC3-88B4-DCF40C61B7F3\",\"containerId\":\"F648A70B-60FF-4C5A-A37B-597F23E842C6\",\"collectionName\":\"Start.TileGrid\"}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-ShellCommon-StartLayoutPopulation",
+    "event_id": "1104",
+    "timestamp": "2025-01-24T10:52:17.486979Z",
+    "event_record_id": "284",
+    "level": "4",
+    "task": "1001",
+    "opcode": "0",
+    "keywords": "0x4000000000000000",
+    "channel": "Microsoft-Windows-ShellCommon-StartLayoutPopulation/Operational",
+    "computer": "CTO-FILESVR",
+    "itemName": "P~Microsoft.MicrosoftEdge_8wekyb3d8bbwe!MicrosoftEdge:38975140460",
+    "itemId": "28822388-3F1E-4EC3-88B4-DCF40C61B7F3",
+    "containerId": "F648A70B-60FF-4C5A-A37B-597F23E842C6",
+    "collectionName": "Start.TileGrid"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-ShellCommon-StartLayoutPopulation",
+    "channel": "Microsoft-Windows-ShellCommon-StartLayoutPopulation/Operational",
+    "event_id": "1104",
+    "timestamp": "2025-01-24T10:52:17.486979Z",
+    "event_record_id": "284",
+    "level": "4",
+    "task": "1001",
+    "opcode": "0",
+    "keywords": "0x4000000000000000",
+    "computer": "CTO-FILESVR",
+    "itemName": "P~Microsoft.MicrosoftEdge_8wekyb3d8bbwe!MicrosoftEdge:38975140460",
+    "itemId": "28822388-3F1E-4EC3-88B4-DCF40C61B7F3",
+    "containerId": "F648A70B-60FF-4C5A-A37B-597F23E842C6",
+    "collectionName": "Start.TileGrid"
+  }
+}

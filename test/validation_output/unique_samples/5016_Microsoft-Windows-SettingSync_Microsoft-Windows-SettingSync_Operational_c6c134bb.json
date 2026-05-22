@@ -1,0 +1,35 @@
+{
+  "event_id": "5016",
+  "provider": "Microsoft-Windows-SettingSync",
+  "channel": "Microsoft-Windows-SettingSync/Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\Logs_Client\\Microsoft-Windows-SettingSync%4Operational.evtx",
+  "event_record_id": 1,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-SettingSync\" Guid=\"83D6E83B-900B-48A3-9835-57656B6F6474\">\n    </Provider>\n    <EventID>5016</EventID>\n    <Version>0</Version>\n    <Level>2</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x8000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2022-02-07T12:01:38.163553Z\">\n    </TimeCreated>\n    <EventRecordID>1</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"5580\" ThreadID=\"2992\">\n    </Execution>\n    <Channel>Microsoft-Windows-SettingSync/Operational</Channel>\n    <Computer>DESKTOP-A8CALR3</Computer>\n    <Security UserID=\"S-1-5-21-1402826787-2759305201-2932496751-1001\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"HRESULT\">2147944650</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-SettingSync\",\"Guid\":\"83D6E83B-900B-48A3-9835-57656B6F6474\"}},\"EventID\":5016,\"Version\":0,\"Level\":2,\"Task\":0,\"Opcode\":0,\"Keywords\":\"0x8000000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2022-02-07T12:01:38.163553Z\"}},\"EventRecordID\":1,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":5580,\"ThreadID\":2992}},\"Channel\":\"Microsoft-Windows-SettingSync/Operational\",\"Computer\":\"DESKTOP-A8CALR3\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-21-1402826787-2759305201-2932496751-1001\"}}},\"EventData\":{\"HRESULT\":2147944650}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-SettingSync",
+    "event_id": "5016",
+    "timestamp": "2022-02-07T12:01:38.163553Z",
+    "event_record_id": "1",
+    "level": "2",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x8000000000000000",
+    "channel": "Microsoft-Windows-SettingSync/Operational",
+    "computer": "DESKTOP-A8CALR3",
+    "HRESULT": "2147944650"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-SettingSync",
+    "channel": "Microsoft-Windows-SettingSync/Operational",
+    "event_id": "5016",
+    "timestamp": "2022-02-07T12:01:38.163553Z",
+    "event_record_id": "1",
+    "level": "2",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x8000000000000000",
+    "computer": "DESKTOP-A8CALR3",
+    "HRESULT": "2147944650"
+  }
+}

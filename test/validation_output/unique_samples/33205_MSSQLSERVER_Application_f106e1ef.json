@@ -1,0 +1,33 @@
+{
+  "event_id": "33205",
+  "provider": "MSSQLSERVER",
+  "channel": "Application",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Malicious\\EVTX-ATTACK-SAMPLES\\Lateral Movement\\LM_xp_cmdshell_MSSQL_Events.evtx",
+  "event_record_id": 7,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"MSSQLSERVER\">\n    </Provider>\n    <EventID Qualifiers=\"16384\">33205</EventID>\n    <Level>0</Level>\n    <Task>5</Task>\n    <Keywords>0xa0000000000000</Keywords>\n    <TimeCreated SystemTime=\"2019-11-04T09:27:26.315066Z\">\n    </TimeCreated>\n    <EventRecordID>9693</EventRecordID>\n    <Channel>Application</Channel>\n    <Computer>MSEDGEWIN10</Computer>\n    <Security>\n    </Security>\n  </System>\n  <EventData>\n    <Data>audit_schema_version:1\nevent_time:2019-11-04 09:27:26.1750932\nsequence_number:1\naction_id:EX  \nsucceeded:true\nis_column_permission:false\nsession_id:58\nserver_principal_id:266\ndatabase_principal_id:1\ntarget_server_principal_id:0\ntarget_database_principal_id:0\nobject_id:-1008137134\nuser_defined_event_id:0\ntransaction_id:14356\nclass_type:X \nduration_milliseconds:0\nresponse_rows:0\naffected_rows:0\nclient_ip:10.0.2.17\npermission_bitmask:00000000000000000000000000000020\nsequence_group_id:AE51063D-49C6-4990-A00D-6A3833CFECA0\nsession_server_principal_name:root\nserver_principal_name:root\nserver_principal_sid:8867c003d7407345abb6e4ed81382626\ndatabase_principal_name:dbo\ntarget_server_principal_name:\ntarget_server_principal_sid:\ntarget_database_principal_name:\nserver_instance_name:MSEDGEWIN10\ndatabase_name:master\nschema_name:sys\nobject_name:xp_cmdshell\nstatement:EXEC master..xp_cmdshell 'Whoami'\nadditional_information:\nuser_defined_information:\napplication_name:.Net SqlClient Data Provider\n</Data>\n    <Binary></Binary>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"MSSQLSERVER\"}},\"EventID\":{\"#attributes\":{\"Qualifiers\":16384},\"#text\":33205},\"Level\":0,\"Task\":5,\"Keywords\":\"0xa0000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2019-11-04T09:27:26.315066Z\"}},\"EventRecordID\":9693,\"Channel\":\"Application\",\"Computer\":\"MSEDGEWIN10\",\"Security\":null},\"EventData\":{\"Data\":{\"#text\":\"audit_schema_version:1\\nevent_time:2019-11-04 09:27:26.1750932\\nsequence_number:1\\naction_id:EX  \\nsucceeded:true\\nis_column_permission:false\\nsession_id:58\\nserver_principal_id:266\\ndatabase_principal_id:1\\ntarget_server_principal_id:0\\ntarget_database_principal_id:0\\nobject_id:-1008137134\\nuser_defined_event_id:0\\ntransaction_id:14356\\nclass_type:X \\nduration_milliseconds:0\\nresponse_rows:0\\naffected_rows:0\\nclient_ip:10.0.2.17\\npermission_bitmask:00000000000000000000000000000020\\nsequence_group_id:AE51063D-49C6-4990-A00D-6A3833CFECA0\\nsession_server_principal_name:root\\nserver_principal_name:root\\nserver_principal_sid:8867c003d7407345abb6e4ed81382626\\ndatabase_principal_name:dbo\\ntarget_server_principal_name:\\ntarget_server_principal_sid:\\ntarget_database_principal_name:\\nserver_instance_name:MSEDGEWIN10\\ndatabase_name:master\\nschema_name:sys\\nobject_name:xp_cmdshell\\nstatement:EXEC master..xp_cmdshell 'Whoami'\\nadditional_information:\\nuser_defined_information:\\napplication_name:.Net SqlClient Data Provider\\n\"},\"Binary\":null}}}",
+  "xml_fields": {
+    "provider": "MSSQLSERVER",
+    "event_id": "33205",
+    "timestamp": "2019-11-04T09:27:26.315066Z",
+    "event_record_id": "9693",
+    "level": "0",
+    "task": "5",
+    "keywords": "0xa0000000000000",
+    "channel": "Application",
+    "computer": "MSEDGEWIN10",
+    "_data_0": "audit_schema_version:1\nevent_time:2019-11-04 09:27:26.1750932\nsequence_number:1\naction_id:EX  \nsucceeded:true\nis_column_permission:false\nsession_id:58\nserver_principal_id:266\ndatabase_principal_id:1\ntarget_server_principal_id:0\ntarget_database_principal_id:0\nobject_id:-1008137134\nuser_defined_event_id:0\ntransaction_id:14356\nclass_type:X \nduration_milliseconds:0\nresponse_rows:0\naffected_rows:0\nclient_ip:10.0.2.17\npermission_bitmask:00000000000000000000000000000020\nsequence_group_id:AE51063D-49C6-4990-A00D-6A3833CFECA0\nsession_server_principal_name:root\nserver_principal_name:root\nserver_principal_sid:8867c003d7407345abb6e4ed81382626\ndatabase_principal_name:dbo\ntarget_server_principal_name:\ntarget_server_principal_sid:\ntarget_database_principal_name:\nserver_instance_name:MSEDGEWIN10\ndatabase_name:master\nschema_name:sys\nobject_name:xp_cmdshell\nstatement:EXEC master..xp_cmdshell 'Whoami'\nadditional_information:\nuser_defined_information:\napplication_name:.Net SqlClient Data Provider\n"
+  },
+  "json_fields": {
+    "provider": "MSSQLSERVER",
+    "channel": "Application",
+    "event_id": "33205",
+    "timestamp": "2019-11-04T09:27:26.315066Z",
+    "event_record_id": "9693",
+    "level": "0",
+    "task": "5",
+    "keywords": "0xa0000000000000",
+    "computer": "MSEDGEWIN10",
+    "Data": "audit_schema_version:1\nevent_time:2019-11-04 09:27:26.1750932\nsequence_number:1\naction_id:EX  \nsucceeded:true\nis_column_permission:false\nsession_id:58\nserver_principal_id:266\ndatabase_principal_id:1\ntarget_server_principal_id:0\ntarget_database_principal_id:0\nobject_id:-1008137134\nuser_defined_event_id:0\ntransaction_id:14356\nclass_type:X \nduration_milliseconds:0\nresponse_rows:0\naffected_rows:0\nclient_ip:10.0.2.17\npermission_bitmask:00000000000000000000000000000020\nsequence_group_id:AE51063D-49C6-4990-A00D-6A3833CFECA0\nsession_server_principal_name:root\nserver_principal_name:root\nserver_principal_sid:8867c003d7407345abb6e4ed81382626\ndatabase_principal_name:dbo\ntarget_server_principal_name:\ntarget_server_principal_sid:\ntarget_database_principal_name:\nserver_instance_name:MSEDGEWIN10\ndatabase_name:master\nschema_name:sys\nobject_name:xp_cmdshell\nstatement:EXEC master..xp_cmdshell 'Whoami'\nadditional_information:\nuser_defined_information:\napplication_name:.Net SqlClient Data Provider\n"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "event_id": "1027",
+  "provider": "Microsoft-Windows-ReadyBoost",
+  "channel": "Microsoft-Windows-ReadyBoost/Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Logs\\Microsoft-Windows-ReadyBoost%4Operational.evtx",
+  "event_record_id": 1,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"E6307A09-292C-497E-AAD6-498F68E2B619\">\n    </Provider>\n    <EventID>1027</EventID>\n    <Version>1</Version>\n    <Level>4</Level>\n    <Task>1016</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x8000000000002000</Keywords>\n    <TimeCreated SystemTime=\"2024-11-04T12:34:58.596571Z\">\n    </TimeCreated>\n    <EventRecordID>1</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"2448\" ThreadID=\"2520\">\n    </Execution>\n    <Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n    <Computer>DESKTOP-P9H5FTA</Computer>\n    <Security UserID=\"S-1-5-18\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"ErrorCode\">0</Data>\n    <Data Name=\"UniqueIdLength\">0</Data>\n    <Data Name=\"VolumeUniqueId\"></Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-ReadyBoost\",\"Guid\":\"E6307A09-292C-497E-AAD6-498F68E2B619\"}},\"EventID\":1027,\"Version\":1,\"Level\":4,\"Task\":1016,\"Opcode\":0,\"Keywords\":\"0x8000000000002000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2024-11-04T12:34:58.596571Z\"}},\"EventRecordID\":1,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":2448,\"ThreadID\":2520}},\"Channel\":\"Microsoft-Windows-ReadyBoost/Operational\",\"Computer\":\"DESKTOP-P9H5FTA\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-18\"}}},\"EventData\":{\"ErrorCode\":0,\"UniqueIdLength\":0,\"VolumeUniqueId\":\"\"}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-ReadyBoost",
+    "event_id": "1027",
+    "timestamp": "2024-11-04T12:34:58.596571Z",
+    "event_record_id": "1",
+    "level": "4",
+    "task": "1016",
+    "opcode": "0",
+    "keywords": "0x8000000000002000",
+    "channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "computer": "DESKTOP-P9H5FTA",
+    "ErrorCode": "0",
+    "UniqueIdLength": "0",
+    "VolumeUniqueId": ""
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-ReadyBoost",
+    "channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "event_id": "1027",
+    "timestamp": "2024-11-04T12:34:58.596571Z",
+    "event_record_id": "1",
+    "level": "4",
+    "task": "1016",
+    "opcode": "0",
+    "keywords": "0x8000000000002000",
+    "computer": "DESKTOP-P9H5FTA",
+    "ErrorCode": "0",
+    "UniqueIdLength": "0",
+    "VolumeUniqueId": ""
+  }
+}

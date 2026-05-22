@@ -1,0 +1,35 @@
+{
+  "event_id": "2406",
+  "provider": "Microsoft-Windows-ActiveDirectory_DomainService",
+  "channel": "Directory Service",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\Win2022-AD\\Directory Service.evtx",
+  "event_record_id": 44,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-ActiveDirectory_DomainService\" Guid=\"{0e8478c5-3605-4e8c-8497-1e730c959516}\" EventSourceName=\"NTDS Database\">\n    </Provider>\n    <EventID Qualifiers=\"16384\">2406</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>7</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x8080000000000000</Keywords>\n    <TimeCreated SystemTime=\"2022-04-07T08:14:30.836696Z\">\n    </TimeCreated>\n    <EventRecordID>44</EventRecordID>\n    <Correlation ActivityID=\"7AAB4249-4A57-0000-F449-AB7A574AD801\">\n    </Correlation>\n    <Execution ProcessID=\"648\" ThreadID=\"652\">\n    </Execution>\n    <Channel>Directory Service</Channel>\n    <Computer>WIN-FPV0DSIC9O6.sigma.fr</Computer>\n    <Security UserID=\"S-1-5-7\">\n    </Security>\n  </System>\n  <EventData>\n    <Data>Recycle Bin Feature</Data>\n    <Binary></Binary>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-ActiveDirectory_DomainService\",\"Guid\":\"{0e8478c5-3605-4e8c-8497-1e730c959516}\",\"EventSourceName\":\"NTDS Database\"}},\"EventID\":{\"#attributes\":{\"Qualifiers\":16384},\"#text\":2406},\"Version\":0,\"Level\":4,\"Task\":7,\"Opcode\":0,\"Keywords\":\"0x8080000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2022-04-07T08:14:30.836696Z\"}},\"EventRecordID\":44,\"Correlation\":{\"#attributes\":{\"ActivityID\":\"7AAB4249-4A57-0000-F449-AB7A574AD801\"}},\"Execution\":{\"#attributes\":{\"ProcessID\":648,\"ThreadID\":652}},\"Channel\":\"Directory Service\",\"Computer\":\"WIN-FPV0DSIC9O6.sigma.fr\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-7\"}}},\"EventData\":{\"Data\":{\"#text\":\"Recycle Bin Feature\"},\"Binary\":null}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-ActiveDirectory_DomainService",
+    "event_id": "2406",
+    "timestamp": "2022-04-07T08:14:30.836696Z",
+    "event_record_id": "44",
+    "level": "4",
+    "task": "7",
+    "opcode": "0",
+    "keywords": "0x8080000000000000",
+    "channel": "Directory Service",
+    "computer": "WIN-FPV0DSIC9O6.sigma.fr",
+    "_data_0": "Recycle Bin Feature"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-ActiveDirectory_DomainService",
+    "channel": "Directory Service",
+    "event_id": "2406",
+    "timestamp": "2022-04-07T08:14:30.836696Z",
+    "event_record_id": "44",
+    "level": "4",
+    "task": "7",
+    "opcode": "0",
+    "keywords": "0x8080000000000000",
+    "computer": "WIN-FPV0DSIC9O6.sigma.fr",
+    "Data": "Recycle Bin Feature"
+  }
+}

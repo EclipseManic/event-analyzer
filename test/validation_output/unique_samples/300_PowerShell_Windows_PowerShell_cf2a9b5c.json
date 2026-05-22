@@ -1,0 +1,37 @@
+{
+  "event_id": "300",
+  "provider": "PowerShell",
+  "channel": "Windows PowerShell",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\Logs_Win11_2023\\Windows PowerShell.evtx",
+  "event_record_id": 24,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"PowerShell\">\n    </Provider>\n    <EventID Qualifiers=\"0\">300</EventID>\n    <Version>0</Version>\n    <Level>3</Level>\n    <Task>3</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x80000000000000</Keywords>\n    <TimeCreated SystemTime=\"2023-10-25T21:34:05.614206Z\">\n    </TimeCreated>\n    <EventRecordID>24</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"1796\" ThreadID=\"0\">\n    </Execution>\n    <Channel>Windows PowerShell</Channel>\n    <Computer>WinDevEval</Computer>\n    <Security>\n    </Security>\n  </System>\n  <EventData>\n    <Data>Could not find the drive 'a:\\'. The drive might not be ready or might not be mapped.</Data>\n    <Data>\tProviderName=Microsoft.PowerShell.Core\\FileSystem\r\n\tExceptionClass=DriveNotFoundException\r\n\tErrorCategory=\r\n\tErrorId=\r\n\tErrorMessage=Could not find the drive 'a:\\'. The drive might not be ready or might not be mapped.\r\n\r\n\tSeverity=Warning\r\n\r\n\tSequenceNumber=15\r\n\r\n\tHostName=ConsoleHost\r\n\tHostVersion=5.1.22621.2428\r\n\tHostId=d4db7522-7ab1-46f8-add0-ee6f22c6c812\r\n\tHostApplication=C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -ExecutionPolicy Bypass a:\\FixPublicNetworkType.ps1\r\n\tEngineVersion=5.1.22621.2428\r\n\tRunspaceId=c5b2be04-de37-4a47-bfdd-d75d2d714efd\r\n\tPipelineId=1\r\n\tCommandName=\r\n\tCommandType=\r\n\tScriptName=\r\n\tCommandPath=\r\n\tCommandLine=</Data>\n    <Binary></Binary>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"PowerShell\"}},\"EventID\":{\"#attributes\":{\"Qualifiers\":0},\"#text\":300},\"Version\":0,\"Level\":3,\"Task\":3,\"Opcode\":0,\"Keywords\":\"0x80000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2023-10-25T21:34:05.614206Z\"}},\"EventRecordID\":24,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":1796,\"ThreadID\":0}},\"Channel\":\"Windows PowerShell\",\"Computer\":\"WinDevEval\",\"Security\":null},\"EventData\":{\"Data\":{\"#text\":[\"Could not find the drive 'a:\\\\'. The drive might not be ready or might not be mapped.\",\"\\tProviderName=Microsoft.PowerShell.Core\\\\FileSystem\\r\\n\\tExceptionClass=DriveNotFoundException\\r\\n\\tErrorCategory=\\r\\n\\tErrorId=\\r\\n\\tErrorMessage=Could not find the drive 'a:\\\\'. The drive might not be ready or might not be mapped.\\r\\n\\r\\n\\tSeverity=Warning\\r\\n\\r\\n\\tSequenceNumber=15\\r\\n\\r\\n\\tHostName=ConsoleHost\\r\\n\\tHostVersion=5.1.22621.2428\\r\\n\\tHostId=d4db7522-7ab1-46f8-add0-ee6f22c6c812\\r\\n\\tHostApplication=C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe -ExecutionPolicy Bypass a:\\\\FixPublicNetworkType.ps1\\r\\n\\tEngineVersion=5.1.22621.2428\\r\\n\\tRunspaceId=c5b2be04-de37-4a47-bfdd-d75d2d714efd\\r\\n\\tPipelineId=1\\r\\n\\tCommandName=\\r\\n\\tCommandType=\\r\\n\\tScriptName=\\r\\n\\tCommandPath=\\r\\n\\tCommandLine=\"]},\"Binary\":null}}}",
+  "xml_fields": {
+    "provider": "PowerShell",
+    "event_id": "300",
+    "timestamp": "2023-10-25T21:34:05.614206Z",
+    "event_record_id": "24",
+    "level": "3",
+    "task": "3",
+    "opcode": "0",
+    "keywords": "0x80000000000000",
+    "channel": "Windows PowerShell",
+    "computer": "WinDevEval",
+    "_data_0": "Could not find the drive 'a:\\'. The drive might not be ready or might not be mapped.",
+    "_data_1": "\tProviderName=Microsoft.PowerShell.Core\\FileSystem\n\tExceptionClass=DriveNotFoundException\n\tErrorCategory=\n\tErrorId=\n\tErrorMessage=Could not find the drive 'a:\\'. The drive might not be ready or might not be mapped.\n\n\tSeverity=Warning\n\n\tSequenceNumber=15\n\n\tHostName=ConsoleHost\n\tHostVersion=5.1.22621.2428\n\tHostId=d4db7522-7ab1-46f8-add0-ee6f22c6c812\n\tHostApplication=C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -ExecutionPolicy Bypass a:\\FixPublicNetworkType.ps1\n\tEngineVersion=5.1.22621.2428\n\tRunspaceId=c5b2be04-de37-4a47-bfdd-d75d2d714efd\n\tPipelineId=1\n\tCommandName=\n\tCommandType=\n\tScriptName=\n\tCommandPath=\n\tCommandLine="
+  },
+  "json_fields": {
+    "provider": "PowerShell",
+    "channel": "Windows PowerShell",
+    "event_id": "300",
+    "timestamp": "2023-10-25T21:34:05.614206Z",
+    "event_record_id": "24",
+    "level": "3",
+    "task": "3",
+    "opcode": "0",
+    "keywords": "0x80000000000000",
+    "computer": "WinDevEval",
+    "_data_0": "Could not find the drive 'a:\\'. The drive might not be ready or might not be mapped.",
+    "_data_1": "\tProviderName=Microsoft.PowerShell.Core\\FileSystem\r\n\tExceptionClass=DriveNotFoundException\r\n\tErrorCategory=\r\n\tErrorId=\r\n\tErrorMessage=Could not find the drive 'a:\\'. The drive might not be ready or might not be mapped.\r\n\r\n\tSeverity=Warning\r\n\r\n\tSequenceNumber=15\r\n\r\n\tHostName=ConsoleHost\r\n\tHostVersion=5.1.22621.2428\r\n\tHostId=d4db7522-7ab1-46f8-add0-ee6f22c6c812\r\n\tHostApplication=C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -ExecutionPolicy Bypass a:\\FixPublicNetworkType.ps1\r\n\tEngineVersion=5.1.22621.2428\r\n\tRunspaceId=c5b2be04-de37-4a47-bfdd-d75d2d714efd\r\n\tPipelineId=1\r\n\tCommandName=\r\n\tCommandType=\r\n\tScriptName=\r\n\tCommandPath=\r\n\tCommandLine="
+  }
+}

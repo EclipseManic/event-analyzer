@@ -1,0 +1,33 @@
+{
+  "event_id": "1001",
+  "provider": "Microsoft-Windows-Resource-Exhaustion-Detector",
+  "channel": "Microsoft-Windows-Resource-Exhaustion-Detector/Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Logs\\Microsoft-Windows-Resource-Exhaustion-Detector%4Operational.evtx",
+  "event_record_id": 1,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-Resource-Exhaustion-Detector\" Guid=\"9988748E-C2E8-4054-85F6-0C3E1CAD2470\">\n    </Provider>\n    <EventID>1001</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>1</Task>\n    <Opcode>11</Opcode>\n    <Keywords>0x4000000010000000</Keywords>\n    <TimeCreated SystemTime=\"2024-11-04T12:34:58.065893Z\">\n    </TimeCreated>\n    <EventRecordID>1</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"2628\" ThreadID=\"3400\">\n    </Execution>\n    <Channel>Microsoft-Windows-Resource-Exhaustion-Detector/Operational</Channel>\n    <Computer>DESKTOP-P9H5FTA</Computer>\n    <Security UserID=\"S-1-5-19\">\n    </Security>\n  </System>\n  <EventData>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-Resource-Exhaustion-Detector\",\"Guid\":\"9988748E-C2E8-4054-85F6-0C3E1CAD2470\"}},\"EventID\":1001,\"Version\":0,\"Level\":4,\"Task\":1,\"Opcode\":11,\"Keywords\":\"0x4000000010000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2024-11-04T12:34:58.065893Z\"}},\"EventRecordID\":1,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":2628,\"ThreadID\":3400}},\"Channel\":\"Microsoft-Windows-Resource-Exhaustion-Detector/Operational\",\"Computer\":\"DESKTOP-P9H5FTA\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-19\"}}},\"EventData\":null}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-Resource-Exhaustion-Detector",
+    "event_id": "1001",
+    "timestamp": "2024-11-04T12:34:58.065893Z",
+    "event_record_id": "1",
+    "level": "4",
+    "task": "1",
+    "opcode": "11",
+    "keywords": "0x4000000010000000",
+    "channel": "Microsoft-Windows-Resource-Exhaustion-Detector/Operational",
+    "computer": "DESKTOP-P9H5FTA"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-Resource-Exhaustion-Detector",
+    "channel": "Microsoft-Windows-Resource-Exhaustion-Detector/Operational",
+    "event_id": "1001",
+    "timestamp": "2024-11-04T12:34:58.065893Z",
+    "event_record_id": "1",
+    "level": "4",
+    "task": "1",
+    "opcode": "11",
+    "keywords": "0x4000000010000000",
+    "computer": "DESKTOP-P9H5FTA"
+  }
+}

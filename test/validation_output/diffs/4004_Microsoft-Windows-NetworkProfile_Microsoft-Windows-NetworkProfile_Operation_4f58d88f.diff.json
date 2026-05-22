@@ -1,0 +1,38 @@
+{
+  "missing_in_json": [],
+  "missing_in_xml": [],
+  "value_diffs": {
+    "ConnectionCostChanged": {
+      "xml": "true",
+      "json": "True"
+    },
+    "DomainConnectivityLevelChanged": {
+      "xml": "false",
+      "json": "False"
+    },
+    "HostNameChanged": {
+      "xml": "false",
+      "json": "False"
+    },
+    "NetworkConnectivityLevelChanged": {
+      "xml": "true",
+      "json": "True"
+    },
+    "NewInternetConnectionProfile": {
+      "xml": "true",
+      "json": "True"
+    },
+    "TetheringClientCountChanged": {
+      "xml": "false",
+      "json": "False"
+    },
+    "TetheringOperationalStateChanged": {
+      "xml": "false",
+      "json": "False"
+    },
+    "WwanRegistrationStateChanged": {
+      "xml": "false",
+      "json": "False"
+    }
+  }
+}

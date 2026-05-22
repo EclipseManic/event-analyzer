@@ -1,0 +1,14 @@
+{
+  "missing_in_json": [],
+  "missing_in_xml": [],
+  "value_diffs": {
+    "IsExtensionAsyncProcessing": {
+      "xml": "false",
+      "json": "False"
+    },
+    "IsGPOListChanged": {
+      "xml": "true",
+      "json": "True"
+    }
+  }
+}

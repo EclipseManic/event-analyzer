@@ -1,0 +1,10 @@
+{
+  "missing_in_json": [],
+  "missing_in_xml": [],
+  "value_diffs": {
+    "IsTdiEnabled": {
+      "xml": "true",
+      "json": "True"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "event_id": "3",
+  "provider": "Microsoft-Windows-Hyper-V-Netvsc",
+  "channel": "System",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\win2022-0-20348-azure\\System.evtx",
+  "event_record_id": 745,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-Hyper-V-Netvsc\" Guid=\"152FBE4B-C7AD-4F68-BADA-A4FCC1464F6C\">\n    </Provider>\n    <EventID>3</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>1002</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x8000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2022-09-18T09:12:42.427875Z\">\n    </TimeCreated>\n    <EventRecordID>745</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"4\" ThreadID=\"448\">\n    </Execution>\n    <Channel>System</Channel>\n    <Computer>Agamemnon</Computer>\n    <Security UserID=\"S-1-5-18\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"MiniportNameLen\">33</Data>\n    <Data Name=\"MiniportName\">Microsoft Hyper-V Network Adapter</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-Hyper-V-Netvsc\",\"Guid\":\"152FBE4B-C7AD-4F68-BADA-A4FCC1464F6C\"}},\"EventID\":3,\"Version\":0,\"Level\":4,\"Task\":1002,\"Opcode\":0,\"Keywords\":\"0x8000000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2022-09-18T09:12:42.427875Z\"}},\"EventRecordID\":745,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":4,\"ThreadID\":448}},\"Channel\":\"System\",\"Computer\":\"Agamemnon\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-18\"}}},\"EventData\":{\"MiniportNameLen\":33,\"MiniportName\":\"Microsoft Hyper-V Network Adapter\"}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-Hyper-V-Netvsc",
+    "event_id": "3",
+    "timestamp": "2022-09-18T09:12:42.427875Z",
+    "event_record_id": "745",
+    "level": "4",
+    "task": "1002",
+    "opcode": "0",
+    "keywords": "0x8000000000000000",
+    "channel": "System",
+    "computer": "Agamemnon",
+    "MiniportNameLen": "33",
+    "MiniportName": "Microsoft Hyper-V Network Adapter"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-Hyper-V-Netvsc",
+    "channel": "System",
+    "event_id": "3",
+    "timestamp": "2022-09-18T09:12:42.427875Z",
+    "event_record_id": "745",
+    "level": "4",
+    "task": "1002",
+    "opcode": "0",
+    "keywords": "0x8000000000000000",
+    "computer": "Agamemnon",
+    "MiniportNameLen": "33",
+    "MiniportName": "Microsoft Hyper-V Network Adapter"
+  }
+}

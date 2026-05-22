@@ -1,0 +1,39 @@
+{
+  "event_id": "1002",
+  "provider": "Microsoft-Windows-KnownFolders",
+  "channel": "Microsoft-Windows-Known Folders API Service",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Logs\\Microsoft-Windows-Known Folders API Service.evtx",
+  "event_record_id": 1,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"8939299F-2315-4C5C-9B91-ABB86AA0627D\">\n    </Provider>\n    <EventID>1002</EventID>\n    <Version>0</Version>\n    <Level>3</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x8000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-11-05T01:34:22.054147Z\">\n    </TimeCreated>\n    <EventRecordID>1</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"3856\" ThreadID=\"3904\">\n    </Execution>\n    <Channel>Microsoft-Windows-Known Folders API Service</Channel>\n    <Computer>DESKTOP-P9H5FTA</Computer>\n    <Security UserID=\"S-1-5-18\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"hrError\">0x80070002</Data>\n    <Data Name=\"FolderId\">1777F761-68AD-4D8A-87BD-30B759FA33DD</Data>\n    <Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Favorites</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-KnownFolders\",\"Guid\":\"8939299F-2315-4C5C-9B91-ABB86AA0627D\"}},\"EventID\":1002,\"Version\":0,\"Level\":3,\"Task\":0,\"Opcode\":0,\"Keywords\":\"0x8000000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2024-11-05T01:34:22.054147Z\"}},\"EventRecordID\":1,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":3856,\"ThreadID\":3904}},\"Channel\":\"Microsoft-Windows-Known Folders API Service\",\"Computer\":\"DESKTOP-P9H5FTA\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-18\"}}},\"EventData\":{\"hrError\":\"0x80070002\",\"FolderId\":\"1777F761-68AD-4D8A-87BD-30B759FA33DD\",\"Path\":\"C:\\\\Windows\\\\system32\\\\config\\\\systemprofile\\\\Favorites\"}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-KnownFolders",
+    "event_id": "1002",
+    "timestamp": "2024-11-05T01:34:22.054147Z",
+    "event_record_id": "1",
+    "level": "3",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x8000000000000000",
+    "channel": "Microsoft-Windows-Known Folders API Service",
+    "computer": "DESKTOP-P9H5FTA",
+    "hrError": "0x80070002",
+    "FolderId": "1777F761-68AD-4D8A-87BD-30B759FA33DD",
+    "Path": "C:\\Windows\\system32\\config\\systemprofile\\Favorites"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-KnownFolders",
+    "channel": "Microsoft-Windows-Known Folders API Service",
+    "event_id": "1002",
+    "timestamp": "2024-11-05T01:34:22.054147Z",
+    "event_record_id": "1",
+    "level": "3",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x8000000000000000",
+    "computer": "DESKTOP-P9H5FTA",
+    "hrError": "0x80070002",
+    "FolderId": "1777F761-68AD-4D8A-87BD-30B759FA33DD",
+    "Path": "C:\\Windows\\system32\\config\\systemprofile\\Favorites"
+  }
+}

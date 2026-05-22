@@ -1,0 +1,1 @@
+"""Event-Analyzer application package."""

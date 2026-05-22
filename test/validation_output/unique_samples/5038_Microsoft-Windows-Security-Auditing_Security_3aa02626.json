@@ -1,0 +1,35 @@
+{
+  "event_id": "5038",
+  "provider": "Microsoft-Windows-Security-Auditing",
+  "channel": "Security",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\win7-x86\\Security.evtx",
+  "event_record_id": 268,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-Security-Auditing\" Guid=\"54849625-5478-4994-A5BA-3E3B0328C30D\">\n    </Provider>\n    <EventID>5038</EventID>\n    <Version>0</Version>\n    <Level>0</Level>\n    <Task>12290</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x8010000000000000</Keywords>\n    <TimeCreated SystemTime=\"2022-04-04T11:13:56.365596Z\">\n    </TimeCreated>\n    <EventRecordID>268</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"4\" ThreadID=\"68\">\n    </Execution>\n    <Channel>Security</Channel>\n    <Computer>evtx-PC</Computer>\n    <Security>\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"param1\">\\Device\\HarddiskVolume2\\Windows\\SysmonDrv.sys</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-Security-Auditing\",\"Guid\":\"54849625-5478-4994-A5BA-3E3B0328C30D\"}},\"EventID\":5038,\"Version\":0,\"Level\":0,\"Task\":12290,\"Opcode\":0,\"Keywords\":\"0x8010000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2022-04-04T11:13:56.365596Z\"}},\"EventRecordID\":268,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":4,\"ThreadID\":68}},\"Channel\":\"Security\",\"Computer\":\"evtx-PC\",\"Security\":null},\"EventData\":{\"param1\":\"\\\\Device\\\\HarddiskVolume2\\\\Windows\\\\SysmonDrv.sys\"}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "event_id": "5038",
+    "timestamp": "2022-04-04T11:13:56.365596Z",
+    "event_record_id": "268",
+    "level": "0",
+    "task": "12290",
+    "opcode": "0",
+    "keywords": "0x8010000000000000",
+    "channel": "Security",
+    "computer": "evtx-PC",
+    "param1": "\\Device\\HarddiskVolume2\\Windows\\SysmonDrv.sys"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "channel": "Security",
+    "event_id": "5038",
+    "timestamp": "2022-04-04T11:13:56.365596Z",
+    "event_record_id": "268",
+    "level": "0",
+    "task": "12290",
+    "opcode": "0",
+    "keywords": "0x8010000000000000",
+    "computer": "evtx-PC",
+    "param1": "\\Device\\HarddiskVolume2\\Windows\\SysmonDrv.sys"
+  }
+}

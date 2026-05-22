@@ -1,0 +1,37 @@
+{
+  "event_id": "5805",
+  "provider": "NETLOGON",
+  "channel": "System",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Malicious\\EVTX-ATTACK-SAMPLES\\Credential Access\\Zerologon_CVE-2020-1472_DFIR_System_NetLogon_Error_EventID_5805.evtx",
+  "event_record_id": 2,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"NETLOGON\">\n    </Provider>\n    <EventID Qualifiers=\"0\">5805</EventID>\n    <Level>2</Level>\n    <Task>0</Task>\n    <Keywords>0x80000000000000</Keywords>\n    <TimeCreated SystemTime=\"2020-09-15T19:28:49.359772Z\">\n    </TimeCreated>\n    <EventRecordID>63221</EventRecordID>\n    <Channel>System</Channel>\n    <Computer>01566s-win16-ir.threebeesco.com</Computer>\n    <Security>\n    </Security>\n  </System>\n  <EventData>\n    <Data>01566S-WIN16-IR</Data>\n    <Data>%%5</Data>\n    <Binary>220000C0</Binary>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"NETLOGON\"}},\"EventID\":{\"#attributes\":{\"Qualifiers\":0},\"#text\":5805},\"Level\":2,\"Task\":0,\"Keywords\":\"0x80000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2020-09-15T19:28:49.359772Z\"}},\"EventRecordID\":63221,\"Channel\":\"System\",\"Computer\":\"01566s-win16-ir.threebeesco.com\",\"Security\":null},\"EventData\":{\"Data\":{\"#text\":[\"01566S-WIN16-IR\",\"%%5\"]},\"Binary\":\"220000C0\"}}}",
+  "xml_fields": {
+    "provider": "NETLOGON",
+    "event_id": "5805",
+    "timestamp": "2020-09-15T19:28:49.359772Z",
+    "event_record_id": "63221",
+    "level": "2",
+    "task": "0",
+    "keywords": "0x80000000000000",
+    "channel": "System",
+    "computer": "01566s-win16-ir.threebeesco.com",
+    "_data_0": "01566S-WIN16-IR",
+    "_data_1": "%%5",
+    "Binary": "220000C0"
+  },
+  "json_fields": {
+    "provider": "NETLOGON",
+    "channel": "System",
+    "event_id": "5805",
+    "timestamp": "2020-09-15T19:28:49.359772Z",
+    "event_record_id": "63221",
+    "level": "2",
+    "task": "0",
+    "keywords": "0x80000000000000",
+    "computer": "01566s-win16-ir.threebeesco.com",
+    "_data_0": "01566S-WIN16-IR",
+    "_data_1": "%%5",
+    "Binary": "220000C0"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "event_id": "1007",
+  "provider": "Microsoft-Windows-IIS-W3SVC",
+  "channel": "System",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\win2022-evtx\\System.evtx",
+  "event_record_id": 1849,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-IIS-W3SVC\" Guid=\"{05448E22-93DE-4A7A-BBA5-92E27486A8BE}\" EventSourceName=\"W3SVC\">\n    </Provider>\n    <EventID Qualifiers=\"49152\">1007</EventID>\n    <Version>0</Version>\n    <Level>2</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x80000000000000</Keywords>\n    <TimeCreated SystemTime=\"2022-04-04T14:08:17.969392Z\">\n    </TimeCreated>\n    <EventRecordID>1849</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"0\" ThreadID=\"0\">\n    </Execution>\n    <Channel>System</Channel>\n    <Computer>WIN-TKC15D7KHUR</Computer>\n    <Security>\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"UrlPrefix\">http://*:80/</Data>\n    <Data Name=\"SiteID\">2</Data>\n    <Binary>B7000780</Binary>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-IIS-W3SVC\",\"Guid\":\"{05448E22-93DE-4A7A-BBA5-92E27486A8BE}\",\"EventSourceName\":\"W3SVC\"}},\"EventID\":{\"#attributes\":{\"Qualifiers\":49152},\"#text\":1007},\"Version\":0,\"Level\":2,\"Task\":0,\"Opcode\":0,\"Keywords\":\"0x80000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2022-04-04T14:08:17.969392Z\"}},\"EventRecordID\":1849,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":0,\"ThreadID\":0}},\"Channel\":\"System\",\"Computer\":\"WIN-TKC15D7KHUR\",\"Security\":null},\"EventData\":{\"UrlPrefix\":\"http://*:80/\",\"SiteID\":\"2\",\"Binary\":\"B7000780\"}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-IIS-W3SVC",
+    "event_id": "1007",
+    "timestamp": "2022-04-04T14:08:17.969392Z",
+    "event_record_id": "1849",
+    "level": "2",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x80000000000000",
+    "channel": "System",
+    "computer": "WIN-TKC15D7KHUR",
+    "UrlPrefix": "http://*:80/",
+    "SiteID": "2",
+    "Binary": "B7000780"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-IIS-W3SVC",
+    "channel": "System",
+    "event_id": "1007",
+    "timestamp": "2022-04-04T14:08:17.969392Z",
+    "event_record_id": "1849",
+    "level": "2",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x80000000000000",
+    "computer": "WIN-TKC15D7KHUR",
+    "UrlPrefix": "http://*:80/",
+    "SiteID": "2",
+    "Binary": "B7000780"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "event_id": "4879",
+  "provider": "Microsoft-Windows-MSDTC Client 2",
+  "channel": "Application",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\Logs_Win11_2023\\Application.evtx",
+  "event_record_id": 1415,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-MSDTC Client 2\" Guid=\"{155CB334-3D7F-4ff1-B107-DF8AFC3C0363}\" EventSourceName=\"MSDTC Client 2\">\n    </Provider>\n    <EventID Qualifiers=\"32768\">4879</EventID>\n    <Version>0</Version>\n    <Level>3</Level>\n    <Task>3</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x80000000000000</Keywords>\n    <TimeCreated SystemTime=\"2023-10-25T22:53:19.706720Z\">\n    </TimeCreated>\n    <EventRecordID>1415</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"932\" ThreadID=\"0\">\n    </Execution>\n    <Channel>Application</Channel>\n    <Computer>WinDevEval</Computer>\n    <Security>\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"param1\">80000171</Data>\n    <Data Name=\"param2\">WINDEVEVAL</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-MSDTC Client 2\",\"Guid\":\"{155CB334-3D7F-4ff1-B107-DF8AFC3C0363}\",\"EventSourceName\":\"MSDTC Client 2\"}},\"EventID\":{\"#attributes\":{\"Qualifiers\":32768},\"#text\":4879},\"Version\":0,\"Level\":3,\"Task\":3,\"Opcode\":0,\"Keywords\":\"0x80000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2023-10-25T22:53:19.706720Z\"}},\"EventRecordID\":1415,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":932,\"ThreadID\":0}},\"Channel\":\"Application\",\"Computer\":\"WinDevEval\",\"Security\":null},\"EventData\":{\"param1\":\"80000171\",\"param2\":\"WINDEVEVAL\"}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-MSDTC Client 2",
+    "event_id": "4879",
+    "timestamp": "2023-10-25T22:53:19.706720Z",
+    "event_record_id": "1415",
+    "level": "3",
+    "task": "3",
+    "opcode": "0",
+    "keywords": "0x80000000000000",
+    "channel": "Application",
+    "computer": "WinDevEval",
+    "param1": "80000171",
+    "param2": "WINDEVEVAL"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-MSDTC Client 2",
+    "channel": "Application",
+    "event_id": "4879",
+    "timestamp": "2023-10-25T22:53:19.706720Z",
+    "event_record_id": "1415",
+    "level": "3",
+    "task": "3",
+    "opcode": "0",
+    "keywords": "0x80000000000000",
+    "computer": "WinDevEval",
+    "param1": "80000171",
+    "param2": "WINDEVEVAL"
+  }
+}

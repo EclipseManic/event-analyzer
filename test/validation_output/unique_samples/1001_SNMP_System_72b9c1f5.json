@@ -1,0 +1,35 @@
+{
+  "event_id": "1001",
+  "provider": "SNMP",
+  "channel": "System",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\win2022-0-20348-azure\\System.evtx",
+  "event_record_id": 1407,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"SNMP\">\n    </Provider>\n    <EventID Qualifiers=\"16639\">1001</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x80000000000000</Keywords>\n    <TimeCreated SystemTime=\"2022-09-18T09:51:07.186810Z\">\n    </TimeCreated>\n    <EventRecordID>1407</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"0\" ThreadID=\"0\">\n    </Execution>\n    <Channel>System</Channel>\n    <Computer>Agamemnon</Computer>\n    <Security>\n    </Security>\n  </System>\n  <EventData>\n    <Data>\n    </Data>\n    <Binary></Binary>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"SNMP\"}},\"EventID\":{\"#attributes\":{\"Qualifiers\":16639},\"#text\":1001},\"Version\":0,\"Level\":4,\"Task\":0,\"Opcode\":0,\"Keywords\":\"0x80000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2022-09-18T09:51:07.186810Z\"}},\"EventRecordID\":1407,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":0,\"ThreadID\":0}},\"Channel\":\"System\",\"Computer\":\"Agamemnon\",\"Security\":null},\"EventData\":{\"Data\":{\"#text\":\"\"},\"Binary\":null}}}",
+  "xml_fields": {
+    "provider": "SNMP",
+    "event_id": "1001",
+    "timestamp": "2022-09-18T09:51:07.186810Z",
+    "event_record_id": "1407",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x80000000000000",
+    "channel": "System",
+    "computer": "Agamemnon",
+    "_data_0": "\n    "
+  },
+  "json_fields": {
+    "provider": "SNMP",
+    "channel": "System",
+    "event_id": "1001",
+    "timestamp": "2022-09-18T09:51:07.186810Z",
+    "event_record_id": "1407",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x80000000000000",
+    "computer": "Agamemnon",
+    "Data": ""
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "event_id": "87",
+  "provider": "Microsoft-Windows-WinRM",
+  "channel": "Microsoft-Windows-WinRM/Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\win2022-0-20348-azure\\Microsoft-Windows-WinRM%4Operational.evtx",
+  "event_record_id": 47,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-WinRM\" Guid=\"A7975C8F-AC13-49F1-87DA-5A984A4AB417\">\n    </Provider>\n    <EventID>87</EventID>\n    <Version>0</Version>\n    <Level>2</Level>\n    <Task>9</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000004</Keywords>\n    <TimeCreated SystemTime=\"2022-09-18T09:50:03.143719Z\">\n    </TimeCreated>\n    <EventRecordID>47</EventRecordID>\n    <Correlation ActivityID=\"7A1A5327-347A-0000-B9A4-92D940CBD801\">\n    </Correlation>\n    <Execution ProcessID=\"2792\" ThreadID=\"7728\">\n    </Execution>\n    <Channel>Microsoft-Windows-WinRM/Operational</Channel>\n    <Computer>Agamemnon</Computer>\n    <Security UserID=\"S-1-5-21-3574161147-2844031704-266979156-500\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"errorCode\">1726</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-WinRM\",\"Guid\":\"A7975C8F-AC13-49F1-87DA-5A984A4AB417\"}},\"EventID\":87,\"Version\":0,\"Level\":2,\"Task\":9,\"Opcode\":0,\"Keywords\":\"0x4000000000000004\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2022-09-18T09:50:03.143719Z\"}},\"EventRecordID\":47,\"Correlation\":{\"#attributes\":{\"ActivityID\":\"7A1A5327-347A-0000-B9A4-92D940CBD801\"}},\"Execution\":{\"#attributes\":{\"ProcessID\":2792,\"ThreadID\":7728}},\"Channel\":\"Microsoft-Windows-WinRM/Operational\",\"Computer\":\"Agamemnon\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-21-3574161147-2844031704-266979156-500\"}}},\"EventData\":{\"errorCode\":1726}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-WinRM",
+    "event_id": "87",
+    "timestamp": "2022-09-18T09:50:03.143719Z",
+    "event_record_id": "47",
+    "level": "2",
+    "task": "9",
+    "opcode": "0",
+    "keywords": "0x4000000000000004",
+    "channel": "Microsoft-Windows-WinRM/Operational",
+    "computer": "Agamemnon",
+    "errorCode": "1726"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-WinRM",
+    "channel": "Microsoft-Windows-WinRM/Operational",
+    "event_id": "87",
+    "timestamp": "2022-09-18T09:50:03.143719Z",
+    "event_record_id": "47",
+    "level": "2",
+    "task": "9",
+    "opcode": "0",
+    "keywords": "0x4000000000000004",
+    "computer": "Agamemnon",
+    "errorCode": "1726"
+  }
+}

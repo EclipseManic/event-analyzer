@@ -1,0 +1,41 @@
+{
+  "event_id": "15",
+  "provider": "Microsoft-Windows-Kernel-General",
+  "channel": "System",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\Logs_Win11_2023\\System.evtx",
+  "event_record_id": 1516,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-Kernel-General\" Guid=\"A68CA8B7-004F-D7B6-A698-07E2DE0F1F5D\">\n    </Provider>\n    <EventID>15</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>10</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x8000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2023-11-06T06:21:08.024587Z\">\n    </TimeCreated>\n    <EventRecordID>1516</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"4\" ThreadID=\"240\">\n    </Execution>\n    <Channel>System</Channel>\n    <Computer>WinDev2310Eval</Computer>\n    <Security UserID=\"S-1-5-18\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"HiveNameLength\">35</Data>\n    <Data Name=\"HiveName\">\\SystemRoot\\System32\\config\\DRIVERS</Data>\n    <Data Name=\"OriginalSize\">4845568</Data>\n    <Data Name=\"NewSize\">4612096</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-Kernel-General\",\"Guid\":\"A68CA8B7-004F-D7B6-A698-07E2DE0F1F5D\"}},\"EventID\":15,\"Version\":0,\"Level\":4,\"Task\":10,\"Opcode\":0,\"Keywords\":\"0x8000000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2023-11-06T06:21:08.024587Z\"}},\"EventRecordID\":1516,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":4,\"ThreadID\":240}},\"Channel\":\"System\",\"Computer\":\"WinDev2310Eval\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-18\"}}},\"EventData\":{\"HiveNameLength\":35,\"HiveName\":\"\\\\SystemRoot\\\\System32\\\\config\\\\DRIVERS\",\"OriginalSize\":4845568,\"NewSize\":4612096}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-Kernel-General",
+    "event_id": "15",
+    "timestamp": "2023-11-06T06:21:08.024587Z",
+    "event_record_id": "1516",
+    "level": "4",
+    "task": "10",
+    "opcode": "0",
+    "keywords": "0x8000000000000000",
+    "channel": "System",
+    "computer": "WinDev2310Eval",
+    "HiveNameLength": "35",
+    "HiveName": "\\SystemRoot\\System32\\config\\DRIVERS",
+    "OriginalSize": "4845568",
+    "NewSize": "4612096"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-Kernel-General",
+    "channel": "System",
+    "event_id": "15",
+    "timestamp": "2023-11-06T06:21:08.024587Z",
+    "event_record_id": "1516",
+    "level": "4",
+    "task": "10",
+    "opcode": "0",
+    "keywords": "0x8000000000000000",
+    "computer": "WinDev2310Eval",
+    "HiveNameLength": "35",
+    "HiveName": "\\SystemRoot\\System32\\config\\DRIVERS",
+    "OriginalSize": "4845568",
+    "NewSize": "4612096"
+  }
+}

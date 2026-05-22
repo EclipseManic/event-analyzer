@@ -1,0 +1,37 @@
+{
+  "event_id": "1111",
+  "provider": "Microsoft-Windows-TerminalServices-Printers",
+  "channel": "Microsoft-Windows-TerminalServices-Printers/Admin",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\win2022-0-20348-azure\\Microsoft-Windows-TerminalServices-Printers%4Admin.evtx",
+  "event_record_id": 1,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-TerminalServices-Printers\" Guid=\"952773BF-C2B7-49BC-88F4-920744B82C43\">\n    </Provider>\n    <EventID>1111</EventID>\n    <Version>0</Version>\n    <Level>2</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x8000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2022-09-18T09:18:40.820987Z\">\n    </TimeCreated>\n    <EventRecordID>1</EventRecordID>\n    <Correlation ActivityID=\"F420D64A-7171-4170-84F5-FCFDECE50000\">\n    </Correlation>\n    <Execution ProcessID=\"1820\" ThreadID=\"3328\">\n    </Execution>\n    <Channel>Microsoft-Windows-TerminalServices-Printers/Admin</Channel>\n    <Computer>Agamemnon</Computer>\n    <Security UserID=\"S-1-5-18\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"Param1\">HP Color LaserJet Pro M452 PCL 6</Data>\n    <Data Name=\"Param2\">NPI3A9E41 (HP Color LaserJet M452nw)</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-TerminalServices-Printers\",\"Guid\":\"952773BF-C2B7-49BC-88F4-920744B82C43\"}},\"EventID\":1111,\"Version\":0,\"Level\":2,\"Task\":0,\"Opcode\":0,\"Keywords\":\"0x8000000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2022-09-18T09:18:40.820987Z\"}},\"EventRecordID\":1,\"Correlation\":{\"#attributes\":{\"ActivityID\":\"F420D64A-7171-4170-84F5-FCFDECE50000\"}},\"Execution\":{\"#attributes\":{\"ProcessID\":1820,\"ThreadID\":3328}},\"Channel\":\"Microsoft-Windows-TerminalServices-Printers/Admin\",\"Computer\":\"Agamemnon\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-18\"}}},\"EventData\":{\"Param1\":\"HP Color LaserJet Pro M452 PCL 6\",\"Param2\":\"NPI3A9E41 (HP Color LaserJet M452nw)\"}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-TerminalServices-Printers",
+    "event_id": "1111",
+    "timestamp": "2022-09-18T09:18:40.820987Z",
+    "event_record_id": "1",
+    "level": "2",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x8000000000000000",
+    "channel": "Microsoft-Windows-TerminalServices-Printers/Admin",
+    "computer": "Agamemnon",
+    "Param1": "HP Color LaserJet Pro M452 PCL 6",
+    "Param2": "NPI3A9E41 (HP Color LaserJet M452nw)"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-TerminalServices-Printers",
+    "channel": "Microsoft-Windows-TerminalServices-Printers/Admin",
+    "event_id": "1111",
+    "timestamp": "2022-09-18T09:18:40.820987Z",
+    "event_record_id": "1",
+    "level": "2",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x8000000000000000",
+    "computer": "Agamemnon",
+    "Param1": "HP Color LaserJet Pro M452 PCL 6",
+    "Param2": "NPI3A9E41 (HP Color LaserJet M452nw)"
+  }
+}

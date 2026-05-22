@@ -1,0 +1,33 @@
+{
+  "event_id": "2000",
+  "provider": "Microsoft-Windows-WebAuthN",
+  "channel": "Microsoft-Windows-WebAuthN/Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Logs\\Microsoft-Windows-WebAuthN%4Operational.evtx",
+  "event_record_id": 1,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-WebAuthN\" Guid=\"3AE1EA61-C002-47FB-B06C-4022A8C98929\">\n    </Provider>\n    <EventID>2000</EventID>\n    <Version>0</Version>\n    <Level>16</Level>\n    <Task>500</Task>\n    <Opcode>10</Opcode>\n    <Keywords>0x8000000000000002</Keywords>\n    <TimeCreated SystemTime=\"2024-11-05T01:33:10.259488Z\">\n    </TimeCreated>\n    <EventRecordID>1</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"2544\" ThreadID=\"2708\">\n    </Execution>\n    <Channel>Microsoft-Windows-WebAuthN/Operational</Channel>\n    <Computer>WIN-5LCFHVCO531</Computer>\n    <Security UserID=\"S-1-5-20\">\n    </Security>\n  </System>\n  <EventData>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-WebAuthN\",\"Guid\":\"3AE1EA61-C002-47FB-B06C-4022A8C98929\"}},\"EventID\":2000,\"Version\":0,\"Level\":16,\"Task\":500,\"Opcode\":10,\"Keywords\":\"0x8000000000000002\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2024-11-05T01:33:10.259488Z\"}},\"EventRecordID\":1,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":2544,\"ThreadID\":2708}},\"Channel\":\"Microsoft-Windows-WebAuthN/Operational\",\"Computer\":\"WIN-5LCFHVCO531\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-20\"}}},\"EventData\":null}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-WebAuthN",
+    "event_id": "2000",
+    "timestamp": "2024-11-05T01:33:10.259488Z",
+    "event_record_id": "1",
+    "level": "16",
+    "task": "500",
+    "opcode": "10",
+    "keywords": "0x8000000000000002",
+    "channel": "Microsoft-Windows-WebAuthN/Operational",
+    "computer": "WIN-5LCFHVCO531"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-WebAuthN",
+    "channel": "Microsoft-Windows-WebAuthN/Operational",
+    "event_id": "2000",
+    "timestamp": "2024-11-05T01:33:10.259488Z",
+    "event_record_id": "1",
+    "level": "16",
+    "task": "500",
+    "opcode": "10",
+    "keywords": "0x8000000000000002",
+    "computer": "WIN-5LCFHVCO531"
+  }
+}

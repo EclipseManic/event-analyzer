@@ -1,0 +1,39 @@
+{
+  "event_id": "2",
+  "provider": "Serial",
+  "channel": "System",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\win2022-0-20348-azure\\System.evtx",
+  "event_record_id": 714,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Serial\">\n    </Provider>\n    <EventID Qualifiers=\"16390\">2</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x80000000000000</Keywords>\n    <TimeCreated SystemTime=\"2022-09-18T09:12:26.311738Z\">\n    </TimeCreated>\n    <EventRecordID>714</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"4\" ThreadID=\"92\">\n    </Execution>\n    <Channel>System</Channel>\n    <Computer>Agamemnon</Computer>\n    <Security>\n    </Security>\n  </System>\n  <EventData>\n    <Data>\\Device\\Serial0</Data>\n    <Data>\\Device\\Serial0</Data>\n    <Binary>000008000200300000000000020006400F0000000000000000000000000000000000000000000000F802000000000000</Binary>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Serial\"}},\"EventID\":{\"#attributes\":{\"Qualifiers\":16390},\"#text\":2},\"Version\":0,\"Level\":4,\"Task\":0,\"Opcode\":0,\"Keywords\":\"0x80000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2022-09-18T09:12:26.311738Z\"}},\"EventRecordID\":714,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":4,\"ThreadID\":92}},\"Channel\":\"System\",\"Computer\":\"Agamemnon\",\"Security\":null},\"EventData\":{\"Data\":{\"#text\":[\"\\\\Device\\\\Serial0\",\"\\\\Device\\\\Serial0\"]},\"Binary\":\"000008000200300000000000020006400F0000000000000000000000000000000000000000000000F802000000000000\"}}}",
+  "xml_fields": {
+    "provider": "Serial",
+    "event_id": "2",
+    "timestamp": "2022-09-18T09:12:26.311738Z",
+    "event_record_id": "714",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x80000000000000",
+    "channel": "System",
+    "computer": "Agamemnon",
+    "_data_0": "\\Device\\Serial0",
+    "_data_1": "\\Device\\Serial0",
+    "Binary": "000008000200300000000000020006400F0000000000000000000000000000000000000000000000F802000000000000"
+  },
+  "json_fields": {
+    "provider": "Serial",
+    "channel": "System",
+    "event_id": "2",
+    "timestamp": "2022-09-18T09:12:26.311738Z",
+    "event_record_id": "714",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x80000000000000",
+    "computer": "Agamemnon",
+    "_data_0": "\\Device\\Serial0",
+    "_data_1": "\\Device\\Serial0",
+    "Binary": "000008000200300000000000020006400F0000000000000000000000000000000000000000000000F802000000000000"
+  }
+}

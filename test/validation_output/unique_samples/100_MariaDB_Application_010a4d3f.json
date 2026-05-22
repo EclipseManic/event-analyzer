@@ -1,0 +1,35 @@
+{
+  "event_id": "100",
+  "provider": "MariaDB",
+  "channel": "Application",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\win2022-0-20348-azure\\Application.evtx",
+  "event_record_id": 640,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"MariaDB\">\n    </Provider>\n    <EventID Qualifiers=\"49152\">100</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x80000000000000</Keywords>\n    <TimeCreated SystemTime=\"2022-09-18T10:07:06.987990Z\">\n    </TimeCreated>\n    <EventRecordID>640</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"0\" ThreadID=\"0\">\n    </Execution>\n    <Channel>Application</Channel>\n    <Computer>Agamemnon</Computer>\n    <Security>\n    </Security>\n  </System>\n  <EventData>\n    <Data>Using unique option prefix 'key_buffer' is error-prone and can break in the future. Please use the full name 'key_buffer_size' instead.\r\n\r\n</Data>\n    <Binary></Binary>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"MariaDB\"}},\"EventID\":{\"#attributes\":{\"Qualifiers\":49152},\"#text\":100},\"Version\":0,\"Level\":4,\"Task\":0,\"Opcode\":0,\"Keywords\":\"0x80000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2022-09-18T10:07:06.987990Z\"}},\"EventRecordID\":640,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":0,\"ThreadID\":0}},\"Channel\":\"Application\",\"Computer\":\"Agamemnon\",\"Security\":null},\"EventData\":{\"Data\":{\"#text\":\"Using unique option prefix 'key_buffer' is error-prone and can break in the future. Please use the full name 'key_buffer_size' instead.\\r\\n\\r\\n\"},\"Binary\":null}}}",
+  "xml_fields": {
+    "provider": "MariaDB",
+    "event_id": "100",
+    "timestamp": "2022-09-18T10:07:06.987990Z",
+    "event_record_id": "640",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x80000000000000",
+    "channel": "Application",
+    "computer": "Agamemnon",
+    "_data_0": "Using unique option prefix 'key_buffer' is error-prone and can break in the future. Please use the full name 'key_buffer_size' instead.\n\n"
+  },
+  "json_fields": {
+    "provider": "MariaDB",
+    "channel": "Application",
+    "event_id": "100",
+    "timestamp": "2022-09-18T10:07:06.987990Z",
+    "event_record_id": "640",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x80000000000000",
+    "computer": "Agamemnon",
+    "Data": "Using unique option prefix 'key_buffer' is error-prone and can break in the future. Please use the full name 'key_buffer_size' instead.\r\n\r\n"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "event_id": "70",
+  "provider": "Microsoft-Windows-CertificateServicesClient-CertEnroll",
+  "channel": "Application",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\Win2022-AD\\Application.evtx",
+  "event_record_id": 108,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-CertificateServicesClient-CertEnroll\" Guid=\"{54164045-7C50-4905-963F-E5BC1EEF0CCA}\" EventSourceName=\"CertEnroll\">\n    </Provider>\n    <EventID Qualifiers=\"33370\">70</EventID>\n    <Version>0</Version>\n    <Level>2</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x80000000000000</Keywords>\n    <TimeCreated SystemTime=\"2022-04-07T08:15:12.606959Z\">\n    </TimeCreated>\n    <EventRecordID>108</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"0\" ThreadID=\"0\">\n    </Execution>\n    <Channel>Application</Channel>\n    <Computer>WIN-FPV0DSIC9O6.sigma.fr</Computer>\n    <Security UserID=\"S-1-5-18\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"Context\">Local system</Data>\n    <Data Name=\"ServerURL\">{67576419-F9FE-45FF-B3DA-10013334C041}</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-CertificateServicesClient-CertEnroll\",\"Guid\":\"{54164045-7C50-4905-963F-E5BC1EEF0CCA}\",\"EventSourceName\":\"CertEnroll\"}},\"EventID\":{\"#attributes\":{\"Qualifiers\":33370},\"#text\":70},\"Version\":0,\"Level\":2,\"Task\":0,\"Opcode\":0,\"Keywords\":\"0x80000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2022-04-07T08:15:12.606959Z\"}},\"EventRecordID\":108,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":0,\"ThreadID\":0}},\"Channel\":\"Application\",\"Computer\":\"WIN-FPV0DSIC9O6.sigma.fr\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-18\"}}},\"EventData\":{\"Context\":\"Local system\",\"ServerURL\":\"{67576419-F9FE-45FF-B3DA-10013334C041}\"}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-CertificateServicesClient-CertEnroll",
+    "event_id": "70",
+    "timestamp": "2022-04-07T08:15:12.606959Z",
+    "event_record_id": "108",
+    "level": "2",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x80000000000000",
+    "channel": "Application",
+    "computer": "WIN-FPV0DSIC9O6.sigma.fr",
+    "Context": "Local system",
+    "ServerURL": "{67576419-F9FE-45FF-B3DA-10013334C041}"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-CertificateServicesClient-CertEnroll",
+    "channel": "Application",
+    "event_id": "70",
+    "timestamp": "2022-04-07T08:15:12.606959Z",
+    "event_record_id": "108",
+    "level": "2",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x80000000000000",
+    "computer": "WIN-FPV0DSIC9O6.sigma.fr",
+    "Context": "Local system",
+    "ServerURL": "{67576419-F9FE-45FF-B3DA-10013334C041}"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "event_id": "18456",
+  "provider": "MSSQL$RADAR",
+  "channel": "Application",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Malicious\\EVTX-to-MITRE-Attack-master\\TA0006-Credential Access\\T1110.xxx-Brut force\\ID18456-SQL Server failed login because only Windows auth.evtx",
+  "event_record_id": 1,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"MSSQL$RADAR\">\n    </Provider>\n    <EventID Qualifiers=\"49152\">18456</EventID>\n    <Level>0</Level>\n    <Task>4</Task>\n    <Keywords>0x90000000000000</Keywords>\n    <TimeCreated SystemTime=\"2020-07-15T11:31:15.673796Z\">\n    </TimeCreated>\n    <EventRecordID>58848</EventRecordID>\n    <Channel>Application</Channel>\n    <Computer>mssql01.offsec.lan</Computer>\n    <Security>\n    </Security>\n  </System>\n  <EventData>\n    <Data>unexisting-user</Data>\n    <Data> Reason: An attempt to login using SQL authentication failed. Server is configured for Windows authentication only.</Data>\n    <Data> [CLIENT: 10.23.23.9]</Data>\n    <Binary>184800000E0000000E0000004D005300530051004C00300031005C00520041004400410052000000070000006D00610073007400650072000000</Binary>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"MSSQL$RADAR\"}},\"EventID\":{\"#attributes\":{\"Qualifiers\":49152},\"#text\":18456},\"Level\":0,\"Task\":4,\"Keywords\":\"0x90000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2020-07-15T11:31:15.673796Z\"}},\"EventRecordID\":58848,\"Channel\":\"Application\",\"Computer\":\"mssql01.offsec.lan\",\"Security\":null},\"EventData\":{\"Data\":{\"#text\":[\"unexisting-user\",\" Reason: An attempt to login using SQL authentication failed. Server is configured for Windows authentication only.\",\" [CLIENT: 10.23.23.9]\"]},\"Binary\":\"184800000E0000000E0000004D005300530051004C00300031005C00520041004400410052000000070000006D00610073007400650072000000\"}}}",
+  "xml_fields": {
+    "provider": "MSSQL$RADAR",
+    "event_id": "18456",
+    "timestamp": "2020-07-15T11:31:15.673796Z",
+    "event_record_id": "58848",
+    "level": "0",
+    "task": "4",
+    "keywords": "0x90000000000000",
+    "channel": "Application",
+    "computer": "mssql01.offsec.lan",
+    "_data_0": "unexisting-user",
+    "_data_1": " Reason: An attempt to login using SQL authentication failed. Server is configured for Windows authentication only.",
+    "_data_2": " [CLIENT: 10.23.23.9]",
+    "Binary": "184800000E0000000E0000004D005300530051004C00300031005C00520041004400410052000000070000006D00610073007400650072000000"
+  },
+  "json_fields": {
+    "provider": "MSSQL$RADAR",
+    "channel": "Application",
+    "event_id": "18456",
+    "timestamp": "2020-07-15T11:31:15.673796Z",
+    "event_record_id": "58848",
+    "level": "0",
+    "task": "4",
+    "keywords": "0x90000000000000",
+    "computer": "mssql01.offsec.lan",
+    "_data_0": "unexisting-user",
+    "_data_1": " Reason: An attempt to login using SQL authentication failed. Server is configured for Windows authentication only.",
+    "_data_2": " [CLIENT: 10.23.23.9]",
+    "Binary": "184800000E0000000E0000004D005300530051004C00300031005C00520041004400410052000000070000006D00610073007400650072000000"
+  }
+}

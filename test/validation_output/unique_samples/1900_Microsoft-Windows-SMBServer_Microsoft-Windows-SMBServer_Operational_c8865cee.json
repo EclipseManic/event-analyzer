@@ -1,0 +1,35 @@
+{
+  "event_id": "1900",
+  "provider": "Microsoft-Windows-SMBServer",
+  "channel": "Microsoft-Windows-SMBServer/Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\Logs_Win11_2023\\Microsoft-Windows-SMBServer%4Operational.evtx",
+  "event_record_id": 1,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-SMBServer\" Guid=\"D48CE617-33A2-4BC3-A5C7-11AA4F29619E\">\n    </Provider>\n    <EventID>1900</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x2000000000000200</Keywords>\n    <TimeCreated SystemTime=\"2023-10-26T04:17:20.431355Z\">\n    </TimeCreated>\n    <EventRecordID>1</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"4\" ThreadID=\"132\">\n    </Execution>\n    <Channel>Microsoft-Windows-SMBServer/Operational</Channel>\n    <Computer>WIN-OQ6R0RVA4NF</Computer>\n    <Security UserID=\"S-1-5-18\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"IsTdiEnabled\">true</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-SMBServer\",\"Guid\":\"D48CE617-33A2-4BC3-A5C7-11AA4F29619E\"}},\"EventID\":1900,\"Version\":0,\"Level\":4,\"Task\":0,\"Opcode\":0,\"Keywords\":\"0x2000000000000200\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2023-10-26T04:17:20.431355Z\"}},\"EventRecordID\":1,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":4,\"ThreadID\":132}},\"Channel\":\"Microsoft-Windows-SMBServer/Operational\",\"Computer\":\"WIN-OQ6R0RVA4NF\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-18\"}}},\"EventData\":{\"IsTdiEnabled\":true}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-SMBServer",
+    "event_id": "1900",
+    "timestamp": "2023-10-26T04:17:20.431355Z",
+    "event_record_id": "1",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x2000000000000200",
+    "channel": "Microsoft-Windows-SMBServer/Operational",
+    "computer": "WIN-OQ6R0RVA4NF",
+    "IsTdiEnabled": "true"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-SMBServer",
+    "channel": "Microsoft-Windows-SMBServer/Operational",
+    "event_id": "1900",
+    "timestamp": "2023-10-26T04:17:20.431355Z",
+    "event_record_id": "1",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x2000000000000200",
+    "computer": "WIN-OQ6R0RVA4NF",
+    "IsTdiEnabled": "True"
+  }
+}

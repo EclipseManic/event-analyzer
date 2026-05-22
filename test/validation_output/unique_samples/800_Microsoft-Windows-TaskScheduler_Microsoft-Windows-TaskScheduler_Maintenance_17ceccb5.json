@@ -1,0 +1,37 @@
+{
+  "event_id": "800",
+  "provider": "Microsoft-Windows-TaskScheduler",
+  "channel": "Microsoft-Windows-TaskScheduler/Maintenance",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Logs\\Microsoft-Windows-TaskScheduler%4Maintenance.evtx",
+  "event_record_id": 10,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-TaskScheduler\" Guid=\"DE7B24EA-73C8-4A09-985D-5BDADCFA9017\">\n    </Provider>\n    <EventID>800</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>800</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x800000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-11-04T12:54:34.405216Z\">\n    </TimeCreated>\n    <EventRecordID>10</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"1760\" ThreadID=\"5504\">\n    </Execution>\n    <Channel>Microsoft-Windows-TaskScheduler/Maintenance</Channel>\n    <Computer>DESKTOP-P9H5FTA</Computer>\n    <Security UserID=\"S-1-5-18\">\n    </Security>\n  </System>\n  <EventData Name=\"MaintenanceStateChanged\">\n    <Data Name=\"hc_stateid\">3</Data>\n    <Data Name=\"LastRunDateTime\">\u200e11/\u200e4/\u200e2024 4:54 AM</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-TaskScheduler\",\"Guid\":\"DE7B24EA-73C8-4A09-985D-5BDADCFA9017\"}},\"EventID\":800,\"Version\":0,\"Level\":4,\"Task\":800,\"Opcode\":0,\"Keywords\":\"0x800000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2024-11-04T12:54:34.405216Z\"}},\"EventRecordID\":10,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":1760,\"ThreadID\":5504}},\"Channel\":\"Microsoft-Windows-TaskScheduler/Maintenance\",\"Computer\":\"DESKTOP-P9H5FTA\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-18\"}}},\"EventData\":{\"#attributes\":{\"Name\":\"MaintenanceStateChanged\"},\"hc_stateid\":3,\"LastRunDateTime\":\"\u200e11/\u200e4/\u200e2024 4:54 AM\"}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-TaskScheduler",
+    "event_id": "800",
+    "timestamp": "2024-11-04T12:54:34.405216Z",
+    "event_record_id": "10",
+    "level": "4",
+    "task": "800",
+    "opcode": "0",
+    "keywords": "0x800000000000000",
+    "channel": "Microsoft-Windows-TaskScheduler/Maintenance",
+    "computer": "DESKTOP-P9H5FTA",
+    "hc_stateid": "3",
+    "LastRunDateTime": "\u200e11/\u200e4/\u200e2024 4:54 AM"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-TaskScheduler",
+    "channel": "Microsoft-Windows-TaskScheduler/Maintenance",
+    "event_id": "800",
+    "timestamp": "2024-11-04T12:54:34.405216Z",
+    "event_record_id": "10",
+    "level": "4",
+    "task": "800",
+    "opcode": "0",
+    "keywords": "0x800000000000000",
+    "computer": "DESKTOP-P9H5FTA",
+    "hc_stateid": "3",
+    "LastRunDateTime": "\u200e11/\u200e4/\u200e2024 4:54 AM"
+  }
+}

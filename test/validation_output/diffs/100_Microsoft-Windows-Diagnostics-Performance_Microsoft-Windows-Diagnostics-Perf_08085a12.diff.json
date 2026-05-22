@@ -1,0 +1,26 @@
+{
+  "missing_in_json": [],
+  "missing_in_xml": [],
+  "value_diffs": {
+    "BootIsDegradation": {
+      "xml": "false",
+      "json": "False"
+    },
+    "BootIsGradualDegradation": {
+      "xml": "false",
+      "json": "False"
+    },
+    "BootIsRebootAfterInstall": {
+      "xml": "false",
+      "json": "False"
+    },
+    "BootIsRootCauseIdentified": {
+      "xml": "false",
+      "json": "False"
+    },
+    "BootIsStepDegradation": {
+      "xml": "false",
+      "json": "False"
+    }
+  }
+}

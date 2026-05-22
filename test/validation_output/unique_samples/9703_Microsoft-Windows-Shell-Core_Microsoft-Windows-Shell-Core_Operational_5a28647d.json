@@ -1,0 +1,33 @@
+{
+  "event_id": "9703",
+  "provider": "Microsoft-Windows-Shell-Core",
+  "channel": "Microsoft-Windows-Shell-Core/Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\Logs_Client\\Microsoft-Windows-Shell-Core%4Operational.evtx",
+  "event_record_id": 1724,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-Shell-Core\" Guid=\"30336ED4-E327-447C-9DE0-51B652C86108\">\n    </Provider>\n    <EventID>9703</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>9703</Task>\n    <Opcode>1</Opcode>\n    <Keywords>0x2000000004010000</Keywords>\n    <TimeCreated SystemTime=\"2022-02-08T12:33:10.819856Z\">\n    </TimeCreated>\n    <EventRecordID>1724</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"3948\" ThreadID=\"3860\">\n    </Execution>\n    <Channel>Microsoft-Windows-Shell-Core/Operational</Channel>\n    <Computer>DESKTOP-A8CALR3</Computer>\n    <Security UserID=\"S-1-5-21-1402826787-2759305201-2932496751-1001\">\n    </Security>\n  </System>\n  <EventData>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-Shell-Core\",\"Guid\":\"30336ED4-E327-447C-9DE0-51B652C86108\"}},\"EventID\":9703,\"Version\":0,\"Level\":4,\"Task\":9703,\"Opcode\":1,\"Keywords\":\"0x2000000004010000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2022-02-08T12:33:10.819856Z\"}},\"EventRecordID\":1724,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":3948,\"ThreadID\":3860}},\"Channel\":\"Microsoft-Windows-Shell-Core/Operational\",\"Computer\":\"DESKTOP-A8CALR3\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-21-1402826787-2759305201-2932496751-1001\"}}},\"EventData\":null}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-Shell-Core",
+    "event_id": "9703",
+    "timestamp": "2022-02-08T12:33:10.819856Z",
+    "event_record_id": "1724",
+    "level": "4",
+    "task": "9703",
+    "opcode": "1",
+    "keywords": "0x2000000004010000",
+    "channel": "Microsoft-Windows-Shell-Core/Operational",
+    "computer": "DESKTOP-A8CALR3"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-Shell-Core",
+    "channel": "Microsoft-Windows-Shell-Core/Operational",
+    "event_id": "9703",
+    "timestamp": "2022-02-08T12:33:10.819856Z",
+    "event_record_id": "1724",
+    "level": "4",
+    "task": "9703",
+    "opcode": "1",
+    "keywords": "0x2000000004010000",
+    "computer": "DESKTOP-A8CALR3"
+  }
+}

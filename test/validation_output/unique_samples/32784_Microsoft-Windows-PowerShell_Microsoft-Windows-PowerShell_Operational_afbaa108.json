@@ -1,0 +1,43 @@
+{
+  "event_id": "32784",
+  "provider": "Microsoft-Windows-PowerShell",
+  "channel": "Microsoft-Windows-PowerShell/Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\win2022-0-20348-azure\\Microsoft-Windows-PowerShell%4Operational.evtx",
+  "event_record_id": 72,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-PowerShell\" Guid=\"A0C1853B-5C40-4B15-8766-3CF1C58F985A\">\n    </Provider>\n    <EventID>32784</EventID>\n    <Version>1</Version>\n    <Level>2</Level>\n    <Task>0</Task>\n    <Opcode>10</Opcode>\n    <Keywords>0x0</Keywords>\n    <TimeCreated SystemTime=\"2022-09-18T09:50:03.309080Z\">\n    </TimeCreated>\n    <EventRecordID>72</EventRecordID>\n    <Correlation ActivityID=\"1A75463C-9592-4179-9503-AADA9BD3B9ED\">\n    </Correlation>\n    <Execution ProcessID=\"3852\" ThreadID=\"1560\">\n    </Execution>\n    <Channel>Microsoft-Windows-PowerShell/Operational</Channel>\n    <Computer>Agamemnon</Computer>\n    <Security UserID=\"S-1-5-21-3574161147-2844031704-266979156-500\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"SessionId\">1a75463c-9592-4179-9503-aada9bd3b9ed</Data>\n    <Data Name=\"PipelineId\">1a738725-9c89-4333-a824-1c73303093fa</Data>\n    <Data Name=\"ErrorCode\">1726</Data>\n    <Data Name=\"ErrorMessage\">Processing data for a remote command failed with the following error message: The WSMan provider host process did not return a proper response.  A provider in the host process may have behaved improperly. For more information, see the about_Remote_Troubleshooting Help topic.</Data>\n    <Data Name=\"StackTrace\"></Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-PowerShell\",\"Guid\":\"A0C1853B-5C40-4B15-8766-3CF1C58F985A\"}},\"EventID\":32784,\"Version\":1,\"Level\":2,\"Task\":0,\"Opcode\":10,\"Keywords\":\"0x0\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2022-09-18T09:50:03.309080Z\"}},\"EventRecordID\":72,\"Correlation\":{\"#attributes\":{\"ActivityID\":\"1A75463C-9592-4179-9503-AADA9BD3B9ED\"}},\"Execution\":{\"#attributes\":{\"ProcessID\":3852,\"ThreadID\":1560}},\"Channel\":\"Microsoft-Windows-PowerShell/Operational\",\"Computer\":\"Agamemnon\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-21-3574161147-2844031704-266979156-500\"}}},\"EventData\":{\"SessionId\":\"1a75463c-9592-4179-9503-aada9bd3b9ed\",\"PipelineId\":\"1a738725-9c89-4333-a824-1c73303093fa\",\"ErrorCode\":\"1726\",\"ErrorMessage\":\"Processing data for a remote command failed with the following error message: The WSMan provider host process did not return a proper response.  A provider in the host process may have behaved improperly. For more information, see the about_Remote_Troubleshooting Help topic.\",\"StackTrace\":\"\"}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-PowerShell",
+    "event_id": "32784",
+    "timestamp": "2022-09-18T09:50:03.309080Z",
+    "event_record_id": "72",
+    "level": "2",
+    "task": "0",
+    "opcode": "10",
+    "keywords": "0x0",
+    "channel": "Microsoft-Windows-PowerShell/Operational",
+    "computer": "Agamemnon",
+    "SessionId": "1a75463c-9592-4179-9503-aada9bd3b9ed",
+    "PipelineId": "1a738725-9c89-4333-a824-1c73303093fa",
+    "ErrorCode": "1726",
+    "ErrorMessage": "Processing data for a remote command failed with the following error message: The WSMan provider host process did not return a proper response.  A provider in the host process may have behaved improperly. For more information, see the about_Remote_Troubleshooting Help topic.",
+    "StackTrace": ""
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-PowerShell",
+    "channel": "Microsoft-Windows-PowerShell/Operational",
+    "event_id": "32784",
+    "timestamp": "2022-09-18T09:50:03.309080Z",
+    "event_record_id": "72",
+    "level": "2",
+    "task": "0",
+    "opcode": "10",
+    "keywords": "0x0",
+    "computer": "Agamemnon",
+    "SessionId": "1a75463c-9592-4179-9503-aada9bd3b9ed",
+    "PipelineId": "1a738725-9c89-4333-a824-1c73303093fa",
+    "ErrorCode": "1726",
+    "ErrorMessage": "Processing data for a remote command failed with the following error message: The WSMan provider host process did not return a proper response.  A provider in the host process may have behaved improperly. For more information, see the about_Remote_Troubleshooting Help topic.",
+    "StackTrace": ""
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "event_id": "1071",
+  "provider": "Microsoft-Windows-WebAuthN",
+  "channel": "Microsoft-Windows-WebAuthN/Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\Logs_Win11_2023\\Microsoft-Windows-WebAuthN%4Operational.evtx",
+  "event_record_id": 24,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-WebAuthN\" Guid=\"3AE1EA61-C002-47FB-B06C-4022A8C98929\">\n    </Provider>\n    <EventID>1071</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>19</Task>\n    <Opcode>12</Opcode>\n    <Keywords>0x8000000000000041</Keywords>\n    <TimeCreated SystemTime=\"2023-11-05T23:03:04.770842Z\">\n    </TimeCreated>\n    <EventRecordID>24</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"3008\" ThreadID=\"10004\">\n    </Execution>\n    <Channel>Microsoft-Windows-WebAuthN/Operational</Channel>\n    <Computer>WinDev2310Eval</Computer>\n    <Security UserID=\"S-1-5-21-1992711665-1655669231-58201500-1000\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"value\">4</Data>\n    <Data Name=\"Error\">0x0</Data>\n    <Data Name=\"HResult\">0</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-WebAuthN\",\"Guid\":\"3AE1EA61-C002-47FB-B06C-4022A8C98929\"}},\"EventID\":1071,\"Version\":0,\"Level\":4,\"Task\":19,\"Opcode\":12,\"Keywords\":\"0x8000000000000041\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2023-11-05T23:03:04.770842Z\"}},\"EventRecordID\":24,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":3008,\"ThreadID\":10004}},\"Channel\":\"Microsoft-Windows-WebAuthN/Operational\",\"Computer\":\"WinDev2310Eval\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-21-1992711665-1655669231-58201500-1000\"}}},\"EventData\":{\"value\":4,\"Error\":\"0x0\",\"HResult\":0}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-WebAuthN",
+    "event_id": "1071",
+    "timestamp": "2023-11-05T23:03:04.770842Z",
+    "event_record_id": "24",
+    "level": "4",
+    "task": "19",
+    "opcode": "12",
+    "keywords": "0x8000000000000041",
+    "channel": "Microsoft-Windows-WebAuthN/Operational",
+    "computer": "WinDev2310Eval",
+    "value": "4",
+    "Error": "0x0",
+    "HResult": "0"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-WebAuthN",
+    "channel": "Microsoft-Windows-WebAuthN/Operational",
+    "event_id": "1071",
+    "timestamp": "2023-11-05T23:03:04.770842Z",
+    "event_record_id": "24",
+    "level": "4",
+    "task": "19",
+    "opcode": "12",
+    "keywords": "0x8000000000000041",
+    "computer": "WinDev2310Eval",
+    "value": "4",
+    "Error": "0x0",
+    "HResult": "0"
+  }
+}

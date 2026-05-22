@@ -1,0 +1,41 @@
+{
+  "event_id": "501",
+  "provider": "Microsoft-Windows-Ntfs",
+  "channel": "Microsoft-Windows-Ntfs/Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Logs\\Microsoft-Windows-Ntfs%4Operational.evtx",
+  "event_record_id": 8,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-Ntfs\" Guid=\"3FF37A1C-A68D-4D6E-8C9B-F79E8B16C482\">\n    </Provider>\n    <EventID>501</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000200000</Keywords>\n    <TimeCreated SystemTime=\"2024-11-05T01:34:21.977201Z\">\n    </TimeCreated>\n    <EventRecordID>8</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"3856\" ThreadID=\"3940\">\n    </Execution>\n    <Channel>Microsoft-Windows-Ntfs/Operational</Channel>\n    <Computer>DESKTOP-P9H5FTA</Computer>\n    <Security UserID=\"S-1-5-18\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"ProcessName\">SearchIndexer.</Data>\n    <Data Name=\"VolumeCorrelationId\">F1CA1821-2851-4E11-9053-30D9F871AE8E</Data>\n    <Data Name=\"VolumeNameLength\">2</Data>\n    <Data Name=\"VolumeName\">C:</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-Ntfs\",\"Guid\":\"3FF37A1C-A68D-4D6E-8C9B-F79E8B16C482\"}},\"EventID\":501,\"Version\":0,\"Level\":4,\"Task\":0,\"Opcode\":0,\"Keywords\":\"0x4000000000200000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2024-11-05T01:34:21.977201Z\"}},\"EventRecordID\":8,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":3856,\"ThreadID\":3940}},\"Channel\":\"Microsoft-Windows-Ntfs/Operational\",\"Computer\":\"DESKTOP-P9H5FTA\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-18\"}}},\"EventData\":{\"ProcessName\":\"SearchIndexer.\",\"VolumeCorrelationId\":\"F1CA1821-2851-4E11-9053-30D9F871AE8E\",\"VolumeNameLength\":2,\"VolumeName\":\"C:\"}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-Ntfs",
+    "event_id": "501",
+    "timestamp": "2024-11-05T01:34:21.977201Z",
+    "event_record_id": "8",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x4000000000200000",
+    "channel": "Microsoft-Windows-Ntfs/Operational",
+    "computer": "DESKTOP-P9H5FTA",
+    "ProcessName": "SearchIndexer.",
+    "VolumeCorrelationId": "F1CA1821-2851-4E11-9053-30D9F871AE8E",
+    "VolumeNameLength": "2",
+    "VolumeName": "C:"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-Ntfs",
+    "channel": "Microsoft-Windows-Ntfs/Operational",
+    "event_id": "501",
+    "timestamp": "2024-11-05T01:34:21.977201Z",
+    "event_record_id": "8",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x4000000000200000",
+    "computer": "DESKTOP-P9H5FTA",
+    "ProcessName": "SearchIndexer.",
+    "VolumeCorrelationId": "F1CA1821-2851-4E11-9053-30D9F871AE8E",
+    "VolumeNameLength": "2",
+    "VolumeName": "C:"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "event_id": "106",
+  "provider": "Microsoft-Windows-TaskScheduler",
+  "channel": "Microsoft-Windows-TaskScheduler/Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\Logs_Win11_2023\\Microsoft-Windows-TaskScheduler%4Operational.evtx",
+  "event_record_id": 25,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-TaskScheduler\" Guid=\"DE7B24EA-73C8-4A09-985D-5BDADCFA9017\">\n    </Provider>\n    <EventID>106</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>106</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x8000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2023-11-05T23:01:56.160748Z\">\n    </TimeCreated>\n    <EventRecordID>25</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"1392\" ThreadID=\"1324\">\n    </Execution>\n    <Channel>Microsoft-Windows-TaskScheduler/Operational</Channel>\n    <Computer>WinDev2310Eval</Computer>\n    <Security UserID=\"S-1-5-18\">\n    </Security>\n  </System>\n  <EventData Name=\"TaskRegisteredEvent\">\n    <Data Name=\"TaskName\">\\GoogleUpdateTaskMachineCore{559B830B-2500-47C1-8B8F-7C45E008DEBB}</Data>\n    <Data Name=\"UserContext\">WINDEV2310EVAL\\User</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-TaskScheduler\",\"Guid\":\"DE7B24EA-73C8-4A09-985D-5BDADCFA9017\"}},\"EventID\":106,\"Version\":0,\"Level\":4,\"Task\":106,\"Opcode\":0,\"Keywords\":\"0x8000000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2023-11-05T23:01:56.160748Z\"}},\"EventRecordID\":25,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":1392,\"ThreadID\":1324}},\"Channel\":\"Microsoft-Windows-TaskScheduler/Operational\",\"Computer\":\"WinDev2310Eval\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-18\"}}},\"EventData\":{\"#attributes\":{\"Name\":\"TaskRegisteredEvent\"},\"TaskName\":\"\\\\GoogleUpdateTaskMachineCore{559B830B-2500-47C1-8B8F-7C45E008DEBB}\",\"UserContext\":\"WINDEV2310EVAL\\\\User\"}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-TaskScheduler",
+    "event_id": "106",
+    "timestamp": "2023-11-05T23:01:56.160748Z",
+    "event_record_id": "25",
+    "level": "4",
+    "task": "106",
+    "opcode": "0",
+    "keywords": "0x8000000000000000",
+    "channel": "Microsoft-Windows-TaskScheduler/Operational",
+    "computer": "WinDev2310Eval",
+    "TaskName": "\\GoogleUpdateTaskMachineCore{559B830B-2500-47C1-8B8F-7C45E008DEBB}",
+    "UserContext": "WINDEV2310EVAL\\User"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-TaskScheduler",
+    "channel": "Microsoft-Windows-TaskScheduler/Operational",
+    "event_id": "106",
+    "timestamp": "2023-11-05T23:01:56.160748Z",
+    "event_record_id": "25",
+    "level": "4",
+    "task": "106",
+    "opcode": "0",
+    "keywords": "0x8000000000000000",
+    "computer": "WinDev2310Eval",
+    "TaskName": "\\GoogleUpdateTaskMachineCore{559B830B-2500-47C1-8B8F-7C45E008DEBB}",
+    "UserContext": "WINDEV2310EVAL\\User"
+  }
+}

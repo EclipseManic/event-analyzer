@@ -1,0 +1,43 @@
+{
+  "event_id": "1501",
+  "provider": "Microsoft-Windows-GroupPolicy",
+  "channel": "System",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\Logs_Client\\System.evtx",
+  "event_record_id": 193,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-GroupPolicy\" Guid=\"AEA1B4FA-97D1-45F2-A64C-4D69FFFD92C9\">\n    </Provider>\n    <EventID>1501</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>1</Opcode>\n    <Keywords>0x8000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2022-02-07T10:54:53.955564Z\">\n    </TimeCreated>\n    <EventRecordID>193</EventRecordID>\n    <Correlation ActivityID=\"3848D00A-C957-43D8-9B5E-B683C6846D61\">\n    </Correlation>\n    <Execution ProcessID=\"952\" ThreadID=\"2044\">\n    </Execution>\n    <Channel>System</Channel>\n    <Computer>DESKTOP-A8CALR3</Computer>\n    <Security UserID=\"S-1-5-21-1402826787-2759305201-2932496751-1000\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"SupportInfo1\">1</Data>\n    <Data Name=\"SupportInfo2\">4292</Data>\n    <Data Name=\"ProcessingMode\">1</Data>\n    <Data Name=\"ProcessingTimeInMilliseconds\">78</Data>\n    <Data Name=\"DCName\"></Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-GroupPolicy\",\"Guid\":\"AEA1B4FA-97D1-45F2-A64C-4D69FFFD92C9\"}},\"EventID\":1501,\"Version\":0,\"Level\":4,\"Task\":0,\"Opcode\":1,\"Keywords\":\"0x8000000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2022-02-07T10:54:53.955564Z\"}},\"EventRecordID\":193,\"Correlation\":{\"#attributes\":{\"ActivityID\":\"3848D00A-C957-43D8-9B5E-B683C6846D61\"}},\"Execution\":{\"#attributes\":{\"ProcessID\":952,\"ThreadID\":2044}},\"Channel\":\"System\",\"Computer\":\"DESKTOP-A8CALR3\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-21-1402826787-2759305201-2932496751-1000\"}}},\"EventData\":{\"SupportInfo1\":1,\"SupportInfo2\":4292,\"ProcessingMode\":1,\"ProcessingTimeInMilliseconds\":78,\"DCName\":\"\"}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-GroupPolicy",
+    "event_id": "1501",
+    "timestamp": "2022-02-07T10:54:53.955564Z",
+    "event_record_id": "193",
+    "level": "4",
+    "task": "0",
+    "opcode": "1",
+    "keywords": "0x8000000000000000",
+    "channel": "System",
+    "computer": "DESKTOP-A8CALR3",
+    "SupportInfo1": "1",
+    "SupportInfo2": "4292",
+    "ProcessingMode": "1",
+    "ProcessingTimeInMilliseconds": "78",
+    "DCName": ""
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-GroupPolicy",
+    "channel": "System",
+    "event_id": "1501",
+    "timestamp": "2022-02-07T10:54:53.955564Z",
+    "event_record_id": "193",
+    "level": "4",
+    "task": "0",
+    "opcode": "1",
+    "keywords": "0x8000000000000000",
+    "computer": "DESKTOP-A8CALR3",
+    "SupportInfo1": "1",
+    "SupportInfo2": "4292",
+    "ProcessingMode": "1",
+    "ProcessingTimeInMilliseconds": "78",
+    "DCName": ""
+  }
+}

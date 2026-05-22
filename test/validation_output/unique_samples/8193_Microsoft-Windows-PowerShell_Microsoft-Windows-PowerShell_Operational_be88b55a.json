@@ -1,0 +1,35 @@
+{
+  "event_id": "8193",
+  "provider": "Microsoft-Windows-PowerShell",
+  "channel": "Microsoft-Windows-PowerShell/Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\win2022-0-20348-azure\\Microsoft-Windows-PowerShell%4Operational.evtx",
+  "event_record_id": 24,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-PowerShell\" Guid=\"A0C1853B-5C40-4B15-8766-3CF1C58F985A\">\n    </Provider>\n    <EventID>8193</EventID>\n    <Version>1</Version>\n    <Level>5</Level>\n    <Task>1</Task>\n    <Opcode>16</Opcode>\n    <Keywords>0x0</Keywords>\n    <TimeCreated SystemTime=\"2022-09-18T09:47:28.720157Z\">\n    </TimeCreated>\n    <EventRecordID>24</EventRecordID>\n    <Correlation ActivityID=\"ADEAE405-B7F3-4636-A8A1-796508717861\">\n    </Correlation>\n    <Execution ProcessID=\"1376\" ThreadID=\"3184\">\n    </Execution>\n    <Channel>Microsoft-Windows-PowerShell/Operational</Channel>\n    <Computer>Agamemnon</Computer>\n    <Security UserID=\"S-1-5-21-3574161147-2844031704-266979156-500\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"param1\">adeae405-b7f3-4636-a8a1-796508717861</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-PowerShell\",\"Guid\":\"A0C1853B-5C40-4B15-8766-3CF1C58F985A\"}},\"EventID\":8193,\"Version\":1,\"Level\":5,\"Task\":1,\"Opcode\":16,\"Keywords\":\"0x0\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2022-09-18T09:47:28.720157Z\"}},\"EventRecordID\":24,\"Correlation\":{\"#attributes\":{\"ActivityID\":\"ADEAE405-B7F3-4636-A8A1-796508717861\"}},\"Execution\":{\"#attributes\":{\"ProcessID\":1376,\"ThreadID\":3184}},\"Channel\":\"Microsoft-Windows-PowerShell/Operational\",\"Computer\":\"Agamemnon\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-21-3574161147-2844031704-266979156-500\"}}},\"EventData\":{\"param1\":\"adeae405-b7f3-4636-a8a1-796508717861\"}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-PowerShell",
+    "event_id": "8193",
+    "timestamp": "2022-09-18T09:47:28.720157Z",
+    "event_record_id": "24",
+    "level": "5",
+    "task": "1",
+    "opcode": "16",
+    "keywords": "0x0",
+    "channel": "Microsoft-Windows-PowerShell/Operational",
+    "computer": "Agamemnon",
+    "param1": "adeae405-b7f3-4636-a8a1-796508717861"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-PowerShell",
+    "channel": "Microsoft-Windows-PowerShell/Operational",
+    "event_id": "8193",
+    "timestamp": "2022-09-18T09:47:28.720157Z",
+    "event_record_id": "24",
+    "level": "5",
+    "task": "1",
+    "opcode": "16",
+    "keywords": "0x0",
+    "computer": "Agamemnon",
+    "param1": "adeae405-b7f3-4636-a8a1-796508717861"
+  }
+}

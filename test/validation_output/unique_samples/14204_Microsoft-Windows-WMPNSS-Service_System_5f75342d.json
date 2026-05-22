@@ -1,0 +1,35 @@
+{
+  "event_id": "14204",
+  "provider": "Microsoft-Windows-WMPNSS-Service",
+  "channel": "System",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\win7-x86\\System.evtx",
+  "event_record_id": 363,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-WMPNSS-Service\" Guid=\"{6A2DC7C1-930A-4FB5-BB44-80B30AEBED6C}\" EventSourceName=\"WMPNetworkSvc\">\n    </Provider>\n    <EventID Qualifiers=\"16397\">14204</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x80000000000000</Keywords>\n    <TimeCreated SystemTime=\"2022-04-04T10:09:13.000000Z\">\n    </TimeCreated>\n    <EventRecordID>363</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"0\" ThreadID=\"0\">\n    </Execution>\n    <Channel>System</Channel>\n    <Computer>evtx-PC</Computer>\n    <Security>\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"ServiceName\">WMPNetworkSvc</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-WMPNSS-Service\",\"Guid\":\"{6A2DC7C1-930A-4FB5-BB44-80B30AEBED6C}\",\"EventSourceName\":\"WMPNetworkSvc\"}},\"EventID\":{\"#attributes\":{\"Qualifiers\":16397},\"#text\":14204},\"Version\":0,\"Level\":4,\"Task\":0,\"Opcode\":0,\"Keywords\":\"0x80000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2022-04-04T10:09:13.000000Z\"}},\"EventRecordID\":363,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":0,\"ThreadID\":0}},\"Channel\":\"System\",\"Computer\":\"evtx-PC\",\"Security\":null},\"EventData\":{\"ServiceName\":\"WMPNetworkSvc\"}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-WMPNSS-Service",
+    "event_id": "14204",
+    "timestamp": "2022-04-04T10:09:13.000000Z",
+    "event_record_id": "363",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x80000000000000",
+    "channel": "System",
+    "computer": "evtx-PC",
+    "ServiceName": "WMPNetworkSvc"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-WMPNSS-Service",
+    "channel": "System",
+    "event_id": "14204",
+    "timestamp": "2022-04-04T10:09:13.000000Z",
+    "event_record_id": "363",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x80000000000000",
+    "computer": "evtx-PC",
+    "ServiceName": "WMPNetworkSvc"
+  }
+}

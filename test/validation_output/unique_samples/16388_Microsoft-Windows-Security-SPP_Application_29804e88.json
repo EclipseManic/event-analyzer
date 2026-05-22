@@ -1,0 +1,37 @@
+{
+  "event_id": "16388",
+  "provider": "Microsoft-Windows-Security-SPP",
+  "channel": "Application",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\Logs_Win11\\Application.evtx",
+  "event_record_id": 299,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-Security-SPP\" Guid=\"{E23B33B0-C8C9-472C-A5F9-F2BDFEA0F156}\" EventSourceName=\"Software Protection Platform Service\">\n    </Provider>\n    <EventID Qualifiers=\"16384\">16388</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x80000000000000</Keywords>\n    <TimeCreated SystemTime=\"2022-03-01T16:47:30.937032Z\">\n    </TimeCreated>\n    <EventRecordID>299</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"1044\" ThreadID=\"0\">\n    </Execution>\n    <Channel>Application</Channel>\n    <Computer>DESKTOP-6D0DBMB</Computer>\n    <Security>\n    </Security>\n  </System>\n  <EventData>\n    <Data>2022-03-01T16:47:30Z</Data>\n    <Data>2022-03-01T16:47:30Z</Data>\n    <Binary></Binary>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-Security-SPP\",\"Guid\":\"{E23B33B0-C8C9-472C-A5F9-F2BDFEA0F156}\",\"EventSourceName\":\"Software Protection Platform Service\"}},\"EventID\":{\"#attributes\":{\"Qualifiers\":16384},\"#text\":16388},\"Version\":0,\"Level\":4,\"Task\":0,\"Opcode\":0,\"Keywords\":\"0x80000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2022-03-01T16:47:30.937032Z\"}},\"EventRecordID\":299,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":1044,\"ThreadID\":0}},\"Channel\":\"Application\",\"Computer\":\"DESKTOP-6D0DBMB\",\"Security\":null},\"EventData\":{\"Data\":{\"#text\":[\"2022-03-01T16:47:30Z\",\"2022-03-01T16:47:30Z\"]},\"Binary\":null}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-Security-SPP",
+    "event_id": "16388",
+    "timestamp": "2022-03-01T16:47:30.937032Z",
+    "event_record_id": "299",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x80000000000000",
+    "channel": "Application",
+    "computer": "DESKTOP-6D0DBMB",
+    "_data_0": "2022-03-01T16:47:30Z",
+    "_data_1": "2022-03-01T16:47:30Z"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-Security-SPP",
+    "channel": "Application",
+    "event_id": "16388",
+    "timestamp": "2022-03-01T16:47:30.937032Z",
+    "event_record_id": "299",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x80000000000000",
+    "computer": "DESKTOP-6D0DBMB",
+    "_data_0": "2022-03-01T16:47:30Z",
+    "_data_1": "2022-03-01T16:47:30Z"
+  }
+}

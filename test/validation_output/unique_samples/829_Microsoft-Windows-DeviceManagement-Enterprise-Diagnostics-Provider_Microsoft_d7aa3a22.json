@@ -1,0 +1,41 @@
+{
+  "event_id": "829",
+  "provider": "Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider",
+  "channel": "Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider/Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\Win2022-AD\\Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider%4Operational.evtx",
+  "event_record_id": 1,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider\" Guid=\"3DA494E4-0FE2-415C-B895-FB5265C5C83B\">\n    </Provider>\n    <EventID>829</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2022-04-07T08:14:41.790933Z\">\n    </TimeCreated>\n    <EventRecordID>1</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"648\" ThreadID=\"2760\">\n    </Execution>\n    <Channel>Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider/Operational</Channel>\n    <Computer>WIN-FPV0DSIC9O6.sigma.fr</Computer>\n    <Security UserID=\"S-1-5-18\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"Message1\">DataProtection</Data>\n    <Data Name=\"Message2\">EDPEnforcementLevel</Data>\n    <Data Name=\"HexInt1\">0xa3bd5c75</Data>\n    <Data Name=\"HexInt2\">0x13920028</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider\",\"Guid\":\"3DA494E4-0FE2-415C-B895-FB5265C5C83B\"}},\"EventID\":829,\"Version\":0,\"Level\":4,\"Task\":0,\"Opcode\":0,\"Keywords\":\"0x4000000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2022-04-07T08:14:41.790933Z\"}},\"EventRecordID\":1,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":648,\"ThreadID\":2760}},\"Channel\":\"Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider/Operational\",\"Computer\":\"WIN-FPV0DSIC9O6.sigma.fr\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-18\"}}},\"EventData\":{\"Message1\":\"DataProtection\",\"Message2\":\"EDPEnforcementLevel\",\"HexInt1\":\"0xa3bd5c75\",\"HexInt2\":\"0x13920028\"}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider",
+    "event_id": "829",
+    "timestamp": "2022-04-07T08:14:41.790933Z",
+    "event_record_id": "1",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x4000000000000000",
+    "channel": "Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider/Operational",
+    "computer": "WIN-FPV0DSIC9O6.sigma.fr",
+    "Message1": "DataProtection",
+    "Message2": "EDPEnforcementLevel",
+    "HexInt1": "0xa3bd5c75",
+    "HexInt2": "0x13920028"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider",
+    "channel": "Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider/Operational",
+    "event_id": "829",
+    "timestamp": "2022-04-07T08:14:41.790933Z",
+    "event_record_id": "1",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x4000000000000000",
+    "computer": "WIN-FPV0DSIC9O6.sigma.fr",
+    "Message1": "DataProtection",
+    "Message2": "EDPEnforcementLevel",
+    "HexInt1": "0xa3bd5c75",
+    "HexInt2": "0x13920028"
+  }
+}

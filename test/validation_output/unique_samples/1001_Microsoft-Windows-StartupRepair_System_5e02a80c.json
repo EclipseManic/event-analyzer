@@ -1,0 +1,43 @@
+{
+  "event_id": "1001",
+  "provider": "Microsoft-Windows-StartupRepair",
+  "channel": "System",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\win7-x86\\System.evtx",
+  "event_record_id": 1065,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-StartupRepair\" Guid=\"C914F0DF-835A-4A22-8C70-732C9A80C634\">\n    </Provider>\n    <EventID>1001</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x8000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2022-04-04T11:48:39.972202Z\">\n    </TimeCreated>\n    <EventRecordID>1065</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"2404\" ThreadID=\"2408\">\n    </Execution>\n    <Channel>System</Channel>\n    <Computer>evtx-PC</Computer>\n    <Security UserID=\"S-1-5-18\">\n    </Security>\n  </System>\n  <UserData>\n    <SrtSummary xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://manifests.microsoft.com/win/2005/08/windows/Reliability/Postboot/Events\">\n      <StartTime>2022-04-04T21:47:56.296875Z</StartTime>\n      <EndTime>2022-04-04T21:48:10.906250Z</EndTime>\n      <NumAttempts>1</NumAttempts>\n      <NumRootCauses>1</NumRootCauses>\n      <LaunchType>AutoFailover</LaunchType>\n    </SrtSummary>\n  </UserData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-StartupRepair\",\"Guid\":\"C914F0DF-835A-4A22-8C70-732C9A80C634\"}},\"EventID\":1001,\"Version\":0,\"Level\":4,\"Task\":0,\"Opcode\":0,\"Keywords\":\"0x8000000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2022-04-04T11:48:39.972202Z\"}},\"EventRecordID\":1065,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":2404,\"ThreadID\":2408}},\"Channel\":\"System\",\"Computer\":\"evtx-PC\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-18\"}}},\"UserData\":{\"SrtSummary\":{\"#attributes\":{\"xmlns:auto-ns2\":\"http://schemas.microsoft.com/win/2004/08/events\",\"xmlns\":\"http://manifests.microsoft.com/win/2005/08/windows/Reliability/Postboot/Events\"},\"StartTime\":\"2022-04-04T21:47:56.296875Z\",\"EndTime\":\"2022-04-04T21:48:10.906250Z\",\"NumAttempts\":1,\"NumRootCauses\":1,\"LaunchType\":\"AutoFailover\"}}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-StartupRepair",
+    "event_id": "1001",
+    "timestamp": "2022-04-04T11:48:39.972202Z",
+    "event_record_id": "1065",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x8000000000000000",
+    "channel": "System",
+    "computer": "evtx-PC",
+    "StartTime": "2022-04-04T21:47:56.296875Z",
+    "EndTime": "2022-04-04T21:48:10.906250Z",
+    "NumAttempts": "1",
+    "NumRootCauses": "1",
+    "LaunchType": "AutoFailover"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-StartupRepair",
+    "channel": "System",
+    "event_id": "1001",
+    "timestamp": "2022-04-04T11:48:39.972202Z",
+    "event_record_id": "1065",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x8000000000000000",
+    "computer": "evtx-PC",
+    "StartTime": "2022-04-04T21:47:56.296875Z",
+    "EndTime": "2022-04-04T21:48:10.906250Z",
+    "NumAttempts": "1",
+    "NumRootCauses": "1",
+    "LaunchType": "AutoFailover"
+  }
+}

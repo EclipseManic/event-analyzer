@@ -1,0 +1,35 @@
+{
+  "event_id": "22",
+  "provider": "Microsoft-Windows-Audio",
+  "channel": "Microsoft-Windows-Audio/PlaybackManager",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\Logs_Win11\\Microsoft-Windows-Audio%4PlaybackManager.evtx",
+  "event_record_id": 1,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-Audio\" Guid=\"AE4BD3BE-F36F-45B6-8D21-BDD6FB832853\">\n    </Provider>\n    <EventID>22</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>118</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x800000000000000</Keywords>\n    <TimeCreated SystemTime=\"2022-03-01T16:47:09.284093Z\">\n    </TimeCreated>\n    <EventRecordID>1</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"6064\" ThreadID=\"1472\">\n    </Execution>\n    <Channel>Microsoft-Windows-Audio/PlaybackManager</Channel>\n    <Computer>DESKTOP-6D0DBMB</Computer>\n    <Security UserID=\"S-1-5-21-1671613982-9707084-2312793148-1000\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"bIsSuspended\">true</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-Audio\",\"Guid\":\"AE4BD3BE-F36F-45B6-8D21-BDD6FB832853\"}},\"EventID\":22,\"Version\":0,\"Level\":4,\"Task\":118,\"Opcode\":0,\"Keywords\":\"0x800000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2022-03-01T16:47:09.284093Z\"}},\"EventRecordID\":1,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":6064,\"ThreadID\":1472}},\"Channel\":\"Microsoft-Windows-Audio/PlaybackManager\",\"Computer\":\"DESKTOP-6D0DBMB\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-21-1671613982-9707084-2312793148-1000\"}}},\"EventData\":{\"bIsSuspended\":true}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-Audio",
+    "event_id": "22",
+    "timestamp": "2022-03-01T16:47:09.284093Z",
+    "event_record_id": "1",
+    "level": "4",
+    "task": "118",
+    "opcode": "0",
+    "keywords": "0x800000000000000",
+    "channel": "Microsoft-Windows-Audio/PlaybackManager",
+    "computer": "DESKTOP-6D0DBMB",
+    "bIsSuspended": "true"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-Audio",
+    "channel": "Microsoft-Windows-Audio/PlaybackManager",
+    "event_id": "22",
+    "timestamp": "2022-03-01T16:47:09.284093Z",
+    "event_record_id": "1",
+    "level": "4",
+    "task": "118",
+    "opcode": "0",
+    "keywords": "0x800000000000000",
+    "computer": "DESKTOP-6D0DBMB",
+    "bIsSuspended": "True"
+  }
+}

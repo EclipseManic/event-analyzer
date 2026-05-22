@@ -1,0 +1,37 @@
+{
+  "event_id": "1036",
+  "provider": "Microsoft-Windows-Security-SPP",
+  "channel": "Application",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\Logs_Client\\Application.evtx",
+  "event_record_id": 48,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-Security-SPP\" Guid=\"{E23B33B0-C8C9-472C-A5F9-F2BDFEA0F156}\" EventSourceName=\"Software Protection Platform Service\">\n    </Provider>\n    <EventID Qualifiers=\"16384\">1036</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x80000000000000</Keywords>\n    <TimeCreated SystemTime=\"2022-02-07T10:57:27.732785Z\">\n    </TimeCreated>\n    <EventRecordID>48</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"0\" ThreadID=\"0\">\n    </Execution>\n    <Channel>Application</Channel>\n    <Computer>DESKTOP-A8CALR3</Computer>\n    <Security>\n    </Security>\n  </System>\n  <EventData>\n    <Data>129600</Data>\n    <Data>9</Data>\n    <Binary></Binary>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-Security-SPP\",\"Guid\":\"{E23B33B0-C8C9-472C-A5F9-F2BDFEA0F156}\",\"EventSourceName\":\"Software Protection Platform Service\"}},\"EventID\":{\"#attributes\":{\"Qualifiers\":16384},\"#text\":1036},\"Version\":0,\"Level\":4,\"Task\":0,\"Opcode\":0,\"Keywords\":\"0x80000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2022-02-07T10:57:27.732785Z\"}},\"EventRecordID\":48,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":0,\"ThreadID\":0}},\"Channel\":\"Application\",\"Computer\":\"DESKTOP-A8CALR3\",\"Security\":null},\"EventData\":{\"Data\":{\"#text\":[\"129600\",\"9\"]},\"Binary\":null}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-Security-SPP",
+    "event_id": "1036",
+    "timestamp": "2022-02-07T10:57:27.732785Z",
+    "event_record_id": "48",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x80000000000000",
+    "channel": "Application",
+    "computer": "DESKTOP-A8CALR3",
+    "_data_0": "129600",
+    "_data_1": "9"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-Security-SPP",
+    "channel": "Application",
+    "event_id": "1036",
+    "timestamp": "2022-02-07T10:57:27.732785Z",
+    "event_record_id": "48",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x80000000000000",
+    "computer": "DESKTOP-A8CALR3",
+    "_data_0": "129600",
+    "_data_1": "9"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "event_id": "258",
+  "provider": "Microsoft-Windows-RemoteDesktopServices-RdpCoreTS",
+  "channel": "Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Malicious\\EVTX-ATTACK-SAMPLES\\Other\\rdpcorets_148_mst120_bluekeep_rpdscan_full.evtx",
+  "event_record_id": 71,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-RemoteDesktopServices-RdpCoreTS\" Guid=\"1139C61B-B549-4251-8ED3-27250A1EDEC8\">\n    </Provider>\n    <EventID>258</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>4</Task>\n    <Opcode>21</Opcode>\n    <Keywords>0x4000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2019-08-27T17:17:47.617830Z\">\n    </TimeCreated>\n    <EventRecordID>915</EventRecordID>\n    <Correlation ActivityID=\"F420C5E0-91BA-4CF1-97FF-34CCD7200000\">\n    </Correlation>\n    <Execution ProcessID=\"636\" ThreadID=\"7572\">\n    </Execution>\n    <Channel>Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational</Channel>\n    <Computer>MSEDGEWIN10</Computer>\n    <Security UserID=\"S-1-5-20\">\n    </Security>\n  </System>\n  <EventData>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-RemoteDesktopServices-RdpCoreTS\",\"Guid\":\"1139C61B-B549-4251-8ED3-27250A1EDEC8\"}},\"EventID\":258,\"Version\":0,\"Level\":4,\"Task\":4,\"Opcode\":21,\"Keywords\":\"0x4000000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2019-08-27T17:17:47.617830Z\"}},\"EventRecordID\":915,\"Correlation\":{\"#attributes\":{\"ActivityID\":\"F420C5E0-91BA-4CF1-97FF-34CCD7200000\"}},\"Execution\":{\"#attributes\":{\"ProcessID\":636,\"ThreadID\":7572}},\"Channel\":\"Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational\",\"Computer\":\"MSEDGEWIN10\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-20\"}}},\"EventData\":null}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-RemoteDesktopServices-RdpCoreTS",
+    "event_id": "258",
+    "timestamp": "2019-08-27T17:17:47.617830Z",
+    "event_record_id": "915",
+    "level": "4",
+    "task": "4",
+    "opcode": "21",
+    "keywords": "0x4000000000000000",
+    "channel": "Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational",
+    "computer": "MSEDGEWIN10"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-RemoteDesktopServices-RdpCoreTS",
+    "channel": "Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational",
+    "event_id": "258",
+    "timestamp": "2019-08-27T17:17:47.617830Z",
+    "event_record_id": "915",
+    "level": "4",
+    "task": "4",
+    "opcode": "21",
+    "keywords": "0x4000000000000000",
+    "computer": "MSEDGEWIN10"
+  }
+}

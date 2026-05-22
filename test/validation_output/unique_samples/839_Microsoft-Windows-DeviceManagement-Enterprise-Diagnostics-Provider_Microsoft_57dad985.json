@@ -1,0 +1,37 @@
+{
+  "event_id": "839",
+  "provider": "Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider",
+  "channel": "Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider/Admin",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\Logs_Client\\Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider%4Admin.evtx",
+  "event_record_id": 150,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider\" Guid=\"3DA494E4-0FE2-415C-B895-FB5265C5C83B\">\n    </Provider>\n    <EventID>839</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x8000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2022-02-07T23:16:38.317845Z\">\n    </TimeCreated>\n    <EventRecordID>150</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"1880\" ThreadID=\"4544\">\n    </Execution>\n    <Channel>Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider/Admin</Channel>\n    <Computer>DESKTOP-A8CALR3</Computer>\n    <Security UserID=\"S-1-5-18\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"Message1\">FC01E91F-914C-45AF-9D7C-0B2E5FBEDF62</Data>\n    <Data Name=\"Message2\">EnterpriseDataProtection</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider\",\"Guid\":\"3DA494E4-0FE2-415C-B895-FB5265C5C83B\"}},\"EventID\":839,\"Version\":0,\"Level\":4,\"Task\":0,\"Opcode\":0,\"Keywords\":\"0x8000000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2022-02-07T23:16:38.317845Z\"}},\"EventRecordID\":150,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":1880,\"ThreadID\":4544}},\"Channel\":\"Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider/Admin\",\"Computer\":\"DESKTOP-A8CALR3\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-18\"}}},\"EventData\":{\"Message1\":\"FC01E91F-914C-45AF-9D7C-0B2E5FBEDF62\",\"Message2\":\"EnterpriseDataProtection\"}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider",
+    "event_id": "839",
+    "timestamp": "2022-02-07T23:16:38.317845Z",
+    "event_record_id": "150",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x8000000000000000",
+    "channel": "Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider/Admin",
+    "computer": "DESKTOP-A8CALR3",
+    "Message1": "FC01E91F-914C-45AF-9D7C-0B2E5FBEDF62",
+    "Message2": "EnterpriseDataProtection"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider",
+    "channel": "Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider/Admin",
+    "event_id": "839",
+    "timestamp": "2022-02-07T23:16:38.317845Z",
+    "event_record_id": "150",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x8000000000000000",
+    "computer": "DESKTOP-A8CALR3",
+    "Message1": "FC01E91F-914C-45AF-9D7C-0B2E5FBEDF62",
+    "Message2": "EnterpriseDataProtection"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "event_id": "4001",
+  "provider": "Microsoft-Windows-NetworkProfile",
+  "channel": "Microsoft-Windows-NetworkProfile/Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Logs\\Microsoft-Windows-NetworkProfile%4Operational.evtx",
+  "event_record_id": 12,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-NetworkProfile\" Guid=\"FBCFAC3F-8459-419F-8E48-1F0B49CDB85E\">\n    </Provider>\n    <EventID>4001</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>1</Task>\n    <Opcode>1</Opcode>\n    <Keywords>0x4000200000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-11-04T12:40:15.882830Z\">\n    </TimeCreated>\n    <EventRecordID>12</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"1636\" ThreadID=\"1952\">\n    </Execution>\n    <Channel>Microsoft-Windows-NetworkProfile/Operational</Channel>\n    <Computer>DESKTOP-P9H5FTA</Computer>\n    <Security UserID=\"S-1-5-19\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"InterfaceGuid\">B7061870-333D-43DA-8FA1-39E4745BFF17</Data>\n    <Data Name=\"CurrentOrNextState\">0</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-NetworkProfile\",\"Guid\":\"FBCFAC3F-8459-419F-8E48-1F0B49CDB85E\"}},\"EventID\":4001,\"Version\":0,\"Level\":4,\"Task\":1,\"Opcode\":1,\"Keywords\":\"0x4000200000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2024-11-04T12:40:15.882830Z\"}},\"EventRecordID\":12,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":1636,\"ThreadID\":1952}},\"Channel\":\"Microsoft-Windows-NetworkProfile/Operational\",\"Computer\":\"DESKTOP-P9H5FTA\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-19\"}}},\"EventData\":{\"InterfaceGuid\":\"B7061870-333D-43DA-8FA1-39E4745BFF17\",\"CurrentOrNextState\":0}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-NetworkProfile",
+    "event_id": "4001",
+    "timestamp": "2024-11-04T12:40:15.882830Z",
+    "event_record_id": "12",
+    "level": "4",
+    "task": "1",
+    "opcode": "1",
+    "keywords": "0x4000200000000000",
+    "channel": "Microsoft-Windows-NetworkProfile/Operational",
+    "computer": "DESKTOP-P9H5FTA",
+    "InterfaceGuid": "B7061870-333D-43DA-8FA1-39E4745BFF17",
+    "CurrentOrNextState": "0"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-NetworkProfile",
+    "channel": "Microsoft-Windows-NetworkProfile/Operational",
+    "event_id": "4001",
+    "timestamp": "2024-11-04T12:40:15.882830Z",
+    "event_record_id": "12",
+    "level": "4",
+    "task": "1",
+    "opcode": "1",
+    "keywords": "0x4000200000000000",
+    "computer": "DESKTOP-P9H5FTA",
+    "InterfaceGuid": "B7061870-333D-43DA-8FA1-39E4745BFF17",
+    "CurrentOrNextState": "0"
+  }
+}

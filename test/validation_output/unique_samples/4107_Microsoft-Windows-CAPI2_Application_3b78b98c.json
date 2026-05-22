@@ -1,0 +1,37 @@
+{
+  "event_id": "4107",
+  "provider": "Microsoft-Windows-CAPI2",
+  "channel": "Application",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\win7-x86\\Application.evtx",
+  "event_record_id": 225,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-CAPI2\" Guid=\"{5bbca4a8-b209-48dc-a8c7-b23d3e5216fb}\" EventSourceName=\"Microsoft-Windows-CAPI2\">\n    </Provider>\n    <EventID Qualifiers=\"0\">4107</EventID>\n    <Version>0</Version>\n    <Level>2</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x8080000000000000</Keywords>\n    <TimeCreated SystemTime=\"2022-04-04T10:15:02.049061Z\">\n    </TimeCreated>\n    <EventRecordID>225</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"1200\" ThreadID=\"1556\">\n    </Execution>\n    <Channel>Application</Channel>\n    <Computer>evtx-PC</Computer>\n    <Security>\n    </Security>\n  </System>\n  <EventData>\n    <Data>http://www.download.windowsupdate.com/msdownload/update/v3/static/trustedr/en/authrootstl.cab</Data>\n    <Data>A certificate chain processed, but terminated in a root certificate which is not trusted by the trust provider.\r\n</Data>\n    <Binary></Binary>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-CAPI2\",\"Guid\":\"{5bbca4a8-b209-48dc-a8c7-b23d3e5216fb}\",\"EventSourceName\":\"Microsoft-Windows-CAPI2\"}},\"EventID\":{\"#attributes\":{\"Qualifiers\":0},\"#text\":4107},\"Version\":0,\"Level\":2,\"Task\":0,\"Opcode\":0,\"Keywords\":\"0x8080000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2022-04-04T10:15:02.049061Z\"}},\"EventRecordID\":225,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":1200,\"ThreadID\":1556}},\"Channel\":\"Application\",\"Computer\":\"evtx-PC\",\"Security\":null},\"EventData\":{\"Data\":{\"#text\":[\"http://www.download.windowsupdate.com/msdownload/update/v3/static/trustedr/en/authrootstl.cab\",\"A certificate chain processed, but terminated in a root certificate which is not trusted by the trust provider.\\r\\n\"]},\"Binary\":null}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-CAPI2",
+    "event_id": "4107",
+    "timestamp": "2022-04-04T10:15:02.049061Z",
+    "event_record_id": "225",
+    "level": "2",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x8080000000000000",
+    "channel": "Application",
+    "computer": "evtx-PC",
+    "_data_0": "http://www.download.windowsupdate.com/msdownload/update/v3/static/trustedr/en/authrootstl.cab",
+    "_data_1": "A certificate chain processed, but terminated in a root certificate which is not trusted by the trust provider.\n"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-CAPI2",
+    "channel": "Application",
+    "event_id": "4107",
+    "timestamp": "2022-04-04T10:15:02.049061Z",
+    "event_record_id": "225",
+    "level": "2",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x8080000000000000",
+    "computer": "evtx-PC",
+    "_data_0": "http://www.download.windowsupdate.com/msdownload/update/v3/static/trustedr/en/authrootstl.cab",
+    "_data_1": "A certificate chain processed, but terminated in a root certificate which is not trusted by the trust provider.\r\n"
+  }
+}

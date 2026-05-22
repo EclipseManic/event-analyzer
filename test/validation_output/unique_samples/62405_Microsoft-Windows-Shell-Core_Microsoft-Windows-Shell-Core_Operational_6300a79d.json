@@ -1,0 +1,35 @@
+{
+  "event_id": "62405",
+  "provider": "Microsoft-Windows-Shell-Core",
+  "channel": "Microsoft-Windows-Shell-Core/Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Logs\\Microsoft-Windows-Shell-Core%4Operational.evtx",
+  "event_record_id": 2037,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-Shell-Core\" Guid=\"30336ED4-E327-447C-9DE0-51B652C86108\">\n    </Provider>\n    <EventID>62405</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>62404</Task>\n    <Opcode>2</Opcode>\n    <Keywords>0x2000000800010000</Keywords>\n    <TimeCreated SystemTime=\"2025-01-24T10:06:39.366168Z\">\n    </TimeCreated>\n    <EventRecordID>2037</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"11916\" ThreadID=\"11944\">\n    </Execution>\n    <Channel>Microsoft-Windows-Shell-Core/Operational</Channel>\n    <Computer>CTO-FILESVR</Computer>\n    <Security UserID=\"S-1-5-21-3088055692-629932344-1786574096-1003\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"Result\">success</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-Shell-Core\",\"Guid\":\"30336ED4-E327-447C-9DE0-51B652C86108\"}},\"EventID\":62405,\"Version\":0,\"Level\":4,\"Task\":62404,\"Opcode\":2,\"Keywords\":\"0x2000000800010000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2025-01-24T10:06:39.366168Z\"}},\"EventRecordID\":2037,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":11916,\"ThreadID\":11944}},\"Channel\":\"Microsoft-Windows-Shell-Core/Operational\",\"Computer\":\"CTO-FILESVR\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-21-3088055692-629932344-1786574096-1003\"}}},\"EventData\":{\"Result\":\"success\"}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-Shell-Core",
+    "event_id": "62405",
+    "timestamp": "2025-01-24T10:06:39.366168Z",
+    "event_record_id": "2037",
+    "level": "4",
+    "task": "62404",
+    "opcode": "2",
+    "keywords": "0x2000000800010000",
+    "channel": "Microsoft-Windows-Shell-Core/Operational",
+    "computer": "CTO-FILESVR",
+    "Result": "success"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-Shell-Core",
+    "channel": "Microsoft-Windows-Shell-Core/Operational",
+    "event_id": "62405",
+    "timestamp": "2025-01-24T10:06:39.366168Z",
+    "event_record_id": "2037",
+    "level": "4",
+    "task": "62404",
+    "opcode": "2",
+    "keywords": "0x2000000800010000",
+    "computer": "CTO-FILESVR",
+    "Result": "success"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "event_id": "0",
+  "provider": "unknown",
+  "channel": "None",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Malicious\\EVTX-ATTACK-SAMPLES\\Credential Access\\CA_PetiPotam_etw_rpc_efsr_5_6.evtx",
+  "event_record_id": 1,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Guid=\"{68fdd900-4a3e-11d1-84f4-0000f80464e3}\">\n    </Provider>\n    <EventID>0</EventID>\n    <Version>2</Version>\n    <Level>0</Level>\n    <Task>0</Task>\n    <Opcode>80</Opcode>\n    <Keywords>0x0</Keywords>\n    <TimeCreated SystemTime=\"2021-08-17T12:26:48.571022Z\">\n    </TimeCreated>\n    <EventRecordID>0</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"24712\" ThreadID=\"19724\">\n    </Execution>\n    <Channel>\n    </Channel>\n    <Computer>LAPTOP-JU4M3I0E</Computer>\n    <Security>\n    </Security>\n  </System>\n  <ProcessingErrorData>\n    <ErrorCode>15003</ErrorCode>\n    <DataItemName>\n    </DataItemName>\n    <EventPayload>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</EventPayload>\n  </ProcessingErrorData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Guid\":\"{68fdd900-4a3e-11d1-84f4-0000f80464e3}\"}},\"EventID\":0,\"Version\":2,\"Level\":0,\"Task\":0,\"Opcode\":80,\"Keywords\":\"0x0\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2021-08-17T12:26:48.571022Z\"}},\"EventRecordID\":0,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":24712,\"ThreadID\":19724}},\"Channel\":null,\"Computer\":\"LAPTOP-JU4M3I0E\",\"Security\":null},\"ProcessingErrorData\":{\"ErrorCode\":15003,\"DataItemName\":null,\"EventPayload\":\"000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000\"}}}",
+  "xml_fields": {
+    "provider": "",
+    "event_id": "0",
+    "timestamp": "2021-08-17T12:26:48.571022Z",
+    "event_record_id": "0",
+    "level": "0",
+    "task": "0",
+    "opcode": "80",
+    "keywords": "0x0",
+    "channel": "\n    ",
+    "computer": "LAPTOP-JU4M3I0E"
+  },
+  "json_fields": {
+    "provider": "",
+    "event_id": "0",
+    "timestamp": "2021-08-17T12:26:48.571022Z",
+    "event_record_id": "0",
+    "level": "0",
+    "task": "0",
+    "opcode": "80",
+    "keywords": "0x0",
+    "computer": "LAPTOP-JU4M3I0E"
+  }
+}

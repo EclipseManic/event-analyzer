@@ -1,0 +1,41 @@
+{
+  "event_id": "1001",
+  "provider": "Microsoft-Windows-LoadPerf",
+  "channel": "Application",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\win2022-0-20348-azure\\Application.evtx",
+  "event_record_id": 425,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-LoadPerf\" Guid=\"122EE297-BB47-41AE-B265-1CA8D1886D40\">\n    </Provider>\n    <EventID>1001</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x8000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2022-09-18T09:17:29.858499Z\">\n    </TimeCreated>\n    <EventRecordID>425</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"4264\" ThreadID=\"4276\">\n    </Execution>\n    <Channel>Application</Channel>\n    <Computer>Agamemnon</Computer>\n    <Security UserID=\"S-1-5-18\">\n    </Security>\n  </System>\n  <UserData>\n    <EventXML xmlns=\"LoadPerf\">\n      <param1>WmiApRpl</param1>\n      <param2>WmiApRpl</param2>\n      <binaryDataSize>12</binaryDataSize>\n      <binaryData>4C2300004D230000D2050000</binaryData>\n    </EventXML>\n  </UserData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-LoadPerf\",\"Guid\":\"122EE297-BB47-41AE-B265-1CA8D1886D40\"}},\"EventID\":1001,\"Version\":0,\"Level\":4,\"Task\":0,\"Opcode\":0,\"Keywords\":\"0x8000000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2022-09-18T09:17:29.858499Z\"}},\"EventRecordID\":425,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":4264,\"ThreadID\":4276}},\"Channel\":\"Application\",\"Computer\":\"Agamemnon\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-18\"}}},\"UserData\":{\"EventXML\":{\"#attributes\":{\"xmlns\":\"LoadPerf\"},\"param1\":\"WmiApRpl\",\"param2\":\"WmiApRpl\",\"binaryDataSize\":12,\"binaryData\":\"4C2300004D230000D2050000\"}}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-LoadPerf",
+    "event_id": "1001",
+    "timestamp": "2022-09-18T09:17:29.858499Z",
+    "event_record_id": "425",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x8000000000000000",
+    "channel": "Application",
+    "computer": "Agamemnon",
+    "param1": "WmiApRpl",
+    "param2": "WmiApRpl",
+    "binaryDataSize": "12",
+    "binaryData": "4C2300004D230000D2050000"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-LoadPerf",
+    "channel": "Application",
+    "event_id": "1001",
+    "timestamp": "2022-09-18T09:17:29.858499Z",
+    "event_record_id": "425",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x8000000000000000",
+    "computer": "Agamemnon",
+    "param1": "WmiApRpl",
+    "param2": "WmiApRpl",
+    "binaryDataSize": "12",
+    "binaryData": "4C2300004D230000D2050000"
+  }
+}

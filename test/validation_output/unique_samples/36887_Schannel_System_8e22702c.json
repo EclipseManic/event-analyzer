@@ -1,0 +1,35 @@
+{
+  "event_id": "36887",
+  "provider": "Schannel",
+  "channel": "System",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\win7-x86\\System.evtx",
+  "event_record_id": 626,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Schannel\" Guid=\"1F678132-5938-4686-9FDC-C8FF68F15C85\">\n    </Provider>\n    <EventID>36887</EventID>\n    <Version>0</Version>\n    <Level>2</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x8000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2022-04-04T10:15:03.517811Z\">\n    </TimeCreated>\n    <EventRecordID>626</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"552\" ThreadID=\"660\">\n    </Execution>\n    <Channel>System</Channel>\n    <Computer>evtx-PC</Computer>\n    <Security UserID=\"S-1-5-18\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"AlertDesc\">70</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Schannel\",\"Guid\":\"1F678132-5938-4686-9FDC-C8FF68F15C85\"}},\"EventID\":36887,\"Version\":0,\"Level\":2,\"Task\":0,\"Opcode\":0,\"Keywords\":\"0x8000000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2022-04-04T10:15:03.517811Z\"}},\"EventRecordID\":626,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":552,\"ThreadID\":660}},\"Channel\":\"System\",\"Computer\":\"evtx-PC\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-18\"}}},\"EventData\":{\"AlertDesc\":70}}}",
+  "xml_fields": {
+    "provider": "Schannel",
+    "event_id": "36887",
+    "timestamp": "2022-04-04T10:15:03.517811Z",
+    "event_record_id": "626",
+    "level": "2",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x8000000000000000",
+    "channel": "System",
+    "computer": "evtx-PC",
+    "AlertDesc": "70"
+  },
+  "json_fields": {
+    "provider": "Schannel",
+    "channel": "System",
+    "event_id": "36887",
+    "timestamp": "2022-04-04T10:15:03.517811Z",
+    "event_record_id": "626",
+    "level": "2",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x8000000000000000",
+    "computer": "evtx-PC",
+    "AlertDesc": "70"
+  }
+}

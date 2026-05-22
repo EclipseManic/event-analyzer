@@ -1,0 +1,33 @@
+{
+  "event_id": "50041",
+  "provider": "Microsoft-Windows-Dhcp-Client",
+  "channel": "Microsoft-Windows-Dhcp-Client/Admin",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Logs\\Microsoft-Windows-Dhcp-Client%4Admin.evtx",
+  "event_record_id": 1,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-Dhcp-Client\" Guid=\"15A7A4F8-0072-4EAB-ABAD-F98A4D666AED\">\n    </Provider>\n    <EventID>50041</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>6</Task>\n    <Opcode>71</Opcode>\n    <Keywords>0x4000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-11-05T01:33:10.565988Z\">\n    </TimeCreated>\n    <EventRecordID>1</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"1696\" ThreadID=\"1784\">\n    </Execution>\n    <Channel>Microsoft-Windows-Dhcp-Client/Admin</Channel>\n    <Computer>WIN-5LCFHVCO531</Computer>\n    <Security UserID=\"S-1-5-19\">\n    </Security>\n  </System>\n  <EventData>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-Dhcp-Client\",\"Guid\":\"15A7A4F8-0072-4EAB-ABAD-F98A4D666AED\"}},\"EventID\":50041,\"Version\":0,\"Level\":4,\"Task\":6,\"Opcode\":71,\"Keywords\":\"0x4000000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2024-11-05T01:33:10.565988Z\"}},\"EventRecordID\":1,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":1696,\"ThreadID\":1784}},\"Channel\":\"Microsoft-Windows-Dhcp-Client/Admin\",\"Computer\":\"WIN-5LCFHVCO531\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-19\"}}},\"EventData\":null}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-Dhcp-Client",
+    "event_id": "50041",
+    "timestamp": "2024-11-05T01:33:10.565988Z",
+    "event_record_id": "1",
+    "level": "4",
+    "task": "6",
+    "opcode": "71",
+    "keywords": "0x4000000000000000",
+    "channel": "Microsoft-Windows-Dhcp-Client/Admin",
+    "computer": "WIN-5LCFHVCO531"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-Dhcp-Client",
+    "channel": "Microsoft-Windows-Dhcp-Client/Admin",
+    "event_id": "50041",
+    "timestamp": "2024-11-05T01:33:10.565988Z",
+    "event_record_id": "1",
+    "level": "4",
+    "task": "6",
+    "opcode": "71",
+    "keywords": "0x4000000000000000",
+    "computer": "WIN-5LCFHVCO531"
+  }
+}

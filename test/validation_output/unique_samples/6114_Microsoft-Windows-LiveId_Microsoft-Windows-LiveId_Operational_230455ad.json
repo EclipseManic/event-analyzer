@@ -1,0 +1,41 @@
+{
+  "event_id": "6114",
+  "provider": "Microsoft-Windows-LiveId",
+  "channel": "Microsoft-Windows-LiveId/Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Logs\\Microsoft-Windows-LiveId%4Operational.evtx",
+  "event_record_id": 123,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-LiveId\" Guid=\"05F02597-FE85-4E67-8542-69567AB8FD4F\">\n    </Provider>\n    <EventID>6114</EventID>\n    <Version>0</Version>\n    <Level>2</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000200812</Keywords>\n    <TimeCreated SystemTime=\"2024-11-04T13:14:52.755043Z\">\n    </TimeCreated>\n    <EventRecordID>123</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"8096\" ThreadID=\"6116\">\n    </Execution>\n    <Channel>Microsoft-Windows-LiveId/Operational</Channel>\n    <Computer>DESKTOP-P9H5FTA</Computer>\n    <Security UserID=\"S-1-5-18\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"RequestType\">1</Data>\n    <Data Name=\"cid\">NULL</Data>\n    <Data Name=\"ErrorCode\">2147769382</Data>\n    <Data Name=\"MachineEnvironment\">production</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-LiveId\",\"Guid\":\"05F02597-FE85-4E67-8542-69567AB8FD4F\"}},\"EventID\":6114,\"Version\":0,\"Level\":2,\"Task\":0,\"Opcode\":0,\"Keywords\":\"0x4000000000200812\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2024-11-04T13:14:52.755043Z\"}},\"EventRecordID\":123,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":8096,\"ThreadID\":6116}},\"Channel\":\"Microsoft-Windows-LiveId/Operational\",\"Computer\":\"DESKTOP-P9H5FTA\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-18\"}}},\"EventData\":{\"RequestType\":1,\"cid\":\"NULL\",\"ErrorCode\":2147769382,\"MachineEnvironment\":\"production\"}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-LiveId",
+    "event_id": "6114",
+    "timestamp": "2024-11-04T13:14:52.755043Z",
+    "event_record_id": "123",
+    "level": "2",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x4000000000200812",
+    "channel": "Microsoft-Windows-LiveId/Operational",
+    "computer": "DESKTOP-P9H5FTA",
+    "RequestType": "1",
+    "cid": "NULL",
+    "ErrorCode": "2147769382",
+    "MachineEnvironment": "production"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-LiveId",
+    "channel": "Microsoft-Windows-LiveId/Operational",
+    "event_id": "6114",
+    "timestamp": "2024-11-04T13:14:52.755043Z",
+    "event_record_id": "123",
+    "level": "2",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x4000000000200812",
+    "computer": "DESKTOP-P9H5FTA",
+    "RequestType": "1",
+    "cid": "NULL",
+    "ErrorCode": "2147769382",
+    "MachineEnvironment": "production"
+  }
+}

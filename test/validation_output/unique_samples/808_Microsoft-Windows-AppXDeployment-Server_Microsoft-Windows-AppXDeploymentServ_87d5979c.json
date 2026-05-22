@@ -1,0 +1,37 @@
+{
+  "event_id": "808",
+  "provider": "Microsoft-Windows-AppXDeployment-Server",
+  "channel": "Microsoft-Windows-AppXDeploymentServer/Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\Logs_Win11_2023\\Microsoft-Windows-AppXDeploymentServer%4Operational.evtx",
+  "event_record_id": 6938,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-AppXDeployment-Server\" Guid=\"3F471139-ACB7-4A01-B7A7-FF5DA4BA2D43\">\n    </Provider>\n    <EventID>808</EventID>\n    <Version>0</Version>\n    <Level>3</Level>\n    <Task>6</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000001</Keywords>\n    <TimeCreated SystemTime=\"2023-11-06T06:25:40.373414Z\">\n    </TimeCreated>\n    <EventRecordID>6938</EventRecordID>\n    <Correlation ActivityID=\"F590C418-1079-0000-ACC5-90F57910DA01\">\n    </Correlation>\n    <Execution ProcessID=\"1900\" ThreadID=\"1596\">\n    </Execution>\n    <Channel>Microsoft-Windows-AppXDeploymentServer/Operational</Channel>\n    <Computer>WinDev2310Eval</Computer>\n    <Security UserID=\"S-1-5-18\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"RegistryKeyName\">Software\\Microsoft\\Windows\\CurrentVersion\\Appx\\AppxAllUserStore\\S-1-5-21-1992711665-1655669231-58201500-500</Data>\n    <Data Name=\"ErrorCode\">0x80070002</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-AppXDeployment-Server\",\"Guid\":\"3F471139-ACB7-4A01-B7A7-FF5DA4BA2D43\"}},\"EventID\":808,\"Version\":0,\"Level\":3,\"Task\":6,\"Opcode\":0,\"Keywords\":\"0x4000000000000001\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2023-11-06T06:25:40.373414Z\"}},\"EventRecordID\":6938,\"Correlation\":{\"#attributes\":{\"ActivityID\":\"F590C418-1079-0000-ACC5-90F57910DA01\"}},\"Execution\":{\"#attributes\":{\"ProcessID\":1900,\"ThreadID\":1596}},\"Channel\":\"Microsoft-Windows-AppXDeploymentServer/Operational\",\"Computer\":\"WinDev2310Eval\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-18\"}}},\"EventData\":{\"RegistryKeyName\":\"Software\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\Appx\\\\AppxAllUserStore\\\\S-1-5-21-1992711665-1655669231-58201500-500\",\"ErrorCode\":\"0x80070002\"}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-AppXDeployment-Server",
+    "event_id": "808",
+    "timestamp": "2023-11-06T06:25:40.373414Z",
+    "event_record_id": "6938",
+    "level": "3",
+    "task": "6",
+    "opcode": "0",
+    "keywords": "0x4000000000000001",
+    "channel": "Microsoft-Windows-AppXDeploymentServer/Operational",
+    "computer": "WinDev2310Eval",
+    "RegistryKeyName": "Software\\Microsoft\\Windows\\CurrentVersion\\Appx\\AppxAllUserStore\\S-1-5-21-1992711665-1655669231-58201500-500",
+    "ErrorCode": "0x80070002"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-AppXDeployment-Server",
+    "channel": "Microsoft-Windows-AppXDeploymentServer/Operational",
+    "event_id": "808",
+    "timestamp": "2023-11-06T06:25:40.373414Z",
+    "event_record_id": "6938",
+    "level": "3",
+    "task": "6",
+    "opcode": "0",
+    "keywords": "0x4000000000000001",
+    "computer": "WinDev2310Eval",
+    "RegistryKeyName": "Software\\Microsoft\\Windows\\CurrentVersion\\Appx\\AppxAllUserStore\\S-1-5-21-1992711665-1655669231-58201500-500",
+    "ErrorCode": "0x80070002"
+  }
+}

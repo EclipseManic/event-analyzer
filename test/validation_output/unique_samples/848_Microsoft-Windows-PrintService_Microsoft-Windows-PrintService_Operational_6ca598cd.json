@@ -1,0 +1,37 @@
+{
+  "event_id": "848",
+  "provider": "Microsoft-Windows-PrintService",
+  "channel": "Microsoft-Windows-PrintService/Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Malicious\\EVTX-to-MITRE-Attack-master\\TA0004-Privilege Escalation\\T1574-DLL side-loading\\ID316,300,301,316,823,848-Mimispool printer server instal.evtx",
+  "event_record_id": 9,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-PrintService\" Guid=\"747EF6FD-E535-4D16-B510-42C90F6873A1\">\n    </Provider>\n    <EventID>848</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>30</Task>\n    <Opcode>11</Opcode>\n    <Keywords>0x4000000000000020</Keywords>\n    <TimeCreated SystemTime=\"2021-10-27T10:14:27.466200Z\">\n    </TimeCreated>\n    <EventRecordID>154</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"2552\" ThreadID=\"4028\">\n    </Execution>\n    <Channel>Microsoft-Windows-PrintService/Operational</Channel>\n    <Computer>fs03vuln.offsec.lan</Computer>\n    <Security UserID=\"S-1-5-18\">\n    </Security>\n  </System>\n  <UserData>\n    <PrinterSharing xmlns=\"http://manifests.microsoft.com/win/2005/08/windows/printing/spooler/core/events\">\n      <PrinterName>Kiwi Legit Printer</PrinterName>\n      <ShareName>Kiwi Legit Printer</ShareName>\n    </PrinterSharing>\n  </UserData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-PrintService\",\"Guid\":\"747EF6FD-E535-4D16-B510-42C90F6873A1\"}},\"EventID\":848,\"Version\":0,\"Level\":4,\"Task\":30,\"Opcode\":11,\"Keywords\":\"0x4000000000000020\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2021-10-27T10:14:27.466200Z\"}},\"EventRecordID\":154,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":2552,\"ThreadID\":4028}},\"Channel\":\"Microsoft-Windows-PrintService/Operational\",\"Computer\":\"fs03vuln.offsec.lan\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-18\"}}},\"UserData\":{\"PrinterSharing\":{\"#attributes\":{\"xmlns\":\"http://manifests.microsoft.com/win/2005/08/windows/printing/spooler/core/events\"},\"PrinterName\":\"Kiwi Legit Printer\",\"ShareName\":\"Kiwi Legit Printer\"}}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-PrintService",
+    "event_id": "848",
+    "timestamp": "2021-10-27T10:14:27.466200Z",
+    "event_record_id": "154",
+    "level": "4",
+    "task": "30",
+    "opcode": "11",
+    "keywords": "0x4000000000000020",
+    "channel": "Microsoft-Windows-PrintService/Operational",
+    "computer": "fs03vuln.offsec.lan",
+    "PrinterName": "Kiwi Legit Printer",
+    "ShareName": "Kiwi Legit Printer"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-PrintService",
+    "channel": "Microsoft-Windows-PrintService/Operational",
+    "event_id": "848",
+    "timestamp": "2021-10-27T10:14:27.466200Z",
+    "event_record_id": "154",
+    "level": "4",
+    "task": "30",
+    "opcode": "11",
+    "keywords": "0x4000000000000020",
+    "computer": "fs03vuln.offsec.lan",
+    "PrinterName": "Kiwi Legit Printer",
+    "ShareName": "Kiwi Legit Printer"
+  }
+}

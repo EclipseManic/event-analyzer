@@ -1,0 +1,35 @@
+{
+  "event_id": "12",
+  "provider": "Microsoft-Windows-Wininit",
+  "channel": "System",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Malicious\\EVTX-to-MITRE-Attack-master\\TA0003-Persistence\\T1547-Boot or Logon Autostart Execution\\ID12-LSA Protect mode enabled RunAsPPL.evtx",
+  "event_record_id": 3,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-Wininit\" Guid=\"206F6DEA-D3C5-4D10-BC72-989F03C8B84B\">\n    </Provider>\n    <EventID>12</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2021-02-09T11:59:37.890338Z\">\n    </TimeCreated>\n    <EventRecordID>5456</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"560\" ThreadID=\"564\">\n    </Execution>\n    <Channel>System</Channel>\n    <Computer>WIN10-client01.offsec.lan</Computer>\n    <Security UserID=\"S-1-5-18\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"Level\">4</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-Wininit\",\"Guid\":\"206F6DEA-D3C5-4D10-BC72-989F03C8B84B\"}},\"EventID\":12,\"Version\":0,\"Level\":4,\"Task\":0,\"Opcode\":0,\"Keywords\":\"0x4000000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2021-02-09T11:59:37.890338Z\"}},\"EventRecordID\":5456,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":560,\"ThreadID\":564}},\"Channel\":\"System\",\"Computer\":\"WIN10-client01.offsec.lan\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-18\"}}},\"EventData\":{\"Level\":4}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-Wininit",
+    "event_id": "12",
+    "timestamp": "2021-02-09T11:59:37.890338Z",
+    "event_record_id": "5456",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x4000000000000000",
+    "channel": "System",
+    "computer": "WIN10-client01.offsec.lan",
+    "Level": "4"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-Wininit",
+    "channel": "System",
+    "event_id": "12",
+    "timestamp": "2021-02-09T11:59:37.890338Z",
+    "event_record_id": "5456",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x4000000000000000",
+    "computer": "WIN10-client01.offsec.lan",
+    "Level": "4"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "event_id": "123",
+  "provider": "Microsoft-Windows-DeviceSetupManager",
+  "channel": "Microsoft-Windows-DeviceSetupManager/Admin",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Logs\\Microsoft-Windows-DeviceSetupManager%4Admin.evtx",
+  "event_record_id": 8,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-DeviceSetupManager\" Guid=\"FCBB06BB-6A2A-46E3-ABAA-246CB4E508B2\">\n    </Provider>\n    <EventID>123</EventID>\n    <Version>0</Version>\n    <Level>3</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-11-04T12:42:09.758825Z\">\n    </TimeCreated>\n    <EventRecordID>8</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"352\" ThreadID=\"5484\">\n    </Execution>\n    <Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>\n    <Computer>DESKTOP-P9H5FTA</Computer>\n    <Security UserID=\"S-1-5-18\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"Prop_Seconds\">109</Data>\n    <Data Name=\"Prop_DeviceId\">USB\\VID_0E0F&amp;PID_0008\\000650268328</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-DeviceSetupManager\",\"Guid\":\"FCBB06BB-6A2A-46E3-ABAA-246CB4E508B2\"}},\"EventID\":123,\"Version\":0,\"Level\":3,\"Task\":0,\"Opcode\":0,\"Keywords\":\"0x4000000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2024-11-04T12:42:09.758825Z\"}},\"EventRecordID\":8,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":352,\"ThreadID\":5484}},\"Channel\":\"Microsoft-Windows-DeviceSetupManager/Admin\",\"Computer\":\"DESKTOP-P9H5FTA\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-18\"}}},\"EventData\":{\"Prop_Seconds\":109,\"Prop_DeviceId\":\"USB\\\\VID_0E0F&PID_0008\\\\000650268328\"}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-DeviceSetupManager",
+    "event_id": "123",
+    "timestamp": "2024-11-04T12:42:09.758825Z",
+    "event_record_id": "8",
+    "level": "3",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x4000000000000000",
+    "channel": "Microsoft-Windows-DeviceSetupManager/Admin",
+    "computer": "DESKTOP-P9H5FTA",
+    "Prop_Seconds": "109",
+    "Prop_DeviceId": "USB\\VID_0E0F&PID_0008\\000650268328"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-DeviceSetupManager",
+    "channel": "Microsoft-Windows-DeviceSetupManager/Admin",
+    "event_id": "123",
+    "timestamp": "2024-11-04T12:42:09.758825Z",
+    "event_record_id": "8",
+    "level": "3",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x4000000000000000",
+    "computer": "DESKTOP-P9H5FTA",
+    "Prop_Seconds": "109",
+    "Prop_DeviceId": "USB\\VID_0E0F&PID_0008\\000650268328"
+  }
+}

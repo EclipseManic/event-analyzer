@@ -1,0 +1,35 @@
+{
+  "event_id": "408",
+  "provider": "Microsoft-Windows-DNS-Server-Service",
+  "channel": "DNS Server",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\Win2022-AD\\DNS Server.evtx",
+  "event_record_id": 33,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-DNS-Server-Service\" Guid=\"71A551F5-C893-4849-886B-B5EC8502641E\">\n    </Provider>\n    <EventID>408</EventID>\n    <Version>0</Version>\n    <Level>2</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x8000000000100000</Keywords>\n    <TimeCreated SystemTime=\"2022-04-07T16:59:58.007287Z\">\n    </TimeCreated>\n    <EventRecordID>33</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"2320\" ThreadID=\"4240\">\n    </Execution>\n    <Channel>DNS Server</Channel>\n    <Computer>WIN-FPV0DSIC9O6.sigma.fr</Computer>\n    <Security UserID=\"S-1-5-18\">\n    </Security>\n  </System>\n  <EventData Name=\"DNS_EVENT_OPEN_SOCKET_FOR_ADDRESS\">\n    <Data Name=\"param1\">169.254.142.31</Data>\n    <Binary></Binary>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-DNS-Server-Service\",\"Guid\":\"71A551F5-C893-4849-886B-B5EC8502641E\"}},\"EventID\":408,\"Version\":0,\"Level\":2,\"Task\":0,\"Opcode\":0,\"Keywords\":\"0x8000000000100000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2022-04-07T16:59:58.007287Z\"}},\"EventRecordID\":33,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":2320,\"ThreadID\":4240}},\"Channel\":\"DNS Server\",\"Computer\":\"WIN-FPV0DSIC9O6.sigma.fr\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-18\"}}},\"EventData\":{\"#attributes\":{\"Name\":\"DNS_EVENT_OPEN_SOCKET_FOR_ADDRESS\"},\"param1\":\"169.254.142.31\",\"Binary\":null}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-DNS-Server-Service",
+    "event_id": "408",
+    "timestamp": "2022-04-07T16:59:58.007287Z",
+    "event_record_id": "33",
+    "level": "2",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x8000000000100000",
+    "channel": "DNS Server",
+    "computer": "WIN-FPV0DSIC9O6.sigma.fr",
+    "param1": "169.254.142.31"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-DNS-Server-Service",
+    "channel": "DNS Server",
+    "event_id": "408",
+    "timestamp": "2022-04-07T16:59:58.007287Z",
+    "event_record_id": "33",
+    "level": "2",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x8000000000100000",
+    "computer": "WIN-FPV0DSIC9O6.sigma.fr",
+    "param1": "169.254.142.31"
+  }
+}

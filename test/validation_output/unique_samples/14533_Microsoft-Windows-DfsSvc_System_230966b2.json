@@ -1,0 +1,33 @@
+{
+  "event_id": "14533",
+  "provider": "Microsoft-Windows-DfsSvc",
+  "channel": "System",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\Win2022-AD\\System.evtx",
+  "event_record_id": 432,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-DfsSvc\" Guid=\"{7DA4FE0E-FD42-4708-9AA5-89B77A224885}\" EventSourceName=\"DfsSvc\">\n    </Provider>\n    <EventID Qualifiers=\"16384\">14533</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x80000000000000</Keywords>\n    <TimeCreated SystemTime=\"2022-04-07T17:06:56.166883Z\">\n    </TimeCreated>\n    <EventRecordID>432</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"0\" ThreadID=\"0\">\n    </Execution>\n    <Channel>System</Channel>\n    <Computer>WIN-FPV0DSIC9O6</Computer>\n    <Security>\n    </Security>\n  </System>\n  <EventData Name=\"DfsFinishBuildingNamespace\">\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-DfsSvc\",\"Guid\":\"{7DA4FE0E-FD42-4708-9AA5-89B77A224885}\",\"EventSourceName\":\"DfsSvc\"}},\"EventID\":{\"#attributes\":{\"Qualifiers\":16384},\"#text\":14533},\"Version\":0,\"Level\":4,\"Task\":0,\"Opcode\":0,\"Keywords\":\"0x80000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2022-04-07T17:06:56.166883Z\"}},\"EventRecordID\":432,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":0,\"ThreadID\":0}},\"Channel\":\"System\",\"Computer\":\"WIN-FPV0DSIC9O6\",\"Security\":null},\"EventData\":{\"#attributes\":{\"Name\":\"DfsFinishBuildingNamespace\"}}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-DfsSvc",
+    "event_id": "14533",
+    "timestamp": "2022-04-07T17:06:56.166883Z",
+    "event_record_id": "432",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x80000000000000",
+    "channel": "System",
+    "computer": "WIN-FPV0DSIC9O6"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-DfsSvc",
+    "channel": "System",
+    "event_id": "14533",
+    "timestamp": "2022-04-07T17:06:56.166883Z",
+    "event_record_id": "432",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x80000000000000",
+    "computer": "WIN-FPV0DSIC9O6"
+  }
+}

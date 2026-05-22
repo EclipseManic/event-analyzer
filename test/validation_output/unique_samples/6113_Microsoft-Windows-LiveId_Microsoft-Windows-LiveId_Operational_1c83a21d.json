@@ -1,0 +1,37 @@
+{
+  "event_id": "6113",
+  "provider": "Microsoft-Windows-LiveId",
+  "channel": "Microsoft-Windows-LiveId/Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Logs\\Microsoft-Windows-LiveId%4Operational.evtx",
+  "event_record_id": 47,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-LiveId\" Guid=\"05F02597-FE85-4E67-8542-69567AB8FD4F\">\n    </Provider>\n    <EventID>6113</EventID>\n    <Version>0</Version>\n    <Level>2</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000400812</Keywords>\n    <TimeCreated SystemTime=\"2024-11-04T12:47:00.183972Z\">\n    </TimeCreated>\n    <EventRecordID>47</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"4584\" ThreadID=\"5388\">\n    </Execution>\n    <Channel>Microsoft-Windows-LiveId/Operational</Channel>\n    <Computer>DESKTOP-P9H5FTA</Computer>\n    <Security UserID=\"S-1-5-18\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"FunctionName\">WLIDCreateContext</Data>\n    <Data Name=\"ErrorCode\">2147778572</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-LiveId\",\"Guid\":\"05F02597-FE85-4E67-8542-69567AB8FD4F\"}},\"EventID\":6113,\"Version\":0,\"Level\":2,\"Task\":0,\"Opcode\":0,\"Keywords\":\"0x4000000000400812\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2024-11-04T12:47:00.183972Z\"}},\"EventRecordID\":47,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":4584,\"ThreadID\":5388}},\"Channel\":\"Microsoft-Windows-LiveId/Operational\",\"Computer\":\"DESKTOP-P9H5FTA\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-18\"}}},\"EventData\":{\"FunctionName\":\"WLIDCreateContext\",\"ErrorCode\":2147778572}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-LiveId",
+    "event_id": "6113",
+    "timestamp": "2024-11-04T12:47:00.183972Z",
+    "event_record_id": "47",
+    "level": "2",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x4000000000400812",
+    "channel": "Microsoft-Windows-LiveId/Operational",
+    "computer": "DESKTOP-P9H5FTA",
+    "FunctionName": "WLIDCreateContext",
+    "ErrorCode": "2147778572"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-LiveId",
+    "channel": "Microsoft-Windows-LiveId/Operational",
+    "event_id": "6113",
+    "timestamp": "2024-11-04T12:47:00.183972Z",
+    "event_record_id": "47",
+    "level": "2",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x4000000000400812",
+    "computer": "DESKTOP-P9H5FTA",
+    "FunctionName": "WLIDCreateContext",
+    "ErrorCode": "2147778572"
+  }
+}

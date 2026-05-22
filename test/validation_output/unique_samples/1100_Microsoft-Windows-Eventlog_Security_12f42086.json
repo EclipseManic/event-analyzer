@@ -1,0 +1,33 @@
+{
+  "event_id": "1100",
+  "provider": "Microsoft-Windows-Eventlog",
+  "channel": "Security",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Logs\\Security.evtx",
+  "event_record_id": 13796,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-Eventlog\" Guid=\"{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}\">\n    </Provider>\n    <EventID>1100</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>103</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4020000000000000</Keywords>\n    <TimeCreated SystemTime=\"2025-01-24T10:49:44.530477Z\">\n    </TimeCreated>\n    <EventRecordID>13796</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"1224\" ThreadID=\"7796\">\n    </Execution>\n    <Channel>Security</Channel>\n    <Computer>CTO-FILESVR</Computer>\n    <Security>\n    </Security>\n  </System>\n  <UserData>\n    <ServiceShutdown xmlns=\"http://manifests.microsoft.com/win/2004/08/windows/eventlog\">\n    </ServiceShutdown>\n  </UserData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-Eventlog\",\"Guid\":\"{fc65ddd8-d6ef-4962-83d5-6e5cfe9ce148}\"}},\"EventID\":1100,\"Version\":0,\"Level\":4,\"Task\":103,\"Opcode\":0,\"Keywords\":\"0x4020000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2025-01-24T10:49:44.530477Z\"}},\"EventRecordID\":13796,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":1224,\"ThreadID\":7796}},\"Channel\":\"Security\",\"Computer\":\"CTO-FILESVR\",\"Security\":null},\"UserData\":{\"ServiceShutdown\":{\"#attributes\":{\"xmlns\":\"http://manifests.microsoft.com/win/2004/08/windows/eventlog\"}}}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-Eventlog",
+    "event_id": "1100",
+    "timestamp": "2025-01-24T10:49:44.530477Z",
+    "event_record_id": "13796",
+    "level": "4",
+    "task": "103",
+    "opcode": "0",
+    "keywords": "0x4020000000000000",
+    "channel": "Security",
+    "computer": "CTO-FILESVR"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-Eventlog",
+    "channel": "Security",
+    "event_id": "1100",
+    "timestamp": "2025-01-24T10:49:44.530477Z",
+    "event_record_id": "13796",
+    "level": "4",
+    "task": "103",
+    "opcode": "0",
+    "keywords": "0x4020000000000000",
+    "computer": "CTO-FILESVR"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "event_id": "7043",
+  "provider": "Service Control Manager",
+  "channel": "System",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\win2022-evtx\\System.evtx",
+  "event_record_id": 468,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Service Control Manager\" Guid=\"{555908d1-a6d7-4695-8e1e-26931d2012f4}\" EventSourceName=\"Service Control Manager\">\n    </Provider>\n    <EventID Qualifiers=\"49152\">7043</EventID>\n    <Version>0</Version>\n    <Level>2</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x8080000000000000</Keywords>\n    <TimeCreated SystemTime=\"2022-03-04T12:04:11.697539Z\">\n    </TimeCreated>\n    <EventRecordID>468</EventRecordID>\n    <Correlation ActivityID=\"ACBE470D-2FA4-0000-8DB2-BEACA42FD801\">\n    </Correlation>\n    <Execution ProcessID=\"584\" ThreadID=\"1108\">\n    </Execution>\n    <Channel>System</Channel>\n    <Computer>WIN-TKC15D7KHUR</Computer>\n    <Security>\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"param1\">Windows Modules Installer</Data>\n    <Binary>540072007500730074006500640049006E007300740061006C006C00650072000000</Binary>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Service Control Manager\",\"Guid\":\"{555908d1-a6d7-4695-8e1e-26931d2012f4}\",\"EventSourceName\":\"Service Control Manager\"}},\"EventID\":{\"#attributes\":{\"Qualifiers\":49152},\"#text\":7043},\"Version\":0,\"Level\":2,\"Task\":0,\"Opcode\":0,\"Keywords\":\"0x8080000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2022-03-04T12:04:11.697539Z\"}},\"EventRecordID\":468,\"Correlation\":{\"#attributes\":{\"ActivityID\":\"ACBE470D-2FA4-0000-8DB2-BEACA42FD801\"}},\"Execution\":{\"#attributes\":{\"ProcessID\":584,\"ThreadID\":1108}},\"Channel\":\"System\",\"Computer\":\"WIN-TKC15D7KHUR\",\"Security\":null},\"EventData\":{\"param1\":\"Windows Modules Installer\",\"Binary\":\"540072007500730074006500640049006E007300740061006C006C00650072000000\"}}}",
+  "xml_fields": {
+    "provider": "Service Control Manager",
+    "event_id": "7043",
+    "timestamp": "2022-03-04T12:04:11.697539Z",
+    "event_record_id": "468",
+    "level": "2",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x8080000000000000",
+    "channel": "System",
+    "computer": "WIN-TKC15D7KHUR",
+    "param1": "Windows Modules Installer",
+    "Binary": "540072007500730074006500640049006E007300740061006C006C00650072000000"
+  },
+  "json_fields": {
+    "provider": "Service Control Manager",
+    "channel": "System",
+    "event_id": "7043",
+    "timestamp": "2022-03-04T12:04:11.697539Z",
+    "event_record_id": "468",
+    "level": "2",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x8080000000000000",
+    "computer": "WIN-TKC15D7KHUR",
+    "param1": "Windows Modules Installer",
+    "Binary": "540072007500730074006500640049006E007300740061006C006C00650072000000"
+  }
+}

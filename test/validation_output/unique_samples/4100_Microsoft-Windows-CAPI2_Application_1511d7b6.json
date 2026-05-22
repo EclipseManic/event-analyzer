@@ -1,0 +1,35 @@
+{
+  "event_id": "4100",
+  "provider": "Microsoft-Windows-CAPI2",
+  "channel": "Application",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\Logs_Client\\Application.evtx",
+  "event_record_id": 151,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-CAPI2\" Guid=\"{5bbca4a8-b209-48dc-a8c7-b23d3e5216fb}\" EventSourceName=\"Microsoft-Windows-CAPI2\">\n    </Provider>\n    <EventID Qualifiers=\"0\">4100</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x8080000000000000</Keywords>\n    <TimeCreated SystemTime=\"2022-02-07T14:15:56.354375Z\">\n    </TimeCreated>\n    <EventRecordID>151</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"364\" ThreadID=\"1148\">\n    </Execution>\n    <Channel>Application</Channel>\n    <Computer>DESKTOP-A8CALR3</Computer>\n    <Security>\n    </Security>\n  </System>\n  <EventData>\n    <Data>http://ctldl.windowsupdate.com/msdownload/update/v3/static/trustedr/en/CABD2A79A1076A31F21D253635CB039D4329A5E8.crt</Data>\n    <Binary></Binary>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-CAPI2\",\"Guid\":\"{5bbca4a8-b209-48dc-a8c7-b23d3e5216fb}\",\"EventSourceName\":\"Microsoft-Windows-CAPI2\"}},\"EventID\":{\"#attributes\":{\"Qualifiers\":0},\"#text\":4100},\"Version\":0,\"Level\":4,\"Task\":0,\"Opcode\":0,\"Keywords\":\"0x8080000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2022-02-07T14:15:56.354375Z\"}},\"EventRecordID\":151,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":364,\"ThreadID\":1148}},\"Channel\":\"Application\",\"Computer\":\"DESKTOP-A8CALR3\",\"Security\":null},\"EventData\":{\"Data\":{\"#text\":\"http://ctldl.windowsupdate.com/msdownload/update/v3/static/trustedr/en/CABD2A79A1076A31F21D253635CB039D4329A5E8.crt\"},\"Binary\":null}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-CAPI2",
+    "event_id": "4100",
+    "timestamp": "2022-02-07T14:15:56.354375Z",
+    "event_record_id": "151",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x8080000000000000",
+    "channel": "Application",
+    "computer": "DESKTOP-A8CALR3",
+    "_data_0": "http://ctldl.windowsupdate.com/msdownload/update/v3/static/trustedr/en/CABD2A79A1076A31F21D253635CB039D4329A5E8.crt"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-CAPI2",
+    "channel": "Application",
+    "event_id": "4100",
+    "timestamp": "2022-02-07T14:15:56.354375Z",
+    "event_record_id": "151",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x8080000000000000",
+    "computer": "DESKTOP-A8CALR3",
+    "Data": "http://ctldl.windowsupdate.com/msdownload/update/v3/static/trustedr/en/CABD2A79A1076A31F21D253635CB039D4329A5E8.crt"
+  }
+}

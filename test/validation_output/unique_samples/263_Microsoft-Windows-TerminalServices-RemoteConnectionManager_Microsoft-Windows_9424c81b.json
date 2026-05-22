@@ -1,0 +1,33 @@
+{
+  "event_id": "263",
+  "provider": "Microsoft-Windows-TerminalServices-RemoteConnectionManager",
+  "channel": "Microsoft-Windows-TerminalServices-RemoteConnectionManager/Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Logs\\Microsoft-Windows-TerminalServices-RemoteConnectionManager%4Operational.evtx",
+  "event_record_id": 1,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-TerminalServices-RemoteConnectionManager\" Guid=\"C76BAA63-AE81-421C-B425-340B4B24157F\">\n    </Provider>\n    <EventID>263</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x1000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2025-01-24T10:05:30.710102Z\">\n    </TimeCreated>\n    <EventRecordID>1</EventRecordID>\n    <Correlation ActivityID=\"F462FEB3-0C80-41E9-B69E-823073160000\">\n    </Correlation>\n    <Execution ProcessID=\"9408\" ThreadID=\"8232\">\n    </Execution>\n    <Channel>Microsoft-Windows-TerminalServices-RemoteConnectionManager/Operational</Channel>\n    <Computer>cyberjunkie-test</Computer>\n    <Security UserID=\"S-1-5-20\">\n    </Security>\n  </System>\n  <EventData>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-TerminalServices-RemoteConnectionManager\",\"Guid\":\"C76BAA63-AE81-421C-B425-340B4B24157F\"}},\"EventID\":263,\"Version\":0,\"Level\":4,\"Task\":0,\"Opcode\":0,\"Keywords\":\"0x1000000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2025-01-24T10:05:30.710102Z\"}},\"EventRecordID\":1,\"Correlation\":{\"#attributes\":{\"ActivityID\":\"F462FEB3-0C80-41E9-B69E-823073160000\"}},\"Execution\":{\"#attributes\":{\"ProcessID\":9408,\"ThreadID\":8232}},\"Channel\":\"Microsoft-Windows-TerminalServices-RemoteConnectionManager/Operational\",\"Computer\":\"cyberjunkie-test\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-20\"}}},\"EventData\":null}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-TerminalServices-RemoteConnectionManager",
+    "event_id": "263",
+    "timestamp": "2025-01-24T10:05:30.710102Z",
+    "event_record_id": "1",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x1000000000000000",
+    "channel": "Microsoft-Windows-TerminalServices-RemoteConnectionManager/Operational",
+    "computer": "cyberjunkie-test"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-TerminalServices-RemoteConnectionManager",
+    "channel": "Microsoft-Windows-TerminalServices-RemoteConnectionManager/Operational",
+    "event_id": "263",
+    "timestamp": "2025-01-24T10:05:30.710102Z",
+    "event_record_id": "1",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x1000000000000000",
+    "computer": "cyberjunkie-test"
+  }
+}

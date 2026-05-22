@@ -1,0 +1,35 @@
+{
+  "event_id": "39",
+  "provider": "Microsoft-Windows-AppModel-Runtime",
+  "channel": "Microsoft-Windows-AppModel-Runtime/Admin",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Logs\\Microsoft-Windows-AppModel-Runtime%4Admin.evtx",
+  "event_record_id": 1,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-AppModel-Runtime\" Guid=\"F1EF270A-0D32-4352-BA52-DBAB41E1D859\">\n    </Provider>\n    <EventID>39</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x2000000000000002</Keywords>\n    <TimeCreated SystemTime=\"2024-11-05T01:33:02.811256Z\">\n    </TimeCreated>\n    <EventRecordID>1</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"592\" ThreadID=\"632\">\n    </Execution>\n    <Channel>Microsoft-Windows-AppModel-Runtime/Admin</Channel>\n    <Computer>WIN-5LCFHVCO531</Computer>\n    <Security UserID=\"S-1-5-18\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"AppContainerName\">microsoft.windows.fontdrvhost</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-AppModel-Runtime\",\"Guid\":\"F1EF270A-0D32-4352-BA52-DBAB41E1D859\"}},\"EventID\":39,\"Version\":0,\"Level\":4,\"Task\":0,\"Opcode\":0,\"Keywords\":\"0x2000000000000002\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2024-11-05T01:33:02.811256Z\"}},\"EventRecordID\":1,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":592,\"ThreadID\":632}},\"Channel\":\"Microsoft-Windows-AppModel-Runtime/Admin\",\"Computer\":\"WIN-5LCFHVCO531\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-18\"}}},\"EventData\":{\"AppContainerName\":\"microsoft.windows.fontdrvhost\"}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-AppModel-Runtime",
+    "event_id": "39",
+    "timestamp": "2024-11-05T01:33:02.811256Z",
+    "event_record_id": "1",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x2000000000000002",
+    "channel": "Microsoft-Windows-AppModel-Runtime/Admin",
+    "computer": "WIN-5LCFHVCO531",
+    "AppContainerName": "microsoft.windows.fontdrvhost"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-AppModel-Runtime",
+    "channel": "Microsoft-Windows-AppModel-Runtime/Admin",
+    "event_id": "39",
+    "timestamp": "2024-11-05T01:33:02.811256Z",
+    "event_record_id": "1",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x2000000000000002",
+    "computer": "WIN-5LCFHVCO531",
+    "AppContainerName": "microsoft.windows.fontdrvhost"
+  }
+}

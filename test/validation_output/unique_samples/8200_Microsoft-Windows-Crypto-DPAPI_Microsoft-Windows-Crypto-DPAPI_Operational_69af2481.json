@@ -1,0 +1,39 @@
+{
+  "event_id": "8200",
+  "provider": "Microsoft-Windows-Crypto-DPAPI",
+  "channel": "Microsoft-Windows-Crypto-DPAPI/Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\Logs_Win11\\Microsoft-Windows-Crypto-DPAPI%4Operational.evtx",
+  "event_record_id": 1,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-Crypto-DPAPI\" Guid=\"89FE8F40-CDCE-464E-8217-15EF97D4C7C3\">\n    </Provider>\n    <EventID>8200</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>32</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x8000000000000020</Keywords>\n    <TimeCreated SystemTime=\"2022-03-01T16:42:09.063276Z\">\n    </TimeCreated>\n    <EventRecordID>1</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"848\" ThreadID=\"904\">\n    </Execution>\n    <Channel>Microsoft-Windows-Crypto-DPAPI/Operational</Channel>\n    <Computer>WIN-KPO4DDU11AB</Computer>\n    <Security UserID=\"S-1-5-18\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"MasterKeyGUID\">8E12DDDD-3C40-4271-BD38-0DF283112C58</Data>\n    <Data Name=\"EncryptCredID\">00000000-0000-0000-0000-000000000000</Data>\n    <Data Name=\"EncryptCredKey\">82649CB08545429718D943CEE6A56ED87D28F7E9</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-Crypto-DPAPI\",\"Guid\":\"89FE8F40-CDCE-464E-8217-15EF97D4C7C3\"}},\"EventID\":8200,\"Version\":0,\"Level\":4,\"Task\":32,\"Opcode\":0,\"Keywords\":\"0x8000000000000020\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2022-03-01T16:42:09.063276Z\"}},\"EventRecordID\":1,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":848,\"ThreadID\":904}},\"Channel\":\"Microsoft-Windows-Crypto-DPAPI/Operational\",\"Computer\":\"WIN-KPO4DDU11AB\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-18\"}}},\"EventData\":{\"MasterKeyGUID\":\"8E12DDDD-3C40-4271-BD38-0DF283112C58\",\"EncryptCredID\":\"00000000-0000-0000-0000-000000000000\",\"EncryptCredKey\":\"82649CB08545429718D943CEE6A56ED87D28F7E9\"}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-Crypto-DPAPI",
+    "event_id": "8200",
+    "timestamp": "2022-03-01T16:42:09.063276Z",
+    "event_record_id": "1",
+    "level": "4",
+    "task": "32",
+    "opcode": "0",
+    "keywords": "0x8000000000000020",
+    "channel": "Microsoft-Windows-Crypto-DPAPI/Operational",
+    "computer": "WIN-KPO4DDU11AB",
+    "MasterKeyGUID": "8E12DDDD-3C40-4271-BD38-0DF283112C58",
+    "EncryptCredID": "00000000-0000-0000-0000-000000000000",
+    "EncryptCredKey": "82649CB08545429718D943CEE6A56ED87D28F7E9"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-Crypto-DPAPI",
+    "channel": "Microsoft-Windows-Crypto-DPAPI/Operational",
+    "event_id": "8200",
+    "timestamp": "2022-03-01T16:42:09.063276Z",
+    "event_record_id": "1",
+    "level": "4",
+    "task": "32",
+    "opcode": "0",
+    "keywords": "0x8000000000000020",
+    "computer": "WIN-KPO4DDU11AB",
+    "MasterKeyGUID": "8E12DDDD-3C40-4271-BD38-0DF283112C58",
+    "EncryptCredID": "00000000-0000-0000-0000-000000000000",
+    "EncryptCredKey": "82649CB08545429718D943CEE6A56ED87D28F7E9"
+  }
+}

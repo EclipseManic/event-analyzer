@@ -1,0 +1,38 @@
+{
+  "event_id": "70",
+  "provider": "Microsoft-Windows-CAPI2",
+  "channel": "Microsoft-Windows-CAPI2/Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Malicious\\EVTX-to-MITRE-Attack-master\\TA0006-Credential Access\\T1552.004-Unsecured Credentials-Private Keys\\ID70-CAPI-Private key accessed Mimikatz.evtx",
+  "event_record_id": 1,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-CAPI2\" Guid=\"{5bbca4a8-b209-48dc-a8c7-b23d3e5216fb}\">\n    </Provider>\n    <EventID>70</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>70</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000080</Keywords>\n    <TimeCreated SystemTime=\"2020-07-11T13:21:11.693103Z\">\n    </TimeCreated>\n    <EventRecordID>13969076</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"5708\" ThreadID=\"5712\">\n    </Execution>\n    <Channel>Microsoft-Windows-CAPI2/Operational</Channel>\n    <Computer>wec02</Computer>\n    <Security UserID=\"S-1-5-21-1153173314-1076311963-3278442693-500\">\n    </Security>\n  </System>\n  <UserData>\n    <CryptAcquireCertificatePrivateKey>\n      <Certificate fileRef=\"3CD6B0EFAF68549EFE9ED2316426FCD7FF81A6A8.cer\" subjectName=\"wec02.offsec.lan\">\n      </Certificate>\n      <Flags value=\"10000\" CRYPT_ACQUIRE_ALLOW_NCRYPT_KEY_FLAG=\"true\">\n      </Flags>\n      <EventAuxInfo ProcessName=\"mimikatz.exe\">\n      </EventAuxInfo>\n      <CorrelationAuxInfo TaskId=\"{973F48B9-7001-410B-A904-B1DD8692B60A}\" SeqNumber=\"2\">\n      </CorrelationAuxInfo>\n      <Result value=\"0\">\n      </Result>\n    </CryptAcquireCertificatePrivateKey>\n  </UserData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-CAPI2\",\"Guid\":\"{5bbca4a8-b209-48dc-a8c7-b23d3e5216fb}\"}},\"EventID\":70,\"Version\":0,\"Level\":4,\"Task\":70,\"Opcode\":0,\"Keywords\":\"0x4000000000000080\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2020-07-11T13:21:11.693103Z\"}},\"EventRecordID\":13969076,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":5708,\"ThreadID\":5712}},\"Channel\":\"Microsoft-Windows-CAPI2/Operational\",\"Computer\":\"wec02\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-21-1153173314-1076311963-3278442693-500\"}}},\"UserData\":{\"CryptAcquireCertificatePrivateKey\":{\"Certificate\":{\"#attributes\":{\"fileRef\":\"3CD6B0EFAF68549EFE9ED2316426FCD7FF81A6A8.cer\",\"subjectName\":\"wec02.offsec.lan\"}},\"Flags\":{\"#attributes\":{\"value\":\"10000\",\"CRYPT_ACQUIRE_ALLOW_NCRYPT_KEY_FLAG\":\"true\"}},\"EventAuxInfo\":{\"#attributes\":{\"ProcessName\":\"mimikatz.exe\"}},\"CorrelationAuxInfo\":{\"#attributes\":{\"TaskId\":\"{973F48B9-7001-410B-A904-B1DD8692B60A}\",\"SeqNumber\":\"2\"}},\"Result\":{\"#attributes\":{\"value\":\"0\"}}}}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-CAPI2",
+    "event_id": "70",
+    "timestamp": "2020-07-11T13:21:11.693103Z",
+    "event_record_id": "13969076",
+    "level": "4",
+    "task": "70",
+    "opcode": "0",
+    "keywords": "0x4000000000000080",
+    "channel": "Microsoft-Windows-CAPI2/Operational",
+    "computer": "wec02",
+    "Certificate": "\n      ",
+    "Flags": "\n      ",
+    "EventAuxInfo": "\n      ",
+    "CorrelationAuxInfo": "\n      ",
+    "Result": "\n      "
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-CAPI2",
+    "channel": "Microsoft-Windows-CAPI2/Operational",
+    "event_id": "70",
+    "timestamp": "2020-07-11T13:21:11.693103Z",
+    "event_record_id": "13969076",
+    "level": "4",
+    "task": "70",
+    "opcode": "0",
+    "keywords": "0x4000000000000080",
+    "computer": "wec02"
+  }
+}

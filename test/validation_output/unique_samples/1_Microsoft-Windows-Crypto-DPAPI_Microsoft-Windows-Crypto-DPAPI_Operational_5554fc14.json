@@ -1,0 +1,37 @@
+{
+  "event_id": "1",
+  "provider": "Microsoft-Windows-Crypto-DPAPI",
+  "channel": "Microsoft-Windows-Crypto-DPAPI/Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Logs\\Microsoft-Windows-Crypto-DPAPI%4Operational.evtx",
+  "event_record_id": 1,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-Crypto-DPAPI\" Guid=\"89FE8F40-CDCE-464E-8217-15EF97D4C7C3\">\n    </Provider>\n    <EventID>1</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>2</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x8000000000000002</Keywords>\n    <TimeCreated SystemTime=\"2024-11-05T01:33:02.812466Z\">\n    </TimeCreated>\n    <EventRecordID>1</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"652\" ThreadID=\"740\">\n    </Execution>\n    <Channel>Microsoft-Windows-Crypto-DPAPI/Operational</Channel>\n    <Computer>WIN-5LCFHVCO531</Computer>\n    <Security UserID=\"S-1-5-18\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"MasterKeyGUID\">07D4BF3F-9FC6-4738-B34E-380E8F9FF93D</Data>\n    <Data Name=\"UserStorage\">C:\\Windows\\system32\\Microsoft\\Protect\\S-1-5-18\\User\\</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-Crypto-DPAPI\",\"Guid\":\"89FE8F40-CDCE-464E-8217-15EF97D4C7C3\"}},\"EventID\":1,\"Version\":0,\"Level\":4,\"Task\":2,\"Opcode\":0,\"Keywords\":\"0x8000000000000002\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2024-11-05T01:33:02.812466Z\"}},\"EventRecordID\":1,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":652,\"ThreadID\":740}},\"Channel\":\"Microsoft-Windows-Crypto-DPAPI/Operational\",\"Computer\":\"WIN-5LCFHVCO531\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-18\"}}},\"EventData\":{\"MasterKeyGUID\":\"07D4BF3F-9FC6-4738-B34E-380E8F9FF93D\",\"UserStorage\":\"C:\\\\Windows\\\\system32\\\\Microsoft\\\\Protect\\\\S-1-5-18\\\\User\\\\\"}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-Crypto-DPAPI",
+    "event_id": "1",
+    "timestamp": "2024-11-05T01:33:02.812466Z",
+    "event_record_id": "1",
+    "level": "4",
+    "task": "2",
+    "opcode": "0",
+    "keywords": "0x8000000000000002",
+    "channel": "Microsoft-Windows-Crypto-DPAPI/Operational",
+    "computer": "WIN-5LCFHVCO531",
+    "MasterKeyGUID": "07D4BF3F-9FC6-4738-B34E-380E8F9FF93D",
+    "UserStorage": "C:\\Windows\\system32\\Microsoft\\Protect\\S-1-5-18\\User\\"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-Crypto-DPAPI",
+    "channel": "Microsoft-Windows-Crypto-DPAPI/Operational",
+    "event_id": "1",
+    "timestamp": "2024-11-05T01:33:02.812466Z",
+    "event_record_id": "1",
+    "level": "4",
+    "task": "2",
+    "opcode": "0",
+    "keywords": "0x8000000000000002",
+    "computer": "WIN-5LCFHVCO531",
+    "MasterKeyGUID": "07D4BF3F-9FC6-4738-B34E-380E8F9FF93D",
+    "UserStorage": "C:\\Windows\\system32\\Microsoft\\Protect\\S-1-5-18\\User\\"
+  }
+}

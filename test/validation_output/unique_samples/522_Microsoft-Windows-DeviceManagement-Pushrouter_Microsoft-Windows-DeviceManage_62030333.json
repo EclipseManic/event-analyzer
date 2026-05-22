@@ -1,0 +1,35 @@
+{
+  "event_id": "522",
+  "provider": "Microsoft-Windows-DeviceManagement-Pushrouter",
+  "channel": "Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider/Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Logs\\Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider%4Operational.evtx",
+  "event_record_id": 25,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-DeviceManagement-Pushrouter\" Guid=\"F1201B5A-E170-42B6-8D20-B57AC57E6416\">\n    </Provider>\n    <EventID>522</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x8000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-11-04T12:39:02.565514Z\">\n    </TimeCreated>\n    <EventRecordID>25</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"5508\" ThreadID=\"6188\">\n    </Execution>\n    <Channel>Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider/Operational</Channel>\n    <Computer>DESKTOP-P9H5FTA</Computer>\n    <Security UserID=\"S-1-5-18\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"HRESULT\">0x0</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-DeviceManagement-Pushrouter\",\"Guid\":\"F1201B5A-E170-42B6-8D20-B57AC57E6416\"}},\"EventID\":522,\"Version\":0,\"Level\":4,\"Task\":0,\"Opcode\":0,\"Keywords\":\"0x8000000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2024-11-04T12:39:02.565514Z\"}},\"EventRecordID\":25,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":5508,\"ThreadID\":6188}},\"Channel\":\"Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider/Operational\",\"Computer\":\"DESKTOP-P9H5FTA\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-18\"}}},\"EventData\":{\"HRESULT\":\"0x0\"}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-DeviceManagement-Pushrouter",
+    "event_id": "522",
+    "timestamp": "2024-11-04T12:39:02.565514Z",
+    "event_record_id": "25",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x8000000000000000",
+    "channel": "Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider/Operational",
+    "computer": "DESKTOP-P9H5FTA",
+    "HRESULT": "0x0"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-DeviceManagement-Pushrouter",
+    "channel": "Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider/Operational",
+    "event_id": "522",
+    "timestamp": "2024-11-04T12:39:02.565514Z",
+    "event_record_id": "25",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x8000000000000000",
+    "computer": "DESKTOP-P9H5FTA",
+    "HRESULT": "0x0"
+  }
+}

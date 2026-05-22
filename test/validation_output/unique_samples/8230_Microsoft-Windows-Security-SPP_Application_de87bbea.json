@@ -1,0 +1,35 @@
+{
+  "event_id": "8230",
+  "provider": "Microsoft-Windows-Security-SPP",
+  "channel": "Application",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Logs\\Application.evtx",
+  "event_record_id": 129,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-Security-SPP\" Guid=\"{E23B33B0-C8C9-472C-A5F9-F2BDFEA0F156}\" EventSourceName=\"Software Protection Platform Service\">\n    </Provider>\n    <EventID Qualifiers=\"16384\">8230</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x80000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-11-04T12:48:49.342699Z\">\n    </TimeCreated>\n    <EventRecordID>129</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"0\" ThreadID=\"0\">\n    </Execution>\n    <Channel>Application</Channel>\n    <Computer>DESKTOP-P9H5FTA</Computer>\n    <Security>\n    </Security>\n  </System>\n  <EventData>\n    <Data>Security-SPP-Action-StateData (REG_SZ) =AppId=55c92734-d682-4d71-983e-d6ec3f16059f;LastConsumptionReason=0xc004f034;LastNotificationId=NeverActivated;LicenseState=SL_LICENSING_STATUS_NOTIFICATION;PartialProductKey=PKCKT;ProductKeyType=Retail;SkuId=9fbaf5d6-4d83-4422-870d-fdda6e5858aa;ruleId=31e71c49-8da7-4a2f-ad92-45d98a1c79ba;uxDifferentiator=RETAIL</Data>\n    <Binary></Binary>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-Security-SPP\",\"Guid\":\"{E23B33B0-C8C9-472C-A5F9-F2BDFEA0F156}\",\"EventSourceName\":\"Software Protection Platform Service\"}},\"EventID\":{\"#attributes\":{\"Qualifiers\":16384},\"#text\":8230},\"Version\":0,\"Level\":4,\"Task\":0,\"Opcode\":0,\"Keywords\":\"0x80000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2024-11-04T12:48:49.342699Z\"}},\"EventRecordID\":129,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":0,\"ThreadID\":0}},\"Channel\":\"Application\",\"Computer\":\"DESKTOP-P9H5FTA\",\"Security\":null},\"EventData\":{\"Data\":{\"#text\":\"Security-SPP-Action-StateData (REG_SZ) =AppId=55c92734-d682-4d71-983e-d6ec3f16059f;LastConsumptionReason=0xc004f034;LastNotificationId=NeverActivated;LicenseState=SL_LICENSING_STATUS_NOTIFICATION;PartialProductKey=PKCKT;ProductKeyType=Retail;SkuId=9fbaf5d6-4d83-4422-870d-fdda6e5858aa;ruleId=31e71c49-8da7-4a2f-ad92-45d98a1c79ba;uxDifferentiator=RETAIL\"},\"Binary\":null}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-Security-SPP",
+    "event_id": "8230",
+    "timestamp": "2024-11-04T12:48:49.342699Z",
+    "event_record_id": "129",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x80000000000000",
+    "channel": "Application",
+    "computer": "DESKTOP-P9H5FTA",
+    "_data_0": "Security-SPP-Action-StateData (REG_SZ) =AppId=55c92734-d682-4d71-983e-d6ec3f16059f;LastConsumptionReason=0xc004f034;LastNotificationId=NeverActivated;LicenseState=SL_LICENSING_STATUS_NOTIFICATION;PartialProductKey=PKCKT;ProductKeyType=Retail;SkuId=9fbaf5d6-4d83-4422-870d-fdda6e5858aa;ruleId=31e71c49-8da7-4a2f-ad92-45d98a1c79ba;uxDifferentiator=RETAIL"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-Security-SPP",
+    "channel": "Application",
+    "event_id": "8230",
+    "timestamp": "2024-11-04T12:48:49.342699Z",
+    "event_record_id": "129",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x80000000000000",
+    "computer": "DESKTOP-P9H5FTA",
+    "Data": "Security-SPP-Action-StateData (REG_SZ) =AppId=55c92734-d682-4d71-983e-d6ec3f16059f;LastConsumptionReason=0xc004f034;LastNotificationId=NeverActivated;LicenseState=SL_LICENSING_STATUS_NOTIFICATION;PartialProductKey=PKCKT;ProductKeyType=Retail;SkuId=9fbaf5d6-4d83-4422-870d-fdda6e5858aa;ruleId=31e71c49-8da7-4a2f-ad92-45d98a1c79ba;uxDifferentiator=RETAIL"
+  }
+}

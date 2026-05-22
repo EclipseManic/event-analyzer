@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Event-Analyzer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/static/styles.css?v=raw-table-10" />
+  <script>
+    window.__APP_CONFIG__ = { pageLimit: {{ page_limit }} };
+  </script>
+</head>
+<body>
+  {% raw %}
+  <div id="app" class="page" :class="{ 'detail-open': eventDetail }" :style="eventDetail ? { '--detail-offset': detailHeight + 'px' } : {}">
+    <header class="topbar">
+      <div class="brand-block">
+        <div class="brand">Event-Analyzer</div>
+        <div class="tagline">Fast EVTX investigation for analysts</div>
+        <nav class="tabs" aria-label="Primary">
+          <button class="tab-button" type="button" :class="{ active: activeTab === 'overview' }" @click="setTab('overview')">
+            <svg class="tab-icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M4 6h16" />
+              <path d="M4 12h16" />
+              <path d="M4 18h16" />
+            </svg>
+            Overview
+          </button>
+          <button class="tab-button" type="button" :class="{ active: activeTab === 'investigation' }" @click="setTab('investigation')">
+            <svg class="tab-icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M10 6h10" />
+              <path d="M10 12h10" />
+              <path d="M10 18h10" />
+              <path d="M4 6h.01" />
+              <path d="M4 12h.01" />
+              <path d="M4 18h.01" />
+            </svg>
+            Investigation
+          </button>
+        </nav>
+      </div>
+      <div class="investigation-switch" v-if="activeTab === 'investigation'">
+        <label>Investigation</label>
+        <button class="secondary upload-open" type="button" @click="openUploadModal">Upload</button>
+        <button class="icon-button danger" type="button" title="Delete investigation" aria-label="Delete selected investigation" @click="deleteSelectedInvestigation" :disabled="!selectedId">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M3 6h18" />
+            <path d="M8 6V4h8v2" />
+            <path d="M10 11v6" />
+            <path d="M14 11v6" />
+            <path d="M6 6l1 15h10l1-15" />
+          </svg>
+        </button>
+        <select v-model="selectedId" @change="selectInvestigation(selectedId)" :disabled="!investigations.length">
+          <option v-if="!investigations.length" value="">No investigations</option>
+          <option v-for="inv in investigations" :key="inv.id" :value="inv.id">{{ inv.name }}</option>
+        </select>
+      </div>
+    </header>
+
+    <div class="modal-overlay" v-if="upload.modalOpen" @click.self.prevent>
+      <div class="modal card" role="dialog" aria-modal="true" aria-label="Upload EVTX">
+        <div class="modal-header">
+          <div>
+            <div class="modal-title">Upload EVTX</div>
+            <div class="modal-subtitle">Upload one or more .evtx files and wait for analysis to complete.</div>
+          </div>
+          <button class="icon-button" type="button" title="Close" aria-label="Close upload" @click="closeUploadModal" :disabled="upload.locked">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M18 6 6 18" />
+              <path d="M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+
+        <div class="modal-body">
+          <div class="upload-modal-grid">
+            <input type="text" v-model="upload.name" placeholder="Investigation name (optional)" :disabled="upload.locked || uploading" />
+            <div class="upload-pickers">
+              <div class="file-control">
+                <input ref="evtxFileInput" id="evtx-files" class="file-input" type="file" multiple accept=".evtx" @change="onFileChange" :disabled="upload.locked || uploading" />
+                <label class="file-picker" for="evtx-files">Add files</label>
+                <span class="file-name">{{ upload.files.length ? upload.files.length + ' files selected' : 'No files selected' }}</span>
+              </div>
+              <div class="file-control">
+                <input ref="evtxFolderInput" id="evtx-folders" class="file-input" type="file" webkitdirectory directory multiple @change="onFolderChange" :disabled="upload.locked || uploading" />
+                <label class="file-picker" for="evtx-folders">Add folders</label>
+                <span class="file-name">{{ upload.folderNames.length ? upload.folderNames.length + ' folder(s) added' : 'No folders added' }}</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="upload-meta">
+            <div>Accepted: .evtx files</div>
+            <div class="meta-detail">You can add folders too — they are scanned recursively.</div>
+            <div v-if="upload.startedAt">Elapsed: {{ formatDuration(upload.elapsedMs) }}</div>
+            <div v-if="upload.progress > 0 && upload.progress < 100">Upload: {{ upload.progress }}%</div>
+            <div v-if="upload.analysis.stage">Analysis: {{ upload.analysis.stage }} - {{ upload.analysis.percent }}%</div>
+            <div class="meta-detail" v-if="upload.analysis.detail">{{ upload.analysis.detail }}</div>
+            <div class="error" v-if="upload.error">{{ upload.error }}</div>
+          </div>
+        </div>
+
+        <div class="modal-actions">
+          <button class="primary" v-if="!upload.invId" @click="uploadFiles" :disabled="upload.files.length === 0 || uploading">
+            {{ uploading ? 'Uploading...' : 'Upload & Analyze' }}
+          </button>
+          <button class="primary" v-else disabled>
+            {{ upload.done ? 'Complete' : 'Analyzing...' }}
+          </button>
+          <button class="secondary" v-if="upload.done" @click="viewUploadedInvestigation">View Dashboard</button>
+        </div>
+
+        <div class="modal-hint" v-if="upload.locked">Please wait until analysis reaches 100%.</div>
+      </div>
+    </div>
+
+    <section class="overview" v-if="activeTab === 'overview'">
+      <div class="card overview-hero">
+        <div class="overview-hero-label">EVTX investigation viewer</div>
+        <div class="overview-hero-title">Turn Windows .evtx logs into a searchable investigation.</div>
+        <div class="overview-hero-text">
+          Event-Analyzer uploads EVTX files, parses them with a Rust backend, and stores events in a local SQLite index.
+          Analysts review the details, while others get a clear, structured view and exportable results.
+        </div>
+        <div class="overview-actions">
+          <button class="primary" type="button" @click="startInvestigation">Start Investigation</button>
+          <button class="secondary" type="button" v-if="investigations.length" @click="setTab('investigation')">Open Existing</button>
+        </div>
+      </div>
+
+      <div class="overview-callouts">
+        <div class="card callout-card">
+          <div class="callout-title">Core problem</div>
+          <div class="callout-text">Windows EVTX logs are raw, noisy, and spread across many files — difficult to read quickly or explain to others.</div>
+        </div>
+        <div class="card callout-card">
+          <div class="callout-title">How it solves it</div>
+          <div class="callout-text">Event-Analyzer parses EVTX files into a searchable, filterable workspace and keeps everything under one investigation.</div>
+        </div>
+        <div class="card callout-card">
+          <div class="callout-title">Who it helps</div>
+          <div class="callout-text">Analysts investigate details, freshers follow the guided flow, and leaders review outputs via exports.</div>
+          <div class="callout-tags">
+            <span class="tag-chip">analysts</span>
+            <span class="tag-chip">freshers</span>
+            <span class="tag-chip">leadership</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="overview-stats">
+        <div class="card stat-card">
+          <div class="stat-value">Rust EVTX</div>
+          <div class="stat-label">Parser backend (pyevtx-rs)</div>
+        </div>
+        <div class="card stat-card">
+          <div class="stat-value">SQLite</div>
+          <div class="stat-label">Local searchable index</div>
+        </div>
+        <div class="card stat-card">
+          <div class="stat-value">CSV / JSON</div>
+          <div class="stat-label">Export formats</div>
+        </div>
+      </div>
+
+      <div class="overview-feature-grid">
+        <div class="card feature-card">
+          <div class="feature-header">
+            <span class="feature-number">01</span>
+            <div class="feature-title">Bring in evidence</div>
+          </div>
+          <div class="feature-text">Upload .evtx files or entire folders. All sources are grouped under a single investigation automatically.</div>
+          <div class="feature-tags">
+            <span class="tag-chip">.evtx</span>
+            <span class="tag-chip">folder</span>
+            <span class="tag-chip">multi-file</span>
+          </div>
+        </div>
+
+        <div class="card feature-card">
+          <div class="feature-header">
+            <span class="feature-number">02</span>
+            <div class="feature-title">Convert to usable view</div>
+          </div>
+          <div class="feature-text">Logs are parsed with the Rust EVTX backend and written into a local SQLite index for search.</div>
+          <div class="feature-tags">
+            <span class="tag-chip">rust backend</span>
+            <span class="tag-chip">sqlite</span>
+            <span class="tag-chip">indexed</span>
+          </div>
+        </div>
+
+        <div class="card feature-card">
+          <div class="feature-header">
+            <span class="feature-number">03</span>
+            <div class="feature-title">Analyst review</div>
+          </div>
+          <div class="feature-text">Search by text and filter by Event ID, channel, user, host, source file, and time range.</div>
+          <div class="feature-tags">
+            <span class="tag-chip">search</span>
+            <span class="tag-chip">filters</span>
+            <span class="tag-chip">time range</span>
+          </div>
+        </div>
+
+        <div class="card feature-card">
+          <div class="feature-header">
+            <span class="feature-number">04</span>
+            <div class="feature-title">Share and report</div>
+          </div>
+          <div class="feature-text">Export results to CSV or JSON for reports, handoffs, and documentation.</div>
+          <div class="feature-tags">
+            <span class="tag-chip">CSV</span>
+            <span class="tag-chip">JSON</span>
+            <span class="tag-chip">export</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card overview-why">
+        <div class="overview-why-title">// Why it’s useful</div>
+        <div class="overview-why-text">
+          It provides a single place to upload, parse, search, and export Windows EVTX logs — so investigations
+          and reporting are consistent and repeatable.
+        </div>
+        <div class="overview-why-tags">
+          <span class="why-chip">repeatable workflow</span>
+          <span class="why-chip">searchable evidence</span>
+          <span class="why-chip">exportable results</span>
+          <span class="why-chip">team handoff ready</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="main-grid" v-if="activeTab === 'investigation'">
+      <section class="content">
+        <div class="card filters-card">
+          <div class="card-title">Filters</div>
+          <div class="filters">
+            <input v-model="filters.search" placeholder="Search text" ref="searchInput" @keydown.enter="applyFilters" />
+            <input v-model="filters.event_id" placeholder="Event ID" @keydown.enter="applyFilters" />
+            <select v-model="filters.channel" @keydown="onSelectKeydown('channel', $event)">
+              <option value="">All channels</option>
+              <option v-for="c in channels" :key="c" :value="c">{{ c }}</option>
+            </select>
+            <input v-model="filters.user_name" placeholder="User name" @keydown.enter="applyFilters" />
+            <input v-model="filters.hostname" placeholder="Hostname" @keydown.enter="applyFilters" />
+            <select v-model="filters.source_file" @keydown="onSelectKeydown('source_file', $event)">
+              <option value="">All files</option>
+              <option v-for="f in sourceFiles" :key="f" :value="f">{{ f }}</option>
+            </select>
+            <input v-model="filters.start_time" placeholder="Start (YYYY-MM-DD[ HH:MM[:SS[.fffffff]]])" @keydown.enter="applyFilters" />
+            <input v-model="filters.end_time" placeholder="End (YYYY-MM-DD[ HH:MM[:SS[.fffffff]]])" @keydown.enter="applyFilters" />
+            <select v-model="sort">
+              <option value="asc">Oldest first</option>
+              <option value="desc">Newest first</option>
+            </select>
+            <button class="secondary" @click="applyFilters" :disabled="!selectedId">Apply</button>
+            <button class="ghost" @click="resetFilters" :disabled="!selectedId">Reset</button>
+          </div>
+        </div>
+
+        <div class="card events-card">
+          <div class="card-title">Events</div>
+          <div class="table-meta">
+            <div class="metric">Total: <strong>{{ totalEvents }}</strong></div>
+            <div class="actions">
+              <button class="ghost" @click="exportEvents('csv')" :disabled="!selectedId">Export CSV</button>
+              <button class="ghost" @click="exportEvents('json')" :disabled="!selectedId">Export JSON</button>
+            </div>
+          </div>
+          <div class="table-wrap" v-if="selectedId">
+            <table>
+              <colgroup>
+                <col class="col-sno" />
+                <col class="col-time" />
+                <col class="col-eid" />
+                <col class="col-channel" />
+                <col class="col-provider" />
+                <col class="col-computer" />
+                <col class="col-user" />
+                <col class="col-summary" />
+              </colgroup>
+              <thead>
+                <tr>
+                  <th>S.No</th>
+                  <th>Time</th>
+                  <th>Event ID</th>
+                  <th>Channel</th>
+                  <th>Provider</th>
+                  <th>Computer</th>
+                  <th>User</th>
+                  <th>Summary</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr v-for="(evt, index) in events"
+                    :key="evt.id"
+                    :class="{ selected: evt.id === selectedEventId }"
+                    @click="toggleEvent(evt, index)">
+                  <td class="cell-muted">{{ rowNumber(index) }}</td>
+                  <td class="cell-time">{{ formatTime(evt.timestamp) }}</td>
+                  <td><span class="event-id-chip">{{ evt.event_id }}</span></td>
+                  <td><span class="cell-clamp">{{ evt.channel }}</span></td>
+                  <td><span class="cell-clamp">{{ evt.provider }}</span></td>
+                  <td><span class="cell-clamp">{{ evt.hostname || evt.computer }}</span></td>
+                  <td><span class="cell-clamp">{{ evt.user_name || '-' }}</span></td>
+                  <td><div class="summary">{{ evt.description }}</div></td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="pager">
+              <button class="ghost" @click="prevPage" :disabled="page <= 1">Prev</button>
+              <div>Page {{ page }} of {{ totalPages }}</div>
+              <button class="ghost" @click="nextPage" :disabled="page >= totalPages">Next</button>
+            </div>
+          </div>
+          <div class="empty" v-else>Select an investigation to view events.</div>
+        </div>
+      </section>
+    </section>
+
+    <div class="detail-bar" v-if="eventDetail" :style="{ height: detailHeight + 'px' }">
+      <div class="detail-handle" @mousedown="startResize"></div>
+      <div class="detail-header">
+        <div class="detail-heading">
+          <div class="detail-title">
+            Event Detail
+            <span class="detail-serial" v-if="selectedEventSerial">#{{ selectedEventSerial }}</span>
+          </div>
+          <div class="detail-header-meta" v-if="detailHeaderItems.length">
+            <span class="detail-header-chip" v-for="item in detailHeaderItems" :key="'detail-header-' + item.key">
+              <span>{{ item.label }}</span>
+              <strong v-html="highlightText(item.value)"></strong>
+            </span>
+          </div>
+        </div>
+        <button class="ghost" @click="closeEvent">Close</button>
+      </div>
+      <div class="detail-body">
+        <div class="detail-summary-grid">
+          <div class="detail-summary-item" v-for="item in detailSummaryItems" :key="'summary-' + item.key" :class="[{ wide: item.wide }, 'detail-summary-key-' + item.key]">
+            <span>{{ item.label }}</span>
+            <strong v-html="highlightText(item.value)"></strong>
+          </div>
+        </div>
+        <section class="raw-table-section">
+          <div class="raw-table-header">
+            <div>
+              <div class="raw-table-title">Raw Event Data</div>
+              <div class="raw-table-count">{{ rawFieldRows.length }} fields</div>
+            </div>
+            <button class="mini-button" type="button" @click="copyText(rawEventJson())">Copy JSON</button>
+          </div>
+          <div class="raw-table-wrap" v-if="rawFieldRows.length">
+            <table class="raw-table">
+              <colgroup>
+                <col class="raw-col-field" />
+                <col class="raw-col-value" />
+              </colgroup>
+              <thead>
+                <tr>
+                  <th>Field</th>
+                  <th>Value</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr v-for="row in rawFieldRows" :key="row.id" :class="['raw-type-' + row.type, 'raw-category-' + row.category, { 'raw-empty-row': row.empty }]">
+                  <td class="raw-field-path">
+                    <span class="raw-category-chip">{{ row.category }}</span>
+                    <span class="raw-path-text" :title="row.path" v-html="highlightText(row.displayPath)"></span>
+                  </td>
+                  <td class="raw-field-value">
+                    <span :class="'raw-value raw-value-' + row.type" v-html="highlightText(row.displayValue)"></span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="empty" v-else>No raw data available.</div>
+        </section>
+      </div>
+    </div>
+  </div>
+  {% endraw %}
+
+  <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+  <script src="/static/app.js?v=raw-table-9"></script>
+</body>
+</html>

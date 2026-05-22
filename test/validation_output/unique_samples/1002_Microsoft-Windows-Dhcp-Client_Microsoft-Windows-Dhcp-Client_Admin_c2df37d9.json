@@ -1,0 +1,41 @@
+{
+  "event_id": "1002",
+  "provider": "Microsoft-Windows-Dhcp-Client",
+  "channel": "Microsoft-Windows-Dhcp-Client/Admin",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Logs\\Microsoft-Windows-Dhcp-Client%4Admin.evtx",
+  "event_record_id": 2,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-Dhcp-Client\" Guid=\"15A7A4F8-0072-4EAB-ABAD-F98A4D666AED\">\n    </Provider>\n    <EventID>1002</EventID>\n    <Version>0</Version>\n    <Level>2</Level>\n    <Task>3</Task>\n    <Opcode>76</Opcode>\n    <Keywords>0x4000000000000001</Keywords>\n    <TimeCreated SystemTime=\"2025-01-06T12:56:28.345027Z\">\n    </TimeCreated>\n    <EventRecordID>2</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"1344\" ThreadID=\"1576\">\n    </Execution>\n    <Channel>Microsoft-Windows-Dhcp-Client/Admin</Channel>\n    <Computer>cyberjunkie-test</Computer>\n    <Security UserID=\"S-1-5-19\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"Address1\">2320437676</Data>\n    <Data Name=\"HWLength\">6</Data>\n    <Data Name=\"HWAddress\">000C298C1F7B</Data>\n    <Data Name=\"Address2\">0</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-Dhcp-Client\",\"Guid\":\"15A7A4F8-0072-4EAB-ABAD-F98A4D666AED\"}},\"EventID\":1002,\"Version\":0,\"Level\":2,\"Task\":3,\"Opcode\":76,\"Keywords\":\"0x4000000000000001\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2025-01-06T12:56:28.345027Z\"}},\"EventRecordID\":2,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":1344,\"ThreadID\":1576}},\"Channel\":\"Microsoft-Windows-Dhcp-Client/Admin\",\"Computer\":\"cyberjunkie-test\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-19\"}}},\"EventData\":{\"Address1\":2320437676,\"HWLength\":6,\"HWAddress\":\"000C298C1F7B\",\"Address2\":0}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-Dhcp-Client",
+    "event_id": "1002",
+    "timestamp": "2025-01-06T12:56:28.345027Z",
+    "event_record_id": "2",
+    "level": "2",
+    "task": "3",
+    "opcode": "76",
+    "keywords": "0x4000000000000001",
+    "channel": "Microsoft-Windows-Dhcp-Client/Admin",
+    "computer": "cyberjunkie-test",
+    "Address1": "2320437676",
+    "HWLength": "6",
+    "HWAddress": "000C298C1F7B",
+    "Address2": "0"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-Dhcp-Client",
+    "channel": "Microsoft-Windows-Dhcp-Client/Admin",
+    "event_id": "1002",
+    "timestamp": "2025-01-06T12:56:28.345027Z",
+    "event_record_id": "2",
+    "level": "2",
+    "task": "3",
+    "opcode": "76",
+    "keywords": "0x4000000000000001",
+    "computer": "cyberjunkie-test",
+    "Address1": "2320437676",
+    "HWLength": "6",
+    "HWAddress": "000C298C1F7B",
+    "Address2": "0"
+  }
+}

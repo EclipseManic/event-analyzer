@@ -1,0 +1,41 @@
+{
+  "event_id": "259",
+  "provider": "Microsoft-Windows-Time-Service",
+  "channel": "Microsoft-Windows-Time-Service/Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Logs\\Microsoft-Windows-Time-Service%4Operational.evtx",
+  "event_record_id": 41,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-Time-Service\" Guid=\"06EDCFEB-0FD0-4E53-ACCA-A6F8BBF81BCB\">\n    </Provider>\n    <EventID>259</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2025-01-24T10:25:23.043422Z\">\n    </TimeCreated>\n    <EventRecordID>41</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"552\" ThreadID=\"12864\">\n    </Execution>\n    <Channel>Microsoft-Windows-Time-Service/Operational</Channel>\n    <Computer>CTO-FILESVR</Computer>\n    <Security UserID=\"S-1-5-19\">\n    </Security>\n  </System>\n  <EventData Name=\"TMP_OPS_NTP_CLIENT_TIME_SOURCES\">\n    <Data Name=\"AllNtpServers\">time.windows.com,0x9 (ntp.m|0x9|0.0.0.0:123-&gt;40.81.94.65:123);</Data>\n    <Data Name=\"ChosenReferenceNtpServer\">time.windows.com,0x9 (ntp.m|0x9|0.0.0.0:123-&gt;40.81.94.65:123) (RefID:0x0828515e41)</Data>\n    <Data Name=\"TickCount\">1172796</Data>\n    <Data Name=\"IFTSTMP\">1</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-Time-Service\",\"Guid\":\"06EDCFEB-0FD0-4E53-ACCA-A6F8BBF81BCB\"}},\"EventID\":259,\"Version\":0,\"Level\":4,\"Task\":0,\"Opcode\":0,\"Keywords\":\"0x4000000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2025-01-24T10:25:23.043422Z\"}},\"EventRecordID\":41,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":552,\"ThreadID\":12864}},\"Channel\":\"Microsoft-Windows-Time-Service/Operational\",\"Computer\":\"CTO-FILESVR\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-19\"}}},\"EventData\":{\"#attributes\":{\"Name\":\"TMP_OPS_NTP_CLIENT_TIME_SOURCES\"},\"AllNtpServers\":\"time.windows.com,0x9 (ntp.m|0x9|0.0.0.0:123->40.81.94.65:123);\",\"ChosenReferenceNtpServer\":\"time.windows.com,0x9 (ntp.m|0x9|0.0.0.0:123->40.81.94.65:123) (RefID:0x0828515e41)\",\"TickCount\":1172796,\"IFTSTMP\":1}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-Time-Service",
+    "event_id": "259",
+    "timestamp": "2025-01-24T10:25:23.043422Z",
+    "event_record_id": "41",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x4000000000000000",
+    "channel": "Microsoft-Windows-Time-Service/Operational",
+    "computer": "CTO-FILESVR",
+    "AllNtpServers": "time.windows.com,0x9 (ntp.m|0x9|0.0.0.0:123->40.81.94.65:123);",
+    "ChosenReferenceNtpServer": "time.windows.com,0x9 (ntp.m|0x9|0.0.0.0:123->40.81.94.65:123) (RefID:0x0828515e41)",
+    "TickCount": "1172796",
+    "IFTSTMP": "1"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-Time-Service",
+    "channel": "Microsoft-Windows-Time-Service/Operational",
+    "event_id": "259",
+    "timestamp": "2025-01-24T10:25:23.043422Z",
+    "event_record_id": "41",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x4000000000000000",
+    "computer": "CTO-FILESVR",
+    "AllNtpServers": "time.windows.com,0x9 (ntp.m|0x9|0.0.0.0:123->40.81.94.65:123);",
+    "ChosenReferenceNtpServer": "time.windows.com,0x9 (ntp.m|0x9|0.0.0.0:123->40.81.94.65:123) (RefID:0x0828515e41)",
+    "TickCount": "1172796",
+    "IFTSTMP": "1"
+  }
+}

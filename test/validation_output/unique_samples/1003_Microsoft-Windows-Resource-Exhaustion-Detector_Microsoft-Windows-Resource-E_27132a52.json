@@ -1,0 +1,37 @@
+{
+  "event_id": "1003",
+  "provider": "Microsoft-Windows-Resource-Exhaustion-Detector",
+  "channel": "Microsoft-Windows-Resource-Exhaustion-Detector/Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\win2022-0-20348-azure\\Microsoft-Windows-Resource-Exhaustion-Detector%4Operational.evtx",
+  "event_record_id": 7,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-Resource-Exhaustion-Detector\" Guid=\"9988748E-C2E8-4054-85F6-0C3E1CAD2470\">\n    </Provider>\n    <EventID>1003</EventID>\n    <Version>0</Version>\n    <Level>3</Level>\n    <Task>2</Task>\n    <Opcode>22</Opcode>\n    <Keywords>0x4000000020000000</Keywords>\n    <TimeCreated SystemTime=\"2022-09-18T09:15:20.112655Z\">\n    </TimeCreated>\n    <EventRecordID>7</EventRecordID>\n    <Correlation ActivityID=\"E77994F4-1679-42A5-BB66-35907DCC197C\">\n    </Correlation>\n    <Execution ProcessID=\"1820\" ThreadID=\"3420\">\n    </Execution>\n    <Channel>Microsoft-Windows-Resource-Exhaustion-Detector/Operational</Channel>\n    <Computer>Agamemnon</Computer>\n    <Security UserID=\"S-1-5-18\">\n    </Security>\n  </System>\n  <UserData>\n    <CommitLimitExhaustion xmlns=\"http://www.microsoft.com/Windows/Resource/Exhaustion/Detector/Events\">\n      <SystemCommitLimit>1609170944</SystemCommitLimit>\n      <SystemCommitCharge>1510522880</SystemCommitCharge>\n    </CommitLimitExhaustion>\n  </UserData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-Resource-Exhaustion-Detector\",\"Guid\":\"9988748E-C2E8-4054-85F6-0C3E1CAD2470\"}},\"EventID\":1003,\"Version\":0,\"Level\":3,\"Task\":2,\"Opcode\":22,\"Keywords\":\"0x4000000020000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2022-09-18T09:15:20.112655Z\"}},\"EventRecordID\":7,\"Correlation\":{\"#attributes\":{\"ActivityID\":\"E77994F4-1679-42A5-BB66-35907DCC197C\"}},\"Execution\":{\"#attributes\":{\"ProcessID\":1820,\"ThreadID\":3420}},\"Channel\":\"Microsoft-Windows-Resource-Exhaustion-Detector/Operational\",\"Computer\":\"Agamemnon\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-18\"}}},\"UserData\":{\"CommitLimitExhaustion\":{\"#attributes\":{\"xmlns\":\"http://www.microsoft.com/Windows/Resource/Exhaustion/Detector/Events\"},\"SystemCommitLimit\":1609170944,\"SystemCommitCharge\":1510522880}}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-Resource-Exhaustion-Detector",
+    "event_id": "1003",
+    "timestamp": "2022-09-18T09:15:20.112655Z",
+    "event_record_id": "7",
+    "level": "3",
+    "task": "2",
+    "opcode": "22",
+    "keywords": "0x4000000020000000",
+    "channel": "Microsoft-Windows-Resource-Exhaustion-Detector/Operational",
+    "computer": "Agamemnon",
+    "SystemCommitLimit": "1609170944",
+    "SystemCommitCharge": "1510522880"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-Resource-Exhaustion-Detector",
+    "channel": "Microsoft-Windows-Resource-Exhaustion-Detector/Operational",
+    "event_id": "1003",
+    "timestamp": "2022-09-18T09:15:20.112655Z",
+    "event_record_id": "7",
+    "level": "3",
+    "task": "2",
+    "opcode": "22",
+    "keywords": "0x4000000020000000",
+    "computer": "Agamemnon",
+    "SystemCommitLimit": "1609170944",
+    "SystemCommitCharge": "1510522880"
+  }
+}

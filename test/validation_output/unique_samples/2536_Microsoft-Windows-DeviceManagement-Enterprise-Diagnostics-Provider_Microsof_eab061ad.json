@@ -1,0 +1,37 @@
+{
+  "event_id": "2536",
+  "provider": "Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider",
+  "channel": "Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider/Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\Logs_Win11\\Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider%4Operational.evtx",
+  "event_record_id": 17,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider\" Guid=\"3DA494E4-0FE2-415C-B895-FB5265C5C83B\">\n    </Provider>\n    <EventID>2536</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2022-03-01T16:44:40.728965Z\">\n    </TimeCreated>\n    <EventRecordID>17</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"6932\" ThreadID=\"7004\">\n    </Execution>\n    <Channel>Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider/Operational</Channel>\n    <Computer>DESKTOP-6D0DBMB</Computer>\n    <Security UserID=\"S-1-5-18\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"Message1\">DCEngine::ExecuteRequests</Data>\n    <Data Name=\"HRESULT\">0x80070002</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider\",\"Guid\":\"3DA494E4-0FE2-415C-B895-FB5265C5C83B\"}},\"EventID\":2536,\"Version\":0,\"Level\":4,\"Task\":0,\"Opcode\":0,\"Keywords\":\"0x4000000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2022-03-01T16:44:40.728965Z\"}},\"EventRecordID\":17,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":6932,\"ThreadID\":7004}},\"Channel\":\"Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider/Operational\",\"Computer\":\"DESKTOP-6D0DBMB\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-18\"}}},\"EventData\":{\"Message1\":\"DCEngine::ExecuteRequests\",\"HRESULT\":\"0x80070002\"}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider",
+    "event_id": "2536",
+    "timestamp": "2022-03-01T16:44:40.728965Z",
+    "event_record_id": "17",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x4000000000000000",
+    "channel": "Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider/Operational",
+    "computer": "DESKTOP-6D0DBMB",
+    "Message1": "DCEngine::ExecuteRequests",
+    "HRESULT": "0x80070002"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider",
+    "channel": "Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider/Operational",
+    "event_id": "2536",
+    "timestamp": "2022-03-01T16:44:40.728965Z",
+    "event_record_id": "17",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x4000000000000000",
+    "computer": "DESKTOP-6D0DBMB",
+    "Message1": "DCEngine::ExecuteRequests",
+    "HRESULT": "0x80070002"
+  }
+}

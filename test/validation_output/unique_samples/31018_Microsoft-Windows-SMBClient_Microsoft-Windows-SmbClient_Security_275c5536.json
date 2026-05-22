@@ -1,0 +1,37 @@
+{
+  "event_id": "31018",
+  "provider": "Microsoft-Windows-SMBClient",
+  "channel": "Microsoft-Windows-SmbClient/Security",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Logs\\Microsoft-Windows-SmbClient%4Security.evtx",
+  "event_record_id": 1,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-SMBClient\" Guid=\"988C59C5-0A1C-45B6-A555-0C62276E327D\">\n    </Provider>\n    <EventID>31018</EventID>\n    <Version>0</Version>\n    <Level>3</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x200000000000080</Keywords>\n    <TimeCreated SystemTime=\"2024-11-05T01:34:17.384243Z\">\n    </TimeCreated>\n    <EventRecordID>1</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"4\" ThreadID=\"300\">\n    </Execution>\n    <Channel>Microsoft-Windows-SmbClient/Security</Channel>\n    <Computer>DESKTOP-P9H5FTA</Computer>\n    <Security UserID=\"S-1-5-18\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"RegName\">AllowInsecureGuestAuth</Data>\n    <Data Name=\"RegValue\">1</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-SMBClient\",\"Guid\":\"988C59C5-0A1C-45B6-A555-0C62276E327D\"}},\"EventID\":31018,\"Version\":0,\"Level\":3,\"Task\":0,\"Opcode\":0,\"Keywords\":\"0x200000000000080\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2024-11-05T01:34:17.384243Z\"}},\"EventRecordID\":1,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":4,\"ThreadID\":300}},\"Channel\":\"Microsoft-Windows-SmbClient/Security\",\"Computer\":\"DESKTOP-P9H5FTA\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-18\"}}},\"EventData\":{\"RegName\":\"AllowInsecureGuestAuth\",\"RegValue\":1}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-SMBClient",
+    "event_id": "31018",
+    "timestamp": "2024-11-05T01:34:17.384243Z",
+    "event_record_id": "1",
+    "level": "3",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x200000000000080",
+    "channel": "Microsoft-Windows-SmbClient/Security",
+    "computer": "DESKTOP-P9H5FTA",
+    "RegName": "AllowInsecureGuestAuth",
+    "RegValue": "1"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-SMBClient",
+    "channel": "Microsoft-Windows-SmbClient/Security",
+    "event_id": "31018",
+    "timestamp": "2024-11-05T01:34:17.384243Z",
+    "event_record_id": "1",
+    "level": "3",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x200000000000080",
+    "computer": "DESKTOP-P9H5FTA",
+    "RegName": "AllowInsecureGuestAuth",
+    "RegValue": "1"
+  }
+}

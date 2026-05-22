@@ -1,0 +1,37 @@
+{
+  "event_id": "103",
+  "provider": "Microsoft-Windows-ModernDeployment-Diagnostics-Provider",
+  "channel": "Microsoft-Windows-ModernDeployment-Diagnostics-Provider/Autopilot",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\Logs_Client\\Microsoft-Windows-ModernDeployment-Diagnostics-Provider%4Autopilot.evtx",
+  "event_record_id": 27,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-ModernDeployment-Diagnostics-Provider\" Guid=\"BAB3AD92-FB96-5902-450B-B8421BDEC7BD\">\n    </Provider>\n    <EventID>103</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2022-02-07T11:27:42.482113Z\">\n    </TimeCreated>\n    <EventRecordID>27</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"3244\" ThreadID=\"3280\">\n    </Execution>\n    <Channel>Microsoft-Windows-ModernDeployment-Diagnostics-Provider/Autopilot</Channel>\n    <Computer>DESKTOP-A8CALR3</Computer>\n    <Security UserID=\"S-1-5-21-1402826787-2759305201-2932496751-1000\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"Message1\">CloudAssignedAadServerData</Data>\n    <Data Name=\"Message2\">********</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-ModernDeployment-Diagnostics-Provider\",\"Guid\":\"BAB3AD92-FB96-5902-450B-B8421BDEC7BD\"}},\"EventID\":103,\"Version\":0,\"Level\":4,\"Task\":0,\"Opcode\":0,\"Keywords\":\"0x4000000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2022-02-07T11:27:42.482113Z\"}},\"EventRecordID\":27,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":3244,\"ThreadID\":3280}},\"Channel\":\"Microsoft-Windows-ModernDeployment-Diagnostics-Provider/Autopilot\",\"Computer\":\"DESKTOP-A8CALR3\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-21-1402826787-2759305201-2932496751-1000\"}}},\"EventData\":{\"Message1\":\"CloudAssignedAadServerData\",\"Message2\":\"********\"}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-ModernDeployment-Diagnostics-Provider",
+    "event_id": "103",
+    "timestamp": "2022-02-07T11:27:42.482113Z",
+    "event_record_id": "27",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x4000000000000000",
+    "channel": "Microsoft-Windows-ModernDeployment-Diagnostics-Provider/Autopilot",
+    "computer": "DESKTOP-A8CALR3",
+    "Message1": "CloudAssignedAadServerData",
+    "Message2": "********"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-ModernDeployment-Diagnostics-Provider",
+    "channel": "Microsoft-Windows-ModernDeployment-Diagnostics-Provider/Autopilot",
+    "event_id": "103",
+    "timestamp": "2022-02-07T11:27:42.482113Z",
+    "event_record_id": "27",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x4000000000000000",
+    "computer": "DESKTOP-A8CALR3",
+    "Message1": "CloudAssignedAadServerData",
+    "Message2": "********"
+  }
+}

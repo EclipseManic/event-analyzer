@@ -1,0 +1,43 @@
+{
+  "event_id": "11",
+  "provider": "Microsoft-Windows-FilterManager",
+  "channel": "System",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\Logs_Win11_2023\\System.evtx",
+  "event_record_id": 1986,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-FilterManager\" Guid=\"F3C5E28E-63F6-49C7-A204-E48A1BC4B09D\">\n    </Provider>\n    <EventID>11</EventID>\n    <Version>0</Version>\n    <Level>3</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x8000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2023-11-05T22:52:26.671011Z\">\n    </TimeCreated>\n    <EventRecordID>1986</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"4\" ThreadID=\"52\">\n    </Execution>\n    <Channel>System</Channel>\n    <Computer>WinDev2310Eval</Computer>\n    <Security UserID=\"S-1-5-18\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"DeviceName\">SysmonDrv</Data>\n    <Data Name=\"DeviceVersionMajor\">0</Data>\n    <Data Name=\"DeviceVersionMinor\">0</Data>\n    <Data Name=\"DeviceTime\">2023-06-27T01:09:58.000000Z</Data>\n    <Data Name=\"SupportedFeatures\">0x4</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-FilterManager\",\"Guid\":\"F3C5E28E-63F6-49C7-A204-E48A1BC4B09D\"}},\"EventID\":11,\"Version\":0,\"Level\":3,\"Task\":0,\"Opcode\":0,\"Keywords\":\"0x8000000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2023-11-05T22:52:26.671011Z\"}},\"EventRecordID\":1986,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":4,\"ThreadID\":52}},\"Channel\":\"System\",\"Computer\":\"WinDev2310Eval\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-18\"}}},\"EventData\":{\"DeviceName\":\"SysmonDrv\",\"DeviceVersionMajor\":0,\"DeviceVersionMinor\":0,\"DeviceTime\":\"2023-06-27T01:09:58.000000Z\",\"SupportedFeatures\":\"0x4\"}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-FilterManager",
+    "event_id": "11",
+    "timestamp": "2023-11-05T22:52:26.671011Z",
+    "event_record_id": "1986",
+    "level": "3",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x8000000000000000",
+    "channel": "System",
+    "computer": "WinDev2310Eval",
+    "DeviceName": "SysmonDrv",
+    "DeviceVersionMajor": "0",
+    "DeviceVersionMinor": "0",
+    "DeviceTime": "2023-06-27T01:09:58.000000Z",
+    "SupportedFeatures": "0x4"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-FilterManager",
+    "channel": "System",
+    "event_id": "11",
+    "timestamp": "2023-11-05T22:52:26.671011Z",
+    "event_record_id": "1986",
+    "level": "3",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x8000000000000000",
+    "computer": "WinDev2310Eval",
+    "DeviceName": "SysmonDrv",
+    "DeviceVersionMajor": "0",
+    "DeviceVersionMinor": "0",
+    "DeviceTime": "2023-06-27T01:09:58.000000Z",
+    "SupportedFeatures": "0x4"
+  }
+}

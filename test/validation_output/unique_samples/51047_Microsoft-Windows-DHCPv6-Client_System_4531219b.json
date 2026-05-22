@@ -1,0 +1,35 @@
+{
+  "event_id": "51047",
+  "provider": "Microsoft-Windows-DHCPv6-Client",
+  "channel": "System",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Logs\\System.evtx",
+  "event_record_id": 1090,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-DHCPv6-Client\" Guid=\"6A1F2B00-6A90-4C38-95A5-5CAB3B056778\">\n    </Provider>\n    <EventID>51047</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>4</Task>\n    <Opcode>63</Opcode>\n    <Keywords>0x2000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2025-01-24T10:49:44.542577Z\">\n    </TimeCreated>\n    <EventRecordID>1090</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"1496\" ThreadID=\"1648\">\n    </Execution>\n    <Channel>System</Channel>\n    <Computer>CTO-FILESVR</Computer>\n    <Security UserID=\"S-1-5-19\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"DwordVal\">1</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-DHCPv6-Client\",\"Guid\":\"6A1F2B00-6A90-4C38-95A5-5CAB3B056778\"}},\"EventID\":51047,\"Version\":0,\"Level\":4,\"Task\":4,\"Opcode\":63,\"Keywords\":\"0x2000000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2025-01-24T10:49:44.542577Z\"}},\"EventRecordID\":1090,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":1496,\"ThreadID\":1648}},\"Channel\":\"System\",\"Computer\":\"CTO-FILESVR\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-19\"}}},\"EventData\":{\"DwordVal\":1}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-DHCPv6-Client",
+    "event_id": "51047",
+    "timestamp": "2025-01-24T10:49:44.542577Z",
+    "event_record_id": "1090",
+    "level": "4",
+    "task": "4",
+    "opcode": "63",
+    "keywords": "0x2000000000000000",
+    "channel": "System",
+    "computer": "CTO-FILESVR",
+    "DwordVal": "1"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-DHCPv6-Client",
+    "channel": "System",
+    "event_id": "51047",
+    "timestamp": "2025-01-24T10:49:44.542577Z",
+    "event_record_id": "1090",
+    "level": "4",
+    "task": "4",
+    "opcode": "63",
+    "keywords": "0x2000000000000000",
+    "computer": "CTO-FILESVR",
+    "DwordVal": "1"
+  }
+}

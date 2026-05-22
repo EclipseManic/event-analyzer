@@ -1,0 +1,35 @@
+{
+  "event_id": "101",
+  "provider": "Microsoft-Windows-RemoteDesktopServices-RdpCoreTS",
+  "channel": "Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Logs\\Microsoft-Windows-RemoteDesktopServices-RdpCoreTS%4Operational.evtx",
+  "event_record_id": 37,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-RemoteDesktopServices-RdpCoreTS\" Guid=\"1139C61B-B549-4251-8ED3-27250A1EDEC8\">\n    </Provider>\n    <EventID>101</EventID>\n    <Version>0</Version>\n    <Level>3</Level>\n    <Task>4</Task>\n    <Opcode>16</Opcode>\n    <Keywords>0x4000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2025-01-24T10:15:14.454082Z\">\n    </TimeCreated>\n    <EventRecordID>37</EventRecordID>\n    <Correlation ActivityID=\"F420E308-0D88-44F1-A6B8-8A0C82150000\">\n    </Correlation>\n    <Execution ProcessID=\"428\" ThreadID=\"13124\">\n    </Execution>\n    <Channel>Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational</Channel>\n    <Computer>CTO-FILESVR</Computer>\n    <Security UserID=\"S-1-5-20\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"ReasonString\">Reason Code: 2(Server Configuration).</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-RemoteDesktopServices-RdpCoreTS\",\"Guid\":\"1139C61B-B549-4251-8ED3-27250A1EDEC8\"}},\"EventID\":101,\"Version\":0,\"Level\":3,\"Task\":4,\"Opcode\":16,\"Keywords\":\"0x4000000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2025-01-24T10:15:14.454082Z\"}},\"EventRecordID\":37,\"Correlation\":{\"#attributes\":{\"ActivityID\":\"F420E308-0D88-44F1-A6B8-8A0C82150000\"}},\"Execution\":{\"#attributes\":{\"ProcessID\":428,\"ThreadID\":13124}},\"Channel\":\"Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational\",\"Computer\":\"CTO-FILESVR\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-20\"}}},\"EventData\":{\"ReasonString\":\"Reason Code: 2(Server Configuration).\"}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-RemoteDesktopServices-RdpCoreTS",
+    "event_id": "101",
+    "timestamp": "2025-01-24T10:15:14.454082Z",
+    "event_record_id": "37",
+    "level": "3",
+    "task": "4",
+    "opcode": "16",
+    "keywords": "0x4000000000000000",
+    "channel": "Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational",
+    "computer": "CTO-FILESVR",
+    "ReasonString": "Reason Code: 2(Server Configuration)."
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-RemoteDesktopServices-RdpCoreTS",
+    "channel": "Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational",
+    "event_id": "101",
+    "timestamp": "2025-01-24T10:15:14.454082Z",
+    "event_record_id": "37",
+    "level": "3",
+    "task": "4",
+    "opcode": "16",
+    "keywords": "0x4000000000000000",
+    "computer": "CTO-FILESVR",
+    "ReasonString": "Reason Code: 2(Server Configuration)."
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "event_id": "12072",
+  "provider": "Windows Server Update Services",
+  "channel": "Application",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Malicious\\EVTX-to-MITRE-Attack-master\\TA0008-Lateral Movement\\WSUS Remote Code Execution (CVE-2025-59287 filtered.evtx",
+  "event_record_id": 1,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Windows Server Update Services\">\n    </Provider>\n    <EventID Qualifiers=\"0\">12072</EventID>\n    <Level>2</Level>\n    <Task>9</Task>\n    <Keywords>0x80000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-08-30T13:41:23.011261Z\">\n    </TimeCreated>\n    <EventRecordID>7670</EventRecordID>\n    <Channel>Application</Channel>\n    <Computer>CDCWWSUS01.rootblue.lan</Computer>\n    <Security>\n    </Security>\n  </System>\n  <EventData>\n    <Data>The WSUS content directory is not accessible.\r\nSystem.Net.WebException: The remote server returned an error: (503) Server Unavailable.\r\n   at System.Net.HttpWebRequest.GetResponse()\r\n   at Microsoft.UpdateServices.Internal.HealthMonitoring.HmtWebServices.CheckContentDirWebAccess(EventLoggingType type, HealthEventLogger logger)</Data>\n    <Binary></Binary>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Windows Server Update Services\"}},\"EventID\":{\"#attributes\":{\"Qualifiers\":0},\"#text\":12072},\"Level\":2,\"Task\":9,\"Keywords\":\"0x80000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2024-08-30T13:41:23.011261Z\"}},\"EventRecordID\":7670,\"Channel\":\"Application\",\"Computer\":\"CDCWWSUS01.rootblue.lan\",\"Security\":null},\"EventData\":{\"Data\":{\"#text\":\"The WSUS content directory is not accessible.\\r\\nSystem.Net.WebException: The remote server returned an error: (503) Server Unavailable.\\r\\n   at System.Net.HttpWebRequest.GetResponse()\\r\\n   at Microsoft.UpdateServices.Internal.HealthMonitoring.HmtWebServices.CheckContentDirWebAccess(EventLoggingType type, HealthEventLogger logger)\"},\"Binary\":null}}}",
+  "xml_fields": {
+    "provider": "Windows Server Update Services",
+    "event_id": "12072",
+    "timestamp": "2024-08-30T13:41:23.011261Z",
+    "event_record_id": "7670",
+    "level": "2",
+    "task": "9",
+    "keywords": "0x80000000000000",
+    "channel": "Application",
+    "computer": "CDCWWSUS01.rootblue.lan",
+    "_data_0": "The WSUS content directory is not accessible.\nSystem.Net.WebException: The remote server returned an error: (503) Server Unavailable.\n   at System.Net.HttpWebRequest.GetResponse()\n   at Microsoft.UpdateServices.Internal.HealthMonitoring.HmtWebServices.CheckContentDirWebAccess(EventLoggingType type, HealthEventLogger logger)"
+  },
+  "json_fields": {
+    "provider": "Windows Server Update Services",
+    "channel": "Application",
+    "event_id": "12072",
+    "timestamp": "2024-08-30T13:41:23.011261Z",
+    "event_record_id": "7670",
+    "level": "2",
+    "task": "9",
+    "keywords": "0x80000000000000",
+    "computer": "CDCWWSUS01.rootblue.lan",
+    "Data": "The WSUS content directory is not accessible.\r\nSystem.Net.WebException: The remote server returned an error: (503) Server Unavailable.\r\n   at System.Net.HttpWebRequest.GetResponse()\r\n   at Microsoft.UpdateServices.Internal.HealthMonitoring.HmtWebServices.CheckContentDirWebAccess(EventLoggingType type, HealthEventLogger logger)"
+  }
+}

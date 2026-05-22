@@ -1,0 +1,35 @@
+{
+  "event_id": "4111",
+  "provider": "Microsoft-Windows-CAPI2",
+  "channel": "Application",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Logs\\Application.evtx",
+  "event_record_id": 152,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-CAPI2\" Guid=\"{5bbca4a8-b209-48dc-a8c7-b23d3e5216fb}\" EventSourceName=\"Microsoft-Windows-CAPI2\">\n    </Provider>\n    <EventID Qualifiers=\"0\">4111</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x8080000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-11-04T13:11:41.245066Z\">\n    </TimeCreated>\n    <EventRecordID>152</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"2640\" ThreadID=\"2976\">\n    </Execution>\n    <Channel>Application</Channel>\n    <Computer>DESKTOP-P9H5FTA</Computer>\n    <Security>\n    </Security>\n  </System>\n  <EventData>\n    <Data>\u200eTuesday, \u200eMay \u200e14, \u200e2024 8:23:18 AM</Data>\n    <Binary></Binary>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-CAPI2\",\"Guid\":\"{5bbca4a8-b209-48dc-a8c7-b23d3e5216fb}\",\"EventSourceName\":\"Microsoft-Windows-CAPI2\"}},\"EventID\":{\"#attributes\":{\"Qualifiers\":0},\"#text\":4111},\"Version\":0,\"Level\":4,\"Task\":0,\"Opcode\":0,\"Keywords\":\"0x8080000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2024-11-04T13:11:41.245066Z\"}},\"EventRecordID\":152,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":2640,\"ThreadID\":2976}},\"Channel\":\"Application\",\"Computer\":\"DESKTOP-P9H5FTA\",\"Security\":null},\"EventData\":{\"Data\":{\"#text\":\"\u200eTuesday, \u200eMay \u200e14, \u200e2024 8:23:18 AM\"},\"Binary\":null}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-CAPI2",
+    "event_id": "4111",
+    "timestamp": "2024-11-04T13:11:41.245066Z",
+    "event_record_id": "152",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x8080000000000000",
+    "channel": "Application",
+    "computer": "DESKTOP-P9H5FTA",
+    "_data_0": "\u200eTuesday, \u200eMay \u200e14, \u200e2024 8:23:18 AM"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-CAPI2",
+    "channel": "Application",
+    "event_id": "4111",
+    "timestamp": "2024-11-04T13:11:41.245066Z",
+    "event_record_id": "152",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x8080000000000000",
+    "computer": "DESKTOP-P9H5FTA",
+    "Data": "\u200eTuesday, \u200eMay \u200e14, \u200e2024 8:23:18 AM"
+  }
+}

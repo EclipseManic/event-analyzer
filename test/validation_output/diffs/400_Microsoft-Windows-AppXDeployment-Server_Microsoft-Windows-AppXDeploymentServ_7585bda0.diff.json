@@ -1,0 +1,42 @@
+{
+  "missing_in_json": [],
+  "missing_in_xml": [],
+  "value_diffs": {
+    "HasFullTrust": {
+      "xml": "false",
+      "json": "False"
+    },
+    "HasWin32alacarte": {
+      "xml": "false",
+      "json": "False"
+    },
+    "IsCentennial": {
+      "xml": "false",
+      "json": "False"
+    },
+    "IsInRelatedSet": {
+      "xml": "false",
+      "json": "False"
+    },
+    "IsOptional": {
+      "xml": "false",
+      "json": "False"
+    },
+    "IsPackageEncrypted": {
+      "xml": "false",
+      "json": "False"
+    },
+    "IsPackageUsingBDC": {
+      "xml": "false",
+      "json": "False"
+    },
+    "IsStreamingPackage": {
+      "xml": "false",
+      "json": "False"
+    },
+    "SystemVolume": {
+      "xml": "true",
+      "json": "True"
+    }
+  }
+}

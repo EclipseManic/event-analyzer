@@ -1,0 +1,39 @@
+{
+  "event_id": "2033",
+  "provider": "Microsoft-Windows-Windows Firewall With Advanced Security",
+  "channel": "Microsoft-Windows-Windows Firewall With Advanced Security/Firewall",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Logs\\Microsoft-Windows-Windows Firewall With Advanced Security%4Firewall.evtx",
+  "event_record_id": 1437,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-Windows Firewall With Advanced Security\" Guid=\"D1BC9AFF-2ABF-4D71-9146-ECB2A986EB85\">\n    </Provider>\n    <EventID>2033</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x8000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2025-01-24T10:50:10.338342Z\">\n    </TimeCreated>\n    <EventRecordID>1437</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"2476\" ThreadID=\"2772\">\n    </Execution>\n    <Channel>Microsoft-Windows-Windows Firewall With Advanced Security/Firewall</Channel>\n    <Computer>CTO-FILESVR</Computer>\n    <Security UserID=\"S-1-5-19\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"Store Type\">12</Data>\n    <Data Name=\"ModifyingUser\">S-1-5-80-3088073201-1464728630-1879813800-1107566885-823218052</Data>\n    <Data Name=\"ModifyingApplication\">C:\\Windows\\System32\\svchost.exe</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-Windows Firewall With Advanced Security\",\"Guid\":\"D1BC9AFF-2ABF-4D71-9146-ECB2A986EB85\"}},\"EventID\":2033,\"Version\":0,\"Level\":4,\"Task\":0,\"Opcode\":0,\"Keywords\":\"0x8000000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2025-01-24T10:50:10.338342Z\"}},\"EventRecordID\":1437,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":2476,\"ThreadID\":2772}},\"Channel\":\"Microsoft-Windows-Windows Firewall With Advanced Security/Firewall\",\"Computer\":\"CTO-FILESVR\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-19\"}}},\"EventData\":{\"Store Type\":12,\"ModifyingUser\":\"S-1-5-80-3088073201-1464728630-1879813800-1107566885-823218052\",\"ModifyingApplication\":\"C:\\\\Windows\\\\System32\\\\svchost.exe\"}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-Windows Firewall With Advanced Security",
+    "event_id": "2033",
+    "timestamp": "2025-01-24T10:50:10.338342Z",
+    "event_record_id": "1437",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x8000000000000000",
+    "channel": "Microsoft-Windows-Windows Firewall With Advanced Security/Firewall",
+    "computer": "CTO-FILESVR",
+    "Store Type": "12",
+    "ModifyingUser": "S-1-5-80-3088073201-1464728630-1879813800-1107566885-823218052",
+    "ModifyingApplication": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-Windows Firewall With Advanced Security",
+    "channel": "Microsoft-Windows-Windows Firewall With Advanced Security/Firewall",
+    "event_id": "2033",
+    "timestamp": "2025-01-24T10:50:10.338342Z",
+    "event_record_id": "1437",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x8000000000000000",
+    "computer": "CTO-FILESVR",
+    "Store Type": "12",
+    "ModifyingUser": "S-1-5-80-3088073201-1464728630-1879813800-1107566885-823218052",
+    "ModifyingApplication": "C:\\Windows\\System32\\svchost.exe"
+  }
+}

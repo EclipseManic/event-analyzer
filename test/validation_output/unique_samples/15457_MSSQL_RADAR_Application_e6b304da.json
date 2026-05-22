@@ -1,0 +1,39 @@
+{
+  "event_id": "15457",
+  "provider": "MSSQL$RADAR",
+  "channel": "Application",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Malicious\\EVTX-to-MITRE-Attack-master\\TA0003-Persistence\\T1505.001-SQL Stored Procedures\\ID15457-SQL server CLR lateral movement.evtx",
+  "event_record_id": 1,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"MSSQL$RADAR\">\n    </Provider>\n    <EventID Qualifiers=\"16384\">15457</EventID>\n    <Level>4</Level>\n    <Task>2</Task>\n    <Keywords>0x80000000000000</Keywords>\n    <TimeCreated SystemTime=\"2021-04-13T21:56:36.188880Z\">\n    </TimeCreated>\n    <EventRecordID>150985</EventRecordID>\n    <Channel>Application</Channel>\n    <Computer>mssql01.offsec.lan</Computer>\n    <Security UserID=\"S-1-5-21-4230534742-2542757381-3142984815-1111\">\n    </Security>\n  </System>\n  <EventData>\n    <Data>show advanced options</Data>\n    <Data>1</Data>\n    <Data>1</Data>\n    <Binary>613C00000A0000000E0000004D005300530051004C00300031005C00520041004400410052000000070000006D00610073007400650072000000</Binary>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"MSSQL$RADAR\"}},\"EventID\":{\"#attributes\":{\"Qualifiers\":16384},\"#text\":15457},\"Level\":4,\"Task\":2,\"Keywords\":\"0x80000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2021-04-13T21:56:36.188880Z\"}},\"EventRecordID\":150985,\"Channel\":\"Application\",\"Computer\":\"mssql01.offsec.lan\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-21-4230534742-2542757381-3142984815-1111\"}}},\"EventData\":{\"Data\":{\"#text\":[\"show advanced options\",\"1\",\"1\"]},\"Binary\":\"613C00000A0000000E0000004D005300530051004C00300031005C00520041004400410052000000070000006D00610073007400650072000000\"}}}",
+  "xml_fields": {
+    "provider": "MSSQL$RADAR",
+    "event_id": "15457",
+    "timestamp": "2021-04-13T21:56:36.188880Z",
+    "event_record_id": "150985",
+    "level": "4",
+    "task": "2",
+    "keywords": "0x80000000000000",
+    "channel": "Application",
+    "computer": "mssql01.offsec.lan",
+    "_data_0": "show advanced options",
+    "_data_1": "1",
+    "_data_2": "1",
+    "Binary": "613C00000A0000000E0000004D005300530051004C00300031005C00520041004400410052000000070000006D00610073007400650072000000"
+  },
+  "json_fields": {
+    "provider": "MSSQL$RADAR",
+    "channel": "Application",
+    "event_id": "15457",
+    "timestamp": "2021-04-13T21:56:36.188880Z",
+    "event_record_id": "150985",
+    "level": "4",
+    "task": "2",
+    "keywords": "0x80000000000000",
+    "computer": "mssql01.offsec.lan",
+    "_data_0": "show advanced options",
+    "_data_1": "1",
+    "_data_2": "1",
+    "Binary": "613C00000A0000000E0000004D005300530051004C00300031005C00520041004400410052000000070000006D00610073007400650072000000"
+  }
+}

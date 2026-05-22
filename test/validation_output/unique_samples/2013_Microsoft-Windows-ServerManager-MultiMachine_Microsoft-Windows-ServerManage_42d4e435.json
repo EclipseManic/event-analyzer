@@ -1,0 +1,37 @@
+{
+  "event_id": "2013",
+  "provider": "Microsoft-Windows-ServerManager-MultiMachine",
+  "channel": "Microsoft-Windows-ServerManager-MultiMachine/Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\win2022-0-20348-azure\\Microsoft-Windows-ServerManager-MultiMachine%4Operational.evtx",
+  "event_record_id": 794,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-ServerManager-MultiMachine\" Guid=\"D8D37081-10BD-4A89-A971-1CDA6899BDB3\">\n    </Provider>\n    <EventID>2013</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>12</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x2000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2022-09-18T09:47:29.256634Z\">\n    </TimeCreated>\n    <EventRecordID>794</EventRecordID>\n    <Correlation ActivityID=\"1A75463C-9592-4179-9503-AADA9BD3B9ED\">\n    </Correlation>\n    <Execution ProcessID=\"3852\" ThreadID=\"6280\">\n    </Execution>\n    <Channel>Microsoft-Windows-ServerManager-MultiMachine/Operational</Channel>\n    <Computer>Agamemnon</Computer>\n    <Security UserID=\"S-1-5-21-3574161147-2844031704-266979156-500\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"MachineName\">Agamemnon</Data>\n    <Data Name=\"JobName\">ID:a5fb2c7c-2abb-4b61-99f7-00e63dc05896;Feature installation</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-ServerManager-MultiMachine\",\"Guid\":\"D8D37081-10BD-4A89-A971-1CDA6899BDB3\"}},\"EventID\":2013,\"Version\":0,\"Level\":4,\"Task\":12,\"Opcode\":0,\"Keywords\":\"0x2000000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2022-09-18T09:47:29.256634Z\"}},\"EventRecordID\":794,\"Correlation\":{\"#attributes\":{\"ActivityID\":\"1A75463C-9592-4179-9503-AADA9BD3B9ED\"}},\"Execution\":{\"#attributes\":{\"ProcessID\":3852,\"ThreadID\":6280}},\"Channel\":\"Microsoft-Windows-ServerManager-MultiMachine/Operational\",\"Computer\":\"Agamemnon\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-21-3574161147-2844031704-266979156-500\"}}},\"EventData\":{\"MachineName\":\"Agamemnon\",\"JobName\":\"ID:a5fb2c7c-2abb-4b61-99f7-00e63dc05896;Feature installation\"}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-ServerManager-MultiMachine",
+    "event_id": "2013",
+    "timestamp": "2022-09-18T09:47:29.256634Z",
+    "event_record_id": "794",
+    "level": "4",
+    "task": "12",
+    "opcode": "0",
+    "keywords": "0x2000000000000000",
+    "channel": "Microsoft-Windows-ServerManager-MultiMachine/Operational",
+    "computer": "Agamemnon",
+    "MachineName": "Agamemnon",
+    "JobName": "ID:a5fb2c7c-2abb-4b61-99f7-00e63dc05896;Feature installation"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-ServerManager-MultiMachine",
+    "channel": "Microsoft-Windows-ServerManager-MultiMachine/Operational",
+    "event_id": "2013",
+    "timestamp": "2022-09-18T09:47:29.256634Z",
+    "event_record_id": "794",
+    "level": "4",
+    "task": "12",
+    "opcode": "0",
+    "keywords": "0x2000000000000000",
+    "computer": "Agamemnon",
+    "MachineName": "Agamemnon",
+    "JobName": "ID:a5fb2c7c-2abb-4b61-99f7-00e63dc05896;Feature installation"
+  }
+}

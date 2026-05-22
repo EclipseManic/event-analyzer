@@ -1,0 +1,35 @@
+{
+  "event_id": "5",
+  "provider": "Application",
+  "channel": "Application",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\win2022-0-20348-azure\\Application.evtx",
+  "event_record_id": 687,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Application\">\n    </Provider>\n    <EventID Qualifiers=\"0\">5</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x80000000000000</Keywords>\n    <TimeCreated SystemTime=\"2022-09-18T10:47:12.900548Z\">\n    </TimeCreated>\n    <EventRecordID>687</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"0\" ThreadID=\"0\">\n    </Execution>\n    <Channel>Application</Channel>\n    <Computer>Agamemnon</Computer>\n    <Security>\n    </Security>\n  </System>\n  <EventData>\n    <Data>Starting THOR 10 with arguments 'thor64.exe'</Data>\n    <Binary></Binary>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Application\"}},\"EventID\":{\"#attributes\":{\"Qualifiers\":0},\"#text\":5},\"Version\":0,\"Level\":4,\"Task\":0,\"Opcode\":0,\"Keywords\":\"0x80000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2022-09-18T10:47:12.900548Z\"}},\"EventRecordID\":687,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":0,\"ThreadID\":0}},\"Channel\":\"Application\",\"Computer\":\"Agamemnon\",\"Security\":null},\"EventData\":{\"Data\":{\"#text\":\"Starting THOR 10 with arguments 'thor64.exe'\"},\"Binary\":null}}}",
+  "xml_fields": {
+    "provider": "Application",
+    "event_id": "5",
+    "timestamp": "2022-09-18T10:47:12.900548Z",
+    "event_record_id": "687",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x80000000000000",
+    "channel": "Application",
+    "computer": "Agamemnon",
+    "_data_0": "Starting THOR 10 with arguments 'thor64.exe'"
+  },
+  "json_fields": {
+    "provider": "Application",
+    "channel": "Application",
+    "event_id": "5",
+    "timestamp": "2022-09-18T10:47:12.900548Z",
+    "event_record_id": "687",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x80000000000000",
+    "computer": "Agamemnon",
+    "Data": "Starting THOR 10 with arguments 'thor64.exe'"
+  }
+}

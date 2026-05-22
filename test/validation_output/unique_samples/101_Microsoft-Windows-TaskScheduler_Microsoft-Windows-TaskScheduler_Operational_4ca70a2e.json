@@ -1,0 +1,39 @@
+{
+  "event_id": "101",
+  "provider": "Microsoft-Windows-TaskScheduler",
+  "channel": "Microsoft-Windows-TaskScheduler/Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\Logs_Win11_2023\\Microsoft-Windows-TaskScheduler%4Operational.evtx",
+  "event_record_id": 929,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-TaskScheduler\" Guid=\"DE7B24EA-73C8-4A09-985D-5BDADCFA9017\">\n    </Provider>\n    <EventID>101</EventID>\n    <Version>0</Version>\n    <Level>2</Level>\n    <Task>101</Task>\n    <Opcode>101</Opcode>\n    <Keywords>0x8000000000000001</Keywords>\n    <TimeCreated SystemTime=\"2023-11-06T01:06:15.745482Z\">\n    </TimeCreated>\n    <EventRecordID>929</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"1392\" ThreadID=\"16668\">\n    </Execution>\n    <Channel>Microsoft-Windows-TaskScheduler/Operational</Channel>\n    <Computer>WinDev2310Eval</Computer>\n    <Security UserID=\"S-1-5-18\">\n    </Security>\n  </System>\n  <EventData Name=\"TaskStartFailedEvent\">\n    <Data Name=\"TaskName\">\\Microsoft\\Windows\\UpdateOrchestrator\\USO_UxBroker</Data>\n    <Data Name=\"UserContext\">NT AUTHORITY\\SYSTEM</Data>\n    <Data Name=\"ResultCode\">2147942402</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-TaskScheduler\",\"Guid\":\"DE7B24EA-73C8-4A09-985D-5BDADCFA9017\"}},\"EventID\":101,\"Version\":0,\"Level\":2,\"Task\":101,\"Opcode\":101,\"Keywords\":\"0x8000000000000001\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2023-11-06T01:06:15.745482Z\"}},\"EventRecordID\":929,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":1392,\"ThreadID\":16668}},\"Channel\":\"Microsoft-Windows-TaskScheduler/Operational\",\"Computer\":\"WinDev2310Eval\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-18\"}}},\"EventData\":{\"#attributes\":{\"Name\":\"TaskStartFailedEvent\"},\"TaskName\":\"\\\\Microsoft\\\\Windows\\\\UpdateOrchestrator\\\\USO_UxBroker\",\"UserContext\":\"NT AUTHORITY\\\\SYSTEM\",\"ResultCode\":2147942402}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-TaskScheduler",
+    "event_id": "101",
+    "timestamp": "2023-11-06T01:06:15.745482Z",
+    "event_record_id": "929",
+    "level": "2",
+    "task": "101",
+    "opcode": "101",
+    "keywords": "0x8000000000000001",
+    "channel": "Microsoft-Windows-TaskScheduler/Operational",
+    "computer": "WinDev2310Eval",
+    "TaskName": "\\Microsoft\\Windows\\UpdateOrchestrator\\USO_UxBroker",
+    "UserContext": "NT AUTHORITY\\SYSTEM",
+    "ResultCode": "2147942402"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-TaskScheduler",
+    "channel": "Microsoft-Windows-TaskScheduler/Operational",
+    "event_id": "101",
+    "timestamp": "2023-11-06T01:06:15.745482Z",
+    "event_record_id": "929",
+    "level": "2",
+    "task": "101",
+    "opcode": "101",
+    "keywords": "0x8000000000000001",
+    "computer": "WinDev2310Eval",
+    "TaskName": "\\Microsoft\\Windows\\UpdateOrchestrator\\USO_UxBroker",
+    "UserContext": "NT AUTHORITY\\SYSTEM",
+    "ResultCode": "2147942402"
+  }
+}

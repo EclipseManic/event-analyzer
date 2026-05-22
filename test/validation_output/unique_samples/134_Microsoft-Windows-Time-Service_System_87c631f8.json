@@ -1,0 +1,39 @@
+{
+  "event_id": "134",
+  "provider": "Microsoft-Windows-Time-Service",
+  "channel": "System",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\Logs_Win11\\System.evtx",
+  "event_record_id": 177,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-Time-Service\" Guid=\"06EDCFEB-0FD0-4E53-ACCA-A6F8BBF81BCB\">\n    </Provider>\n    <EventID>134</EventID>\n    <Version>0</Version>\n    <Level>3</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x8000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2022-03-01T16:43:48.801929Z\">\n    </TimeCreated>\n    <EventRecordID>177</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"1684\" ThreadID=\"1772\">\n    </Execution>\n    <Channel>System</Channel>\n    <Computer>DESKTOP-6D0DBMB</Computer>\n    <Security UserID=\"S-1-5-19\">\n    </Security>\n  </System>\n  <EventData Name=\"TMP_EVENT_MANUAL_PEER_DNS_ERROR\">\n    <Data Name=\"ErrorMessage\">H\u00f4te inconnu. (0x80072AF9)</Data>\n    <Data Name=\"RetryMinutes\">15</Data>\n    <Data Name=\"DomainPeer\">time.windows.com,0x9</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-Time-Service\",\"Guid\":\"06EDCFEB-0FD0-4E53-ACCA-A6F8BBF81BCB\"}},\"EventID\":134,\"Version\":0,\"Level\":3,\"Task\":0,\"Opcode\":0,\"Keywords\":\"0x8000000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2022-03-01T16:43:48.801929Z\"}},\"EventRecordID\":177,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":1684,\"ThreadID\":1772}},\"Channel\":\"System\",\"Computer\":\"DESKTOP-6D0DBMB\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-19\"}}},\"EventData\":{\"#attributes\":{\"Name\":\"TMP_EVENT_MANUAL_PEER_DNS_ERROR\"},\"ErrorMessage\":\"H\u00f4te inconnu. (0x80072AF9)\",\"RetryMinutes\":15,\"DomainPeer\":\"time.windows.com,0x9\"}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-Time-Service",
+    "event_id": "134",
+    "timestamp": "2022-03-01T16:43:48.801929Z",
+    "event_record_id": "177",
+    "level": "3",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x8000000000000000",
+    "channel": "System",
+    "computer": "DESKTOP-6D0DBMB",
+    "ErrorMessage": "H\u00f4te inconnu. (0x80072AF9)",
+    "RetryMinutes": "15",
+    "DomainPeer": "time.windows.com,0x9"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-Time-Service",
+    "channel": "System",
+    "event_id": "134",
+    "timestamp": "2022-03-01T16:43:48.801929Z",
+    "event_record_id": "177",
+    "level": "3",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x8000000000000000",
+    "computer": "DESKTOP-6D0DBMB",
+    "ErrorMessage": "H\u00f4te inconnu. (0x80072AF9)",
+    "RetryMinutes": "15",
+    "DomainPeer": "time.windows.com,0x9"
+  }
+}

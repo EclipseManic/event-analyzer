@@ -1,0 +1,37 @@
+{
+  "event_id": "62409",
+  "provider": "Microsoft-Windows-Shell-Core",
+  "channel": "Microsoft-Windows-Shell-Core/Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\Logs_Win11\\Microsoft-Windows-Shell-Core%4Operational.evtx",
+  "event_record_id": 1352,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-Shell-Core\" Guid=\"30336ED4-E327-447C-9DE0-51B652C86108\">\n    </Provider>\n    <EventID>62409</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>62408</Task>\n    <Opcode>2</Opcode>\n    <Keywords>0x2000200004010000</Keywords>\n    <TimeCreated SystemTime=\"2022-03-01T19:19:14.776422Z\">\n    </TimeCreated>\n    <EventRecordID>1352</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"5632\" ThreadID=\"7668\">\n    </Execution>\n    <Channel>Microsoft-Windows-Shell-Core/Operational</Channel>\n    <Computer>DESKTOP-6D0DBMB</Computer>\n    <Security UserID=\"S-1-5-21-1671613982-9707084-2312793148-1001\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"PID\">7804</Data>\n    <Data Name=\"Command\">msteams.exe</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-Shell-Core\",\"Guid\":\"30336ED4-E327-447C-9DE0-51B652C86108\"}},\"EventID\":62409,\"Version\":0,\"Level\":4,\"Task\":62408,\"Opcode\":2,\"Keywords\":\"0x2000200004010000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2022-03-01T19:19:14.776422Z\"}},\"EventRecordID\":1352,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":5632,\"ThreadID\":7668}},\"Channel\":\"Microsoft-Windows-Shell-Core/Operational\",\"Computer\":\"DESKTOP-6D0DBMB\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-21-1671613982-9707084-2312793148-1001\"}}},\"EventData\":{\"PID\":7804,\"Command\":\"msteams.exe\"}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-Shell-Core",
+    "event_id": "62409",
+    "timestamp": "2022-03-01T19:19:14.776422Z",
+    "event_record_id": "1352",
+    "level": "4",
+    "task": "62408",
+    "opcode": "2",
+    "keywords": "0x2000200004010000",
+    "channel": "Microsoft-Windows-Shell-Core/Operational",
+    "computer": "DESKTOP-6D0DBMB",
+    "PID": "7804",
+    "Command": "msteams.exe"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-Shell-Core",
+    "channel": "Microsoft-Windows-Shell-Core/Operational",
+    "event_id": "62409",
+    "timestamp": "2022-03-01T19:19:14.776422Z",
+    "event_record_id": "1352",
+    "level": "4",
+    "task": "62408",
+    "opcode": "2",
+    "keywords": "0x2000200004010000",
+    "computer": "DESKTOP-6D0DBMB",
+    "PID": "7804",
+    "Command": "msteams.exe"
+  }
+}

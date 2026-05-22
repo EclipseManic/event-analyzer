@@ -1,0 +1,33 @@
+{
+  "event_id": "8038",
+  "provider": "Microsoft-Windows-AppLocker",
+  "channel": "Microsoft-Windows-AppLocker/MSI and Script",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\Logs_Win11_2023\\Microsoft-Windows-AppLocker%4MSI and Script.evtx",
+  "event_record_id": 233,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-AppLocker\" Guid=\"{cbda4dbf-8d5d-4f69-9578-be14aa540d22}\">\n    </Provider>\n    <EventID>8038</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2023-11-06T00:08:26.807220Z\">\n    </TimeCreated>\n    <EventRecordID>233</EventRecordID>\n    <Correlation ActivityID=\"E4DB489E-1037-0002-3574-E2E43710DA01\">\n    </Correlation>\n    <Execution ProcessID=\"7200\" ThreadID=\"11804\">\n    </Execution>\n    <Channel>Microsoft-Windows-AppLocker/MSI and Script</Channel>\n    <Computer>WinDev2310Eval</Computer>\n    <Security UserID=\"S-1-5-21-1992711665-1655669231-58201500-1000\">\n    </Security>\n  </System>\n  <ProcessingErrorData>\n    <ErrorCode>15005</ErrorCode>\n    <DataItemName>PublisherTBSHash</DataItemName>\n    <EventPayload>010000000000000000000000B0ED7CF6B0ED7CF6</EventPayload>\n  </ProcessingErrorData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-AppLocker\",\"Guid\":\"{cbda4dbf-8d5d-4f69-9578-be14aa540d22}\"}},\"EventID\":8038,\"Version\":0,\"Level\":4,\"Task\":0,\"Opcode\":0,\"Keywords\":\"0x4000000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2023-11-06T00:08:26.807220Z\"}},\"EventRecordID\":233,\"Correlation\":{\"#attributes\":{\"ActivityID\":\"E4DB489E-1037-0002-3574-E2E43710DA01\"}},\"Execution\":{\"#attributes\":{\"ProcessID\":7200,\"ThreadID\":11804}},\"Channel\":\"Microsoft-Windows-AppLocker/MSI and Script\",\"Computer\":\"WinDev2310Eval\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-21-1992711665-1655669231-58201500-1000\"}}},\"ProcessingErrorData\":{\"ErrorCode\":15005,\"DataItemName\":\"PublisherTBSHash\",\"EventPayload\":\"010000000000000000000000B0ED7CF6B0ED7CF6\"}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-AppLocker",
+    "event_id": "8038",
+    "timestamp": "2023-11-06T00:08:26.807220Z",
+    "event_record_id": "233",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x4000000000000000",
+    "channel": "Microsoft-Windows-AppLocker/MSI and Script",
+    "computer": "WinDev2310Eval"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-AppLocker",
+    "channel": "Microsoft-Windows-AppLocker/MSI and Script",
+    "event_id": "8038",
+    "timestamp": "2023-11-06T00:08:26.807220Z",
+    "event_record_id": "233",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x4000000000000000",
+    "computer": "WinDev2310Eval"
+  }
+}

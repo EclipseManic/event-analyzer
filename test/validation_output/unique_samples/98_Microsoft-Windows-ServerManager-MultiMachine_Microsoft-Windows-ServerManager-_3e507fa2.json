@@ -1,0 +1,33 @@
+{
+  "event_id": "98",
+  "provider": "Microsoft-Windows-ServerManager-MultiMachine",
+  "channel": "Microsoft-Windows-ServerManager-MultiMachine/Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\win2022-0-20348-azure\\Microsoft-Windows-ServerManager-MultiMachine%4Operational.evtx",
+  "event_record_id": 111,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-ServerManager-MultiMachine\" Guid=\"D8D37081-10BD-4A89-A971-1CDA6899BDB3\">\n    </Provider>\n    <EventID>98</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>7</Task>\n    <Opcode>1</Opcode>\n    <Keywords>0x2000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2022-09-08T21:29:52.121131Z\">\n    </TimeCreated>\n    <EventRecordID>111</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"5708\" ThreadID=\"2932\">\n    </Execution>\n    <Channel>Microsoft-Windows-ServerManager-MultiMachine/Operational</Channel>\n    <Computer>WIN-06FB45IHQ35</Computer>\n    <Security UserID=\"S-1-5-21-780613846-3260660134-2396965080-500\">\n    </Security>\n  </System>\n  <EventData>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-ServerManager-MultiMachine\",\"Guid\":\"D8D37081-10BD-4A89-A971-1CDA6899BDB3\"}},\"EventID\":98,\"Version\":0,\"Level\":4,\"Task\":7,\"Opcode\":1,\"Keywords\":\"0x2000000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2022-09-08T21:29:52.121131Z\"}},\"EventRecordID\":111,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":5708,\"ThreadID\":2932}},\"Channel\":\"Microsoft-Windows-ServerManager-MultiMachine/Operational\",\"Computer\":\"WIN-06FB45IHQ35\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-21-780613846-3260660134-2396965080-500\"}}},\"EventData\":null}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-ServerManager-MultiMachine",
+    "event_id": "98",
+    "timestamp": "2022-09-08T21:29:52.121131Z",
+    "event_record_id": "111",
+    "level": "4",
+    "task": "7",
+    "opcode": "1",
+    "keywords": "0x2000000000000000",
+    "channel": "Microsoft-Windows-ServerManager-MultiMachine/Operational",
+    "computer": "WIN-06FB45IHQ35"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-ServerManager-MultiMachine",
+    "channel": "Microsoft-Windows-ServerManager-MultiMachine/Operational",
+    "event_id": "98",
+    "timestamp": "2022-09-08T21:29:52.121131Z",
+    "event_record_id": "111",
+    "level": "4",
+    "task": "7",
+    "opcode": "1",
+    "keywords": "0x2000000000000000",
+    "computer": "WIN-06FB45IHQ35"
+  }
+}

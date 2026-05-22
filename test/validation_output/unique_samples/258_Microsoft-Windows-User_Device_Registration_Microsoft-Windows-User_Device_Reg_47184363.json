@@ -1,0 +1,39 @@
+{
+  "event_id": "258",
+  "provider": "Microsoft-Windows-User Device Registration",
+  "channel": "Microsoft-Windows-User Device Registration/Admin",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\Win2022-AD\\Microsoft-Windows-User Device Registration%4Admin.evtx",
+  "event_record_id": 24,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-User Device Registration\" Guid=\"23B8D46B-67DD-40A3-B636-D43E50552C6D\">\n    </Provider>\n    <EventID>258</EventID>\n    <Version>0</Version>\n    <Level>3</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x8000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2022-04-07T16:53:16.759761Z\">\n    </TimeCreated>\n    <EventRecordID>24</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"1792\" ThreadID=\"2032\">\n    </Execution>\n    <Channel>Microsoft-Windows-User Device Registration/Admin</Channel>\n    <Computer>WIN-FPV0DSIC9O6.sigma.fr</Computer>\n    <Security UserID=\"S-1-5-20\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"ErrorCode\">-2147023728</Data>\n    <Data Name=\"Folder\">\\Microsoft\\Windows\\Workplace Join</Data>\n    <Data Name=\"TaskName\">Automatic-Device-Join</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-User Device Registration\",\"Guid\":\"23B8D46B-67DD-40A3-B636-D43E50552C6D\"}},\"EventID\":258,\"Version\":0,\"Level\":3,\"Task\":0,\"Opcode\":0,\"Keywords\":\"0x8000000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2022-04-07T16:53:16.759761Z\"}},\"EventRecordID\":24,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":1792,\"ThreadID\":2032}},\"Channel\":\"Microsoft-Windows-User Device Registration/Admin\",\"Computer\":\"WIN-FPV0DSIC9O6.sigma.fr\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-20\"}}},\"EventData\":{\"ErrorCode\":-2147023728,\"Folder\":\"\\\\Microsoft\\\\Windows\\\\Workplace Join\",\"TaskName\":\"Automatic-Device-Join\"}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-User Device Registration",
+    "event_id": "258",
+    "timestamp": "2022-04-07T16:53:16.759761Z",
+    "event_record_id": "24",
+    "level": "3",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x8000000000000000",
+    "channel": "Microsoft-Windows-User Device Registration/Admin",
+    "computer": "WIN-FPV0DSIC9O6.sigma.fr",
+    "ErrorCode": "-2147023728",
+    "Folder": "\\Microsoft\\Windows\\Workplace Join",
+    "TaskName": "Automatic-Device-Join"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-User Device Registration",
+    "channel": "Microsoft-Windows-User Device Registration/Admin",
+    "event_id": "258",
+    "timestamp": "2022-04-07T16:53:16.759761Z",
+    "event_record_id": "24",
+    "level": "3",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x8000000000000000",
+    "computer": "WIN-FPV0DSIC9O6.sigma.fr",
+    "ErrorCode": "-2147023728",
+    "Folder": "\\Microsoft\\Windows\\Workplace Join",
+    "TaskName": "Automatic-Device-Join"
+  }
+}

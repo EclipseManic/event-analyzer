@@ -1,0 +1,41 @@
+{
+  "event_id": "292",
+  "provider": "Microsoft-Windows-Kernel-Boot",
+  "channel": "Microsoft-Windows-Kernel-Boot/Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Logs\\Microsoft-Windows-Kernel-Boot%4Operational.evtx",
+  "event_record_id": 35,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-Kernel-Boot\" Guid=\"15CA44FF-4D7A-4BAA-BBA5-0998955E531E\">\n    </Provider>\n    <EventID>292</EventID>\n    <Version>0</Version>\n    <Level>2</Level>\n    <Task>125</Task>\n    <Opcode>12</Opcode>\n    <Keywords>0x2000200000000000</Keywords>\n    <TimeCreated SystemTime=\"2025-01-24T10:49:58.498622Z\">\n    </TimeCreated>\n    <EventRecordID>35</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"4\" ThreadID=\"8\">\n    </Execution>\n    <Channel>Microsoft-Windows-Kernel-Boot/Operational</Channel>\n    <Computer>CTO-FILESVR</Computer>\n    <Security UserID=\"S-1-5-18\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"Status\">3221225524</Data>\n    <Data Name=\"FailurePoint\">2</Data>\n    <Data Name=\"UpdateStatusEnum\">0</Data>\n    <Data Name=\"FwLevel\"></Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-Kernel-Boot\",\"Guid\":\"15CA44FF-4D7A-4BAA-BBA5-0998955E531E\"}},\"EventID\":292,\"Version\":0,\"Level\":2,\"Task\":125,\"Opcode\":12,\"Keywords\":\"0x2000200000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2025-01-24T10:49:58.498622Z\"}},\"EventRecordID\":35,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":4,\"ThreadID\":8}},\"Channel\":\"Microsoft-Windows-Kernel-Boot/Operational\",\"Computer\":\"CTO-FILESVR\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-18\"}}},\"EventData\":{\"Status\":3221225524,\"FailurePoint\":2,\"UpdateStatusEnum\":0,\"FwLevel\":\"\"}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-Kernel-Boot",
+    "event_id": "292",
+    "timestamp": "2025-01-24T10:49:58.498622Z",
+    "event_record_id": "35",
+    "level": "2",
+    "task": "125",
+    "opcode": "12",
+    "keywords": "0x2000200000000000",
+    "channel": "Microsoft-Windows-Kernel-Boot/Operational",
+    "computer": "CTO-FILESVR",
+    "Status": "3221225524",
+    "FailurePoint": "2",
+    "UpdateStatusEnum": "0",
+    "FwLevel": ""
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-Kernel-Boot",
+    "channel": "Microsoft-Windows-Kernel-Boot/Operational",
+    "event_id": "292",
+    "timestamp": "2025-01-24T10:49:58.498622Z",
+    "event_record_id": "35",
+    "level": "2",
+    "task": "125",
+    "opcode": "12",
+    "keywords": "0x2000200000000000",
+    "computer": "CTO-FILESVR",
+    "Status": "3221225524",
+    "FailurePoint": "2",
+    "UpdateStatusEnum": "0",
+    "FwLevel": ""
+  }
+}

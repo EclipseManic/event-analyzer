@@ -1,0 +1,35 @@
+{
+  "event_id": "2014",
+  "provider": "Microsoft-Windows-Hyper-V-Compute",
+  "channel": "Microsoft-Windows-Hyper-V-Compute-Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\Logs_Win11_2023\\Microsoft-Windows-Hyper-V-Compute-Operational.evtx",
+  "event_record_id": 2,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-Hyper-V-Compute\" Guid=\"17103E3F-3C6E-4677-BB17-3B267EB5BE57\">\n    </Provider>\n    <EventID>2014</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2023-11-05T23:16:25.955239Z\">\n    </TimeCreated>\n    <EventRecordID>2</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"7344\" ThreadID=\"1516\">\n    </Execution>\n    <Channel>Microsoft-Windows-Hyper-V-Compute-Operational</Channel>\n    <Computer>WinDev2310Eval</Computer>\n    <Security UserID=\"S-1-5-18\">\n    </Security>\n  </System>\n  <UserData>\n    <VmlEventLog xmlns=\"http://www.microsoft.com/Windows/Virtualization/Events\">\n      <SystemId>2D426366-2E91-4665-996B-787190F8A511</SystemId>\n    </VmlEventLog>\n  </UserData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-Hyper-V-Compute\",\"Guid\":\"17103E3F-3C6E-4677-BB17-3B267EB5BE57\"}},\"EventID\":2014,\"Version\":0,\"Level\":4,\"Task\":0,\"Opcode\":0,\"Keywords\":\"0x4000000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2023-11-05T23:16:25.955239Z\"}},\"EventRecordID\":2,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":7344,\"ThreadID\":1516}},\"Channel\":\"Microsoft-Windows-Hyper-V-Compute-Operational\",\"Computer\":\"WinDev2310Eval\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-18\"}}},\"UserData\":{\"VmlEventLog\":{\"#attributes\":{\"xmlns\":\"http://www.microsoft.com/Windows/Virtualization/Events\"},\"SystemId\":\"2D426366-2E91-4665-996B-787190F8A511\"}}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-Hyper-V-Compute",
+    "event_id": "2014",
+    "timestamp": "2023-11-05T23:16:25.955239Z",
+    "event_record_id": "2",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x4000000000000000",
+    "channel": "Microsoft-Windows-Hyper-V-Compute-Operational",
+    "computer": "WinDev2310Eval",
+    "SystemId": "2D426366-2E91-4665-996B-787190F8A511"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-Hyper-V-Compute",
+    "channel": "Microsoft-Windows-Hyper-V-Compute-Operational",
+    "event_id": "2014",
+    "timestamp": "2023-11-05T23:16:25.955239Z",
+    "event_record_id": "2",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x4000000000000000",
+    "computer": "WinDev2310Eval",
+    "SystemId": "2D426366-2E91-4665-996B-787190F8A511"
+  }
+}

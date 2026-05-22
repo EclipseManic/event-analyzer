@@ -1,0 +1,43 @@
+{
+  "event_id": "11",
+  "provider": "Microsoft-Windows-AppReadiness",
+  "channel": "Microsoft-Windows-AppReadiness/Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Logs\\Microsoft-Windows-AppReadiness%4Operational.evtx",
+  "event_record_id": 24,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-AppReadiness\" Guid=\"F0BE35F8-237B-4814-86B5-ADE51192E503\">\n    </Provider>\n    <EventID>11</EventID>\n    <Version>0</Version>\n    <Level>3</Level>\n    <Task>6</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000080</Keywords>\n    <TimeCreated SystemTime=\"2024-11-04T13:03:56.264433Z\">\n    </TimeCreated>\n    <EventRecordID>24</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"3984\" ThreadID=\"9172\">\n    </Execution>\n    <Channel>Microsoft-Windows-AppReadiness/Operational</Channel>\n    <Computer>DESKTOP-P9H5FTA</Computer>\n    <Security UserID=\"S-1-5-21-3088055692-629932344-1786574096-1001\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"Error\">-2147024809</Data>\n    <Data Name=\"Expression\">ResultFromWin32FromStatus(BiPtAssociateApplicationExtensionClass(&amp;guid, &amp;acid, &amp;eventId, nullptr, 0, 0, nullptr))</Data>\n    <Data Name=\"Function\">AppReadiness::Tasks::ActivateApps::OnExecute::&lt;lambda_77ffb5b4c88d980e092855dcb2471f73&gt;::operator ()</Data>\n    <Data Name=\"File\">onecoreuap\\shell\\appreadiness\\src\\tasks\\activateapps.cpp</Data>\n    <Data Name=\"Line\">107</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-AppReadiness\",\"Guid\":\"F0BE35F8-237B-4814-86B5-ADE51192E503\"}},\"EventID\":11,\"Version\":0,\"Level\":3,\"Task\":6,\"Opcode\":0,\"Keywords\":\"0x4000000000000080\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2024-11-04T13:03:56.264433Z\"}},\"EventRecordID\":24,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":3984,\"ThreadID\":9172}},\"Channel\":\"Microsoft-Windows-AppReadiness/Operational\",\"Computer\":\"DESKTOP-P9H5FTA\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-21-3088055692-629932344-1786574096-1001\"}}},\"EventData\":{\"Error\":-2147024809,\"Expression\":\"ResultFromWin32FromStatus(BiPtAssociateApplicationExtensionClass(&guid, &acid, &eventId, nullptr, 0, 0, nullptr))\",\"Function\":\"AppReadiness::Tasks::ActivateApps::OnExecute::<lambda_77ffb5b4c88d980e092855dcb2471f73>::operator ()\",\"File\":\"onecoreuap\\\\shell\\\\appreadiness\\\\src\\\\tasks\\\\activateapps.cpp\",\"Line\":107}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-AppReadiness",
+    "event_id": "11",
+    "timestamp": "2024-11-04T13:03:56.264433Z",
+    "event_record_id": "24",
+    "level": "3",
+    "task": "6",
+    "opcode": "0",
+    "keywords": "0x4000000000000080",
+    "channel": "Microsoft-Windows-AppReadiness/Operational",
+    "computer": "DESKTOP-P9H5FTA",
+    "Error": "-2147024809",
+    "Expression": "ResultFromWin32FromStatus(BiPtAssociateApplicationExtensionClass(&guid, &acid, &eventId, nullptr, 0, 0, nullptr))",
+    "Function": "AppReadiness::Tasks::ActivateApps::OnExecute::<lambda_77ffb5b4c88d980e092855dcb2471f73>::operator ()",
+    "File": "onecoreuap\\shell\\appreadiness\\src\\tasks\\activateapps.cpp",
+    "Line": "107"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-AppReadiness",
+    "channel": "Microsoft-Windows-AppReadiness/Operational",
+    "event_id": "11",
+    "timestamp": "2024-11-04T13:03:56.264433Z",
+    "event_record_id": "24",
+    "level": "3",
+    "task": "6",
+    "opcode": "0",
+    "keywords": "0x4000000000000080",
+    "computer": "DESKTOP-P9H5FTA",
+    "Error": "-2147024809",
+    "Expression": "ResultFromWin32FromStatus(BiPtAssociateApplicationExtensionClass(&guid, &acid, &eventId, nullptr, 0, 0, nullptr))",
+    "Function": "AppReadiness::Tasks::ActivateApps::OnExecute::<lambda_77ffb5b4c88d980e092855dcb2471f73>::operator ()",
+    "File": "onecoreuap\\shell\\appreadiness\\src\\tasks\\activateapps.cpp",
+    "Line": "107"
+  }
+}

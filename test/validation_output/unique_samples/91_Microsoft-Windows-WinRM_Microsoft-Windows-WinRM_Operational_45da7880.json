@@ -1,0 +1,33 @@
+{
+  "event_id": "91",
+  "provider": "Microsoft-Windows-WinRM",
+  "channel": "Microsoft-Windows-WinRM/Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Malicious\\EVTX-ATTACK-SAMPLES\\Lateral Movement\\LM_winrm_target_wrmlogs_91_wsmanShellStarted_poorLog.evtx",
+  "event_record_id": 1,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-WinRM\" Guid=\"{a7975c8f-ac13-49f1-87da-5a984a4ab417}\">\n    </Provider>\n    <EventID>91</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>9</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000004</Keywords>\n    <TimeCreated SystemTime=\"2019-05-16T01:33:54.567896Z\">\n    </TimeCreated>\n    <EventRecordID>508</EventRecordID>\n    <Correlation ActivityID=\"AE1A2CAB-0B85-0000-AC2F-1AAE850BD501\">\n    </Correlation>\n    <Execution ProcessID=\"952\" ThreadID=\"960\">\n    </Execution>\n    <Channel>Microsoft-Windows-WinRM/Operational</Channel>\n    <Computer>DC1.insecurebank.local</Computer>\n    <Security UserID=\"S-1-5-21-738609754-2819869699-4189121830-500\">\n    </Security>\n  </System>\n  <ProcessingErrorData>\n    <ErrorCode>15005</ErrorCode>\n    <DataItemName>shellId</DataItemName>\n    <EventPayload>68007400740070003A002F002F0073006300680065006D00610073002E006D006900630072006F0073006F00660074002E0063006F006D002F007700620065006D002F00770073006D0061006E002F0031002F00770069006E0064006F00770073002F007300680065006C006C002F0063006D0064000000</EventPayload>\n  </ProcessingErrorData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-WinRM\",\"Guid\":\"{a7975c8f-ac13-49f1-87da-5a984a4ab417}\"}},\"EventID\":91,\"Version\":0,\"Level\":4,\"Task\":9,\"Opcode\":0,\"Keywords\":\"0x4000000000000004\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2019-05-16T01:33:54.567896Z\"}},\"EventRecordID\":508,\"Correlation\":{\"#attributes\":{\"ActivityID\":\"AE1A2CAB-0B85-0000-AC2F-1AAE850BD501\"}},\"Execution\":{\"#attributes\":{\"ProcessID\":952,\"ThreadID\":960}},\"Channel\":\"Microsoft-Windows-WinRM/Operational\",\"Computer\":\"DC1.insecurebank.local\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-21-738609754-2819869699-4189121830-500\"}}},\"ProcessingErrorData\":{\"ErrorCode\":15005,\"DataItemName\":\"shellId\",\"EventPayload\":\"68007400740070003A002F002F0073006300680065006D00610073002E006D006900630072006F0073006F00660074002E0063006F006D002F007700620065006D002F00770073006D0061006E002F0031002F00770069006E0064006F00770073002F007300680065006C006C002F0063006D0064000000\"}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-WinRM",
+    "event_id": "91",
+    "timestamp": "2019-05-16T01:33:54.567896Z",
+    "event_record_id": "508",
+    "level": "4",
+    "task": "9",
+    "opcode": "0",
+    "keywords": "0x4000000000000004",
+    "channel": "Microsoft-Windows-WinRM/Operational",
+    "computer": "DC1.insecurebank.local"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-WinRM",
+    "channel": "Microsoft-Windows-WinRM/Operational",
+    "event_id": "91",
+    "timestamp": "2019-05-16T01:33:54.567896Z",
+    "event_record_id": "508",
+    "level": "4",
+    "task": "9",
+    "opcode": "0",
+    "keywords": "0x4000000000000004",
+    "computer": "DC1.insecurebank.local"
+  }
+}

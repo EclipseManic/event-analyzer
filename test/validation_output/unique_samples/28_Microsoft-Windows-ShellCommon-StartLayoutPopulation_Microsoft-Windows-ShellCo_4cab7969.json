@@ -1,0 +1,35 @@
+{
+  "event_id": "28",
+  "provider": "Microsoft-Windows-ShellCommon-StartLayoutPopulation",
+  "channel": "Microsoft-Windows-ShellCommon-StartLayoutPopulation/Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Logs\\Microsoft-Windows-ShellCommon-StartLayoutPopulation%4Operational.evtx",
+  "event_record_id": 261,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-ShellCommon-StartLayoutPopulation\" Guid=\"97CA8142-10B1-4BAA-9FBB-70A7D11231C3\">\n    </Provider>\n    <EventID>28</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>11</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2025-01-24T10:06:43.547087Z\">\n    </TimeCreated>\n    <EventRecordID>261</EventRecordID>\n    <Correlation ActivityID=\"8D345FF6-6E47-0003-7165-348D476EDB01\">\n    </Correlation>\n    <Execution ProcessID=\"12340\" ThreadID=\"13260\">\n    </Execution>\n    <Channel>Microsoft-Windows-ShellCommon-StartLayoutPopulation/Operational</Channel>\n    <Computer>CTO-FILESVR</Computer>\n    <Security UserID=\"S-1-5-21-3088055692-629932344-1786574096-1002\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"tileIdentifier\">PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0!Idle</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-ShellCommon-StartLayoutPopulation\",\"Guid\":\"97CA8142-10B1-4BAA-9FBB-70A7D11231C3\"}},\"EventID\":28,\"Version\":0,\"Level\":4,\"Task\":11,\"Opcode\":0,\"Keywords\":\"0x4000000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2025-01-24T10:06:43.547087Z\"}},\"EventRecordID\":261,\"Correlation\":{\"#attributes\":{\"ActivityID\":\"8D345FF6-6E47-0003-7165-348D476EDB01\"}},\"Execution\":{\"#attributes\":{\"ProcessID\":12340,\"ThreadID\":13260}},\"Channel\":\"Microsoft-Windows-ShellCommon-StartLayoutPopulation/Operational\",\"Computer\":\"CTO-FILESVR\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-21-3088055692-629932344-1786574096-1002\"}}},\"EventData\":{\"tileIdentifier\":\"PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0!Idle\"}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-ShellCommon-StartLayoutPopulation",
+    "event_id": "28",
+    "timestamp": "2025-01-24T10:06:43.547087Z",
+    "event_record_id": "261",
+    "level": "4",
+    "task": "11",
+    "opcode": "0",
+    "keywords": "0x4000000000000000",
+    "channel": "Microsoft-Windows-ShellCommon-StartLayoutPopulation/Operational",
+    "computer": "CTO-FILESVR",
+    "tileIdentifier": "PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0!Idle"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-ShellCommon-StartLayoutPopulation",
+    "channel": "Microsoft-Windows-ShellCommon-StartLayoutPopulation/Operational",
+    "event_id": "28",
+    "timestamp": "2025-01-24T10:06:43.547087Z",
+    "event_record_id": "261",
+    "level": "4",
+    "task": "11",
+    "opcode": "0",
+    "keywords": "0x4000000000000000",
+    "computer": "CTO-FILESVR",
+    "tileIdentifier": "PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0!Idle"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "total_records_scanned": 1906,
+  "unique_events": 1906,
+  "output_root": "Event-Analyzer\\test\\validation_output_clean2"
+}

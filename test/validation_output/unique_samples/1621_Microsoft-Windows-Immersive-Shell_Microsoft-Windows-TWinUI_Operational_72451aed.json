@@ -1,0 +1,41 @@
+{
+  "event_id": "1621",
+  "provider": "Microsoft-Windows-Immersive-Shell",
+  "channel": "Microsoft-Windows-TWinUI/Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\Logs_Win11_2023\\Microsoft-Windows-TWinUI%4Operational.evtx",
+  "event_record_id": 11,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-Immersive-Shell\" Guid=\"315A8872-923E-4EA2-9889-33CD4754BF64\">\n    </Provider>\n    <EventID>1621</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>1613</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2023-11-05T23:08:39.760749Z\">\n    </TimeCreated>\n    <EventRecordID>11</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"5044\" ThreadID=\"9152\">\n    </Execution>\n    <Channel>Microsoft-Windows-TWinUI/Operational</Channel>\n    <Computer>WinDev2310Eval</Computer>\n    <Security UserID=\"S-1-5-21-1992711665-1655669231-58201500-1000\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"ApplicationId\">Microsoft.WindowsStore_8wekyb3d8bbwe!App</Data>\n    <Data Name=\"ExecutionState\">1</Data>\n    <Data Name=\"AppState\">0</Data>\n    <Data Name=\"Result\">0</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-Immersive-Shell\",\"Guid\":\"315A8872-923E-4EA2-9889-33CD4754BF64\"}},\"EventID\":1621,\"Version\":0,\"Level\":4,\"Task\":1613,\"Opcode\":0,\"Keywords\":\"0x4000000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2023-11-05T23:08:39.760749Z\"}},\"EventRecordID\":11,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":5044,\"ThreadID\":9152}},\"Channel\":\"Microsoft-Windows-TWinUI/Operational\",\"Computer\":\"WinDev2310Eval\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-21-1992711665-1655669231-58201500-1000\"}}},\"EventData\":{\"ApplicationId\":\"Microsoft.WindowsStore_8wekyb3d8bbwe!App\",\"ExecutionState\":1,\"AppState\":0,\"Result\":0}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-Immersive-Shell",
+    "event_id": "1621",
+    "timestamp": "2023-11-05T23:08:39.760749Z",
+    "event_record_id": "11",
+    "level": "4",
+    "task": "1613",
+    "opcode": "0",
+    "keywords": "0x4000000000000000",
+    "channel": "Microsoft-Windows-TWinUI/Operational",
+    "computer": "WinDev2310Eval",
+    "ApplicationId": "Microsoft.WindowsStore_8wekyb3d8bbwe!App",
+    "ExecutionState": "1",
+    "AppState": "0",
+    "Result": "0"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-Immersive-Shell",
+    "channel": "Microsoft-Windows-TWinUI/Operational",
+    "event_id": "1621",
+    "timestamp": "2023-11-05T23:08:39.760749Z",
+    "event_record_id": "11",
+    "level": "4",
+    "task": "1613",
+    "opcode": "0",
+    "keywords": "0x4000000000000000",
+    "computer": "WinDev2310Eval",
+    "ApplicationId": "Microsoft.WindowsStore_8wekyb3d8bbwe!App",
+    "ExecutionState": "1",
+    "AppState": "0",
+    "Result": "0"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "event_id": "1023",
+  "provider": ".NET Runtime",
+  "channel": "Application",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Logs\\Application.evtx",
+  "event_record_id": 377,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\".NET Runtime\">\n    </Provider>\n    <EventID Qualifiers=\"0\">1023</EventID>\n    <Version>0</Version>\n    <Level>2</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x80000000000000</Keywords>\n    <TimeCreated SystemTime=\"2025-01-06T12:45:30.052554Z\">\n    </TimeCreated>\n    <EventRecordID>377</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"0\" ThreadID=\"0\">\n    </Execution>\n    <Channel>Application</Channel>\n    <Computer>cyberjunkie-test</Computer>\n    <Security>\n    </Security>\n  </System>\n  <EventData>\n    <Data>Description: A .NET application failed.\nApplication: ShellBagsExplorer.exe\nPath: C:\\Users\\cyberjunkie\\Desktop\\TOOLS\\ShellBagsExplorer\\ShellBagsExplorer.exe\nMessage: A fatal error occurred. The required library hostfxr.dll could not be found.\nIf this is a self-contained application, that library should exist in [C:\\Users\\cyberjunkie\\Desktop\\TOOLS\\ShellBagsExplorer\\].\nIf this is a framework-dependent application, install the runtime in the global location [C:\\Program Files\\dotnet] or use the DOTNET_ROOT environment variable to specify the runtime location or register the runtime location in [HKLM\\SOFTWARE\\dotnet\\Setup\\InstalledVersions\\x64\\InstallLocation].\n\nThe .NET runtime can be found at:\n  - https://aka.ms/dotnet-core-applaunch?missing_runtime=true&amp;arch=x64&amp;rid=win10-x64&amp;apphost_version=6.0.1\n\n</Data>\n    <Binary></Binary>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\".NET Runtime\"}},\"EventID\":{\"#attributes\":{\"Qualifiers\":0},\"#text\":1023},\"Version\":0,\"Level\":2,\"Task\":0,\"Opcode\":0,\"Keywords\":\"0x80000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2025-01-06T12:45:30.052554Z\"}},\"EventRecordID\":377,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":0,\"ThreadID\":0}},\"Channel\":\"Application\",\"Computer\":\"cyberjunkie-test\",\"Security\":null},\"EventData\":{\"Data\":{\"#text\":\"Description: A .NET application failed.\\nApplication: ShellBagsExplorer.exe\\nPath: C:\\\\Users\\\\cyberjunkie\\\\Desktop\\\\TOOLS\\\\ShellBagsExplorer\\\\ShellBagsExplorer.exe\\nMessage: A fatal error occurred. The required library hostfxr.dll could not be found.\\nIf this is a self-contained application, that library should exist in [C:\\\\Users\\\\cyberjunkie\\\\Desktop\\\\TOOLS\\\\ShellBagsExplorer\\\\].\\nIf this is a framework-dependent application, install the runtime in the global location [C:\\\\Program Files\\\\dotnet] or use the DOTNET_ROOT environment variable to specify the runtime location or register the runtime location in [HKLM\\\\SOFTWARE\\\\dotnet\\\\Setup\\\\InstalledVersions\\\\x64\\\\InstallLocation].\\n\\nThe .NET runtime can be found at:\\n  - https://aka.ms/dotnet-core-applaunch?missing_runtime=true&arch=x64&rid=win10-x64&apphost_version=6.0.1\\n\\n\"},\"Binary\":null}}}",
+  "xml_fields": {
+    "provider": ".NET Runtime",
+    "event_id": "1023",
+    "timestamp": "2025-01-06T12:45:30.052554Z",
+    "event_record_id": "377",
+    "level": "2",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x80000000000000",
+    "channel": "Application",
+    "computer": "cyberjunkie-test",
+    "_data_0": "Description: A .NET application failed.\nApplication: ShellBagsExplorer.exe\nPath: C:\\Users\\cyberjunkie\\Desktop\\TOOLS\\ShellBagsExplorer\\ShellBagsExplorer.exe\nMessage: A fatal error occurred. The required library hostfxr.dll could not be found.\nIf this is a self-contained application, that library should exist in [C:\\Users\\cyberjunkie\\Desktop\\TOOLS\\ShellBagsExplorer\\].\nIf this is a framework-dependent application, install the runtime in the global location [C:\\Program Files\\dotnet] or use the DOTNET_ROOT environment variable to specify the runtime location or register the runtime location in [HKLM\\SOFTWARE\\dotnet\\Setup\\InstalledVersions\\x64\\InstallLocation].\n\nThe .NET runtime can be found at:\n  - https://aka.ms/dotnet-core-applaunch?missing_runtime=true&arch=x64&rid=win10-x64&apphost_version=6.0.1\n\n"
+  },
+  "json_fields": {
+    "provider": ".NET Runtime",
+    "channel": "Application",
+    "event_id": "1023",
+    "timestamp": "2025-01-06T12:45:30.052554Z",
+    "event_record_id": "377",
+    "level": "2",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x80000000000000",
+    "computer": "cyberjunkie-test",
+    "Data": "Description: A .NET application failed.\nApplication: ShellBagsExplorer.exe\nPath: C:\\Users\\cyberjunkie\\Desktop\\TOOLS\\ShellBagsExplorer\\ShellBagsExplorer.exe\nMessage: A fatal error occurred. The required library hostfxr.dll could not be found.\nIf this is a self-contained application, that library should exist in [C:\\Users\\cyberjunkie\\Desktop\\TOOLS\\ShellBagsExplorer\\].\nIf this is a framework-dependent application, install the runtime in the global location [C:\\Program Files\\dotnet] or use the DOTNET_ROOT environment variable to specify the runtime location or register the runtime location in [HKLM\\SOFTWARE\\dotnet\\Setup\\InstalledVersions\\x64\\InstallLocation].\n\nThe .NET runtime can be found at:\n  - https://aka.ms/dotnet-core-applaunch?missing_runtime=true&arch=x64&rid=win10-x64&apphost_version=6.0.1\n\n"
+  }
+}

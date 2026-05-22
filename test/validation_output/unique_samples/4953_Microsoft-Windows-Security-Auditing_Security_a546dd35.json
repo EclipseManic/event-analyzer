@@ -1,0 +1,41 @@
+{
+  "event_id": "4953",
+  "provider": "Microsoft-Windows-Security-Auditing",
+  "channel": "Security",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\win2022-evtx\\Security.evtx",
+  "event_record_id": 25623,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-Security-Auditing\" Guid=\"54849625-5478-4994-A5BA-3E3B0328C30D\">\n    </Provider>\n    <EventID>4953</EventID>\n    <Version>0</Version>\n    <Level>0</Level>\n    <Task>13571</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x8010000000000000</Keywords>\n    <TimeCreated SystemTime=\"2022-04-04T13:11:19.737544Z\">\n    </TimeCreated>\n    <EventRecordID>25623</EventRecordID>\n    <Correlation ActivityID=\"7377737E-4825-0000-C974-77732548D801\">\n    </Correlation>\n    <Execution ProcessID=\"612\" ThreadID=\"668\">\n    </Execution>\n    <Channel>Security</Channel>\n    <Computer>WIN-TKC15D7KHUR</Computer>\n    <Security>\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"Profile\">All</Data>\n    <Data Name=\"ReasonForRejection\">An error occurred.</Data>\n    <Data Name=\"RuleId\">WMPNetworkSvc-2</Data>\n    <Data Name=\"RuleName\">-</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-Security-Auditing\",\"Guid\":\"54849625-5478-4994-A5BA-3E3B0328C30D\"}},\"EventID\":4953,\"Version\":0,\"Level\":0,\"Task\":13571,\"Opcode\":0,\"Keywords\":\"0x8010000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2022-04-04T13:11:19.737544Z\"}},\"EventRecordID\":25623,\"Correlation\":{\"#attributes\":{\"ActivityID\":\"7377737E-4825-0000-C974-77732548D801\"}},\"Execution\":{\"#attributes\":{\"ProcessID\":612,\"ThreadID\":668}},\"Channel\":\"Security\",\"Computer\":\"WIN-TKC15D7KHUR\",\"Security\":null},\"EventData\":{\"Profile\":\"All\",\"ReasonForRejection\":\"An error occurred.\",\"RuleId\":\"WMPNetworkSvc-2\",\"RuleName\":\"-\"}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "event_id": "4953",
+    "timestamp": "2022-04-04T13:11:19.737544Z",
+    "event_record_id": "25623",
+    "level": "0",
+    "task": "13571",
+    "opcode": "0",
+    "keywords": "0x8010000000000000",
+    "channel": "Security",
+    "computer": "WIN-TKC15D7KHUR",
+    "Profile": "All",
+    "ReasonForRejection": "An error occurred.",
+    "RuleId": "WMPNetworkSvc-2",
+    "RuleName": "-"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "channel": "Security",
+    "event_id": "4953",
+    "timestamp": "2022-04-04T13:11:19.737544Z",
+    "event_record_id": "25623",
+    "level": "0",
+    "task": "13571",
+    "opcode": "0",
+    "keywords": "0x8010000000000000",
+    "computer": "WIN-TKC15D7KHUR",
+    "Profile": "All",
+    "ReasonForRejection": "An error occurred.",
+    "RuleId": "WMPNetworkSvc-2",
+    "RuleName": "-"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "event_id": "1101",
+  "provider": "Microsoft-Windows-ModernDeployment-Diagnostics-Provider",
+  "channel": "Microsoft-Windows-ModernDeployment-Diagnostics-Provider/ManagementService",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Logs\\Microsoft-Windows-ModernDeployment-Diagnostics-Provider%4ManagementService.evtx",
+  "event_record_id": 3,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-ModernDeployment-Diagnostics-Provider\" Guid=\"BAB3AD92-FB96-5902-450B-B8421BDEC7BD\">\n    </Provider>\n    <EventID>1101</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x1000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-11-04T12:35:02.494337Z\">\n    </TimeCreated>\n    <EventRecordID>3</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"5416\" ThreadID=\"5324\">\n    </Execution>\n    <Channel>Microsoft-Windows-ModernDeployment-Diagnostics-Provider/ManagementService</Channel>\n    <Computer>DESKTOP-P9H5FTA</Computer>\n    <Security UserID=\"S-1-5-18\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"Message1\">C:\\Windows\\ServiceState\\wmansvc</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-ModernDeployment-Diagnostics-Provider\",\"Guid\":\"BAB3AD92-FB96-5902-450B-B8421BDEC7BD\"}},\"EventID\":1101,\"Version\":0,\"Level\":4,\"Task\":0,\"Opcode\":0,\"Keywords\":\"0x1000000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2024-11-04T12:35:02.494337Z\"}},\"EventRecordID\":3,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":5416,\"ThreadID\":5324}},\"Channel\":\"Microsoft-Windows-ModernDeployment-Diagnostics-Provider/ManagementService\",\"Computer\":\"DESKTOP-P9H5FTA\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-18\"}}},\"EventData\":{\"Message1\":\"C:\\\\Windows\\\\ServiceState\\\\wmansvc\"}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-ModernDeployment-Diagnostics-Provider",
+    "event_id": "1101",
+    "timestamp": "2024-11-04T12:35:02.494337Z",
+    "event_record_id": "3",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x1000000000000000",
+    "channel": "Microsoft-Windows-ModernDeployment-Diagnostics-Provider/ManagementService",
+    "computer": "DESKTOP-P9H5FTA",
+    "Message1": "C:\\Windows\\ServiceState\\wmansvc"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-ModernDeployment-Diagnostics-Provider",
+    "channel": "Microsoft-Windows-ModernDeployment-Diagnostics-Provider/ManagementService",
+    "event_id": "1101",
+    "timestamp": "2024-11-04T12:35:02.494337Z",
+    "event_record_id": "3",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x1000000000000000",
+    "computer": "DESKTOP-P9H5FTA",
+    "Message1": "C:\\Windows\\ServiceState\\wmansvc"
+  }
+}

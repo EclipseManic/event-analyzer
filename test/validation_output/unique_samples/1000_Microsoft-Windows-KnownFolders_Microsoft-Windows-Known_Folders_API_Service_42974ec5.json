@@ -1,0 +1,39 @@
+{
+  "event_id": "1000",
+  "provider": "Microsoft-Windows-KnownFolders",
+  "channel": "Microsoft-Windows-Known Folders API Service",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\Logs_Win11_2023\\Microsoft-Windows-Known Folders API Service.evtx",
+  "event_record_id": 68,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"8939299F-2315-4C5C-9B91-ABB86AA0627D\">\n    </Provider>\n    <EventID>1000</EventID>\n    <Version>0</Version>\n    <Level>3</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x8000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2023-11-06T02:00:54.881768Z\">\n    </TimeCreated>\n    <EventRecordID>68</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"1140\" ThreadID=\"10696\">\n    </Execution>\n    <Channel>Microsoft-Windows-Known Folders API Service</Channel>\n    <Computer>WinDev2310Eval</Computer>\n    <Security UserID=\"S-1-5-18\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"hrError\">0x80070005</Data>\n    <Data Name=\"FolderId\">5E6C858F-0E22-4760-9AFE-EA3317B67173</Data>\n    <Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-KnownFolders\",\"Guid\":\"8939299F-2315-4C5C-9B91-ABB86AA0627D\"}},\"EventID\":1000,\"Version\":0,\"Level\":3,\"Task\":0,\"Opcode\":0,\"Keywords\":\"0x8000000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2023-11-06T02:00:54.881768Z\"}},\"EventRecordID\":68,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":1140,\"ThreadID\":10696}},\"Channel\":\"Microsoft-Windows-Known Folders API Service\",\"Computer\":\"WinDev2310Eval\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-18\"}}},\"EventData\":{\"hrError\":\"0x80070005\",\"FolderId\":\"5E6C858F-0E22-4760-9AFE-EA3317B67173\",\"Path\":\"C:\\\\Windows\\\\system32\\\\config\\\\systemprofile\"}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-KnownFolders",
+    "event_id": "1000",
+    "timestamp": "2023-11-06T02:00:54.881768Z",
+    "event_record_id": "68",
+    "level": "3",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x8000000000000000",
+    "channel": "Microsoft-Windows-Known Folders API Service",
+    "computer": "WinDev2310Eval",
+    "hrError": "0x80070005",
+    "FolderId": "5E6C858F-0E22-4760-9AFE-EA3317B67173",
+    "Path": "C:\\Windows\\system32\\config\\systemprofile"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-KnownFolders",
+    "channel": "Microsoft-Windows-Known Folders API Service",
+    "event_id": "1000",
+    "timestamp": "2023-11-06T02:00:54.881768Z",
+    "event_record_id": "68",
+    "level": "3",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x8000000000000000",
+    "computer": "WinDev2310Eval",
+    "hrError": "0x80070005",
+    "FolderId": "5E6C858F-0E22-4760-9AFE-EA3317B67173",
+    "Path": "C:\\Windows\\system32\\config\\systemprofile"
+  }
+}

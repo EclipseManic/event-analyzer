@@ -1,0 +1,39 @@
+{
+  "event_id": "44",
+  "provider": "Microsoft-Windows-WindowsUpdateClient",
+  "channel": "System",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Logs\\System.evtx",
+  "event_record_id": 999,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-WindowsUpdateClient\" Guid=\"945A8954-C147-4ACD-923F-40C45405A658\">\n    </Provider>\n    <EventID>44</EventID>\n    <Version>1</Version>\n    <Level>4</Level>\n    <Task>1</Task>\n    <Opcode>12</Opcode>\n    <Keywords>0x8000000000002004</Keywords>\n    <TimeCreated SystemTime=\"2025-01-24T10:29:20.169209Z\">\n    </TimeCreated>\n    <EventRecordID>999</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"5704\" ThreadID=\"7444\">\n    </Execution>\n    <Channel>System</Channel>\n    <Computer>CTO-FILESVR</Computer>\n    <Security UserID=\"S-1-5-18\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"updateTitle\">9NBLGGH10PG8-MICROSOFT.PEOPLE</Data>\n    <Data Name=\"updateGuid\">6FE32951-178D-43C0-8CE6-43DCE9051C58</Data>\n    <Data Name=\"updateRevisionNumber\">1</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-WindowsUpdateClient\",\"Guid\":\"945A8954-C147-4ACD-923F-40C45405A658\"}},\"EventID\":44,\"Version\":1,\"Level\":4,\"Task\":1,\"Opcode\":12,\"Keywords\":\"0x8000000000002004\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2025-01-24T10:29:20.169209Z\"}},\"EventRecordID\":999,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":5704,\"ThreadID\":7444}},\"Channel\":\"System\",\"Computer\":\"CTO-FILESVR\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-18\"}}},\"EventData\":{\"updateTitle\":\"9NBLGGH10PG8-MICROSOFT.PEOPLE\",\"updateGuid\":\"6FE32951-178D-43C0-8CE6-43DCE9051C58\",\"updateRevisionNumber\":1}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-WindowsUpdateClient",
+    "event_id": "44",
+    "timestamp": "2025-01-24T10:29:20.169209Z",
+    "event_record_id": "999",
+    "level": "4",
+    "task": "1",
+    "opcode": "12",
+    "keywords": "0x8000000000002004",
+    "channel": "System",
+    "computer": "CTO-FILESVR",
+    "updateTitle": "9NBLGGH10PG8-MICROSOFT.PEOPLE",
+    "updateGuid": "6FE32951-178D-43C0-8CE6-43DCE9051C58",
+    "updateRevisionNumber": "1"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-WindowsUpdateClient",
+    "channel": "System",
+    "event_id": "44",
+    "timestamp": "2025-01-24T10:29:20.169209Z",
+    "event_record_id": "999",
+    "level": "4",
+    "task": "1",
+    "opcode": "12",
+    "keywords": "0x8000000000002004",
+    "computer": "CTO-FILESVR",
+    "updateTitle": "9NBLGGH10PG8-MICROSOFT.PEOPLE",
+    "updateGuid": "6FE32951-178D-43C0-8CE6-43DCE9051C58",
+    "updateRevisionNumber": "1"
+  }
+}

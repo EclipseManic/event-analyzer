@@ -1,0 +1,33 @@
+{
+  "event_id": "5024",
+  "provider": "Microsoft-Windows-Security-Auditing",
+  "channel": "Security",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Logs\\Security.evtx",
+  "event_record_id": 13884,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-Security-Auditing\" Guid=\"54849625-5478-4994-A5BA-3E3B0328C30D\">\n    </Provider>\n    <EventID>5024</EventID>\n    <Version>0</Version>\n    <Level>0</Level>\n    <Task>12292</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x8020000000000000</Keywords>\n    <TimeCreated SystemTime=\"2025-01-24T10:50:10.343328Z\">\n    </TimeCreated>\n    <EventRecordID>13884</EventRecordID>\n    <Correlation ActivityID=\"B61EC021-6E4D-0001-8EC0-1EB64D6EDB01\">\n    </Correlation>\n    <Execution ProcessID=\"696\" ThreadID=\"780\">\n    </Execution>\n    <Channel>Security</Channel>\n    <Computer>CTO-FILESVR</Computer>\n    <Security>\n    </Security>\n  </System>\n  <EventData>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-Security-Auditing\",\"Guid\":\"54849625-5478-4994-A5BA-3E3B0328C30D\"}},\"EventID\":5024,\"Version\":0,\"Level\":0,\"Task\":12292,\"Opcode\":0,\"Keywords\":\"0x8020000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2025-01-24T10:50:10.343328Z\"}},\"EventRecordID\":13884,\"Correlation\":{\"#attributes\":{\"ActivityID\":\"B61EC021-6E4D-0001-8EC0-1EB64D6EDB01\"}},\"Execution\":{\"#attributes\":{\"ProcessID\":696,\"ThreadID\":780}},\"Channel\":\"Security\",\"Computer\":\"CTO-FILESVR\",\"Security\":null},\"EventData\":null}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "event_id": "5024",
+    "timestamp": "2025-01-24T10:50:10.343328Z",
+    "event_record_id": "13884",
+    "level": "0",
+    "task": "12292",
+    "opcode": "0",
+    "keywords": "0x8020000000000000",
+    "channel": "Security",
+    "computer": "CTO-FILESVR"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "channel": "Security",
+    "event_id": "5024",
+    "timestamp": "2025-01-24T10:50:10.343328Z",
+    "event_record_id": "13884",
+    "level": "0",
+    "task": "12292",
+    "opcode": "0",
+    "keywords": "0x8020000000000000",
+    "computer": "CTO-FILESVR"
+  }
+}

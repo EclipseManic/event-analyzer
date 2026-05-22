@@ -1,0 +1,14 @@
+{
+  "missing_in_json": [],
+  "missing_in_xml": [],
+  "value_diffs": {
+    "GetInfoOnly": {
+      "xml": "false",
+      "json": "False"
+    },
+    "ReadOnly": {
+      "xml": "false",
+      "json": "False"
+    }
+  }
+}

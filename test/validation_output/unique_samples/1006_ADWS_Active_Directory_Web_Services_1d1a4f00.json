@@ -1,0 +1,35 @@
+{
+  "event_id": "1006",
+  "provider": "ADWS",
+  "channel": "Active Directory Web Services",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\Win2022-AD\\Active Directory Web Services.evtx",
+  "event_record_id": 8,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"ADWS\">\n    </Provider>\n    <EventID Qualifiers=\"16384\">1006</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>1</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x80000000000000</Keywords>\n    <TimeCreated SystemTime=\"2022-04-07T08:15:13.950698Z\">\n    </TimeCreated>\n    <EventRecordID>8</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"0\" ThreadID=\"0\">\n    </Execution>\n    <Channel>Active Directory Web Services</Channel>\n    <Computer>WIN-FPV0DSIC9O6.sigma.fr</Computer>\n    <Security>\n    </Security>\n  </System>\n  <EventData>\n    <Data>\n    </Data>\n    <Binary></Binary>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"ADWS\"}},\"EventID\":{\"#attributes\":{\"Qualifiers\":16384},\"#text\":1006},\"Version\":0,\"Level\":4,\"Task\":1,\"Opcode\":0,\"Keywords\":\"0x80000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2022-04-07T08:15:13.950698Z\"}},\"EventRecordID\":8,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":0,\"ThreadID\":0}},\"Channel\":\"Active Directory Web Services\",\"Computer\":\"WIN-FPV0DSIC9O6.sigma.fr\",\"Security\":null},\"EventData\":{\"Data\":{\"#text\":\"\"},\"Binary\":null}}}",
+  "xml_fields": {
+    "provider": "ADWS",
+    "event_id": "1006",
+    "timestamp": "2022-04-07T08:15:13.950698Z",
+    "event_record_id": "8",
+    "level": "4",
+    "task": "1",
+    "opcode": "0",
+    "keywords": "0x80000000000000",
+    "channel": "Active Directory Web Services",
+    "computer": "WIN-FPV0DSIC9O6.sigma.fr",
+    "_data_0": "\n    "
+  },
+  "json_fields": {
+    "provider": "ADWS",
+    "channel": "Active Directory Web Services",
+    "event_id": "1006",
+    "timestamp": "2022-04-07T08:15:13.950698Z",
+    "event_record_id": "8",
+    "level": "4",
+    "task": "1",
+    "opcode": "0",
+    "keywords": "0x80000000000000",
+    "computer": "WIN-FPV0DSIC9O6.sigma.fr",
+    "Data": ""
+  }
+}

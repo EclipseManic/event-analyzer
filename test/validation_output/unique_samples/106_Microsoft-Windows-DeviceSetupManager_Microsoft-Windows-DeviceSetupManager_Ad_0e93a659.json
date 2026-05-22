@@ -1,0 +1,35 @@
+{
+  "event_id": "106",
+  "provider": "Microsoft-Windows-DeviceSetupManager",
+  "channel": "Microsoft-Windows-DeviceSetupManager/Admin",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Logs\\Microsoft-Windows-DeviceSetupManager%4Admin.evtx",
+  "event_record_id": 177,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-DeviceSetupManager\" Guid=\"FCBB06BB-6A2A-46E3-ABAA-246CB4E508B2\">\n    </Provider>\n    <EventID>106</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2025-01-06T12:18:50.500013Z\">\n    </TimeCreated>\n    <EventRecordID>177</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"408\" ThreadID=\"2344\">\n    </Execution>\n    <Channel>Microsoft-Windows-DeviceSetupManager/Admin</Channel>\n    <Computer>cyberjunkie-test</Computer>\n    <Security UserID=\"S-1-5-18\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"Prop_RetryCycleCount\">1</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-DeviceSetupManager\",\"Guid\":\"FCBB06BB-6A2A-46E3-ABAA-246CB4E508B2\"}},\"EventID\":106,\"Version\":0,\"Level\":4,\"Task\":0,\"Opcode\":0,\"Keywords\":\"0x4000000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2025-01-06T12:18:50.500013Z\"}},\"EventRecordID\":177,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":408,\"ThreadID\":2344}},\"Channel\":\"Microsoft-Windows-DeviceSetupManager/Admin\",\"Computer\":\"cyberjunkie-test\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-18\"}}},\"EventData\":{\"Prop_RetryCycleCount\":1}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-DeviceSetupManager",
+    "event_id": "106",
+    "timestamp": "2025-01-06T12:18:50.500013Z",
+    "event_record_id": "177",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x4000000000000000",
+    "channel": "Microsoft-Windows-DeviceSetupManager/Admin",
+    "computer": "cyberjunkie-test",
+    "Prop_RetryCycleCount": "1"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-DeviceSetupManager",
+    "channel": "Microsoft-Windows-DeviceSetupManager/Admin",
+    "event_id": "106",
+    "timestamp": "2025-01-06T12:18:50.500013Z",
+    "event_record_id": "177",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x4000000000000000",
+    "computer": "cyberjunkie-test",
+    "Prop_RetryCycleCount": "1"
+  }
+}

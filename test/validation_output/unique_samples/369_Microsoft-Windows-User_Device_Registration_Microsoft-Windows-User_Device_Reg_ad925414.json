@@ -1,0 +1,35 @@
+{
+  "event_id": "369",
+  "provider": "Microsoft-Windows-User Device Registration",
+  "channel": "Microsoft-Windows-User Device Registration/Admin",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\win2022-0-20348-azure\\Microsoft-Windows-User Device Registration%4Admin.evtx",
+  "event_record_id": 1,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-User Device Registration\" Guid=\"23B8D46B-67DD-40A3-B636-D43E50552C6D\">\n    </Provider>\n    <EventID>369</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x8000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2022-09-08T21:00:46.822397Z\">\n    </TimeCreated>\n    <EventRecordID>1</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"1896\" ThreadID=\"1960\">\n    </Execution>\n    <Channel>Microsoft-Windows-User Device Registration/Admin</Channel>\n    <Computer>WIN-06FB45IHQ35</Computer>\n    <Security UserID=\"S-1-5-20\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"Message\">AutoJoinSvc/WJSetScheduledTaskState: ITaskService::GetFolder(\"\\Microsoft\\Windows\\Workplace Join\") failed with code 0x80070003.</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-User Device Registration\",\"Guid\":\"23B8D46B-67DD-40A3-B636-D43E50552C6D\"}},\"EventID\":369,\"Version\":0,\"Level\":4,\"Task\":0,\"Opcode\":0,\"Keywords\":\"0x8000000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2022-09-08T21:00:46.822397Z\"}},\"EventRecordID\":1,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":1896,\"ThreadID\":1960}},\"Channel\":\"Microsoft-Windows-User Device Registration/Admin\",\"Computer\":\"WIN-06FB45IHQ35\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-20\"}}},\"EventData\":{\"Message\":\"AutoJoinSvc/WJSetScheduledTaskState: ITaskService::GetFolder(\\\"\\\\Microsoft\\\\Windows\\\\Workplace Join\\\") failed with code 0x80070003.\"}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-User Device Registration",
+    "event_id": "369",
+    "timestamp": "2022-09-08T21:00:46.822397Z",
+    "event_record_id": "1",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x8000000000000000",
+    "channel": "Microsoft-Windows-User Device Registration/Admin",
+    "computer": "WIN-06FB45IHQ35",
+    "Message": "AutoJoinSvc/WJSetScheduledTaskState: ITaskService::GetFolder(\"\\Microsoft\\Windows\\Workplace Join\") failed with code 0x80070003."
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-User Device Registration",
+    "channel": "Microsoft-Windows-User Device Registration/Admin",
+    "event_id": "369",
+    "timestamp": "2022-09-08T21:00:46.822397Z",
+    "event_record_id": "1",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x8000000000000000",
+    "computer": "WIN-06FB45IHQ35",
+    "Message": "AutoJoinSvc/WJSetScheduledTaskState: ITaskService::GetFolder(\"\\Microsoft\\Windows\\Workplace Join\") failed with code 0x80070003."
+  }
+}

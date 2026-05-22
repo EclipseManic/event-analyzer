@@ -1,0 +1,41 @@
+{
+  "event_id": "171",
+  "provider": "Microsoft-Windows-ServerManager-MultiMachine",
+  "channel": "Microsoft-Windows-ServerManager-MultiMachine/Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\win2022-0-20348-azure\\Microsoft-Windows-ServerManager-MultiMachine%4Operational.evtx",
+  "event_record_id": 8,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-ServerManager-MultiMachine\" Guid=\"D8D37081-10BD-4A89-A971-1CDA6899BDB3\">\n    </Provider>\n    <EventID>171</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>10</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x2000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2022-09-08T21:03:23.383938Z\">\n    </TimeCreated>\n    <EventRecordID>8</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"5708\" ThreadID=\"940\">\n    </Execution>\n    <Channel>Microsoft-Windows-ServerManager-MultiMachine/Operational</Channel>\n    <Computer>WIN-06FB45IHQ35</Computer>\n    <Security UserID=\"S-1-5-21-780613846-3260660134-2396965080-500\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"RefreshTriggerSource\">Startup (None, None)</Data>\n    <Data Name=\"Category\">Inventory</Data>\n    <Data Name=\"Machines\">WIN-06FB45IHQ35</Data>\n    <Data Name=\"ID\">762B16DC-AA97-410E-8F84-9836F20F168E</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-ServerManager-MultiMachine\",\"Guid\":\"D8D37081-10BD-4A89-A971-1CDA6899BDB3\"}},\"EventID\":171,\"Version\":0,\"Level\":4,\"Task\":10,\"Opcode\":0,\"Keywords\":\"0x2000000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2022-09-08T21:03:23.383938Z\"}},\"EventRecordID\":8,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":5708,\"ThreadID\":940}},\"Channel\":\"Microsoft-Windows-ServerManager-MultiMachine/Operational\",\"Computer\":\"WIN-06FB45IHQ35\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-21-780613846-3260660134-2396965080-500\"}}},\"EventData\":{\"RefreshTriggerSource\":\"Startup (None, None)\",\"Category\":\"Inventory\",\"Machines\":\"WIN-06FB45IHQ35\",\"ID\":\"762B16DC-AA97-410E-8F84-9836F20F168E\"}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-ServerManager-MultiMachine",
+    "event_id": "171",
+    "timestamp": "2022-09-08T21:03:23.383938Z",
+    "event_record_id": "8",
+    "level": "4",
+    "task": "10",
+    "opcode": "0",
+    "keywords": "0x2000000000000000",
+    "channel": "Microsoft-Windows-ServerManager-MultiMachine/Operational",
+    "computer": "WIN-06FB45IHQ35",
+    "RefreshTriggerSource": "Startup (None, None)",
+    "Category": "Inventory",
+    "Machines": "WIN-06FB45IHQ35",
+    "ID": "762B16DC-AA97-410E-8F84-9836F20F168E"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-ServerManager-MultiMachine",
+    "channel": "Microsoft-Windows-ServerManager-MultiMachine/Operational",
+    "event_id": "171",
+    "timestamp": "2022-09-08T21:03:23.383938Z",
+    "event_record_id": "8",
+    "level": "4",
+    "task": "10",
+    "opcode": "0",
+    "keywords": "0x2000000000000000",
+    "computer": "WIN-06FB45IHQ35",
+    "RefreshTriggerSource": "Startup (None, None)",
+    "Category": "Inventory",
+    "Machines": "WIN-06FB45IHQ35",
+    "ID": "762B16DC-AA97-410E-8F84-9836F20F168E"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "event_id": "31",
+  "provider": "Microsoft-Windows-WinRM",
+  "channel": "Microsoft-Windows-WinRM/Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\win2022-0-20348-azure\\Microsoft-Windows-WinRM%4Operational.evtx",
+  "event_record_id": 36,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-WinRM\" Guid=\"A7975C8F-AC13-49F1-87DA-5A984A4AB417\">\n    </Provider>\n    <EventID>31</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>3</Task>\n    <Opcode>2</Opcode>\n    <Keywords>0x4000000000000002</Keywords>\n    <TimeCreated SystemTime=\"2022-09-18T09:47:13.432932Z\">\n    </TimeCreated>\n    <EventRecordID>36</EventRecordID>\n    <Correlation ActivityID=\"1A75463C-9592-4179-9503-AADA9BD3B9ED\">\n    </Correlation>\n    <Execution ProcessID=\"3852\" ThreadID=\"8144\">\n    </Execution>\n    <Channel>Microsoft-Windows-WinRM/Operational</Channel>\n    <Computer>Agamemnon</Computer>\n    <Security UserID=\"S-1-5-21-3574161147-2844031704-266979156-500\">\n    </Security>\n  </System>\n  <EventData>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-WinRM\",\"Guid\":\"A7975C8F-AC13-49F1-87DA-5A984A4AB417\"}},\"EventID\":31,\"Version\":0,\"Level\":4,\"Task\":3,\"Opcode\":2,\"Keywords\":\"0x4000000000000002\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2022-09-18T09:47:13.432932Z\"}},\"EventRecordID\":36,\"Correlation\":{\"#attributes\":{\"ActivityID\":\"1A75463C-9592-4179-9503-AADA9BD3B9ED\"}},\"Execution\":{\"#attributes\":{\"ProcessID\":3852,\"ThreadID\":8144}},\"Channel\":\"Microsoft-Windows-WinRM/Operational\",\"Computer\":\"Agamemnon\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-21-3574161147-2844031704-266979156-500\"}}},\"EventData\":null}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-WinRM",
+    "event_id": "31",
+    "timestamp": "2022-09-18T09:47:13.432932Z",
+    "event_record_id": "36",
+    "level": "4",
+    "task": "3",
+    "opcode": "2",
+    "keywords": "0x4000000000000002",
+    "channel": "Microsoft-Windows-WinRM/Operational",
+    "computer": "Agamemnon"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-WinRM",
+    "channel": "Microsoft-Windows-WinRM/Operational",
+    "event_id": "31",
+    "timestamp": "2022-09-18T09:47:13.432932Z",
+    "event_record_id": "36",
+    "level": "4",
+    "task": "3",
+    "opcode": "2",
+    "keywords": "0x4000000000000002",
+    "computer": "Agamemnon"
+  }
+}

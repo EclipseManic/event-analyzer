@@ -1,0 +1,35 @@
+{
+  "event_id": "154",
+  "provider": "Microsoft-Windows-Kernel-Boot",
+  "channel": "Microsoft-Windows-Kernel-Boot/Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\Logs_Win11_2023\\Microsoft-Windows-Kernel-Boot%4Operational.evtx",
+  "event_record_id": 46,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-Kernel-Boot\" Guid=\"15CA44FF-4D7A-4BAA-BBA5-0998955E531E\">\n    </Provider>\n    <EventID>154</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>44</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x2000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2023-11-06T06:20:49.064672Z\">\n    </TimeCreated>\n    <EventRecordID>46</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"4\" ThreadID=\"8\">\n    </Execution>\n    <Channel>Microsoft-Windows-Kernel-Boot/Operational</Channel>\n    <Computer>WinDev2310Eval</Computer>\n    <Security UserID=\"S-1-5-18\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"Status\">0</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-Kernel-Boot\",\"Guid\":\"15CA44FF-4D7A-4BAA-BBA5-0998955E531E\"}},\"EventID\":154,\"Version\":0,\"Level\":4,\"Task\":44,\"Opcode\":0,\"Keywords\":\"0x2000000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2023-11-06T06:20:49.064672Z\"}},\"EventRecordID\":46,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":4,\"ThreadID\":8}},\"Channel\":\"Microsoft-Windows-Kernel-Boot/Operational\",\"Computer\":\"WinDev2310Eval\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-18\"}}},\"EventData\":{\"Status\":0}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-Kernel-Boot",
+    "event_id": "154",
+    "timestamp": "2023-11-06T06:20:49.064672Z",
+    "event_record_id": "46",
+    "level": "4",
+    "task": "44",
+    "opcode": "0",
+    "keywords": "0x2000000000000000",
+    "channel": "Microsoft-Windows-Kernel-Boot/Operational",
+    "computer": "WinDev2310Eval",
+    "Status": "0"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-Kernel-Boot",
+    "channel": "Microsoft-Windows-Kernel-Boot/Operational",
+    "event_id": "154",
+    "timestamp": "2023-11-06T06:20:49.064672Z",
+    "event_record_id": "46",
+    "level": "4",
+    "task": "44",
+    "opcode": "0",
+    "keywords": "0x2000000000000000",
+    "computer": "WinDev2310Eval",
+    "Status": "0"
+  }
+}

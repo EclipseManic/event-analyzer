@@ -1,0 +1,18 @@
+{
+  "missing_in_json": [],
+  "missing_in_xml": [],
+  "value_diffs": {
+    "AllowStorageD3": {
+      "xml": "true",
+      "json": "True"
+    },
+    "DirectedFxEnable": {
+      "xml": "true",
+      "json": "True"
+    },
+    "StorageD3Enable": {
+      "xml": "true",
+      "json": "True"
+    }
+  }
+}

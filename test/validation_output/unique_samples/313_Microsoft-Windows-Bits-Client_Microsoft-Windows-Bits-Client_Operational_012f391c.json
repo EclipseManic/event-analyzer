@@ -1,0 +1,35 @@
+{
+  "event_id": "313",
+  "provider": "Microsoft-Windows-Bits-Client",
+  "channel": "Microsoft-Windows-Bits-Client/Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\Logs_Win11\\Microsoft-Windows-Bits-Client%4Operational.evtx",
+  "event_record_id": 1,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-Bits-Client\" Guid=\"EF1CC15B-46C1-414E-BB95-E76B077BD51E\">\n    </Provider>\n    <EventID>313</EventID>\n    <Version>0</Version>\n    <Level>3</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2022-03-01T16:45:36.360307Z\">\n    </TimeCreated>\n    <EventRecordID>1</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"6340\" ThreadID=\"4480\">\n    </Execution>\n    <Channel>Microsoft-Windows-Bits-Client/Operational</Channel>\n    <Computer>DESKTOP-6D0DBMB</Computer>\n    <Security UserID=\"S-1-5-18\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"ErrorCode\">2147943622</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-Bits-Client\",\"Guid\":\"EF1CC15B-46C1-414E-BB95-E76B077BD51E\"}},\"EventID\":313,\"Version\":0,\"Level\":3,\"Task\":0,\"Opcode\":0,\"Keywords\":\"0x4000000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2022-03-01T16:45:36.360307Z\"}},\"EventRecordID\":1,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":6340,\"ThreadID\":4480}},\"Channel\":\"Microsoft-Windows-Bits-Client/Operational\",\"Computer\":\"DESKTOP-6D0DBMB\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-18\"}}},\"EventData\":{\"ErrorCode\":2147943622}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-Bits-Client",
+    "event_id": "313",
+    "timestamp": "2022-03-01T16:45:36.360307Z",
+    "event_record_id": "1",
+    "level": "3",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x4000000000000000",
+    "channel": "Microsoft-Windows-Bits-Client/Operational",
+    "computer": "DESKTOP-6D0DBMB",
+    "ErrorCode": "2147943622"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-Bits-Client",
+    "channel": "Microsoft-Windows-Bits-Client/Operational",
+    "event_id": "313",
+    "timestamp": "2022-03-01T16:45:36.360307Z",
+    "event_record_id": "1",
+    "level": "3",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x4000000000000000",
+    "computer": "DESKTOP-6D0DBMB",
+    "ErrorCode": "2147943622"
+  }
+}

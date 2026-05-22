@@ -1,0 +1,41 @@
+{
+  "event_id": "27",
+  "provider": "Microsoft-Windows-UniversalTelemetryClient",
+  "channel": "Microsoft-Windows-UniversalTelemetryClient/Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Logs\\Microsoft-Windows-UniversalTelemetryClient%4Operational.evtx",
+  "event_record_id": 42,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-UniversalTelemetryClient\" Guid=\"6489B27F-7C43-5886-1D00-0A61BB2A375B\">\n    </Provider>\n    <EventID>27</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>27</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x8000000000020000</Keywords>\n    <TimeCreated SystemTime=\"2024-11-04T13:10:15.649699Z\">\n    </TimeCreated>\n    <EventRecordID>42</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"2652\" ThreadID=\"9084\">\n    </Execution>\n    <Channel>Microsoft-Windows-UniversalTelemetryClient/Operational</Channel>\n    <Computer>DESKTOP-P9H5FTA</Computer>\n    <Security UserID=\"S-1-5-18\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"Environment\">ServiceHost</Data>\n    <Data Name=\"EventsUploaded\">583</Data>\n    <Data Name=\"EventsDropped\">6</Data>\n    <Data Name=\"LastEventlogWrittenTime\">33214498230894704</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-UniversalTelemetryClient\",\"Guid\":\"6489B27F-7C43-5886-1D00-0A61BB2A375B\"}},\"EventID\":27,\"Version\":0,\"Level\":4,\"Task\":27,\"Opcode\":0,\"Keywords\":\"0x8000000000020000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2024-11-04T13:10:15.649699Z\"}},\"EventRecordID\":42,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":2652,\"ThreadID\":9084}},\"Channel\":\"Microsoft-Windows-UniversalTelemetryClient/Operational\",\"Computer\":\"DESKTOP-P9H5FTA\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-18\"}}},\"EventData\":{\"Environment\":\"ServiceHost\",\"EventsUploaded\":583,\"EventsDropped\":6,\"LastEventlogWrittenTime\":33214498230894704}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-UniversalTelemetryClient",
+    "event_id": "27",
+    "timestamp": "2024-11-04T13:10:15.649699Z",
+    "event_record_id": "42",
+    "level": "4",
+    "task": "27",
+    "opcode": "0",
+    "keywords": "0x8000000000020000",
+    "channel": "Microsoft-Windows-UniversalTelemetryClient/Operational",
+    "computer": "DESKTOP-P9H5FTA",
+    "Environment": "ServiceHost",
+    "EventsUploaded": "583",
+    "EventsDropped": "6",
+    "LastEventlogWrittenTime": "33214498230894704"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-UniversalTelemetryClient",
+    "channel": "Microsoft-Windows-UniversalTelemetryClient/Operational",
+    "event_id": "27",
+    "timestamp": "2024-11-04T13:10:15.649699Z",
+    "event_record_id": "42",
+    "level": "4",
+    "task": "27",
+    "opcode": "0",
+    "keywords": "0x8000000000020000",
+    "computer": "DESKTOP-P9H5FTA",
+    "Environment": "ServiceHost",
+    "EventsUploaded": "583",
+    "EventsDropped": "6",
+    "LastEventlogWrittenTime": "33214498230894704"
+  }
+}

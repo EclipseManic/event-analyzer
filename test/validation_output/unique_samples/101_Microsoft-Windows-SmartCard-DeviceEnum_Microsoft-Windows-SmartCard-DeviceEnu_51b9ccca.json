@@ -1,0 +1,37 @@
+{
+  "event_id": "101",
+  "provider": "Microsoft-Windows-SmartCard-DeviceEnum",
+  "channel": "Microsoft-Windows-SmartCard-DeviceEnum/Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Logs\\Microsoft-Windows-SmartCard-DeviceEnum%4Operational.evtx",
+  "event_record_id": 1,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-SmartCard-DeviceEnum\" Guid=\"AAEAC398-3028-487C-9586-44EACAD03637\">\n    </Provider>\n    <EventID>101</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x8000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2025-01-24T10:15:16.287627Z\">\n    </TimeCreated>\n    <EventRecordID>1</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"10940\" ThreadID=\"4744\">\n    </Execution>\n    <Channel>Microsoft-Windows-SmartCard-DeviceEnum/Operational</Channel>\n    <Computer>CTO-FILESVR</Computer>\n    <Security UserID=\"S-1-5-18\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"InstancePath\">SWD\\ScDeviceEnumBus\\1</Data>\n    <Data Name=\"SessionId\">0</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-SmartCard-DeviceEnum\",\"Guid\":\"AAEAC398-3028-487C-9586-44EACAD03637\"}},\"EventID\":101,\"Version\":0,\"Level\":4,\"Task\":0,\"Opcode\":0,\"Keywords\":\"0x8000000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2025-01-24T10:15:16.287627Z\"}},\"EventRecordID\":1,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":10940,\"ThreadID\":4744}},\"Channel\":\"Microsoft-Windows-SmartCard-DeviceEnum/Operational\",\"Computer\":\"CTO-FILESVR\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-18\"}}},\"EventData\":{\"InstancePath\":\"SWD\\\\ScDeviceEnumBus\\\\1\",\"SessionId\":0}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-SmartCard-DeviceEnum",
+    "event_id": "101",
+    "timestamp": "2025-01-24T10:15:16.287627Z",
+    "event_record_id": "1",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x8000000000000000",
+    "channel": "Microsoft-Windows-SmartCard-DeviceEnum/Operational",
+    "computer": "CTO-FILESVR",
+    "InstancePath": "SWD\\ScDeviceEnumBus\\1",
+    "SessionId": "0"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-SmartCard-DeviceEnum",
+    "channel": "Microsoft-Windows-SmartCard-DeviceEnum/Operational",
+    "event_id": "101",
+    "timestamp": "2025-01-24T10:15:16.287627Z",
+    "event_record_id": "1",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x8000000000000000",
+    "computer": "CTO-FILESVR",
+    "InstancePath": "SWD\\ScDeviceEnumBus\\1",
+    "SessionId": "0"
+  }
+}

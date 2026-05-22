@@ -1,0 +1,37 @@
+{
+  "event_id": "573",
+  "provider": "Microsoft-Windows-AppXDeployment-Server",
+  "channel": "Microsoft-Windows-AppXDeploymentServer/Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Logs\\Microsoft-Windows-AppXDeploymentServer%4Operational.evtx",
+  "event_record_id": 9564,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-AppXDeployment-Server\" Guid=\"3F471139-ACB7-4A01-B7A7-FF5DA4BA2D43\">\n    </Provider>\n    <EventID>573</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>47</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000001</Keywords>\n    <TimeCreated SystemTime=\"2025-01-24T10:22:43.757825Z\">\n    </TimeCreated>\n    <EventRecordID>9564</EventRecordID>\n    <Correlation ActivityID=\"8D345FF6-6E47-0003-3C80-348D476EDB01\">\n    </Correlation>\n    <Execution ProcessID=\"3908\" ThreadID=\"7300\">\n    </Execution>\n    <Channel>Microsoft-Windows-AppXDeploymentServer/Operational</Channel>\n    <Computer>CTO-FILESVR</Computer>\n    <Security UserID=\"S-1-5-21-3088055692-629932344-1786574096-1003\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"PackageFamilyName\">Microsoft.Windows.PinningConfirmationDialog_cw5n1h2txyewy</Data>\n    <Data Name=\"SettingSyncEnabled\">false</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-AppXDeployment-Server\",\"Guid\":\"3F471139-ACB7-4A01-B7A7-FF5DA4BA2D43\"}},\"EventID\":573,\"Version\":0,\"Level\":4,\"Task\":47,\"Opcode\":0,\"Keywords\":\"0x4000000000000001\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2025-01-24T10:22:43.757825Z\"}},\"EventRecordID\":9564,\"Correlation\":{\"#attributes\":{\"ActivityID\":\"8D345FF6-6E47-0003-3C80-348D476EDB01\"}},\"Execution\":{\"#attributes\":{\"ProcessID\":3908,\"ThreadID\":7300}},\"Channel\":\"Microsoft-Windows-AppXDeploymentServer/Operational\",\"Computer\":\"CTO-FILESVR\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-21-3088055692-629932344-1786574096-1003\"}}},\"EventData\":{\"PackageFamilyName\":\"Microsoft.Windows.PinningConfirmationDialog_cw5n1h2txyewy\",\"SettingSyncEnabled\":false}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-AppXDeployment-Server",
+    "event_id": "573",
+    "timestamp": "2025-01-24T10:22:43.757825Z",
+    "event_record_id": "9564",
+    "level": "4",
+    "task": "47",
+    "opcode": "0",
+    "keywords": "0x4000000000000001",
+    "channel": "Microsoft-Windows-AppXDeploymentServer/Operational",
+    "computer": "CTO-FILESVR",
+    "PackageFamilyName": "Microsoft.Windows.PinningConfirmationDialog_cw5n1h2txyewy",
+    "SettingSyncEnabled": "false"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-AppXDeployment-Server",
+    "channel": "Microsoft-Windows-AppXDeploymentServer/Operational",
+    "event_id": "573",
+    "timestamp": "2025-01-24T10:22:43.757825Z",
+    "event_record_id": "9564",
+    "level": "4",
+    "task": "47",
+    "opcode": "0",
+    "keywords": "0x4000000000000001",
+    "computer": "CTO-FILESVR",
+    "PackageFamilyName": "Microsoft.Windows.PinningConfirmationDialog_cw5n1h2txyewy",
+    "SettingSyncEnabled": "False"
+  }
+}

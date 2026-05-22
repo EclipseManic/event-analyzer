@@ -1,0 +1,41 @@
+{
+  "event_id": "114",
+  "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+  "channel": "Microsoft-Windows-VolumeSnapshot-Driver/Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\Win2022-AD\\Microsoft-Windows-VolumeSnapshot-Driver%4Operational.evtx",
+  "event_record_id": 9,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-VolumeSnapshot-Driver\" Guid=\"67FE2216-727A-40CB-94B2-C02211EDB34A\">\n    </Provider>\n    <EventID>114</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>1</Opcode>\n    <Keywords>0x4000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2022-04-07T16:45:03.737710Z\">\n    </TimeCreated>\n    <EventRecordID>9</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"4\" ThreadID=\"32\">\n    </Execution>\n    <Channel>Microsoft-Windows-VolumeSnapshot-Driver/Operational</Channel>\n    <Computer>WIN-FPV0DSIC9O6</Computer>\n    <Security UserID=\"S-1-5-18\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"TargetVolumeGuid\">E856EAFF-60EA-4D9C-8467-32D0B50DBFFC</Data>\n    <Data Name=\"SourceFile\">0x1</Data>\n    <Data Name=\"SourceLine\">37521</Data>\n    <Data Name=\"SourceTag\">119</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-VolumeSnapshot-Driver\",\"Guid\":\"67FE2216-727A-40CB-94B2-C02211EDB34A\"}},\"EventID\":114,\"Version\":0,\"Level\":4,\"Task\":0,\"Opcode\":1,\"Keywords\":\"0x4000000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2022-04-07T16:45:03.737710Z\"}},\"EventRecordID\":9,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":4,\"ThreadID\":32}},\"Channel\":\"Microsoft-Windows-VolumeSnapshot-Driver/Operational\",\"Computer\":\"WIN-FPV0DSIC9O6\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-18\"}}},\"EventData\":{\"TargetVolumeGuid\":\"E856EAFF-60EA-4D9C-8467-32D0B50DBFFC\",\"SourceFile\":\"0x1\",\"SourceLine\":37521,\"SourceTag\":119}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+    "event_id": "114",
+    "timestamp": "2022-04-07T16:45:03.737710Z",
+    "event_record_id": "9",
+    "level": "4",
+    "task": "0",
+    "opcode": "1",
+    "keywords": "0x4000000000000000",
+    "channel": "Microsoft-Windows-VolumeSnapshot-Driver/Operational",
+    "computer": "WIN-FPV0DSIC9O6",
+    "TargetVolumeGuid": "E856EAFF-60EA-4D9C-8467-32D0B50DBFFC",
+    "SourceFile": "0x1",
+    "SourceLine": "37521",
+    "SourceTag": "119"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-VolumeSnapshot-Driver",
+    "channel": "Microsoft-Windows-VolumeSnapshot-Driver/Operational",
+    "event_id": "114",
+    "timestamp": "2022-04-07T16:45:03.737710Z",
+    "event_record_id": "9",
+    "level": "4",
+    "task": "0",
+    "opcode": "1",
+    "keywords": "0x4000000000000000",
+    "computer": "WIN-FPV0DSIC9O6",
+    "TargetVolumeGuid": "E856EAFF-60EA-4D9C-8467-32D0B50DBFFC",
+    "SourceFile": "0x1",
+    "SourceLine": "37521",
+    "SourceTag": "119"
+  }
+}

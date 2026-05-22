@@ -1,0 +1,43 @@
+{
+  "event_id": "1150",
+  "provider": "Microsoft-Windows-Windows Defender",
+  "channel": "Microsoft-Windows-Windows Defender/Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\Logs_Client\\Microsoft-Windows-Windows Defender%4Operational.evtx",
+  "event_record_id": 43,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-Windows Defender\" Guid=\"11CD958A-C507-4EF3-B3F2-5FD9DFBD2C78\">\n    </Provider>\n    <EventID>1150</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x8000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2022-02-07T16:14:08.146485Z\">\n    </TimeCreated>\n    <EventRecordID>43</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"6084\" ThreadID=\"4092\">\n    </Execution>\n    <Channel>Microsoft-Windows-Windows Defender/Operational</Channel>\n    <Computer>DESKTOP-A8CALR3</Computer>\n    <Security UserID=\"S-1-5-18\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"Product Name\">Microsoft Defender Antivirus</Data>\n    <Data Name=\"Platform version\">4.18.2111.5</Data>\n    <Data Name=\"Unused\"></Data>\n    <Data Name=\"Engine version\">1.1.18900.2</Data>\n    <Data Name=\"Security intelligence version\">1.357.254.0</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-Windows Defender\",\"Guid\":\"11CD958A-C507-4EF3-B3F2-5FD9DFBD2C78\"}},\"EventID\":1150,\"Version\":0,\"Level\":4,\"Task\":0,\"Opcode\":0,\"Keywords\":\"0x8000000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2022-02-07T16:14:08.146485Z\"}},\"EventRecordID\":43,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":6084,\"ThreadID\":4092}},\"Channel\":\"Microsoft-Windows-Windows Defender/Operational\",\"Computer\":\"DESKTOP-A8CALR3\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-18\"}}},\"EventData\":{\"Product Name\":\"Microsoft Defender Antivirus\",\"Platform version\":\"4.18.2111.5\",\"Unused\":\"\",\"Engine version\":\"1.1.18900.2\",\"Security intelligence version\":\"1.357.254.0\"}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-Windows Defender",
+    "event_id": "1150",
+    "timestamp": "2022-02-07T16:14:08.146485Z",
+    "event_record_id": "43",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x8000000000000000",
+    "channel": "Microsoft-Windows-Windows Defender/Operational",
+    "computer": "DESKTOP-A8CALR3",
+    "Product Name": "Microsoft Defender Antivirus",
+    "Platform version": "4.18.2111.5",
+    "Unused": "",
+    "Engine version": "1.1.18900.2",
+    "Security intelligence version": "1.357.254.0"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-Windows Defender",
+    "channel": "Microsoft-Windows-Windows Defender/Operational",
+    "event_id": "1150",
+    "timestamp": "2022-02-07T16:14:08.146485Z",
+    "event_record_id": "43",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x8000000000000000",
+    "computer": "DESKTOP-A8CALR3",
+    "Product Name": "Microsoft Defender Antivirus",
+    "Platform version": "4.18.2111.5",
+    "Unused": "",
+    "Engine version": "1.1.18900.2",
+    "Security intelligence version": "1.357.254.0"
+  }
+}

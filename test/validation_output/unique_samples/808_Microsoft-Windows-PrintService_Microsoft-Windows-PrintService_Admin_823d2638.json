@@ -1,0 +1,39 @@
+{
+  "event_id": "808",
+  "provider": "Microsoft-Windows-PrintService",
+  "channel": "Microsoft-Windows-PrintService/Admin",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Malicious\\EVTX-to-MITRE-Attack-master\\TA0004-Privilege Escalation\\T1574-DLL side-loading\\ID354-808-Mimispool printer installation (PrintNightmare).evtx",
+  "event_record_id": 9,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-PrintService\" Guid=\"747EF6FD-E535-4D16-B510-42C90F6873A1\">\n    </Provider>\n    <EventID>808</EventID>\n    <Version>0</Version>\n    <Level>2</Level>\n    <Task>36</Task>\n    <Opcode>12</Opcode>\n    <Keywords>0x8000000000020000</Keywords>\n    <TimeCreated SystemTime=\"2021-10-27T10:28:26.322960Z\">\n    </TimeCreated>\n    <EventRecordID>12</EventRecordID>\n    <Correlation ActivityID=\"8811EC75-6F9C-4103-BB8A-EEED31FA139D\">\n    </Correlation>\n    <Execution ProcessID=\"1656\" ThreadID=\"1572\">\n    </Execution>\n    <Channel>Microsoft-Windows-PrintService/Admin</Channel>\n    <Computer>FS03.offsec.lan</Computer>\n    <Security UserID=\"S-1-5-21-4230534742-2542757381-3142984815-1111\">\n    </Security>\n  </System>\n  <UserData>\n    <LoadPluginFailed xmlns=\"http://manifests.microsoft.com/win/2005/08/windows/printing/spooler/core/events\">\n      <PluginDllName>C:\\Windows\\system32\\spool\\DRIVERS\\x64\\3mimispool.dll</PluginDllName>\n      <ErrorCode>0x7e</ErrorCode>\n      <Context>110</Context>\n    </LoadPluginFailed>\n  </UserData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-PrintService\",\"Guid\":\"747EF6FD-E535-4D16-B510-42C90F6873A1\"}},\"EventID\":808,\"Version\":0,\"Level\":2,\"Task\":36,\"Opcode\":12,\"Keywords\":\"0x8000000000020000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2021-10-27T10:28:26.322960Z\"}},\"EventRecordID\":12,\"Correlation\":{\"#attributes\":{\"ActivityID\":\"8811EC75-6F9C-4103-BB8A-EEED31FA139D\"}},\"Execution\":{\"#attributes\":{\"ProcessID\":1656,\"ThreadID\":1572}},\"Channel\":\"Microsoft-Windows-PrintService/Admin\",\"Computer\":\"FS03.offsec.lan\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-21-4230534742-2542757381-3142984815-1111\"}}},\"UserData\":{\"LoadPluginFailed\":{\"#attributes\":{\"xmlns\":\"http://manifests.microsoft.com/win/2005/08/windows/printing/spooler/core/events\"},\"PluginDllName\":\"C:\\\\Windows\\\\system32\\\\spool\\\\DRIVERS\\\\x64\\\\3mimispool.dll\",\"ErrorCode\":\"0x7e\",\"Context\":110}}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-PrintService",
+    "event_id": "808",
+    "timestamp": "2021-10-27T10:28:26.322960Z",
+    "event_record_id": "12",
+    "level": "2",
+    "task": "36",
+    "opcode": "12",
+    "keywords": "0x8000000000020000",
+    "channel": "Microsoft-Windows-PrintService/Admin",
+    "computer": "FS03.offsec.lan",
+    "PluginDllName": "C:\\Windows\\system32\\spool\\DRIVERS\\x64\\3mimispool.dll",
+    "ErrorCode": "0x7e",
+    "Context": "110"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-PrintService",
+    "channel": "Microsoft-Windows-PrintService/Admin",
+    "event_id": "808",
+    "timestamp": "2021-10-27T10:28:26.322960Z",
+    "event_record_id": "12",
+    "level": "2",
+    "task": "36",
+    "opcode": "12",
+    "keywords": "0x8000000000020000",
+    "computer": "FS03.offsec.lan",
+    "PluginDllName": "C:\\Windows\\system32\\spool\\DRIVERS\\x64\\3mimispool.dll",
+    "ErrorCode": "0x7e",
+    "Context": "110"
+  }
+}

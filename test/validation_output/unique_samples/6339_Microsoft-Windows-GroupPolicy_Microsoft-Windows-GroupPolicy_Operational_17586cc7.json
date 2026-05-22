@@ -1,0 +1,33 @@
+{
+  "event_id": "6339",
+  "provider": "Microsoft-Windows-GroupPolicy",
+  "channel": "Microsoft-Windows-GroupPolicy/Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Logs\\Microsoft-Windows-GroupPolicy%4Operational.evtx",
+  "event_record_id": 50,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-GroupPolicy\" Guid=\"AEA1B4FA-97D1-45F2-A64C-4D69FFFD92C9\">\n    </Provider>\n    <EventID>6339</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-11-04T12:34:57.657334Z\">\n    </TimeCreated>\n    <EventRecordID>50</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"2412\" ThreadID=\"2536\">\n    </Execution>\n    <Channel>Microsoft-Windows-GroupPolicy/Operational</Channel>\n    <Computer>DESKTOP-P9H5FTA</Computer>\n    <Security UserID=\"S-1-5-18\">\n    </Security>\n  </System>\n  <EventData>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-GroupPolicy\",\"Guid\":\"AEA1B4FA-97D1-45F2-A64C-4D69FFFD92C9\"}},\"EventID\":6339,\"Version\":0,\"Level\":4,\"Task\":0,\"Opcode\":0,\"Keywords\":\"0x4000000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2024-11-04T12:34:57.657334Z\"}},\"EventRecordID\":50,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":2412,\"ThreadID\":2536}},\"Channel\":\"Microsoft-Windows-GroupPolicy/Operational\",\"Computer\":\"DESKTOP-P9H5FTA\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-18\"}}},\"EventData\":null}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-GroupPolicy",
+    "event_id": "6339",
+    "timestamp": "2024-11-04T12:34:57.657334Z",
+    "event_record_id": "50",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x4000000000000000",
+    "channel": "Microsoft-Windows-GroupPolicy/Operational",
+    "computer": "DESKTOP-P9H5FTA"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-GroupPolicy",
+    "channel": "Microsoft-Windows-GroupPolicy/Operational",
+    "event_id": "6339",
+    "timestamp": "2024-11-04T12:34:57.657334Z",
+    "event_record_id": "50",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x4000000000000000",
+    "computer": "DESKTOP-P9H5FTA"
+  }
+}

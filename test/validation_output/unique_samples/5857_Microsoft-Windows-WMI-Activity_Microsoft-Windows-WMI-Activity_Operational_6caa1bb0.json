@@ -1,0 +1,43 @@
+{
+  "event_id": "5857",
+  "provider": "Microsoft-Windows-WMI-Activity",
+  "channel": "Microsoft-Windows-WMI-Activity/Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Logs\\Microsoft-Windows-WMI-Activity%4Operational.evtx",
+  "event_record_id": 3,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-WMI-Activity\" Guid=\"1418EF04-B0B4-4623-BF7E-D74AB47BBDAA\">\n    </Provider>\n    <EventID>5857</EventID>\n    <Version>0</Version>\n    <Level>0</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-11-05T01:33:12.117014Z\">\n    </TimeCreated>\n    <EventRecordID>3</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"4012\" ThreadID=\"2972\">\n    </Execution>\n    <Channel>Microsoft-Windows-WMI-Activity/Operational</Channel>\n    <Computer>WIN-5LCFHVCO531</Computer>\n    <Security UserID=\"S-1-5-20\">\n    </Security>\n  </System>\n  <UserData>\n    <Operation_StartedOperational xmlns=\"http://manifests.microsoft.com/win/2006/windows/WMI\">\n      <ProviderName>CIMWin32</ProviderName>\n      <Code>0x0</Code>\n      <HostProcess>wmiprvse.exe</HostProcess>\n      <ProcessID>4012</ProcessID>\n      <ProviderPath>%systemroot%\\system32\\wbem\\cimwin32.dll</ProviderPath>\n    </Operation_StartedOperational>\n  </UserData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-WMI-Activity\",\"Guid\":\"1418EF04-B0B4-4623-BF7E-D74AB47BBDAA\"}},\"EventID\":5857,\"Version\":0,\"Level\":0,\"Task\":0,\"Opcode\":0,\"Keywords\":\"0x4000000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2024-11-05T01:33:12.117014Z\"}},\"EventRecordID\":3,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":4012,\"ThreadID\":2972}},\"Channel\":\"Microsoft-Windows-WMI-Activity/Operational\",\"Computer\":\"WIN-5LCFHVCO531\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-20\"}}},\"UserData\":{\"Operation_StartedOperational\":{\"#attributes\":{\"xmlns\":\"http://manifests.microsoft.com/win/2006/windows/WMI\"},\"ProviderName\":\"CIMWin32\",\"Code\":\"0x0\",\"HostProcess\":\"wmiprvse.exe\",\"ProcessID\":4012,\"ProviderPath\":\"%systemroot%\\\\system32\\\\wbem\\\\cimwin32.dll\"}}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-WMI-Activity",
+    "event_id": "5857",
+    "timestamp": "2024-11-05T01:33:12.117014Z",
+    "event_record_id": "3",
+    "level": "0",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x4000000000000000",
+    "channel": "Microsoft-Windows-WMI-Activity/Operational",
+    "computer": "WIN-5LCFHVCO531",
+    "ProviderName": "CIMWin32",
+    "Code": "0x0",
+    "HostProcess": "wmiprvse.exe",
+    "ProcessID": "4012",
+    "ProviderPath": "%systemroot%\\system32\\wbem\\cimwin32.dll"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-WMI-Activity",
+    "channel": "Microsoft-Windows-WMI-Activity/Operational",
+    "event_id": "5857",
+    "timestamp": "2024-11-05T01:33:12.117014Z",
+    "event_record_id": "3",
+    "level": "0",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x4000000000000000",
+    "computer": "WIN-5LCFHVCO531",
+    "ProviderName": "CIMWin32",
+    "Code": "0x0",
+    "HostProcess": "wmiprvse.exe",
+    "ProcessID": "4012",
+    "ProviderPath": "%systemroot%\\system32\\wbem\\cimwin32.dll"
+  }
+}

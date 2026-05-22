@@ -1,0 +1,37 @@
+{
+  "event_id": "302",
+  "provider": "Microsoft-Windows-AppXDeployment",
+  "channel": "Microsoft-Windows-AppXDeployment/Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Logs\\Microsoft-Windows-AppXDeployment%4Operational.evtx",
+  "event_record_id": 336,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-AppXDeployment\" Guid=\"8127F6D4-59F9-4ABF-8952-3E3A02073D5F\">\n    </Provider>\n    <EventID>302</EventID>\n    <Version>0</Version>\n    <Level>2</Level>\n    <Task>4</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000400000010000</Keywords>\n    <TimeCreated SystemTime=\"2025-01-06T12:24:33.033020Z\">\n    </TimeCreated>\n    <EventRecordID>336</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"1912\" ThreadID=\"1620\">\n    </Execution>\n    <Channel>Microsoft-Windows-AppXDeployment/Operational</Channel>\n    <Computer>cyberjunkie-test</Computer>\n    <Security UserID=\"S-1-5-19\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"ServiceName\">appxsvc</Data>\n    <Data Name=\"ErrorCode\">0x8007045b</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-AppXDeployment\",\"Guid\":\"8127F6D4-59F9-4ABF-8952-3E3A02073D5F\"}},\"EventID\":302,\"Version\":0,\"Level\":2,\"Task\":4,\"Opcode\":0,\"Keywords\":\"0x4000400000010000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2025-01-06T12:24:33.033020Z\"}},\"EventRecordID\":336,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":1912,\"ThreadID\":1620}},\"Channel\":\"Microsoft-Windows-AppXDeployment/Operational\",\"Computer\":\"cyberjunkie-test\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-19\"}}},\"EventData\":{\"ServiceName\":\"appxsvc\",\"ErrorCode\":\"0x8007045b\"}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-AppXDeployment",
+    "event_id": "302",
+    "timestamp": "2025-01-06T12:24:33.033020Z",
+    "event_record_id": "336",
+    "level": "2",
+    "task": "4",
+    "opcode": "0",
+    "keywords": "0x4000400000010000",
+    "channel": "Microsoft-Windows-AppXDeployment/Operational",
+    "computer": "cyberjunkie-test",
+    "ServiceName": "appxsvc",
+    "ErrorCode": "0x8007045b"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-AppXDeployment",
+    "channel": "Microsoft-Windows-AppXDeployment/Operational",
+    "event_id": "302",
+    "timestamp": "2025-01-06T12:24:33.033020Z",
+    "event_record_id": "336",
+    "level": "2",
+    "task": "4",
+    "opcode": "0",
+    "keywords": "0x4000400000010000",
+    "computer": "cyberjunkie-test",
+    "ServiceName": "appxsvc",
+    "ErrorCode": "0x8007045b"
+  }
+}

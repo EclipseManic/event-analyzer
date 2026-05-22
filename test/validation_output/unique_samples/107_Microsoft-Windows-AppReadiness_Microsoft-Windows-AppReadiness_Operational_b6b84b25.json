@@ -1,0 +1,35 @@
+{
+  "event_id": "107",
+  "provider": "Microsoft-Windows-AppReadiness",
+  "channel": "Microsoft-Windows-AppReadiness/Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Logs\\Microsoft-Windows-AppReadiness%4Operational.evtx",
+  "event_record_id": 7,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-AppReadiness\" Guid=\"F0BE35F8-237B-4814-86B5-ADE51192E503\">\n    </Provider>\n    <EventID>107</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>7</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000001</Keywords>\n    <TimeCreated SystemTime=\"2024-11-04T12:39:49.675540Z\">\n    </TimeCreated>\n    <EventRecordID>7</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"3780\" ThreadID=\"3784\">\n    </Execution>\n    <Channel>Microsoft-Windows-AppReadiness/Operational</Channel>\n    <Computer>DESKTOP-P9H5FTA</Computer>\n    <Security UserID=\"S-1-5-18\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"User\">S-1-5-21-3088055692-629932344-1786574096-1000</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-AppReadiness\",\"Guid\":\"F0BE35F8-237B-4814-86B5-ADE51192E503\"}},\"EventID\":107,\"Version\":0,\"Level\":4,\"Task\":7,\"Opcode\":0,\"Keywords\":\"0x4000000000000001\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2024-11-04T12:39:49.675540Z\"}},\"EventRecordID\":7,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":3780,\"ThreadID\":3784}},\"Channel\":\"Microsoft-Windows-AppReadiness/Operational\",\"Computer\":\"DESKTOP-P9H5FTA\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-18\"}}},\"EventData\":{\"User\":\"S-1-5-21-3088055692-629932344-1786574096-1000\"}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-AppReadiness",
+    "event_id": "107",
+    "timestamp": "2024-11-04T12:39:49.675540Z",
+    "event_record_id": "7",
+    "level": "4",
+    "task": "7",
+    "opcode": "0",
+    "keywords": "0x4000000000000001",
+    "channel": "Microsoft-Windows-AppReadiness/Operational",
+    "computer": "DESKTOP-P9H5FTA",
+    "User": "S-1-5-21-3088055692-629932344-1786574096-1000"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-AppReadiness",
+    "channel": "Microsoft-Windows-AppReadiness/Operational",
+    "event_id": "107",
+    "timestamp": "2024-11-04T12:39:49.675540Z",
+    "event_record_id": "7",
+    "level": "4",
+    "task": "7",
+    "opcode": "0",
+    "keywords": "0x4000000000000001",
+    "computer": "DESKTOP-P9H5FTA",
+    "User": "S-1-5-21-3088055692-629932344-1786574096-1000"
+  }
+}

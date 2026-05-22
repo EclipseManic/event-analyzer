@@ -1,0 +1,18 @@
+{
+  "missing_in_json": [],
+  "missing_in_xml": [],
+  "value_diffs": {
+    "DestinationIsIpv6": {
+      "xml": "false",
+      "json": "False"
+    },
+    "Initiated": {
+      "xml": "true",
+      "json": "True"
+    },
+    "SourceIsIpv6": {
+      "xml": "false",
+      "json": "False"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "event_id": "21",
+  "provider": "Microsoft-Windows-BrokerInfrastructure",
+  "channel": "Microsoft-Windows-BackgroundTaskInfrastructure/Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Logs\\Microsoft-Windows-BackgroundTaskInfrastructure%4Operational.evtx",
+  "event_record_id": 1,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-BrokerInfrastructure\" Guid=\"E6835967-E0D2-41FB-BCEC-58387404E25A\">\n    </Provider>\n    <EventID>21</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>100</Task>\n    <Opcode>113</Opcode>\n    <Keywords>0x4000000000000001</Keywords>\n    <TimeCreated SystemTime=\"2024-11-04T12:48:47.471118Z\">\n    </TimeCreated>\n    <EventRecordID>1</EventRecordID>\n    <Correlation ActivityID=\"ABFE7217-2EB6-0000-6184-FEABB62EDB01\">\n    </Correlation>\n    <Execution ProcessID=\"776\" ThreadID=\"2560\">\n    </Execution>\n    <Channel>Microsoft-Windows-BackgroundTaskInfrastructure/Operational</Channel>\n    <Computer>DESKTOP-P9H5FTA</Computer>\n    <Security UserID=\"S-1-5-18\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"EntryPointLength\">36</Data>\n    <Data Name=\"TaskEntryPoint\">SpModel.Model.BookTileBackgroundTask</Data>\n    <Data Name=\"NameLength\">30</Data>\n    <Data Name=\"TaskName\">windows.preInstalledConfigTask</Data>\n    <Data Name=\"Result\">2147942526</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-BrokerInfrastructure\",\"Guid\":\"E6835967-E0D2-41FB-BCEC-58387404E25A\"}},\"EventID\":21,\"Version\":0,\"Level\":4,\"Task\":100,\"Opcode\":113,\"Keywords\":\"0x4000000000000001\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2024-11-04T12:48:47.471118Z\"}},\"EventRecordID\":1,\"Correlation\":{\"#attributes\":{\"ActivityID\":\"ABFE7217-2EB6-0000-6184-FEABB62EDB01\"}},\"Execution\":{\"#attributes\":{\"ProcessID\":776,\"ThreadID\":2560}},\"Channel\":\"Microsoft-Windows-BackgroundTaskInfrastructure/Operational\",\"Computer\":\"DESKTOP-P9H5FTA\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-18\"}}},\"EventData\":{\"EntryPointLength\":36,\"TaskEntryPoint\":\"SpModel.Model.BookTileBackgroundTask\",\"NameLength\":30,\"TaskName\":\"windows.preInstalledConfigTask\",\"Result\":2147942526}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-BrokerInfrastructure",
+    "event_id": "21",
+    "timestamp": "2024-11-04T12:48:47.471118Z",
+    "event_record_id": "1",
+    "level": "4",
+    "task": "100",
+    "opcode": "113",
+    "keywords": "0x4000000000000001",
+    "channel": "Microsoft-Windows-BackgroundTaskInfrastructure/Operational",
+    "computer": "DESKTOP-P9H5FTA",
+    "EntryPointLength": "36",
+    "TaskEntryPoint": "SpModel.Model.BookTileBackgroundTask",
+    "NameLength": "30",
+    "TaskName": "windows.preInstalledConfigTask",
+    "Result": "2147942526"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-BrokerInfrastructure",
+    "channel": "Microsoft-Windows-BackgroundTaskInfrastructure/Operational",
+    "event_id": "21",
+    "timestamp": "2024-11-04T12:48:47.471118Z",
+    "event_record_id": "1",
+    "level": "4",
+    "task": "100",
+    "opcode": "113",
+    "keywords": "0x4000000000000001",
+    "computer": "DESKTOP-P9H5FTA",
+    "EntryPointLength": "36",
+    "TaskEntryPoint": "SpModel.Model.BookTileBackgroundTask",
+    "NameLength": "30",
+    "TaskName": "windows.preInstalledConfigTask",
+    "Result": "2147942526"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "event_id": "111",
+  "provider": "Microsoft-Windows-EventForwarder",
+  "channel": "unknown",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Malicious\\EVTX-to-MITRE-Attack-master\\TA0007-Discovery\\T1135.xxx-Network Share Discovery\\ID5140-5145-Bloodhound-SharpHound enumeration via SMB.evtx",
+  "event_record_id": 1,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-EventForwarder\">\n    </Provider>\n    <EventID>111</EventID>\n    <TimeCreated SystemTime=\"2021-04-27T15:03:16.983Z\">\n    </TimeCreated>\n    <Computer>dhcp01.offsec.lan</Computer>\n  </System>\n  <SubscriptionBookmarkEvent>\n    <SubscriptionId>\n    </SubscriptionId>\n  </SubscriptionBookmarkEvent>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-EventForwarder\"}},\"EventID\":\"111\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2021-04-27T15:03:16.983Z\"}},\"Computer\":\"dhcp01.offsec.lan\"},\"SubscriptionBookmarkEvent\":{\"SubscriptionId\":null}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-EventForwarder",
+    "event_id": "111",
+    "timestamp": "2021-04-27T15:03:16.983Z",
+    "computer": "dhcp01.offsec.lan"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-EventForwarder",
+    "event_id": "111",
+    "timestamp": "2021-04-27T15:03:16.983Z",
+    "computer": "dhcp01.offsec.lan"
+  }
+}

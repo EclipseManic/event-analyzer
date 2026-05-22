@@ -1,0 +1,41 @@
+{
+  "event_id": "3052",
+  "provider": "Microsoft-Windows-PushNotifications-Platform",
+  "channel": "Microsoft-Windows-PushNotification-Platform/Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Logs\\Microsoft-Windows-PushNotification-Platform%4Operational.evtx",
+  "event_record_id": 125,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-PushNotifications-Platform\" Guid=\"88CD9180-4491-4640-B571-E3BEE2527943\">\n    </Provider>\n    <EventID>3052</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>10</Task>\n    <Opcode>1</Opcode>\n    <Keywords>0x8000000080800803</Keywords>\n    <TimeCreated SystemTime=\"2024-11-04T12:40:20.544129Z\">\n    </TimeCreated>\n    <EventRecordID>125</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"3476\" ThreadID=\"3560\">\n    </Execution>\n    <Channel>Microsoft-Windows-PushNotification-Platform/Operational</Channel>\n    <Computer>DESKTOP-P9H5FTA</Computer>\n    <Security UserID=\"S-1-5-21-3088055692-629932344-1786574096-1000\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"TrackingId\">1</Data>\n    <Data Name=\"AppUserModelId\">windows.immersivecontrolpanel_cw5n1h2txyewy!microsoft.windows.immersivecontrolpanel</Data>\n    <Data Name=\"SessionId\">1</Data>\n    <Data Name=\"MessageId\">3292A11E-54E7-4FD5-ABE9-63CF2D486036</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-PushNotifications-Platform\",\"Guid\":\"88CD9180-4491-4640-B571-E3BEE2527943\"}},\"EventID\":3052,\"Version\":0,\"Level\":4,\"Task\":10,\"Opcode\":1,\"Keywords\":\"0x8000000080800803\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2024-11-04T12:40:20.544129Z\"}},\"EventRecordID\":125,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":3476,\"ThreadID\":3560}},\"Channel\":\"Microsoft-Windows-PushNotification-Platform/Operational\",\"Computer\":\"DESKTOP-P9H5FTA\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-21-3088055692-629932344-1786574096-1000\"}}},\"EventData\":{\"TrackingId\":1,\"AppUserModelId\":\"windows.immersivecontrolpanel_cw5n1h2txyewy!microsoft.windows.immersivecontrolpanel\",\"SessionId\":1,\"MessageId\":\"3292A11E-54E7-4FD5-ABE9-63CF2D486036\"}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-PushNotifications-Platform",
+    "event_id": "3052",
+    "timestamp": "2024-11-04T12:40:20.544129Z",
+    "event_record_id": "125",
+    "level": "4",
+    "task": "10",
+    "opcode": "1",
+    "keywords": "0x8000000080800803",
+    "channel": "Microsoft-Windows-PushNotification-Platform/Operational",
+    "computer": "DESKTOP-P9H5FTA",
+    "TrackingId": "1",
+    "AppUserModelId": "windows.immersivecontrolpanel_cw5n1h2txyewy!microsoft.windows.immersivecontrolpanel",
+    "SessionId": "1",
+    "MessageId": "3292A11E-54E7-4FD5-ABE9-63CF2D486036"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-PushNotifications-Platform",
+    "channel": "Microsoft-Windows-PushNotification-Platform/Operational",
+    "event_id": "3052",
+    "timestamp": "2024-11-04T12:40:20.544129Z",
+    "event_record_id": "125",
+    "level": "4",
+    "task": "10",
+    "opcode": "1",
+    "keywords": "0x8000000080800803",
+    "computer": "DESKTOP-P9H5FTA",
+    "TrackingId": "1",
+    "AppUserModelId": "windows.immersivecontrolpanel_cw5n1h2txyewy!microsoft.windows.immersivecontrolpanel",
+    "SessionId": "1",
+    "MessageId": "3292A11E-54E7-4FD5-ABE9-63CF2D486036"
+  }
+}

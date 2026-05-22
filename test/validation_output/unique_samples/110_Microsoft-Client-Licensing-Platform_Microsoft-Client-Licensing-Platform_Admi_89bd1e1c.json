@@ -1,0 +1,37 @@
+{
+  "event_id": "110",
+  "provider": "Microsoft-Client-Licensing-Platform",
+  "channel": "Microsoft-Client-Licensing-Platform/Admin",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\Logs_Win11_2023\\Microsoft-Client-Licensing-Platform%4Admin.evtx",
+  "event_record_id": 263,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Client-Licensing-Platform\" Guid=\"B6CC0D55-9ECC-49A8-B929-2B9022426F2A\">\n    </Provider>\n    <EventID>110</EventID>\n    <Version>0</Version>\n    <Level>2</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x2000000000000001</Keywords>\n    <TimeCreated SystemTime=\"2023-11-06T06:22:33.858240Z\">\n    </TimeCreated>\n    <EventRecordID>263</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"1844\" ThreadID=\"1868\">\n    </Execution>\n    <Channel>Microsoft-Client-Licensing-Platform/Admin</Channel>\n    <Computer>WinDev2310Eval</Computer>\n    <Security UserID=\"S-1-5-18\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"Type\">1</Data>\n    <Data Name=\"HRESULT\">3225380353</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Client-Licensing-Platform\",\"Guid\":\"B6CC0D55-9ECC-49A8-B929-2B9022426F2A\"}},\"EventID\":110,\"Version\":0,\"Level\":2,\"Task\":0,\"Opcode\":0,\"Keywords\":\"0x2000000000000001\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2023-11-06T06:22:33.858240Z\"}},\"EventRecordID\":263,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":1844,\"ThreadID\":1868}},\"Channel\":\"Microsoft-Client-Licensing-Platform/Admin\",\"Computer\":\"WinDev2310Eval\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-18\"}}},\"EventData\":{\"Type\":1,\"HRESULT\":3225380353}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Client-Licensing-Platform",
+    "event_id": "110",
+    "timestamp": "2023-11-06T06:22:33.858240Z",
+    "event_record_id": "263",
+    "level": "2",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x2000000000000001",
+    "channel": "Microsoft-Client-Licensing-Platform/Admin",
+    "computer": "WinDev2310Eval",
+    "Type": "1",
+    "HRESULT": "3225380353"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Client-Licensing-Platform",
+    "channel": "Microsoft-Client-Licensing-Platform/Admin",
+    "event_id": "110",
+    "timestamp": "2023-11-06T06:22:33.858240Z",
+    "event_record_id": "263",
+    "level": "2",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x2000000000000001",
+    "computer": "WinDev2310Eval",
+    "Type": "1",
+    "HRESULT": "3225380353"
+  }
+}

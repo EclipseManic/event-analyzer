@@ -1,0 +1,33 @@
+{
+  "event_id": "1155",
+  "provider": "Microsoft-Windows-TerminalServices-RemoteConnectionManager",
+  "channel": "Microsoft-Windows-TerminalServices-RemoteConnectionManager/Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Malicious\\EVTX-ATTACK-SAMPLES\\Command and Control\\DE_RDP_Tunneling_TerminalServices-RemoteConnectionManagerOperational_1149.evtx",
+  "event_record_id": 1,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-TerminalServices-RemoteConnectionManager\" Guid=\"C76BAA63-AE81-421C-B425-340B4B24157F\">\n    </Provider>\n    <EventID>1155</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x1000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2018-11-06T21:31:54.070985Z\">\n    </TimeCreated>\n    <EventRecordID>1</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"812\" ThreadID=\"1328\">\n    </Execution>\n    <Channel>Microsoft-Windows-TerminalServices-RemoteConnectionManager/Operational</Channel>\n    <Computer>IEWIN7</Computer>\n    <Security UserID=\"S-1-5-20\">\n    </Security>\n  </System>\n  <EventData>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-TerminalServices-RemoteConnectionManager\",\"Guid\":\"C76BAA63-AE81-421C-B425-340B4B24157F\"}},\"EventID\":1155,\"Version\":0,\"Level\":4,\"Task\":0,\"Opcode\":0,\"Keywords\":\"0x1000000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2018-11-06T21:31:54.070985Z\"}},\"EventRecordID\":1,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":812,\"ThreadID\":1328}},\"Channel\":\"Microsoft-Windows-TerminalServices-RemoteConnectionManager/Operational\",\"Computer\":\"IEWIN7\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-20\"}}},\"EventData\":null}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-TerminalServices-RemoteConnectionManager",
+    "event_id": "1155",
+    "timestamp": "2018-11-06T21:31:54.070985Z",
+    "event_record_id": "1",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x1000000000000000",
+    "channel": "Microsoft-Windows-TerminalServices-RemoteConnectionManager/Operational",
+    "computer": "IEWIN7"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-TerminalServices-RemoteConnectionManager",
+    "channel": "Microsoft-Windows-TerminalServices-RemoteConnectionManager/Operational",
+    "event_id": "1155",
+    "timestamp": "2018-11-06T21:31:54.070985Z",
+    "event_record_id": "1",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x1000000000000000",
+    "computer": "IEWIN7"
+  }
+}

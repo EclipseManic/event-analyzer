@@ -1,0 +1,37 @@
+{
+  "event_id": "46",
+  "provider": "volmgr",
+  "channel": "System",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\win2022-0-20348-azure\\System.evtx",
+  "event_record_id": 1045,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"volmgr\">\n    </Provider>\n    <EventID Qualifiers=\"49156\">46</EventID>\n    <Version>0</Version>\n    <Level>2</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x80000000000000</Keywords>\n    <TimeCreated SystemTime=\"2022-09-18T09:27:20.197857Z\">\n    </TimeCreated>\n    <EventRecordID>1045</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"4\" ThreadID=\"332\">\n    </Execution>\n    <Channel>System</Channel>\n    <Computer>Agamemnon</Computer>\n    <Security>\n    </Security>\n  </System>\n  <EventData>\n    <Data>\\Device\\HarddiskVolume4</Data>\n    <Binary>0000000001000000000000002E0004C0091000000F0000C000000000000000000000000000000000</Binary>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"volmgr\"}},\"EventID\":{\"#attributes\":{\"Qualifiers\":49156},\"#text\":46},\"Version\":0,\"Level\":2,\"Task\":0,\"Opcode\":0,\"Keywords\":\"0x80000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2022-09-18T09:27:20.197857Z\"}},\"EventRecordID\":1045,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":4,\"ThreadID\":332}},\"Channel\":\"System\",\"Computer\":\"Agamemnon\",\"Security\":null},\"EventData\":{\"Data\":{\"#text\":\"\\\\Device\\\\HarddiskVolume4\"},\"Binary\":\"0000000001000000000000002E0004C0091000000F0000C000000000000000000000000000000000\"}}}",
+  "xml_fields": {
+    "provider": "volmgr",
+    "event_id": "46",
+    "timestamp": "2022-09-18T09:27:20.197857Z",
+    "event_record_id": "1045",
+    "level": "2",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x80000000000000",
+    "channel": "System",
+    "computer": "Agamemnon",
+    "_data_0": "\\Device\\HarddiskVolume4",
+    "Binary": "0000000001000000000000002E0004C0091000000F0000C000000000000000000000000000000000"
+  },
+  "json_fields": {
+    "provider": "volmgr",
+    "channel": "System",
+    "event_id": "46",
+    "timestamp": "2022-09-18T09:27:20.197857Z",
+    "event_record_id": "1045",
+    "level": "2",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x80000000000000",
+    "computer": "Agamemnon",
+    "Data": "\\Device\\HarddiskVolume4",
+    "Binary": "0000000001000000000000002E0004C0091000000F0000C000000000000000000000000000000000"
+  }
+}

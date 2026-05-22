@@ -1,0 +1,39 @@
+{
+  "event_id": "62144",
+  "provider": "Microsoft-Windows-Shell-Core",
+  "channel": "Microsoft-Windows-Shell-Core/Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Logs\\Microsoft-Windows-Shell-Core%4Operational.evtx",
+  "event_record_id": 2312,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-Shell-Core\" Guid=\"30336ED4-E327-447C-9DE0-51B652C86108\">\n    </Provider>\n    <EventID>62144</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>62132</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x2000000000010000</Keywords>\n    <TimeCreated SystemTime=\"2025-01-24T10:22:37.165864Z\">\n    </TimeCreated>\n    <EventRecordID>2312</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"9104\" ThreadID=\"13228\">\n    </Execution>\n    <Channel>Microsoft-Windows-Shell-Core/Operational</Channel>\n    <Computer>CTO-FILESVR</Computer>\n    <Security UserID=\"S-1-5-21-3088055692-629932344-1786574096-1003\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"PackageFamilyName\">Microsoft.XboxGameCallableUI_cw5n1h2txyewy</Data>\n    <Data Name=\"InstallState\">Installing</Data>\n    <Data Name=\"ErrorCode\">0</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-Shell-Core\",\"Guid\":\"30336ED4-E327-447C-9DE0-51B652C86108\"}},\"EventID\":62144,\"Version\":0,\"Level\":4,\"Task\":62132,\"Opcode\":0,\"Keywords\":\"0x2000000000010000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2025-01-24T10:22:37.165864Z\"}},\"EventRecordID\":2312,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":9104,\"ThreadID\":13228}},\"Channel\":\"Microsoft-Windows-Shell-Core/Operational\",\"Computer\":\"CTO-FILESVR\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-21-3088055692-629932344-1786574096-1003\"}}},\"EventData\":{\"PackageFamilyName\":\"Microsoft.XboxGameCallableUI_cw5n1h2txyewy\",\"InstallState\":\"Installing\",\"ErrorCode\":0}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-Shell-Core",
+    "event_id": "62144",
+    "timestamp": "2025-01-24T10:22:37.165864Z",
+    "event_record_id": "2312",
+    "level": "4",
+    "task": "62132",
+    "opcode": "0",
+    "keywords": "0x2000000000010000",
+    "channel": "Microsoft-Windows-Shell-Core/Operational",
+    "computer": "CTO-FILESVR",
+    "PackageFamilyName": "Microsoft.XboxGameCallableUI_cw5n1h2txyewy",
+    "InstallState": "Installing",
+    "ErrorCode": "0"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-Shell-Core",
+    "channel": "Microsoft-Windows-Shell-Core/Operational",
+    "event_id": "62144",
+    "timestamp": "2025-01-24T10:22:37.165864Z",
+    "event_record_id": "2312",
+    "level": "4",
+    "task": "62132",
+    "opcode": "0",
+    "keywords": "0x2000000000010000",
+    "computer": "CTO-FILESVR",
+    "PackageFamilyName": "Microsoft.XboxGameCallableUI_cw5n1h2txyewy",
+    "InstallState": "Installing",
+    "ErrorCode": "0"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "event_id": "5823",
+  "provider": "NETLOGON",
+  "channel": "System",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\Win2022-AD\\System.evtx",
+  "event_record_id": 730,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"NETLOGON\">\n    </Provider>\n    <EventID Qualifiers=\"0\">5823</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x80000000000000</Keywords>\n    <TimeCreated SystemTime=\"2022-04-07T08:15:01.574704Z\">\n    </TimeCreated>\n    <EventRecordID>730</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"0\" ThreadID=\"0\">\n    </Execution>\n    <Channel>System</Channel>\n    <Computer>WIN-FPV0DSIC9O6.sigma.fr</Computer>\n    <Security>\n    </Security>\n  </System>\n  <EventData>\n    <Data></Data>\n    <Binary></Binary>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"NETLOGON\"}},\"EventID\":{\"#attributes\":{\"Qualifiers\":0},\"#text\":5823},\"Version\":0,\"Level\":4,\"Task\":0,\"Opcode\":0,\"Keywords\":\"0x80000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2022-04-07T08:15:01.574704Z\"}},\"EventRecordID\":730,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":0,\"ThreadID\":0}},\"Channel\":\"System\",\"Computer\":\"WIN-FPV0DSIC9O6.sigma.fr\",\"Security\":null},\"EventData\":{\"Data\":{\"#text\":\"\"},\"Binary\":null}}}",
+  "xml_fields": {
+    "provider": "NETLOGON",
+    "event_id": "5823",
+    "timestamp": "2022-04-07T08:15:01.574704Z",
+    "event_record_id": "730",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x80000000000000",
+    "channel": "System",
+    "computer": "WIN-FPV0DSIC9O6.sigma.fr",
+    "_data_0": ""
+  },
+  "json_fields": {
+    "provider": "NETLOGON",
+    "channel": "System",
+    "event_id": "5823",
+    "timestamp": "2022-04-07T08:15:01.574704Z",
+    "event_record_id": "730",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x80000000000000",
+    "computer": "WIN-FPV0DSIC9O6.sigma.fr",
+    "Data": ""
+  }
+}

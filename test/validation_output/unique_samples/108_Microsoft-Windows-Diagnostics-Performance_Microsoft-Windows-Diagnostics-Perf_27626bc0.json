@@ -1,0 +1,43 @@
+{
+  "event_id": "108",
+  "provider": "Microsoft-Windows-Diagnostics-Performance",
+  "channel": "Microsoft-Windows-Diagnostics-Performance/Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\Logs_Win11\\Microsoft-Windows-Diagnostics-Performance%4Operational.evtx",
+  "event_record_id": 14,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-Diagnostics-Performance\" Guid=\"CFC18EC0-96B1-4EBA-961B-622CAEE05B0A\">\n    </Provider>\n    <EventID>108</EventID>\n    <Version>1</Version>\n    <Level>3</Level>\n    <Task>4002</Task>\n    <Opcode>33</Opcode>\n    <Keywords>0x8000000000010000</Keywords>\n    <TimeCreated SystemTime=\"2022-03-02T18:08:39.995034Z\">\n    </TimeCreated>\n    <EventRecordID>14</EventRecordID>\n    <Correlation ActivityID=\"027A6110-2E60-0004-BD76-7A02602ED801\">\n    </Correlation>\n    <Execution ProcessID=\"3132\" ThreadID=\"3852\">\n    </Execution>\n    <Channel>Microsoft-Windows-Diagnostics-Performance/Operational</Channel>\n    <Computer>DESKTOP-6D0DBMB</Computer>\n    <Security UserID=\"S-1-5-19\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"StartTime\">2022-03-02T18:04:50.074241Z</Data>\n    <Data Name=\"NameLength\">13</Data>\n    <Data Name=\"Name\">PreShellInit</Data>\n    <Data Name=\"TotalTime\">6449</Data>\n    <Data Name=\"DegradationTime\">2449</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-Diagnostics-Performance\",\"Guid\":\"CFC18EC0-96B1-4EBA-961B-622CAEE05B0A\"}},\"EventID\":108,\"Version\":1,\"Level\":3,\"Task\":4002,\"Opcode\":33,\"Keywords\":\"0x8000000000010000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2022-03-02T18:08:39.995034Z\"}},\"EventRecordID\":14,\"Correlation\":{\"#attributes\":{\"ActivityID\":\"027A6110-2E60-0004-BD76-7A02602ED801\"}},\"Execution\":{\"#attributes\":{\"ProcessID\":3132,\"ThreadID\":3852}},\"Channel\":\"Microsoft-Windows-Diagnostics-Performance/Operational\",\"Computer\":\"DESKTOP-6D0DBMB\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-19\"}}},\"EventData\":{\"StartTime\":\"2022-03-02T18:04:50.074241Z\",\"NameLength\":13,\"Name\":\"PreShellInit\",\"TotalTime\":6449,\"DegradationTime\":2449}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-Diagnostics-Performance",
+    "event_id": "108",
+    "timestamp": "2022-03-02T18:08:39.995034Z",
+    "event_record_id": "14",
+    "level": "3",
+    "task": "4002",
+    "opcode": "33",
+    "keywords": "0x8000000000010000",
+    "channel": "Microsoft-Windows-Diagnostics-Performance/Operational",
+    "computer": "DESKTOP-6D0DBMB",
+    "StartTime": "2022-03-02T18:04:50.074241Z",
+    "NameLength": "13",
+    "Name": "PreShellInit",
+    "TotalTime": "6449",
+    "DegradationTime": "2449"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-Diagnostics-Performance",
+    "channel": "Microsoft-Windows-Diagnostics-Performance/Operational",
+    "event_id": "108",
+    "timestamp": "2022-03-02T18:08:39.995034Z",
+    "event_record_id": "14",
+    "level": "3",
+    "task": "4002",
+    "opcode": "33",
+    "keywords": "0x8000000000010000",
+    "computer": "DESKTOP-6D0DBMB",
+    "StartTime": "2022-03-02T18:04:50.074241Z",
+    "NameLength": "13",
+    "Name": "PreShellInit",
+    "TotalTime": "6449",
+    "DegradationTime": "2449"
+  }
+}

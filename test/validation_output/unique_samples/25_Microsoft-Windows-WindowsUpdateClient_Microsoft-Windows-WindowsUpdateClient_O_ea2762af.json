@@ -1,0 +1,34 @@
+{
+  "event_id": "25",
+  "provider": "Microsoft-Windows-WindowsUpdateClient",
+  "channel": "Microsoft-Windows-WindowsUpdateClient/Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\win7-x86\\Microsoft-Windows-WindowsUpdateClient%4Operational.evtx",
+  "event_record_id": 6,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-WindowsUpdateClient\" Guid=\"945A8954-C147-4ACD-923F-40C45405A658\">\n    </Provider>\n    <EventID>25</EventID>\n    <Version>0</Version>\n    <Level>2</Level>\n    <Task>1</Task>\n    <Opcode>11</Opcode>\n    <Keywords>0x4000000000000022</Keywords>\n    <TimeCreated SystemTime=\"2022-04-04T10:09:32.732523Z\">\n    </TimeCreated>\n    <EventRecordID>6</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"904\" ThreadID=\"2140\">\n    </Execution>\n    <Channel>Microsoft-Windows-WindowsUpdateClient/Operational</Channel>\n    <Computer>evtx-PC</Computer>\n    <Security UserID=\"S-1-5-18\">\n    </Security>\n  </System>\n  <UserData>\n    <errorCode xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://manifests.microsoft.com/win/2004/08/windows/eventlog\">0x80072efe</errorCode>\n  </UserData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-WindowsUpdateClient\",\"Guid\":\"945A8954-C147-4ACD-923F-40C45405A658\"}},\"EventID\":25,\"Version\":0,\"Level\":2,\"Task\":1,\"Opcode\":11,\"Keywords\":\"0x4000000000000022\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2022-04-04T10:09:32.732523Z\"}},\"EventRecordID\":6,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":904,\"ThreadID\":2140}},\"Channel\":\"Microsoft-Windows-WindowsUpdateClient/Operational\",\"Computer\":\"evtx-PC\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-18\"}}},\"UserData\":{\"errorCode\":{\"#attributes\":{\"xmlns:auto-ns3\":\"http://schemas.microsoft.com/win/2004/08/events\",\"xmlns\":\"http://manifests.microsoft.com/win/2004/08/windows/eventlog\"},\"#text\":\"0x80072efe\"}}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-WindowsUpdateClient",
+    "event_id": "25",
+    "timestamp": "2022-04-04T10:09:32.732523Z",
+    "event_record_id": "6",
+    "level": "2",
+    "task": "1",
+    "opcode": "11",
+    "keywords": "0x4000000000000022",
+    "channel": "Microsoft-Windows-WindowsUpdateClient/Operational",
+    "computer": "evtx-PC"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-WindowsUpdateClient",
+    "channel": "Microsoft-Windows-WindowsUpdateClient/Operational",
+    "event_id": "25",
+    "timestamp": "2022-04-04T10:09:32.732523Z",
+    "event_record_id": "6",
+    "level": "2",
+    "task": "1",
+    "opcode": "11",
+    "keywords": "0x4000000000000022",
+    "computer": "evtx-PC",
+    "#text": "0x80072efe"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "event_id": "266",
+  "provider": "Microsoft-Windows-Time-Service",
+  "channel": "Microsoft-Windows-Time-Service/Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Logs\\Microsoft-Windows-Time-Service%4Operational.evtx",
+  "event_record_id": 3,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-Time-Service\" Guid=\"06EDCFEB-0FD0-4E53-ACCA-A6F8BBF81BCB\">\n    </Provider>\n    <EventID>266</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-11-05T01:34:15.311059Z\">\n    </TimeCreated>\n    <EventRecordID>3</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"1480\" ThreadID=\"1584\">\n    </Execution>\n    <Channel>Microsoft-Windows-Time-Service/Operational</Channel>\n    <Computer>DESKTOP-P9H5FTA</Computer>\n    <Security UserID=\"S-1-5-19\">\n    </Security>\n  </System>\n  <EventData Name=\"TMP_OPS_TIME_RESYNC_EVENT\">\n    <Data Name=\"ReasonCode\">2</Data>\n    <Data Name=\"TickCount\">12062</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-Time-Service\",\"Guid\":\"06EDCFEB-0FD0-4E53-ACCA-A6F8BBF81BCB\"}},\"EventID\":266,\"Version\":0,\"Level\":4,\"Task\":0,\"Opcode\":0,\"Keywords\":\"0x4000000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2024-11-05T01:34:15.311059Z\"}},\"EventRecordID\":3,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":1480,\"ThreadID\":1584}},\"Channel\":\"Microsoft-Windows-Time-Service/Operational\",\"Computer\":\"DESKTOP-P9H5FTA\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-19\"}}},\"EventData\":{\"#attributes\":{\"Name\":\"TMP_OPS_TIME_RESYNC_EVENT\"},\"ReasonCode\":2,\"TickCount\":12062}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-Time-Service",
+    "event_id": "266",
+    "timestamp": "2024-11-05T01:34:15.311059Z",
+    "event_record_id": "3",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x4000000000000000",
+    "channel": "Microsoft-Windows-Time-Service/Operational",
+    "computer": "DESKTOP-P9H5FTA",
+    "ReasonCode": "2",
+    "TickCount": "12062"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-Time-Service",
+    "channel": "Microsoft-Windows-Time-Service/Operational",
+    "event_id": "266",
+    "timestamp": "2024-11-05T01:34:15.311059Z",
+    "event_record_id": "3",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x4000000000000000",
+    "computer": "DESKTOP-P9H5FTA",
+    "ReasonCode": "2",
+    "TickCount": "12062"
+  }
+}

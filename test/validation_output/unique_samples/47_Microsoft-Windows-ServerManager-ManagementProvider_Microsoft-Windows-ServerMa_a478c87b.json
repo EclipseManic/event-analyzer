@@ -1,0 +1,35 @@
+{
+  "event_id": "47",
+  "provider": "Microsoft-Windows-ServerManager-ManagementProvider",
+  "channel": "Microsoft-Windows-ServerManager-MgmtProvider/Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\win2022-0-20348-azure\\Microsoft-Windows-ServerManager-MgmtProvider%4Operational.evtx",
+  "event_record_id": 10,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-ServerManager-ManagementProvider\" Guid=\"C2E6D0D9-5DF8-4C77-A82B-C96C84579543\">\n    </Provider>\n    <EventID>47</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>14</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x8000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2022-09-08T21:03:50.429453Z\">\n    </TimeCreated>\n    <EventRecordID>10</EventRecordID>\n    <Correlation ActivityID=\"EE472104-8748-47BE-910D-FA6D02A01C13\">\n    </Correlation>\n    <Execution ProcessID=\"2476\" ThreadID=\"3496\">\n    </Execution>\n    <Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>\n    <Computer>WIN-06FB45IHQ35</Computer>\n    <Security UserID=\"S-1-5-21-780613846-3260660134-2396965080-500\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"uValue\">2</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-ServerManager-ManagementProvider\",\"Guid\":\"C2E6D0D9-5DF8-4C77-A82B-C96C84579543\"}},\"EventID\":47,\"Version\":0,\"Level\":4,\"Task\":14,\"Opcode\":0,\"Keywords\":\"0x8000000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2022-09-08T21:03:50.429453Z\"}},\"EventRecordID\":10,\"Correlation\":{\"#attributes\":{\"ActivityID\":\"EE472104-8748-47BE-910D-FA6D02A01C13\"}},\"Execution\":{\"#attributes\":{\"ProcessID\":2476,\"ThreadID\":3496}},\"Channel\":\"Microsoft-Windows-ServerManager-MgmtProvider/Operational\",\"Computer\":\"WIN-06FB45IHQ35\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-21-780613846-3260660134-2396965080-500\"}}},\"EventData\":{\"uValue\":2}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-ServerManager-ManagementProvider",
+    "event_id": "47",
+    "timestamp": "2022-09-08T21:03:50.429453Z",
+    "event_record_id": "10",
+    "level": "4",
+    "task": "14",
+    "opcode": "0",
+    "keywords": "0x8000000000000000",
+    "channel": "Microsoft-Windows-ServerManager-MgmtProvider/Operational",
+    "computer": "WIN-06FB45IHQ35",
+    "uValue": "2"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-ServerManager-ManagementProvider",
+    "channel": "Microsoft-Windows-ServerManager-MgmtProvider/Operational",
+    "event_id": "47",
+    "timestamp": "2022-09-08T21:03:50.429453Z",
+    "event_record_id": "10",
+    "level": "4",
+    "task": "14",
+    "opcode": "0",
+    "keywords": "0x8000000000000000",
+    "computer": "WIN-06FB45IHQ35",
+    "uValue": "2"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "missing_in_json": [],
+  "missing_in_xml": [],
+  "value_diffs": {
+    "DidWaitTimeout": {
+      "xml": "true",
+      "json": "True"
+    },
+    "IsPolicyConfigured": {
+      "xml": "false",
+      "json": "False"
+    }
+  }
+}

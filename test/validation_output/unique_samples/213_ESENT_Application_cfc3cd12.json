@@ -1,0 +1,37 @@
+{
+  "event_id": "213",
+  "provider": "ESENT",
+  "channel": "Application",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\win7-x86\\Application.evtx",
+  "event_record_id": 134,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"ESENT\">\n    </Provider>\n    <EventID Qualifiers=\"0\">213</EventID>\n    <Level>4</Level>\n    <Task>3</Task>\n    <Keywords>0x80000000000000</Keywords>\n    <TimeCreated SystemTime=\"2022-04-04T10:09:24.000000Z\">\n    </TimeCreated>\n    <EventRecordID>134</EventRecordID>\n    <Channel>Application</Channel>\n    <Computer>evtx-PC</Computer>\n    <Security>\n    </Security>\n  </System>\n  <EventData>\n    <Data>WinMail</Data>\n    <Data>3092</Data>\n    <Data>WindowsMail0: </Data>\n    <Binary></Binary>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"ESENT\"}},\"EventID\":{\"#attributes\":{\"Qualifiers\":0},\"#text\":213},\"Level\":4,\"Task\":3,\"Keywords\":\"0x80000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2022-04-04T10:09:24.000000Z\"}},\"EventRecordID\":134,\"Channel\":\"Application\",\"Computer\":\"evtx-PC\",\"Security\":null},\"EventData\":{\"Data\":{\"#text\":[\"WinMail\",\"3092\",\"WindowsMail0: \"]},\"Binary\":null}}}",
+  "xml_fields": {
+    "provider": "ESENT",
+    "event_id": "213",
+    "timestamp": "2022-04-04T10:09:24.000000Z",
+    "event_record_id": "134",
+    "level": "4",
+    "task": "3",
+    "keywords": "0x80000000000000",
+    "channel": "Application",
+    "computer": "evtx-PC",
+    "_data_0": "WinMail",
+    "_data_1": "3092",
+    "_data_2": "WindowsMail0: "
+  },
+  "json_fields": {
+    "provider": "ESENT",
+    "channel": "Application",
+    "event_id": "213",
+    "timestamp": "2022-04-04T10:09:24.000000Z",
+    "event_record_id": "134",
+    "level": "4",
+    "task": "3",
+    "keywords": "0x80000000000000",
+    "computer": "evtx-PC",
+    "_data_0": "WinMail",
+    "_data_1": "3092",
+    "_data_2": "WindowsMail0: "
+  }
+}

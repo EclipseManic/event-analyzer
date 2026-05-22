@@ -1,0 +1,41 @@
+{
+  "event_id": "908",
+  "provider": "Microsoft-Windows-Kernel-PnP",
+  "channel": "Microsoft-Windows-Kernel-PnP/Driver Watchdog",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\Logs_Win11_2023\\Microsoft-Windows-Kernel-PnP%4Driver Watchdog.evtx",
+  "event_record_id": 1,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-Kernel-PnP\" Guid=\"9C205A39-1250-487D-ABD7-E831C6290539\">\n    </Provider>\n    <EventID>908</EventID>\n    <Version>0</Version>\n    <Level>3</Level>\n    <Task>900</Task>\n    <Opcode>1</Opcode>\n    <Keywords>0x200000000000000</Keywords>\n    <TimeCreated SystemTime=\"2023-11-06T00:25:57.930157Z\">\n    </TimeCreated>\n    <EventRecordID>1</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"4\" ThreadID=\"2352\">\n    </Execution>\n    <Channel>Microsoft-Windows-Kernel-PnP/Driver Watchdog</Channel>\n    <Computer>WinDev2310Eval</Computer>\n    <Security UserID=\"S-1-5-18\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"ThreadId\">0x2ba4</Data>\n    <Data Name=\"DeviceInstanceId\"></Data>\n    <Data Name=\"DriverName\">avgSP</Data>\n    <Data Name=\"ElapsedTimeMs\">10005</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-Kernel-PnP\",\"Guid\":\"9C205A39-1250-487D-ABD7-E831C6290539\"}},\"EventID\":908,\"Version\":0,\"Level\":3,\"Task\":900,\"Opcode\":1,\"Keywords\":\"0x200000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2023-11-06T00:25:57.930157Z\"}},\"EventRecordID\":1,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":4,\"ThreadID\":2352}},\"Channel\":\"Microsoft-Windows-Kernel-PnP/Driver Watchdog\",\"Computer\":\"WinDev2310Eval\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-18\"}}},\"EventData\":{\"ThreadId\":\"0x2ba4\",\"DeviceInstanceId\":\"\",\"DriverName\":\"avgSP\",\"ElapsedTimeMs\":10005}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-Kernel-PnP",
+    "event_id": "908",
+    "timestamp": "2023-11-06T00:25:57.930157Z",
+    "event_record_id": "1",
+    "level": "3",
+    "task": "900",
+    "opcode": "1",
+    "keywords": "0x200000000000000",
+    "channel": "Microsoft-Windows-Kernel-PnP/Driver Watchdog",
+    "computer": "WinDev2310Eval",
+    "ThreadId": "0x2ba4",
+    "DeviceInstanceId": "",
+    "DriverName": "avgSP",
+    "ElapsedTimeMs": "10005"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-Kernel-PnP",
+    "channel": "Microsoft-Windows-Kernel-PnP/Driver Watchdog",
+    "event_id": "908",
+    "timestamp": "2023-11-06T00:25:57.930157Z",
+    "event_record_id": "1",
+    "level": "3",
+    "task": "900",
+    "opcode": "1",
+    "keywords": "0x200000000000000",
+    "computer": "WinDev2310Eval",
+    "ThreadId": "0x2ba4",
+    "DeviceInstanceId": "",
+    "DriverName": "avgSP",
+    "ElapsedTimeMs": "10005"
+  }
+}

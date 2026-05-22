@@ -1,0 +1,39 @@
+{
+  "event_id": "1100",
+  "provider": "Microsoft-Windows-ShellCommon-StartLayoutPopulation",
+  "channel": "Microsoft-Windows-ShellCommon-StartLayoutPopulation/Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Logs\\Microsoft-Windows-ShellCommon-StartLayoutPopulation%4Operational.evtx",
+  "event_record_id": 17,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-ShellCommon-StartLayoutPopulation\" Guid=\"97CA8142-10B1-4BAA-9FBB-70A7D11231C3\">\n    </Provider>\n    <EventID>1100</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>1001</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2024-11-04T12:47:42.002487Z\">\n    </TimeCreated>\n    <EventRecordID>17</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"2088\" ThreadID=\"3424\">\n    </Execution>\n    <Channel>Microsoft-Windows-ShellCommon-StartLayoutPopulation/Operational</Channel>\n    <Computer>DESKTOP-P9H5FTA</Computer>\n    <Security UserID=\"S-1-5-21-3088055692-629932344-1786574096-1001\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"itemId\">9EB6398B-B530-4404-9DAF-4373FD27A208</Data>\n    <Data Name=\"containerId\">00000000-0000-0000-0000-000000000000</Data>\n    <Data Name=\"collectionName\">Start.TileGrid</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-ShellCommon-StartLayoutPopulation\",\"Guid\":\"97CA8142-10B1-4BAA-9FBB-70A7D11231C3\"}},\"EventID\":1100,\"Version\":0,\"Level\":4,\"Task\":1001,\"Opcode\":0,\"Keywords\":\"0x4000000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2024-11-04T12:47:42.002487Z\"}},\"EventRecordID\":17,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":2088,\"ThreadID\":3424}},\"Channel\":\"Microsoft-Windows-ShellCommon-StartLayoutPopulation/Operational\",\"Computer\":\"DESKTOP-P9H5FTA\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-21-3088055692-629932344-1786574096-1001\"}}},\"EventData\":{\"itemId\":\"9EB6398B-B530-4404-9DAF-4373FD27A208\",\"containerId\":\"00000000-0000-0000-0000-000000000000\",\"collectionName\":\"Start.TileGrid\"}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-ShellCommon-StartLayoutPopulation",
+    "event_id": "1100",
+    "timestamp": "2024-11-04T12:47:42.002487Z",
+    "event_record_id": "17",
+    "level": "4",
+    "task": "1001",
+    "opcode": "0",
+    "keywords": "0x4000000000000000",
+    "channel": "Microsoft-Windows-ShellCommon-StartLayoutPopulation/Operational",
+    "computer": "DESKTOP-P9H5FTA",
+    "itemId": "9EB6398B-B530-4404-9DAF-4373FD27A208",
+    "containerId": "00000000-0000-0000-0000-000000000000",
+    "collectionName": "Start.TileGrid"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-ShellCommon-StartLayoutPopulation",
+    "channel": "Microsoft-Windows-ShellCommon-StartLayoutPopulation/Operational",
+    "event_id": "1100",
+    "timestamp": "2024-11-04T12:47:42.002487Z",
+    "event_record_id": "17",
+    "level": "4",
+    "task": "1001",
+    "opcode": "0",
+    "keywords": "0x4000000000000000",
+    "computer": "DESKTOP-P9H5FTA",
+    "itemId": "9EB6398B-B530-4404-9DAF-4373FD27A208",
+    "containerId": "00000000-0000-0000-0000-000000000000",
+    "collectionName": "Start.TileGrid"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "event_id": "2006",
+  "provider": "Microsoft-Windows-Windows Firewall With Advanced Security",
+  "channel": "Microsoft-Windows-Windows Firewall With Advanced Security/Firewall",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Logs\\Microsoft-Windows-Windows Firewall With Advanced Security%4Firewall.evtx",
+  "event_record_id": 1704,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-Windows Firewall With Advanced Security\" Guid=\"D1BC9AFF-2ABF-4D71-9146-ECB2A986EB85\">\n    </Provider>\n    <EventID>2006</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x8000020000000000</Keywords>\n    <TimeCreated SystemTime=\"2025-01-24T10:52:51.869126Z\">\n    </TimeCreated>\n    <EventRecordID>1704</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"2476\" ThreadID=\"4120\">\n    </Execution>\n    <Channel>Microsoft-Windows-Windows Firewall With Advanced Security/Firewall</Channel>\n    <Computer>CTO-FILESVR</Computer>\n    <Security UserID=\"S-1-5-19\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"RuleId\">{20BCD5B5-7A3A-4B9A-A1A5-577A73483870}</Data>\n    <Data Name=\"RuleName\">@{Microsoft.MicrosoftEdgeDevToolsClient_1000.19041.1023.0_neutral_neutral_8wekyb3d8bbwe?ms-resource://Microsoft.MicrosoftEdgeDevToolsClient/resources/DisplayName}</Data>\n    <Data Name=\"ModifyingUser\">S-1-5-80-3088073201-1464728630-1879813800-1107566885-823218052</Data>\n    <Data Name=\"ModifyingApplication\">C:\\Windows\\System32\\svchost.exe</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-Windows Firewall With Advanced Security\",\"Guid\":\"D1BC9AFF-2ABF-4D71-9146-ECB2A986EB85\"}},\"EventID\":2006,\"Version\":0,\"Level\":4,\"Task\":0,\"Opcode\":0,\"Keywords\":\"0x8000020000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2025-01-24T10:52:51.869126Z\"}},\"EventRecordID\":1704,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":2476,\"ThreadID\":4120}},\"Channel\":\"Microsoft-Windows-Windows Firewall With Advanced Security/Firewall\",\"Computer\":\"CTO-FILESVR\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-19\"}}},\"EventData\":{\"RuleId\":\"{20BCD5B5-7A3A-4B9A-A1A5-577A73483870}\",\"RuleName\":\"@{Microsoft.MicrosoftEdgeDevToolsClient_1000.19041.1023.0_neutral_neutral_8wekyb3d8bbwe?ms-resource://Microsoft.MicrosoftEdgeDevToolsClient/resources/DisplayName}\",\"ModifyingUser\":\"S-1-5-80-3088073201-1464728630-1879813800-1107566885-823218052\",\"ModifyingApplication\":\"C:\\\\Windows\\\\System32\\\\svchost.exe\"}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-Windows Firewall With Advanced Security",
+    "event_id": "2006",
+    "timestamp": "2025-01-24T10:52:51.869126Z",
+    "event_record_id": "1704",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x8000020000000000",
+    "channel": "Microsoft-Windows-Windows Firewall With Advanced Security/Firewall",
+    "computer": "CTO-FILESVR",
+    "RuleId": "{20BCD5B5-7A3A-4B9A-A1A5-577A73483870}",
+    "RuleName": "@{Microsoft.MicrosoftEdgeDevToolsClient_1000.19041.1023.0_neutral_neutral_8wekyb3d8bbwe?ms-resource://Microsoft.MicrosoftEdgeDevToolsClient/resources/DisplayName}",
+    "ModifyingUser": "S-1-5-80-3088073201-1464728630-1879813800-1107566885-823218052",
+    "ModifyingApplication": "C:\\Windows\\System32\\svchost.exe"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-Windows Firewall With Advanced Security",
+    "channel": "Microsoft-Windows-Windows Firewall With Advanced Security/Firewall",
+    "event_id": "2006",
+    "timestamp": "2025-01-24T10:52:51.869126Z",
+    "event_record_id": "1704",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x8000020000000000",
+    "computer": "CTO-FILESVR",
+    "RuleId": "{20BCD5B5-7A3A-4B9A-A1A5-577A73483870}",
+    "RuleName": "@{Microsoft.MicrosoftEdgeDevToolsClient_1000.19041.1023.0_neutral_neutral_8wekyb3d8bbwe?ms-resource://Microsoft.MicrosoftEdgeDevToolsClient/resources/DisplayName}",
+    "ModifyingUser": "S-1-5-80-3088073201-1464728630-1879813800-1107566885-823218052",
+    "ModifyingApplication": "C:\\Windows\\System32\\svchost.exe"
+  }
+}

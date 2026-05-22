@@ -1,0 +1,39 @@
+{
+  "event_id": "17",
+  "provider": "avipbb",
+  "channel": "System",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\Logs_Win11_2023\\System.evtx",
+  "event_record_id": 2056,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"avipbb\">\n    </Provider>\n    <EventID Qualifiers=\"16391\">17</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x80000000000000</Keywords>\n    <TimeCreated SystemTime=\"2023-11-06T00:11:13.704856Z\">\n    </TimeCreated>\n    <EventRecordID>2056</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"4\" ThreadID=\"2812\">\n    </Execution>\n    <Channel>System</Channel>\n    <Computer>WinDev2310Eval</Computer>\n    <Security>\n    </Security>\n  </System>\n  <EventData>\n    <Data>\n    </Data>\n    <Data>avipbb.sys successfully loaded</Data>\n    <Binary>00000000020030000000000011000740000000000000000000000000000000000000000000000000</Binary>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"avipbb\"}},\"EventID\":{\"#attributes\":{\"Qualifiers\":16391},\"#text\":17},\"Version\":0,\"Level\":4,\"Task\":0,\"Opcode\":0,\"Keywords\":\"0x80000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2023-11-06T00:11:13.704856Z\"}},\"EventRecordID\":2056,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":4,\"ThreadID\":2812}},\"Channel\":\"System\",\"Computer\":\"WinDev2310Eval\",\"Security\":null},\"EventData\":{\"Data\":{\"#text\":[\"\",\"avipbb.sys successfully loaded\"]},\"Binary\":\"00000000020030000000000011000740000000000000000000000000000000000000000000000000\"}}}",
+  "xml_fields": {
+    "provider": "avipbb",
+    "event_id": "17",
+    "timestamp": "2023-11-06T00:11:13.704856Z",
+    "event_record_id": "2056",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x80000000000000",
+    "channel": "System",
+    "computer": "WinDev2310Eval",
+    "_data_0": "\n    ",
+    "_data_1": "avipbb.sys successfully loaded",
+    "Binary": "00000000020030000000000011000740000000000000000000000000000000000000000000000000"
+  },
+  "json_fields": {
+    "provider": "avipbb",
+    "channel": "System",
+    "event_id": "17",
+    "timestamp": "2023-11-06T00:11:13.704856Z",
+    "event_record_id": "2056",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x80000000000000",
+    "computer": "WinDev2310Eval",
+    "_data_0": "",
+    "_data_1": "avipbb.sys successfully loaded",
+    "Binary": "00000000020030000000000011000740000000000000000000000000000000000000000000000000"
+  }
+}

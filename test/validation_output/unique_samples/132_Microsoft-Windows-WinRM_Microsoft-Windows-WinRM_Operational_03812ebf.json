@@ -1,0 +1,35 @@
+{
+  "event_id": "132",
+  "provider": "Microsoft-Windows-WinRM",
+  "channel": "Microsoft-Windows-WinRM/Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\win2022-0-20348-azure\\Microsoft-Windows-WinRM%4Operational.evtx",
+  "event_record_id": 16,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-WinRM\" Guid=\"A7975C8F-AC13-49F1-87DA-5A984A4AB417\">\n    </Provider>\n    <EventID>132</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>10</Task>\n    <Opcode>2</Opcode>\n    <Keywords>0x4000000000000002</Keywords>\n    <TimeCreated SystemTime=\"2022-09-18T09:14:34.567425Z\">\n    </TimeCreated>\n    <EventRecordID>16</EventRecordID>\n    <Correlation ActivityID=\"7A1A5327-347A-0000-BEDA-17C43ECBD801\">\n    </Correlation>\n    <Execution ProcessID=\"388\" ThreadID=\"400\">\n    </Execution>\n    <Channel>Microsoft-Windows-WinRM/Operational</Channel>\n    <Computer>Agamemnon</Computer>\n    <Security UserID=\"S-1-5-18\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"operationName\">Enumeration</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-WinRM\",\"Guid\":\"A7975C8F-AC13-49F1-87DA-5A984A4AB417\"}},\"EventID\":132,\"Version\":0,\"Level\":4,\"Task\":10,\"Opcode\":2,\"Keywords\":\"0x4000000000000002\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2022-09-18T09:14:34.567425Z\"}},\"EventRecordID\":16,\"Correlation\":{\"#attributes\":{\"ActivityID\":\"7A1A5327-347A-0000-BEDA-17C43ECBD801\"}},\"Execution\":{\"#attributes\":{\"ProcessID\":388,\"ThreadID\":400}},\"Channel\":\"Microsoft-Windows-WinRM/Operational\",\"Computer\":\"Agamemnon\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-18\"}}},\"EventData\":{\"operationName\":\"Enumeration\"}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-WinRM",
+    "event_id": "132",
+    "timestamp": "2022-09-18T09:14:34.567425Z",
+    "event_record_id": "16",
+    "level": "4",
+    "task": "10",
+    "opcode": "2",
+    "keywords": "0x4000000000000002",
+    "channel": "Microsoft-Windows-WinRM/Operational",
+    "computer": "Agamemnon",
+    "operationName": "Enumeration"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-WinRM",
+    "channel": "Microsoft-Windows-WinRM/Operational",
+    "event_id": "132",
+    "timestamp": "2022-09-18T09:14:34.567425Z",
+    "event_record_id": "16",
+    "level": "4",
+    "task": "10",
+    "opcode": "2",
+    "keywords": "0x4000000000000002",
+    "computer": "Agamemnon",
+    "operationName": "Enumeration"
+  }
+}

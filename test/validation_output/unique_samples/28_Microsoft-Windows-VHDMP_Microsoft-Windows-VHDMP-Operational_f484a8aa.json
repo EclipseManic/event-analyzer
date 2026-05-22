@@ -1,0 +1,37 @@
+{
+  "event_id": "28",
+  "provider": "Microsoft-Windows-VHDMP",
+  "channel": "Microsoft-Windows-VHDMP-Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\Logs_Win11_2023\\Microsoft-Windows-VHDMP-Operational.evtx",
+  "event_record_id": 12,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-VHDMP\" Guid=\"E2816346-87F4-4F85-95C3-0C79409AA89D\">\n    </Provider>\n    <EventID>28</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>1204</Task>\n    <Opcode>2</Opcode>\n    <Keywords>0x8000000000000001</Keywords>\n    <TimeCreated SystemTime=\"2023-10-25T22:49:36.794001Z\">\n    </TimeCreated>\n    <EventRecordID>12</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"4416\" ThreadID=\"6856\">\n    </Execution>\n    <Channel>Microsoft-Windows-VHDMP-Operational</Channel>\n    <Computer>WinDevEval</Computer>\n    <Security UserID=\"S-1-5-21-2533829718-189860685-2477588761-500\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"VhdFileName\">C:\\Users\\Administrator\\windows.iso</Data>\n    <Data Name=\"Status\">0</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-VHDMP\",\"Guid\":\"E2816346-87F4-4F85-95C3-0C79409AA89D\"}},\"EventID\":28,\"Version\":0,\"Level\":4,\"Task\":1204,\"Opcode\":2,\"Keywords\":\"0x8000000000000001\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2023-10-25T22:49:36.794001Z\"}},\"EventRecordID\":12,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":4416,\"ThreadID\":6856}},\"Channel\":\"Microsoft-Windows-VHDMP-Operational\",\"Computer\":\"WinDevEval\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-21-2533829718-189860685-2477588761-500\"}}},\"EventData\":{\"VhdFileName\":\"C:\\\\Users\\\\Administrator\\\\windows.iso\",\"Status\":0}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-VHDMP",
+    "event_id": "28",
+    "timestamp": "2023-10-25T22:49:36.794001Z",
+    "event_record_id": "12",
+    "level": "4",
+    "task": "1204",
+    "opcode": "2",
+    "keywords": "0x8000000000000001",
+    "channel": "Microsoft-Windows-VHDMP-Operational",
+    "computer": "WinDevEval",
+    "VhdFileName": "C:\\Users\\Administrator\\windows.iso",
+    "Status": "0"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-VHDMP",
+    "channel": "Microsoft-Windows-VHDMP-Operational",
+    "event_id": "28",
+    "timestamp": "2023-10-25T22:49:36.794001Z",
+    "event_record_id": "12",
+    "level": "4",
+    "task": "1204",
+    "opcode": "2",
+    "keywords": "0x8000000000000001",
+    "computer": "WinDevEval",
+    "VhdFileName": "C:\\Users\\Administrator\\windows.iso",
+    "Status": "0"
+  }
+}

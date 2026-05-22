@@ -1,0 +1,33 @@
+{
+  "event_id": "43",
+  "provider": "Microsoft-Windows-ServerManager-ManagementProvider",
+  "channel": "Microsoft-Windows-ServerManager-MgmtProvider/Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\win2022-evtx\\Microsoft-Windows-ServerManager-MgmtProvider%4Operational.evtx",
+  "event_record_id": 537,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-ServerManager-ManagementProvider\" Guid=\"C2E6D0D9-5DF8-4C77-A82B-C96C84579543\">\n    </Provider>\n    <EventID>43</EventID>\n    <Version>0</Version>\n    <Level>2</Level>\n    <Task>13</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x8000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2022-04-04T13:51:27.375324Z\">\n    </TimeCreated>\n    <EventRecordID>537</EventRecordID>\n    <Correlation ActivityID=\"D6029FED-E085-468B-9E69-02033A44F2E2\">\n    </Correlation>\n    <Execution ProcessID=\"4740\" ThreadID=\"4776\">\n    </Execution>\n    <Channel>Microsoft-Windows-ServerManager-MgmtProvider/Operational</Channel>\n    <Computer>WIN-TKC15D7KHUR</Computer>\n    <Security UserID=\"S-1-5-21-1958040314-2592322477-2606035944-500\">\n    </Security>\n  </System>\n  <EventData>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-ServerManager-ManagementProvider\",\"Guid\":\"C2E6D0D9-5DF8-4C77-A82B-C96C84579543\"}},\"EventID\":43,\"Version\":0,\"Level\":2,\"Task\":13,\"Opcode\":0,\"Keywords\":\"0x8000000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2022-04-04T13:51:27.375324Z\"}},\"EventRecordID\":537,\"Correlation\":{\"#attributes\":{\"ActivityID\":\"D6029FED-E085-468B-9E69-02033A44F2E2\"}},\"Execution\":{\"#attributes\":{\"ProcessID\":4740,\"ThreadID\":4776}},\"Channel\":\"Microsoft-Windows-ServerManager-MgmtProvider/Operational\",\"Computer\":\"WIN-TKC15D7KHUR\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-21-1958040314-2592322477-2606035944-500\"}}},\"EventData\":null}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-ServerManager-ManagementProvider",
+    "event_id": "43",
+    "timestamp": "2022-04-04T13:51:27.375324Z",
+    "event_record_id": "537",
+    "level": "2",
+    "task": "13",
+    "opcode": "0",
+    "keywords": "0x8000000000000000",
+    "channel": "Microsoft-Windows-ServerManager-MgmtProvider/Operational",
+    "computer": "WIN-TKC15D7KHUR"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-ServerManager-ManagementProvider",
+    "channel": "Microsoft-Windows-ServerManager-MgmtProvider/Operational",
+    "event_id": "43",
+    "timestamp": "2022-04-04T13:51:27.375324Z",
+    "event_record_id": "537",
+    "level": "2",
+    "task": "13",
+    "opcode": "0",
+    "keywords": "0x8000000000000000",
+    "computer": "WIN-TKC15D7KHUR"
+  }
+}

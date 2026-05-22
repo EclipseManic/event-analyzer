@@ -1,0 +1,37 @@
+{
+  "event_id": "8225",
+  "provider": "VSS",
+  "channel": "Application",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\Logs_Win11\\Application.evtx",
+  "event_record_id": 687,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"VSS\">\n    </Provider>\n    <EventID Qualifiers=\"0\">8225</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x80000000000000</Keywords>\n    <TimeCreated SystemTime=\"2022-03-01T19:16:35.965182Z\">\n    </TimeCreated>\n    <EventRecordID>687</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"572\" ThreadID=\"0\">\n    </Execution>\n    <Channel>Application</Channel>\n    <Computer>DESKTOP-6D0DBMB</Computer>\n    <Security>\n    </Security>\n  </System>\n  <EventData>\n    <Data></Data>\n    <Binary>2D20436F64653A2020434F525356434330303030303737302D2043616C6C3A2020434F525356434330303030303735342D205049443A202030303030303537322D205449443A202030303030393333362D20434D443A2020433A5C57696E646F77735C73797374656D33325C76737376632E6578652020202D20557365723A204E616D653A204155544F52495445204E545C53797374E86D652C205349443A532D312D352D313820</Binary>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"VSS\"}},\"EventID\":{\"#attributes\":{\"Qualifiers\":0},\"#text\":8225},\"Version\":0,\"Level\":4,\"Task\":0,\"Opcode\":0,\"Keywords\":\"0x80000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2022-03-01T19:16:35.965182Z\"}},\"EventRecordID\":687,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":572,\"ThreadID\":0}},\"Channel\":\"Application\",\"Computer\":\"DESKTOP-6D0DBMB\",\"Security\":null},\"EventData\":{\"Data\":{\"#text\":\"\"},\"Binary\":\"2D20436F64653A2020434F525356434330303030303737302D2043616C6C3A2020434F525356434330303030303735342D205049443A202030303030303537322D205449443A202030303030393333362D20434D443A2020433A5C57696E646F77735C73797374656D33325C76737376632E6578652020202D20557365723A204E616D653A204155544F52495445204E545C53797374E86D652C205349443A532D312D352D313820\"}}}",
+  "xml_fields": {
+    "provider": "VSS",
+    "event_id": "8225",
+    "timestamp": "2022-03-01T19:16:35.965182Z",
+    "event_record_id": "687",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x80000000000000",
+    "channel": "Application",
+    "computer": "DESKTOP-6D0DBMB",
+    "_data_0": "",
+    "Binary": "2D20436F64653A2020434F525356434330303030303737302D2043616C6C3A2020434F525356434330303030303735342D205049443A202030303030303537322D205449443A202030303030393333362D20434D443A2020433A5C57696E646F77735C73797374656D33325C76737376632E6578652020202D20557365723A204E616D653A204155544F52495445204E545C53797374E86D652C205349443A532D312D352D313820"
+  },
+  "json_fields": {
+    "provider": "VSS",
+    "channel": "Application",
+    "event_id": "8225",
+    "timestamp": "2022-03-01T19:16:35.965182Z",
+    "event_record_id": "687",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x80000000000000",
+    "computer": "DESKTOP-6D0DBMB",
+    "Data": "",
+    "Binary": "2D20436F64653A2020434F525356434330303030303737302D2043616C6C3A2020434F525356434330303030303735342D205049443A202030303030303537322D205449443A202030303030393333362D20434D443A2020433A5C57696E646F77735C73797374656D33325C76737376632E6578652020202D20557365723A204E616D653A204155544F52495445204E545C53797374E86D652C205349443A532D312D352D313820"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "event_id": "4634",
+  "provider": "Microsoft-Windows-Security-Auditing",
+  "channel": "Security",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Logs\\Security.evtx",
+  "event_record_id": 4422,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-Security-Auditing\" Guid=\"54849625-5478-4994-A5BA-3E3B0328C30D\">\n    </Provider>\n    <EventID>4634</EventID>\n    <Version>0</Version>\n    <Level>0</Level>\n    <Task>12545</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x8020000000000000</Keywords>\n    <TimeCreated SystemTime=\"2025-01-24T10:29:00.928837Z\">\n    </TimeCreated>\n    <EventRecordID>4422</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"684\" ThreadID=\"5248\">\n    </Execution>\n    <Channel>Security</Channel>\n    <Computer>CTO-FILESVR</Computer>\n    <Security>\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"TargetUserSid\">S-1-5-21-3088055692-629932344-1786574096-1003</Data>\n    <Data Name=\"TargetUserName\">Dutch</Data>\n    <Data Name=\"TargetDomainName\">CTO-FILESVR</Data>\n    <Data Name=\"TargetLogonId\">0x673d2f</Data>\n    <Data Name=\"LogonType\">3</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-Security-Auditing\",\"Guid\":\"54849625-5478-4994-A5BA-3E3B0328C30D\"}},\"EventID\":4634,\"Version\":0,\"Level\":0,\"Task\":12545,\"Opcode\":0,\"Keywords\":\"0x8020000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2025-01-24T10:29:00.928837Z\"}},\"EventRecordID\":4422,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":684,\"ThreadID\":5248}},\"Channel\":\"Security\",\"Computer\":\"CTO-FILESVR\",\"Security\":null},\"EventData\":{\"TargetUserSid\":\"S-1-5-21-3088055692-629932344-1786574096-1003\",\"TargetUserName\":\"Dutch\",\"TargetDomainName\":\"CTO-FILESVR\",\"TargetLogonId\":\"0x673d2f\",\"LogonType\":3}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "event_id": "4634",
+    "timestamp": "2025-01-24T10:29:00.928837Z",
+    "event_record_id": "4422",
+    "level": "0",
+    "task": "12545",
+    "opcode": "0",
+    "keywords": "0x8020000000000000",
+    "channel": "Security",
+    "computer": "CTO-FILESVR",
+    "TargetUserSid": "S-1-5-21-3088055692-629932344-1786574096-1003",
+    "TargetUserName": "Dutch",
+    "TargetDomainName": "CTO-FILESVR",
+    "TargetLogonId": "0x673d2f",
+    "LogonType": "3"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "channel": "Security",
+    "event_id": "4634",
+    "timestamp": "2025-01-24T10:29:00.928837Z",
+    "event_record_id": "4422",
+    "level": "0",
+    "task": "12545",
+    "opcode": "0",
+    "keywords": "0x8020000000000000",
+    "computer": "CTO-FILESVR",
+    "TargetUserSid": "S-1-5-21-3088055692-629932344-1786574096-1003",
+    "TargetUserName": "Dutch",
+    "TargetDomainName": "CTO-FILESVR",
+    "TargetLogonId": "0x673d2f",
+    "LogonType": "3"
+  }
+}

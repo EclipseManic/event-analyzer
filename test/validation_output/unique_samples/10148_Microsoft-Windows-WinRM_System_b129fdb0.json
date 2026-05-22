@@ -1,0 +1,33 @@
+{
+  "event_id": "10148",
+  "provider": "Microsoft-Windows-WinRM",
+  "channel": "System",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\win2022-0-20348-azure\\System.evtx",
+  "event_record_id": 850,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-WinRM\" Guid=\"{A7975C8F-AC13-49F1-87DA-5A984A4AB417}\" EventSourceName=\"WinRM\">\n    </Provider>\n    <EventID Qualifiers=\"7\">10148</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x80000000000000</Keywords>\n    <TimeCreated SystemTime=\"2022-09-18T09:13:16.676015Z\">\n    </TimeCreated>\n    <EventRecordID>850</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"0\" ThreadID=\"0\">\n    </Execution>\n    <Channel>System</Channel>\n    <Computer>Agamemnon</Computer>\n    <Security>\n    </Security>\n  </System>\n  <EventData Name=\"Started Listening\">\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-WinRM\",\"Guid\":\"{A7975C8F-AC13-49F1-87DA-5A984A4AB417}\",\"EventSourceName\":\"WinRM\"}},\"EventID\":{\"#attributes\":{\"Qualifiers\":7},\"#text\":10148},\"Version\":0,\"Level\":4,\"Task\":0,\"Opcode\":0,\"Keywords\":\"0x80000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2022-09-18T09:13:16.676015Z\"}},\"EventRecordID\":850,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":0,\"ThreadID\":0}},\"Channel\":\"System\",\"Computer\":\"Agamemnon\",\"Security\":null},\"EventData\":{\"#attributes\":{\"Name\":\"Started Listening\"}}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-WinRM",
+    "event_id": "10148",
+    "timestamp": "2022-09-18T09:13:16.676015Z",
+    "event_record_id": "850",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x80000000000000",
+    "channel": "System",
+    "computer": "Agamemnon"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-WinRM",
+    "channel": "System",
+    "event_id": "10148",
+    "timestamp": "2022-09-18T09:13:16.676015Z",
+    "event_record_id": "850",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x80000000000000",
+    "computer": "Agamemnon"
+  }
+}

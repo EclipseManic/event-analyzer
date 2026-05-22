@@ -1,0 +1,39 @@
+{
+  "event_id": "354",
+  "provider": "Microsoft-Windows-PrintService",
+  "channel": "Microsoft-Windows-PrintService/Admin",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Malicious\\EVTX-to-MITRE-Attack-master\\TA0004-Privilege Escalation\\T1574-DLL side-loading\\ID354-808-Mimispool printer installation (PrintNightmare).evtx",
+  "event_record_id": 6,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-PrintService\" Guid=\"747EF6FD-E535-4D16-B510-42C90F6873A1\">\n    </Provider>\n    <EventID>354</EventID>\n    <Version>0</Version>\n    <Level>2</Level>\n    <Task>36</Task>\n    <Opcode>12</Opcode>\n    <Keywords>0x8000000000000800</Keywords>\n    <TimeCreated SystemTime=\"2021-10-27T10:28:26.260460Z\">\n    </TimeCreated>\n    <EventRecordID>10</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"1048\" ThreadID=\"3836\">\n    </Execution>\n    <Channel>Microsoft-Windows-PrintService/Admin</Channel>\n    <Computer>FS03.offsec.lan</Computer>\n    <Security UserID=\"S-1-5-21-4230534742-2542757381-3142984815-1111\">\n    </Security>\n  </System>\n  <UserData>\n    <InitFailed xmlns=\"http://manifests.microsoft.com/win/2005/08/windows/printing/spooler/core/events\">\n      <Param1>\\\\fs03vuln\\Kiwi Legit Printer</Param1>\n      <Param2>\\\\fs03vuln\\print$\\W32X86\\3\\mimispool.dll</Param2>\n      <Param3>2. The system cannot find the file specified.\r\n</Param3>\n    </InitFailed>\n  </UserData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-PrintService\",\"Guid\":\"747EF6FD-E535-4D16-B510-42C90F6873A1\"}},\"EventID\":354,\"Version\":0,\"Level\":2,\"Task\":36,\"Opcode\":12,\"Keywords\":\"0x8000000000000800\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2021-10-27T10:28:26.260460Z\"}},\"EventRecordID\":10,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":1048,\"ThreadID\":3836}},\"Channel\":\"Microsoft-Windows-PrintService/Admin\",\"Computer\":\"FS03.offsec.lan\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-21-4230534742-2542757381-3142984815-1111\"}}},\"UserData\":{\"InitFailed\":{\"#attributes\":{\"xmlns\":\"http://manifests.microsoft.com/win/2005/08/windows/printing/spooler/core/events\"},\"Param1\":\"\\\\\\\\fs03vuln\\\\Kiwi Legit Printer\",\"Param2\":\"\\\\\\\\fs03vuln\\\\print$\\\\W32X86\\\\3\\\\mimispool.dll\",\"Param3\":\"2. The system cannot find the file specified.\\r\\n\"}}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-PrintService",
+    "event_id": "354",
+    "timestamp": "2021-10-27T10:28:26.260460Z",
+    "event_record_id": "10",
+    "level": "2",
+    "task": "36",
+    "opcode": "12",
+    "keywords": "0x8000000000000800",
+    "channel": "Microsoft-Windows-PrintService/Admin",
+    "computer": "FS03.offsec.lan",
+    "Param1": "\\\\fs03vuln\\Kiwi Legit Printer",
+    "Param2": "\\\\fs03vuln\\print$\\W32X86\\3\\mimispool.dll",
+    "Param3": "2. The system cannot find the file specified.\n"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-PrintService",
+    "channel": "Microsoft-Windows-PrintService/Admin",
+    "event_id": "354",
+    "timestamp": "2021-10-27T10:28:26.260460Z",
+    "event_record_id": "10",
+    "level": "2",
+    "task": "36",
+    "opcode": "12",
+    "keywords": "0x8000000000000800",
+    "computer": "FS03.offsec.lan",
+    "Param1": "\\\\fs03vuln\\Kiwi Legit Printer",
+    "Param2": "\\\\fs03vuln\\print$\\W32X86\\3\\mimispool.dll",
+    "Param3": "2. The system cannot find the file specified.\r\n"
+  }
+}

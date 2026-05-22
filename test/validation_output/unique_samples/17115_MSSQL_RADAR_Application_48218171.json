@@ -1,0 +1,35 @@
+{
+  "event_id": "17115",
+  "provider": "MSSQL$RADAR",
+  "channel": "Application",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Malicious\\EVTX-to-MITRE-Attack-master\\TA0003-Persistence\\T1505.001-SQL Stored Procedures\\ID11715-SQL Server started in single mode for psw recovery.evtx",
+  "event_record_id": 1,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"MSSQL$RADAR\">\n    </Provider>\n    <EventID Qualifiers=\"16384\">17115</EventID>\n    <Level>4</Level>\n    <Task>2</Task>\n    <Keywords>0x80000000000000</Keywords>\n    <TimeCreated SystemTime=\"2021-02-03T15:18:22.260285Z\">\n    </TimeCreated>\n    <EventRecordID>125735</EventRecordID>\n    <Channel>Application</Channel>\n    <Computer>mssql01.offsec.lan</Computer>\n    <Security>\n    </Security>\n  </System>\n  <EventData>\n    <Data>\r\n\t -s \"RADAR\"\r\n\t -m</Data>\n    <Binary>DB4200000A0000000E0000004D005300530051004C00300031005C0052004100440041005200000000000000</Binary>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"MSSQL$RADAR\"}},\"EventID\":{\"#attributes\":{\"Qualifiers\":16384},\"#text\":17115},\"Level\":4,\"Task\":2,\"Keywords\":\"0x80000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2021-02-03T15:18:22.260285Z\"}},\"EventRecordID\":125735,\"Channel\":\"Application\",\"Computer\":\"mssql01.offsec.lan\",\"Security\":null},\"EventData\":{\"Data\":{\"#text\":\"\\r\\n\\t -s \\\"RADAR\\\"\\r\\n\\t -m\"},\"Binary\":\"DB4200000A0000000E0000004D005300530051004C00300031005C0052004100440041005200000000000000\"}}}",
+  "xml_fields": {
+    "provider": "MSSQL$RADAR",
+    "event_id": "17115",
+    "timestamp": "2021-02-03T15:18:22.260285Z",
+    "event_record_id": "125735",
+    "level": "4",
+    "task": "2",
+    "keywords": "0x80000000000000",
+    "channel": "Application",
+    "computer": "mssql01.offsec.lan",
+    "_data_0": "\n\t -s \"RADAR\"\n\t -m",
+    "Binary": "DB4200000A0000000E0000004D005300530051004C00300031005C0052004100440041005200000000000000"
+  },
+  "json_fields": {
+    "provider": "MSSQL$RADAR",
+    "channel": "Application",
+    "event_id": "17115",
+    "timestamp": "2021-02-03T15:18:22.260285Z",
+    "event_record_id": "125735",
+    "level": "4",
+    "task": "2",
+    "keywords": "0x80000000000000",
+    "computer": "mssql01.offsec.lan",
+    "Data": "\r\n\t -s \"RADAR\"\r\n\t -m",
+    "Binary": "DB4200000A0000000E0000004D005300530051004C00300031005C0052004100440041005200000000000000"
+  }
+}

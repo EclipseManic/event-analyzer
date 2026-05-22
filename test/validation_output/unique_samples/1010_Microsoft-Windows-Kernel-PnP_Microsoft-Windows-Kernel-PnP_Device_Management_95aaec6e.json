@@ -1,0 +1,37 @@
+{
+  "event_id": "1010",
+  "provider": "Microsoft-Windows-Kernel-PnP",
+  "channel": "Microsoft-Windows-Kernel-PnP/Device Management",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\Logs_Win11\\Microsoft-Windows-Kernel-PnP%4Device Management.evtx",
+  "event_record_id": 1,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-Kernel-PnP\" Guid=\"9C205A39-1250-487D-ABD7-E831C6290539\">\n    </Provider>\n    <EventID>1010</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x100000000000000</Keywords>\n    <TimeCreated SystemTime=\"2022-03-01T16:45:18.957223Z\">\n    </TimeCreated>\n    <EventRecordID>1</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"4\" ThreadID=\"4024\">\n    </Execution>\n    <Channel>Microsoft-Windows-Kernel-PnP/Device Management</Channel>\n    <Computer>DESKTOP-6D0DBMB</Computer>\n    <Security UserID=\"S-1-5-18\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"DeviceInstanceId\">SWD\\MSDAS\\{ce958e9a-424f-4c88-86f4-11314821e75a}</Data>\n    <Data Name=\"DeviceCount\">1</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-Kernel-PnP\",\"Guid\":\"9C205A39-1250-487D-ABD7-E831C6290539\"}},\"EventID\":1010,\"Version\":0,\"Level\":4,\"Task\":0,\"Opcode\":0,\"Keywords\":\"0x100000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2022-03-01T16:45:18.957223Z\"}},\"EventRecordID\":1,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":4,\"ThreadID\":4024}},\"Channel\":\"Microsoft-Windows-Kernel-PnP/Device Management\",\"Computer\":\"DESKTOP-6D0DBMB\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-18\"}}},\"EventData\":{\"DeviceInstanceId\":\"SWD\\\\MSDAS\\\\{ce958e9a-424f-4c88-86f4-11314821e75a}\",\"DeviceCount\":1}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-Kernel-PnP",
+    "event_id": "1010",
+    "timestamp": "2022-03-01T16:45:18.957223Z",
+    "event_record_id": "1",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x100000000000000",
+    "channel": "Microsoft-Windows-Kernel-PnP/Device Management",
+    "computer": "DESKTOP-6D0DBMB",
+    "DeviceInstanceId": "SWD\\MSDAS\\{ce958e9a-424f-4c88-86f4-11314821e75a}",
+    "DeviceCount": "1"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-Kernel-PnP",
+    "channel": "Microsoft-Windows-Kernel-PnP/Device Management",
+    "event_id": "1010",
+    "timestamp": "2022-03-01T16:45:18.957223Z",
+    "event_record_id": "1",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x100000000000000",
+    "computer": "DESKTOP-6D0DBMB",
+    "DeviceInstanceId": "SWD\\MSDAS\\{ce958e9a-424f-4c88-86f4-11314821e75a}",
+    "DeviceCount": "1"
+  }
+}

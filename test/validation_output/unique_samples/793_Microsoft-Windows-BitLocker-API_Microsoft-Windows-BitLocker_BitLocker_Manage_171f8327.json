@@ -1,0 +1,39 @@
+{
+  "event_id": "793",
+  "provider": "Microsoft-Windows-BitLocker-API",
+  "channel": "Microsoft-Windows-BitLocker/BitLocker Management",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Malicious\\EVTX-to-MITRE-Attack-master\\TA0040-Impact\\T1486-Data Encrypted for Impact\\ID 768,775,793,796,817,840-BitLocker encryption activated.evtx",
+  "event_record_id": 28,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-BitLocker-API\" Guid=\"5D674230-CA9F-11DA-A94D-0800200C9A66\">\n    </Provider>\n    <EventID>793</EventID>\n    <Version>0</Version>\n    <Level>3</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2022-11-09T22:40:09.768066Z\">\n    </TimeCreated>\n    <EventRecordID>28</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"1224\" ThreadID=\"2092\">\n    </Execution>\n    <Channel>Microsoft-Windows-BitLocker/BitLocker Management</Channel>\n    <Computer>GUAPOS-PC</Computer>\n    <Security UserID=\"S-1-5-18\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"IdentificationGUID\">45A9DCBD-40EC-4295-A9E6-C2E63844F040</Data>\n    <Data Name=\"VolumeName\">\\\\?\\Volume{95b548ac-9d1a-4f36-96fc-2c67e06caefb}</Data>\n    <Data Name=\"VolumeMountPoint\">C:</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-BitLocker-API\",\"Guid\":\"5D674230-CA9F-11DA-A94D-0800200C9A66\"}},\"EventID\":793,\"Version\":0,\"Level\":3,\"Task\":0,\"Opcode\":0,\"Keywords\":\"0x4000000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2022-11-09T22:40:09.768066Z\"}},\"EventRecordID\":28,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":1224,\"ThreadID\":2092}},\"Channel\":\"Microsoft-Windows-BitLocker/BitLocker Management\",\"Computer\":\"GUAPOS-PC\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-18\"}}},\"EventData\":{\"IdentificationGUID\":\"45A9DCBD-40EC-4295-A9E6-C2E63844F040\",\"VolumeName\":\"\\\\\\\\?\\\\Volume{95b548ac-9d1a-4f36-96fc-2c67e06caefb}\",\"VolumeMountPoint\":\"C:\"}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-BitLocker-API",
+    "event_id": "793",
+    "timestamp": "2022-11-09T22:40:09.768066Z",
+    "event_record_id": "28",
+    "level": "3",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x4000000000000000",
+    "channel": "Microsoft-Windows-BitLocker/BitLocker Management",
+    "computer": "GUAPOS-PC",
+    "IdentificationGUID": "45A9DCBD-40EC-4295-A9E6-C2E63844F040",
+    "VolumeName": "\\\\?\\Volume{95b548ac-9d1a-4f36-96fc-2c67e06caefb}",
+    "VolumeMountPoint": "C:"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-BitLocker-API",
+    "channel": "Microsoft-Windows-BitLocker/BitLocker Management",
+    "event_id": "793",
+    "timestamp": "2022-11-09T22:40:09.768066Z",
+    "event_record_id": "28",
+    "level": "3",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x4000000000000000",
+    "computer": "GUAPOS-PC",
+    "IdentificationGUID": "45A9DCBD-40EC-4295-A9E6-C2E63844F040",
+    "VolumeName": "\\\\?\\Volume{95b548ac-9d1a-4f36-96fc-2c67e06caefb}",
+    "VolumeMountPoint": "C:"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "event_id": "1240",
+  "provider": "Microsoft-Windows-PushNotifications-Platform",
+  "channel": "Microsoft-Windows-PushNotification-Platform/Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\Logs_Client\\Microsoft-Windows-PushNotification-Platform%4Operational.evtx",
+  "event_record_id": 474,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-PushNotifications-Platform\" Guid=\"88CD9180-4491-4640-B571-E3BEE2527943\">\n    </Provider>\n    <EventID>1240</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x8000000000400000</Keywords>\n    <TimeCreated SystemTime=\"2022-02-07T14:20:45.241549Z\">\n    </TimeCreated>\n    <EventRecordID>474</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"944\" ThreadID=\"3300\">\n    </Execution>\n    <Channel>Microsoft-Windows-PushNotification-Platform/Operational</Channel>\n    <Computer>DESKTOP-A8CALR3</Computer>\n    <Security UserID=\"S-1-5-18\">\n    </Security>\n  </System>\n  <EventData>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-PushNotifications-Platform\",\"Guid\":\"88CD9180-4491-4640-B571-E3BEE2527943\"}},\"EventID\":1240,\"Version\":0,\"Level\":4,\"Task\":0,\"Opcode\":0,\"Keywords\":\"0x8000000000400000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2022-02-07T14:20:45.241549Z\"}},\"EventRecordID\":474,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":944,\"ThreadID\":3300}},\"Channel\":\"Microsoft-Windows-PushNotification-Platform/Operational\",\"Computer\":\"DESKTOP-A8CALR3\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-18\"}}},\"EventData\":null}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-PushNotifications-Platform",
+    "event_id": "1240",
+    "timestamp": "2022-02-07T14:20:45.241549Z",
+    "event_record_id": "474",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x8000000000400000",
+    "channel": "Microsoft-Windows-PushNotification-Platform/Operational",
+    "computer": "DESKTOP-A8CALR3"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-PushNotifications-Platform",
+    "channel": "Microsoft-Windows-PushNotification-Platform/Operational",
+    "event_id": "1240",
+    "timestamp": "2022-02-07T14:20:45.241549Z",
+    "event_record_id": "474",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x8000000000400000",
+    "computer": "DESKTOP-A8CALR3"
+  }
+}

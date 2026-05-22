@@ -1,0 +1,37 @@
+{
+  "event_id": "141",
+  "provider": "Microsoft-Windows-TaskScheduler",
+  "channel": "Microsoft-Windows-TaskScheduler/Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\Logs_Win11_2023\\Microsoft-Windows-TaskScheduler%4Operational.evtx",
+  "event_record_id": 714,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-TaskScheduler\" Guid=\"DE7B24EA-73C8-4A09-985D-5BDADCFA9017\">\n    </Provider>\n    <EventID>141</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>141</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x8000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2023-11-06T00:11:24.917693Z\">\n    </TimeCreated>\n    <EventRecordID>714</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"1392\" ThreadID=\"7824\">\n    </Execution>\n    <Channel>Microsoft-Windows-TaskScheduler/Operational</Channel>\n    <Computer>WinDev2310Eval</Computer>\n    <Security UserID=\"S-1-5-18\">\n    </Security>\n  </System>\n  <EventData Name=\"TaskDeleted\">\n    <Data Name=\"TaskName\">\\Microsoft\\Windows\\Windows Defender\\Windows Defender Scheduled Scan</Data>\n    <Data Name=\"UserName\">NT AUTHORITY\\System</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-TaskScheduler\",\"Guid\":\"DE7B24EA-73C8-4A09-985D-5BDADCFA9017\"}},\"EventID\":141,\"Version\":0,\"Level\":4,\"Task\":141,\"Opcode\":0,\"Keywords\":\"0x8000000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2023-11-06T00:11:24.917693Z\"}},\"EventRecordID\":714,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":1392,\"ThreadID\":7824}},\"Channel\":\"Microsoft-Windows-TaskScheduler/Operational\",\"Computer\":\"WinDev2310Eval\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-18\"}}},\"EventData\":{\"#attributes\":{\"Name\":\"TaskDeleted\"},\"TaskName\":\"\\\\Microsoft\\\\Windows\\\\Windows Defender\\\\Windows Defender Scheduled Scan\",\"UserName\":\"NT AUTHORITY\\\\System\"}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-TaskScheduler",
+    "event_id": "141",
+    "timestamp": "2023-11-06T00:11:24.917693Z",
+    "event_record_id": "714",
+    "level": "4",
+    "task": "141",
+    "opcode": "0",
+    "keywords": "0x8000000000000000",
+    "channel": "Microsoft-Windows-TaskScheduler/Operational",
+    "computer": "WinDev2310Eval",
+    "TaskName": "\\Microsoft\\Windows\\Windows Defender\\Windows Defender Scheduled Scan",
+    "UserName": "NT AUTHORITY\\System"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-TaskScheduler",
+    "channel": "Microsoft-Windows-TaskScheduler/Operational",
+    "event_id": "141",
+    "timestamp": "2023-11-06T00:11:24.917693Z",
+    "event_record_id": "714",
+    "level": "4",
+    "task": "141",
+    "opcode": "0",
+    "keywords": "0x8000000000000000",
+    "computer": "WinDev2310Eval",
+    "TaskName": "\\Microsoft\\Windows\\Windows Defender\\Windows Defender Scheduled Scan",
+    "UserName": "NT AUTHORITY\\System"
+  }
+}

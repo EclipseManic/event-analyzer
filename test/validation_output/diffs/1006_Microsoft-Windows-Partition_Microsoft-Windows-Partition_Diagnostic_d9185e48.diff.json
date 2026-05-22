@@ -1,0 +1,46 @@
+{
+  "missing_in_json": [],
+  "missing_in_xml": [],
+  "value_diffs": {
+    "FirmwareSupportsUpgrade": {
+      "xml": "false",
+      "json": "False"
+    },
+    "FlushCacheSupported": {
+      "xml": "false",
+      "json": "False"
+    },
+    "HybridSupported": {
+      "xml": "false",
+      "json": "False"
+    },
+    "IncursSeekPenalty": {
+      "xml": "false",
+      "json": "False"
+    },
+    "IsPowerProtected": {
+      "xml": "false",
+      "json": "False"
+    },
+    "IsSystemCritical": {
+      "xml": "true",
+      "json": "True"
+    },
+    "IsThinProvisioned": {
+      "xml": "false",
+      "json": "False"
+    },
+    "IsTrimSupported": {
+      "xml": "false",
+      "json": "False"
+    },
+    "NVCacheEnabled": {
+      "xml": "false",
+      "json": "False"
+    },
+    "UserRemovalPolicy": {
+      "xml": "false",
+      "json": "False"
+    }
+  }
+}

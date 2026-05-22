@@ -1,0 +1,35 @@
+{
+  "event_id": "41",
+  "provider": "Microsoft-Windows-WinRM",
+  "channel": "Microsoft-Windows-WinRM/Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\Win2022-AD\\Microsoft-Windows-WinRM%4Operational.evtx",
+  "event_record_id": 113,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-WinRM\" Guid=\"A7975C8F-AC13-49F1-87DA-5A984A4AB417\">\n    </Provider>\n    <EventID>41</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>14</Task>\n    <Opcode>1</Opcode>\n    <Keywords>0x4000000000000002</Keywords>\n    <TimeCreated SystemTime=\"2022-04-07T17:21:54.064765Z\">\n    </TimeCreated>\n    <EventRecordID>113</EventRecordID>\n    <Correlation ActivityID=\"1480B89F-E871-42E4-BFB4-C8F88B053137\">\n    </Correlation>\n    <Execution ProcessID=\"4444\" ThreadID=\"4780\">\n    </Execution>\n    <Channel>Microsoft-Windows-WinRM/Operational</Channel>\n    <Computer>WIN-FPV0DSIC9O6.sigma.fr</Computer>\n    <Security UserID=\"S-1-5-21-2121334350-1110938707-2888912545-500\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"applicationID\">ServerManager.exe</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-WinRM\",\"Guid\":\"A7975C8F-AC13-49F1-87DA-5A984A4AB417\"}},\"EventID\":41,\"Version\":0,\"Level\":4,\"Task\":14,\"Opcode\":1,\"Keywords\":\"0x4000000000000002\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2022-04-07T17:21:54.064765Z\"}},\"EventRecordID\":113,\"Correlation\":{\"#attributes\":{\"ActivityID\":\"1480B89F-E871-42E4-BFB4-C8F88B053137\"}},\"Execution\":{\"#attributes\":{\"ProcessID\":4444,\"ThreadID\":4780}},\"Channel\":\"Microsoft-Windows-WinRM/Operational\",\"Computer\":\"WIN-FPV0DSIC9O6.sigma.fr\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-21-2121334350-1110938707-2888912545-500\"}}},\"EventData\":{\"applicationID\":\"ServerManager.exe\"}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-WinRM",
+    "event_id": "41",
+    "timestamp": "2022-04-07T17:21:54.064765Z",
+    "event_record_id": "113",
+    "level": "4",
+    "task": "14",
+    "opcode": "1",
+    "keywords": "0x4000000000000002",
+    "channel": "Microsoft-Windows-WinRM/Operational",
+    "computer": "WIN-FPV0DSIC9O6.sigma.fr",
+    "applicationID": "ServerManager.exe"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-WinRM",
+    "channel": "Microsoft-Windows-WinRM/Operational",
+    "event_id": "41",
+    "timestamp": "2022-04-07T17:21:54.064765Z",
+    "event_record_id": "113",
+    "level": "4",
+    "task": "14",
+    "opcode": "1",
+    "keywords": "0x4000000000000002",
+    "computer": "WIN-FPV0DSIC9O6.sigma.fr",
+    "applicationID": "ServerManager.exe"
+  }
+}

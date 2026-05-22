@@ -1,0 +1,39 @@
+{
+  "event_id": "32",
+  "provider": "e1i68x64",
+  "channel": "System",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\Logs_Win11\\System.evtx",
+  "event_record_id": 242,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"e1i68x64\">\n    </Provider>\n    <EventID Qualifiers=\"24580\">32</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x80000000000000</Keywords>\n    <TimeCreated SystemTime=\"2022-03-01T16:59:42.269051Z\">\n    </TimeCreated>\n    <EventRecordID>242</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"4\" ThreadID=\"32\">\n    </Execution>\n    <Channel>System</Channel>\n    <Computer>DESKTOP-6D0DBMB</Computer>\n    <Security>\n    </Security>\n  </System>\n  <EventData>\n    <Data>\n    </Data>\n    <Data>Intel(R) 82574L Gigabit Network Connection</Data>\n    <Binary>0000040002003000000000002000046000000000000000000000000000000000000000000000000020000460</Binary>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"e1i68x64\"}},\"EventID\":{\"#attributes\":{\"Qualifiers\":24580},\"#text\":32},\"Version\":0,\"Level\":4,\"Task\":0,\"Opcode\":0,\"Keywords\":\"0x80000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2022-03-01T16:59:42.269051Z\"}},\"EventRecordID\":242,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":4,\"ThreadID\":32}},\"Channel\":\"System\",\"Computer\":\"DESKTOP-6D0DBMB\",\"Security\":null},\"EventData\":{\"Data\":{\"#text\":[\"\",\"Intel(R) 82574L Gigabit Network Connection\"]},\"Binary\":\"0000040002003000000000002000046000000000000000000000000000000000000000000000000020000460\"}}}",
+  "xml_fields": {
+    "provider": "e1i68x64",
+    "event_id": "32",
+    "timestamp": "2022-03-01T16:59:42.269051Z",
+    "event_record_id": "242",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x80000000000000",
+    "channel": "System",
+    "computer": "DESKTOP-6D0DBMB",
+    "_data_0": "\n    ",
+    "_data_1": "Intel(R) 82574L Gigabit Network Connection",
+    "Binary": "0000040002003000000000002000046000000000000000000000000000000000000000000000000020000460"
+  },
+  "json_fields": {
+    "provider": "e1i68x64",
+    "channel": "System",
+    "event_id": "32",
+    "timestamp": "2022-03-01T16:59:42.269051Z",
+    "event_record_id": "242",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x80000000000000",
+    "computer": "DESKTOP-6D0DBMB",
+    "_data_0": "",
+    "_data_1": "Intel(R) 82574L Gigabit Network Connection",
+    "Binary": "0000040002003000000000002000046000000000000000000000000000000000000000000000000020000460"
+  }
+}

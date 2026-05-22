@@ -1,0 +1,39 @@
+{
+  "event_id": "400",
+  "provider": "PowerShell",
+  "channel": "Windows PowerShell",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Logs\\Windows PowerShell.evtx",
+  "event_record_id": 7,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"PowerShell\">\n    </Provider>\n    <EventID Qualifiers=\"0\">400</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>4</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x80000000000000</Keywords>\n    <TimeCreated SystemTime=\"2025-01-24T10:04:30.352720Z\">\n    </TimeCreated>\n    <EventRecordID>7</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"0\" ThreadID=\"0\">\n    </Execution>\n    <Channel>Windows PowerShell</Channel>\n    <Computer>cyberjunkie-test</Computer>\n    <Security>\n    </Security>\n  </System>\n  <EventData>\n    <Data>Available</Data>\n    <Data>None</Data>\n    <Data>\tNewEngineState=Available\r\n\tPreviousEngineState=None\r\n\r\n\tSequenceNumber=13\r\n\r\n\tHostName=ConsoleHost\r\n\tHostVersion=5.1.19041.1682\r\n\tHostId=fae8d2cd-703b-46e4-b7e4-64af9d4b5767\r\n\tHostApplication=powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';\r\n\tEngineVersion=5.1.19041.1682\r\n\tRunspaceId=6c0d69f8-19e1-4aec-83b1-ff6fdfd9ca4d\r\n\tPipelineId=\r\n\tCommandName=\r\n\tCommandType=\r\n\tScriptName=\r\n\tCommandPath=\r\n\tCommandLine=</Data>\n    <Binary></Binary>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"PowerShell\"}},\"EventID\":{\"#attributes\":{\"Qualifiers\":0},\"#text\":400},\"Version\":0,\"Level\":4,\"Task\":4,\"Opcode\":0,\"Keywords\":\"0x80000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2025-01-24T10:04:30.352720Z\"}},\"EventRecordID\":7,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":0,\"ThreadID\":0}},\"Channel\":\"Windows PowerShell\",\"Computer\":\"cyberjunkie-test\",\"Security\":null},\"EventData\":{\"Data\":{\"#text\":[\"Available\",\"None\",\"\\tNewEngineState=Available\\r\\n\\tPreviousEngineState=None\\r\\n\\r\\n\\tSequenceNumber=13\\r\\n\\r\\n\\tHostName=ConsoleHost\\r\\n\\tHostVersion=5.1.19041.1682\\r\\n\\tHostId=fae8d2cd-703b-46e4-b7e4-64af9d4b5767\\r\\n\\tHostApplication=powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';\\r\\n\\tEngineVersion=5.1.19041.1682\\r\\n\\tRunspaceId=6c0d69f8-19e1-4aec-83b1-ff6fdfd9ca4d\\r\\n\\tPipelineId=\\r\\n\\tCommandName=\\r\\n\\tCommandType=\\r\\n\\tScriptName=\\r\\n\\tCommandPath=\\r\\n\\tCommandLine=\"]},\"Binary\":null}}}",
+  "xml_fields": {
+    "provider": "PowerShell",
+    "event_id": "400",
+    "timestamp": "2025-01-24T10:04:30.352720Z",
+    "event_record_id": "7",
+    "level": "4",
+    "task": "4",
+    "opcode": "0",
+    "keywords": "0x80000000000000",
+    "channel": "Windows PowerShell",
+    "computer": "cyberjunkie-test",
+    "_data_0": "Available",
+    "_data_1": "None",
+    "_data_2": "\tNewEngineState=Available\n\tPreviousEngineState=None\n\n\tSequenceNumber=13\n\n\tHostName=ConsoleHost\n\tHostVersion=5.1.19041.1682\n\tHostId=fae8d2cd-703b-46e4-b7e4-64af9d4b5767\n\tHostApplication=powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';\n\tEngineVersion=5.1.19041.1682\n\tRunspaceId=6c0d69f8-19e1-4aec-83b1-ff6fdfd9ca4d\n\tPipelineId=\n\tCommandName=\n\tCommandType=\n\tScriptName=\n\tCommandPath=\n\tCommandLine="
+  },
+  "json_fields": {
+    "provider": "PowerShell",
+    "channel": "Windows PowerShell",
+    "event_id": "400",
+    "timestamp": "2025-01-24T10:04:30.352720Z",
+    "event_record_id": "7",
+    "level": "4",
+    "task": "4",
+    "opcode": "0",
+    "keywords": "0x80000000000000",
+    "computer": "cyberjunkie-test",
+    "_data_0": "Available",
+    "_data_1": "None",
+    "_data_2": "\tNewEngineState=Available\r\n\tPreviousEngineState=None\r\n\r\n\tSequenceNumber=13\r\n\r\n\tHostName=ConsoleHost\r\n\tHostVersion=5.1.19041.1682\r\n\tHostId=fae8d2cd-703b-46e4-b7e4-64af9d4b5767\r\n\tHostApplication=powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';\r\n\tEngineVersion=5.1.19041.1682\r\n\tRunspaceId=6c0d69f8-19e1-4aec-83b1-ff6fdfd9ca4d\r\n\tPipelineId=\r\n\tCommandName=\r\n\tCommandType=\r\n\tScriptName=\r\n\tCommandPath=\r\n\tCommandLine="
+  }
+}

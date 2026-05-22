@@ -1,0 +1,33 @@
+{
+  "event_id": "8054",
+  "provider": "Microsoft-Windows-HelloForBusiness",
+  "channel": "Microsoft-Windows-HelloForBusiness/Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\Win2022-AD\\Microsoft-Windows-HelloForBusiness%4Operational.evtx",
+  "event_record_id": 10,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-HelloForBusiness\" Guid=\"906B8A99-63CE-58D7-86AB-10989BBD5567\">\n    </Provider>\n    <EventID>8054</EventID>\n    <Version>0</Version>\n    <Level>16</Level>\n    <Task>12</Task>\n    <Opcode>11</Opcode>\n    <Keywords>0x8000000000000001</Keywords>\n    <TimeCreated SystemTime=\"2022-04-07T08:18:37.110240Z\">\n    </TimeCreated>\n    <EventRecordID>10</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"4500\" ThreadID=\"4152\">\n    </Execution>\n    <Channel>Microsoft-Windows-HelloForBusiness/Operational</Channel>\n    <Computer>WIN-FPV0DSIC9O6.sigma.fr</Computer>\n    <Security UserID=\"S-1-5-21-2121334350-1110938707-2888912545-500\">\n    </Security>\n  </System>\n  <EventData>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-HelloForBusiness\",\"Guid\":\"906B8A99-63CE-58D7-86AB-10989BBD5567\"}},\"EventID\":8054,\"Version\":0,\"Level\":16,\"Task\":12,\"Opcode\":11,\"Keywords\":\"0x8000000000000001\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2022-04-07T08:18:37.110240Z\"}},\"EventRecordID\":10,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":4500,\"ThreadID\":4152}},\"Channel\":\"Microsoft-Windows-HelloForBusiness/Operational\",\"Computer\":\"WIN-FPV0DSIC9O6.sigma.fr\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-21-2121334350-1110938707-2888912545-500\"}}},\"EventData\":null}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-HelloForBusiness",
+    "event_id": "8054",
+    "timestamp": "2022-04-07T08:18:37.110240Z",
+    "event_record_id": "10",
+    "level": "16",
+    "task": "12",
+    "opcode": "11",
+    "keywords": "0x8000000000000001",
+    "channel": "Microsoft-Windows-HelloForBusiness/Operational",
+    "computer": "WIN-FPV0DSIC9O6.sigma.fr"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-HelloForBusiness",
+    "channel": "Microsoft-Windows-HelloForBusiness/Operational",
+    "event_id": "8054",
+    "timestamp": "2022-04-07T08:18:37.110240Z",
+    "event_record_id": "10",
+    "level": "16",
+    "task": "12",
+    "opcode": "11",
+    "keywords": "0x8000000000000001",
+    "computer": "WIN-FPV0DSIC9O6.sigma.fr"
+  }
+}

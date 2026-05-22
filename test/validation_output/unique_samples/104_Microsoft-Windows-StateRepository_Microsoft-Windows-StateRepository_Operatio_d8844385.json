@@ -1,0 +1,37 @@
+{
+  "event_id": "104",
+  "provider": "Microsoft-Windows-StateRepository",
+  "channel": "Microsoft-Windows-StateRepository/Operational",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Logs\\Microsoft-Windows-StateRepository%4Operational.evtx",
+  "event_record_id": 149,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-StateRepository\" Guid=\"89592015-D996-4636-8F61-066B5D4DD739\">\n    </Provider>\n    <EventID>104</EventID>\n    <Version>0</Version>\n    <Level>3</Level>\n    <Task>1</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000001</Keywords>\n    <TimeCreated SystemTime=\"2024-11-04T12:47:37.641174Z\">\n    </TimeCreated>\n    <EventRecordID>149</EventRecordID>\n    <Correlation ActivityID=\"ABFE7217-2EB6-0000-1482-FEABB62EDB01\">\n    </Correlation>\n    <Execution ProcessID=\"3328\" ThreadID=\"348\">\n    </Execution>\n    <Channel>Microsoft-Windows-StateRepository/Operational</Channel>\n    <Computer>DESKTOP-P9H5FTA</Computer>\n    <Security UserID=\"S-1-5-21-3088055692-629932344-1786574096-1001\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"ErrorCode\">0x80670007</Data>\n    <Data Name=\"SQL\">[sqlite3_exec] #1 Database 1C7B72CE8F0: Try 1 (375ms) {DD25218E-76D7-483A-B5A3-71BCAAEA24F2} Cpu:10 Io:5 Mem:5 TID:372 database is locked : SQL BEGIN EXCLUSIVE /*56AC703D-E02C-4C8B-BE77-CA1DD09469CD*/;</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-StateRepository\",\"Guid\":\"89592015-D996-4636-8F61-066B5D4DD739\"}},\"EventID\":104,\"Version\":0,\"Level\":3,\"Task\":1,\"Opcode\":0,\"Keywords\":\"0x4000000000000001\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2024-11-04T12:47:37.641174Z\"}},\"EventRecordID\":149,\"Correlation\":{\"#attributes\":{\"ActivityID\":\"ABFE7217-2EB6-0000-1482-FEABB62EDB01\"}},\"Execution\":{\"#attributes\":{\"ProcessID\":3328,\"ThreadID\":348}},\"Channel\":\"Microsoft-Windows-StateRepository/Operational\",\"Computer\":\"DESKTOP-P9H5FTA\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-21-3088055692-629932344-1786574096-1001\"}}},\"EventData\":{\"ErrorCode\":\"0x80670007\",\"SQL\":\"[sqlite3_exec] #1 Database 1C7B72CE8F0: Try 1 (375ms) {DD25218E-76D7-483A-B5A3-71BCAAEA24F2} Cpu:10 Io:5 Mem:5 TID:372 database is locked : SQL BEGIN EXCLUSIVE /*56AC703D-E02C-4C8B-BE77-CA1DD09469CD*/;\"}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-StateRepository",
+    "event_id": "104",
+    "timestamp": "2024-11-04T12:47:37.641174Z",
+    "event_record_id": "149",
+    "level": "3",
+    "task": "1",
+    "opcode": "0",
+    "keywords": "0x4000000000000001",
+    "channel": "Microsoft-Windows-StateRepository/Operational",
+    "computer": "DESKTOP-P9H5FTA",
+    "ErrorCode": "0x80670007",
+    "SQL": "[sqlite3_exec] #1 Database 1C7B72CE8F0: Try 1 (375ms) {DD25218E-76D7-483A-B5A3-71BCAAEA24F2} Cpu:10 Io:5 Mem:5 TID:372 database is locked : SQL BEGIN EXCLUSIVE /*56AC703D-E02C-4C8B-BE77-CA1DD09469CD*/;"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-StateRepository",
+    "channel": "Microsoft-Windows-StateRepository/Operational",
+    "event_id": "104",
+    "timestamp": "2024-11-04T12:47:37.641174Z",
+    "event_record_id": "149",
+    "level": "3",
+    "task": "1",
+    "opcode": "0",
+    "keywords": "0x4000000000000001",
+    "computer": "DESKTOP-P9H5FTA",
+    "ErrorCode": "0x80670007",
+    "SQL": "[sqlite3_exec] #1 Database 1C7B72CE8F0: Try 1 (375ms) {DD25218E-76D7-483A-B5A3-71BCAAEA24F2} Cpu:10 Io:5 Mem:5 TID:372 database is locked : SQL BEGIN EXCLUSIVE /*56AC703D-E02C-4C8B-BE77-CA1DD09469CD*/;"
+  }
+}

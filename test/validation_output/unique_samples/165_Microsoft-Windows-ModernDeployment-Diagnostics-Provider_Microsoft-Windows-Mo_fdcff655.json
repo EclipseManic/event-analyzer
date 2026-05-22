@@ -1,0 +1,33 @@
+{
+  "event_id": "165",
+  "provider": "Microsoft-Windows-ModernDeployment-Diagnostics-Provider",
+  "channel": "Microsoft-Windows-ModernDeployment-Diagnostics-Provider/Autopilot",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\Logs_Win11\\Microsoft-Windows-ModernDeployment-Diagnostics-Provider%4Autopilot.evtx",
+  "event_record_id": 5,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-ModernDeployment-Diagnostics-Provider\" Guid=\"BAB3AD92-FB96-5902-450B-B8421BDEC7BD\">\n    </Provider>\n    <EventID>165</EventID>\n    <Version>0</Version>\n    <Level>3</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000000</Keywords>\n    <TimeCreated SystemTime=\"2022-03-01T16:44:12.266203Z\">\n    </TimeCreated>\n    <EventRecordID>5</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"6908\" ThreadID=\"7040\">\n    </Execution>\n    <Channel>Microsoft-Windows-ModernDeployment-Diagnostics-Provider/Autopilot</Channel>\n    <Computer>DESKTOP-6D0DBMB</Computer>\n    <Security UserID=\"S-1-5-18\">\n    </Security>\n  </System>\n  <EventData>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-ModernDeployment-Diagnostics-Provider\",\"Guid\":\"BAB3AD92-FB96-5902-450B-B8421BDEC7BD\"}},\"EventID\":165,\"Version\":0,\"Level\":3,\"Task\":0,\"Opcode\":0,\"Keywords\":\"0x4000000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2022-03-01T16:44:12.266203Z\"}},\"EventRecordID\":5,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":6908,\"ThreadID\":7040}},\"Channel\":\"Microsoft-Windows-ModernDeployment-Diagnostics-Provider/Autopilot\",\"Computer\":\"DESKTOP-6D0DBMB\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-18\"}}},\"EventData\":null}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-ModernDeployment-Diagnostics-Provider",
+    "event_id": "165",
+    "timestamp": "2022-03-01T16:44:12.266203Z",
+    "event_record_id": "5",
+    "level": "3",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x4000000000000000",
+    "channel": "Microsoft-Windows-ModernDeployment-Diagnostics-Provider/Autopilot",
+    "computer": "DESKTOP-6D0DBMB"
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-ModernDeployment-Diagnostics-Provider",
+    "channel": "Microsoft-Windows-ModernDeployment-Diagnostics-Provider/Autopilot",
+    "event_id": "165",
+    "timestamp": "2022-03-01T16:44:12.266203Z",
+    "event_record_id": "5",
+    "level": "3",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x4000000000000000",
+    "computer": "DESKTOP-6D0DBMB"
+  }
+}

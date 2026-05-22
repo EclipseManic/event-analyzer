@@ -1,0 +1,35 @@
+{
+  "event_id": "2886",
+  "provider": "Microsoft-Windows-ActiveDirectory_DomainService",
+  "channel": "Directory Service",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\Win2022-AD\\Directory Service.evtx",
+  "event_record_id": 50,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"Microsoft-Windows-ActiveDirectory_DomainService\" Guid=\"{0e8478c5-3605-4e8c-8497-1e730c959516}\" EventSourceName=\"NTDS Database\">\n    </Provider>\n    <EventID Qualifiers=\"32768\">2886</EventID>\n    <Version>0</Version>\n    <Level>3</Level>\n    <Task>16</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x8080000000000000</Keywords>\n    <TimeCreated SystemTime=\"2022-04-07T08:14:41.404426Z\">\n    </TimeCreated>\n    <EventRecordID>50</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"648\" ThreadID=\"856\">\n    </Execution>\n    <Channel>Directory Service</Channel>\n    <Computer>WIN-FPV0DSIC9O6.sigma.fr</Computer>\n    <Security UserID=\"S-1-5-7\">\n    </Security>\n  </System>\n  <EventData>\n    <Data>\n    </Data>\n    <Binary></Binary>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"Microsoft-Windows-ActiveDirectory_DomainService\",\"Guid\":\"{0e8478c5-3605-4e8c-8497-1e730c959516}\",\"EventSourceName\":\"NTDS Database\"}},\"EventID\":{\"#attributes\":{\"Qualifiers\":32768},\"#text\":2886},\"Version\":0,\"Level\":3,\"Task\":16,\"Opcode\":0,\"Keywords\":\"0x8080000000000000\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2022-04-07T08:14:41.404426Z\"}},\"EventRecordID\":50,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":648,\"ThreadID\":856}},\"Channel\":\"Directory Service\",\"Computer\":\"WIN-FPV0DSIC9O6.sigma.fr\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-7\"}}},\"EventData\":{\"Data\":{\"#text\":\"\"},\"Binary\":null}}}",
+  "xml_fields": {
+    "provider": "Microsoft-Windows-ActiveDirectory_DomainService",
+    "event_id": "2886",
+    "timestamp": "2022-04-07T08:14:41.404426Z",
+    "event_record_id": "50",
+    "level": "3",
+    "task": "16",
+    "opcode": "0",
+    "keywords": "0x8080000000000000",
+    "channel": "Directory Service",
+    "computer": "WIN-FPV0DSIC9O6.sigma.fr",
+    "_data_0": "\n    "
+  },
+  "json_fields": {
+    "provider": "Microsoft-Windows-ActiveDirectory_DomainService",
+    "channel": "Directory Service",
+    "event_id": "2886",
+    "timestamp": "2022-04-07T08:14:41.404426Z",
+    "event_record_id": "50",
+    "level": "3",
+    "task": "16",
+    "opcode": "0",
+    "keywords": "0x8080000000000000",
+    "computer": "WIN-FPV0DSIC9O6.sigma.fr",
+    "Data": ""
+  }
+}

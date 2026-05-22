@@ -1,0 +1,41 @@
+{
+  "event_id": "4000",
+  "provider": "WindowsAzureGuestAgent",
+  "channel": "Microsoft-WindowsAzure-Status/GuestAgent",
+  "source_file": "D:\\visual code file\\Project_4\\Event-Analyzer\\test\\Benign\\win2022-0-20348-azure\\Microsoft-WindowsAzure-Status%4GuestAgent.evtx",
+  "event_record_id": 1,
+  "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\">\n  <System>\n    <Provider Name=\"WindowsAzureGuestAgent\" Guid=\"3000B92B-CA8B-4269-90EA-C4185EE09E92\">\n    </Provider>\n    <EventID>4000</EventID>\n    <Version>0</Version>\n    <Level>4</Level>\n    <Task>0</Task>\n    <Opcode>0</Opcode>\n    <Keywords>0x4000000000000001</Keywords>\n    <TimeCreated SystemTime=\"2022-09-18T09:14:56.296622Z\">\n    </TimeCreated>\n    <EventRecordID>1</EventRecordID>\n    <Correlation>\n    </Correlation>\n    <Execution ProcessID=\"716\" ThreadID=\"3272\">\n    </Execution>\n    <Channel>Microsoft-WindowsAzure-Status/GuestAgent</Channel>\n    <Computer>Agamemnon</Computer>\n    <Security UserID=\"S-1-5-18\">\n    </Security>\n  </System>\n  <EventData>\n    <Data Name=\"Timestamp100ns\">133079660962944794</Data>\n    <Data Name=\"EventPid\">716</Data>\n    <Data Name=\"EventTid\">4</Data>\n    <Data Name=\"Payload\">WindowsAzureGuestAgent Heartbeat. SvdIncarnation=;HeartBeatCount=0;ProcessId=716;ArtifactsProfileSeqNo=0;GAVersion=2.7.41491.1044;VMSize=Standard_B1s</Data>\n  </EventData>\n</Event>\n",
+  "json": "{\"Event\":{\"#attributes\":{\"xmlns\":\"http://schemas.microsoft.com/win/2004/08/events/event\"},\"System\":{\"Provider\":{\"#attributes\":{\"Name\":\"WindowsAzureGuestAgent\",\"Guid\":\"3000B92B-CA8B-4269-90EA-C4185EE09E92\"}},\"EventID\":4000,\"Version\":0,\"Level\":4,\"Task\":0,\"Opcode\":0,\"Keywords\":\"0x4000000000000001\",\"TimeCreated\":{\"#attributes\":{\"SystemTime\":\"2022-09-18T09:14:56.296622Z\"}},\"EventRecordID\":1,\"Correlation\":null,\"Execution\":{\"#attributes\":{\"ProcessID\":716,\"ThreadID\":3272}},\"Channel\":\"Microsoft-WindowsAzure-Status/GuestAgent\",\"Computer\":\"Agamemnon\",\"Security\":{\"#attributes\":{\"UserID\":\"S-1-5-18\"}}},\"EventData\":{\"Timestamp100ns\":133079660962944794,\"EventPid\":716,\"EventTid\":4,\"Payload\":\"WindowsAzureGuestAgent Heartbeat. SvdIncarnation=;HeartBeatCount=0;ProcessId=716;ArtifactsProfileSeqNo=0;GAVersion=2.7.41491.1044;VMSize=Standard_B1s\"}}}",
+  "xml_fields": {
+    "provider": "WindowsAzureGuestAgent",
+    "event_id": "4000",
+    "timestamp": "2022-09-18T09:14:56.296622Z",
+    "event_record_id": "1",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x4000000000000001",
+    "channel": "Microsoft-WindowsAzure-Status/GuestAgent",
+    "computer": "Agamemnon",
+    "Timestamp100ns": "133079660962944794",
+    "EventPid": "716",
+    "EventTid": "4",
+    "Payload": "WindowsAzureGuestAgent Heartbeat. SvdIncarnation=;HeartBeatCount=0;ProcessId=716;ArtifactsProfileSeqNo=0;GAVersion=2.7.41491.1044;VMSize=Standard_B1s"
+  },
+  "json_fields": {
+    "provider": "WindowsAzureGuestAgent",
+    "channel": "Microsoft-WindowsAzure-Status/GuestAgent",
+    "event_id": "4000",
+    "timestamp": "2022-09-18T09:14:56.296622Z",
+    "event_record_id": "1",
+    "level": "4",
+    "task": "0",
+    "opcode": "0",
+    "keywords": "0x4000000000000001",
+    "computer": "Agamemnon",
+    "Timestamp100ns": "133079660962944794",
+    "EventPid": "716",
+    "EventTid": "4",
+    "Payload": "WindowsAzureGuestAgent Heartbeat. SvdIncarnation=;HeartBeatCount=0;ProcessId=716;ArtifactsProfileSeqNo=0;GAVersion=2.7.41491.1044;VMSize=Standard_B1s"
+  }
+}
